@@ -1,0 +1,122 @@
+
+% --------------------------------------------------
+% Page setup with Margins 
+% --------------------------------------------------
+\documentclass[9pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=0.5cm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[ttdefault=true]{AnonymousPro}
+\renewcommand*\familydefault{\ttdefault} %% Only if the base font of the document is to be typewriter style
+
+\geometry{
+     letterpaper,
+     textwidth = 6.25in
+}
+
+% \setlength{\parindent}{0pt}
+% --------------------------------------------------
+
+% --------------------------------------------------
+% Color
+% --------------------------------------------------
+\usepackage[usenames,dvipsnames,rgb]{xcolor}
+
+% --------------------------------------------------
+
+\usepackage{pgfplotstable}
+% recommended:
+\usepackage{booktabs}
+\usepackage{colortbl}
+\usepackage{array,ragged2e}
+
+
+\pgfplotstableset{
+    string type,
+    trim cells= true,
+    every even row/.style={ before row={\rowcolor[gray]{1}} },
+    every head row/.style={ before row=\toprule,after row=\midrule },
+    every last row/.style={ after row=\bottomrule },
+    assign column name/.style={/pgfplots/table/column name={\textbf{#1}}},
+    display columns/0/.style={
+        postproc cell content/.append style={
+            /pgfplots/table/@cell content/.add={\leavevmode\color{blue}}{},
+        },
+        column type={>{\RaggedLeft}m{.4\textwidth}},
+    },
+    display columns/1/.style={
+        postproc cell content/.append style={
+            /pgfplots/table/@cell content/.add={
+                \leavevmode\color{red}}{},
+        },
+        column type={>{\RaggedRight}m{.4\textwidth}}  
+    },
+}
+
+
+\newcommand{\OptionalPrefix}[1]{\footnotesize\textbf{(#1)}\upshape\normalsize{}}
+
+\newcommand{\RequiredPrefix}[1]{\footnotesize\textbf{[#1]}\upshape\normalsize{}}
+
+\newcommand{\AltCommand}[1]{\vfill{}/}
+
+
+\usepackage[poster]{tcolorbox}
+
+\begin{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{tcbposter}[
+        coverage = {spread},
+        poster = {spacing=2mm, columns=4,rows = 10},
+        boxes = {
+                skin=enhanced,
+                colbacktitle=blue!50!black,
+                colback=blue!5!white,
+                fonttitle=\large\bfseries\ttfamily,
+                center title,
+                left=0.2mm,right=0.2mm,top=0.2mm,bottom=0.2mm,boxsep=0.2mm,arc=0.2mm,boxrule=0.20pt,
+            },
+    ]
+    \pgfplotstableset{
+        every even row/.style={ before row={\rowcolor[gray]{.4}} },
+    }
+    \posterbox[adjusted title=Letters ]{name=a,column=1,span=1}
+    {    
+        \begin{center}
+            \pgfplotstabletypeset[col sep=tab]
+                {../user/cheatsheet/tsv_dir/talon-lists/user.letter.tsv}
+        \end{center}
+    }
+
+    \posterbox[adjusted title=symbols]{name=b,column=2,span=1}
+    {
+        \begin{center}
+            \pgfplotstabletypeset[
+            col sep=tab,   
+            display columns/0/.append style={
+                column type={>{\RaggedLeft}m{.6\textwidth}},
+            },
+            display columns/1/.append style={
+                column type={>{\RaggedRight}m{.2\textwidth}},
+            },
+        ]{./modified/user.symbol_key.tsv}
+        \end{center}
+    }
+
+    \posterbox[adjusted title=symbols]{name=b,column=4,span=1}
+    {
+
+
+    }
+    % \posterbox[adjusted title=symbols]{name=C,column=3,span=2}
+    % {
+    %     \pgfplotstabletypeset[
+    %         col sep=tab,
+    %         string type,
+    %         display columns/0/.style={column type={>{\RaggedLeft}p{.4\textwidth}}},
+    %         display columns/1/.style={column type={>{\RaggedRight}p{.5\textwidth}} },
+    %     ]{../user/cheatsheet/tsv_dir/talon-contexts/C.tsv}
+    % }
+\end{tcbposter}
+
+\end{document}
