@@ -1,0 +1,2 @@
+Command	Result
+{ user.code\_libraries }	{ CaptureImpl("user.code{-}libraries", Rule("$<$a href="\#user{-}code{-}libraries{-}list"$>$  \{user.code{-}libraries\}  $<$/a$>$")) }

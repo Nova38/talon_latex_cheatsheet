@@ -1,0 +1,8 @@
+Command	Result
+{ define }	{ revealDefinition }
+{ type deaf }	{ revealTypeDefinition }
+{ hover }	{ showHover }
+{ inspect }	{ showDebugHover }
+{ quick fix }	{ showQuickFix }
+{ reference }	{ showReferences }
+{ rename }	{ rename }

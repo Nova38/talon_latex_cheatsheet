@@ -1,0 +1,16 @@
+Command	Result
+{ op (minus | subtract) }	{ code\_operator\_subtraction.  }
+{ op (plus | add) }	{ code\_operator\_addition.  }
+{ op (times | multiply) }	{ code\_operator\_multiplication.  }
+{ op divide }	{ code\_operator\_division.  }
+{ op mod }	{ code\_operator\_modulo.  }
+{ (op (power | exponent) | to the power {[}of{]}) }	{ code\_operator\_exponent.  }
+{ (op | is) equal }	{ code\_operator\_equal.  }
+{ (op | is) not equal }	{ code\_operator\_not\_equal.  }
+{ (op | is) (greater | more) }	{ code\_operator\_greater\_than.  }
+{ (op | is) (less | below) {[}than{]} }	{ code\_operator\_less\_than.  }
+{ (op | is) greater {[}than{]} or equal }	{ code\_operator\_greater\_than\_or\_equal\_to.  }
+{ (op | is) less {[}than{]} or equal }	{ code\_operator\_less\_than\_or\_equal\_to.  }
+{ (op | logical) and }	{ code\_operator\_and.  }
+{ (op | logical) or }	{ code\_operator\_or.  }
+{ (op | pad) colon }	{ Insert " : ".  }

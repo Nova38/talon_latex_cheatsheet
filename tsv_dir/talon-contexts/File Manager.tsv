@@ -1,0 +1,24 @@
+Command	Result
+{ title force }	{ Refreshes the title to match current directory. this is for e.g. windows command prompt that will need to do some magic..  }
+{ manager show }	{ Shows the pickers.  }
+{ manager close }	{ Hides the pickers.  }
+{ manager refresh }	{ Forces an update of the lists (e.g., when file or folder created).  }
+{ go  $<$a href="\#user{-}system{-}path{-}capture"$>$ \&lt;user.system{-}path\&gt; $<$/a$>$  }	{ opens the directory that's already visible in the view.  }
+{ go back }	{ file\_manager\_go\_forward\_directory.  }
+{ go forward }	{ file\_manager\_go\_forward\_directory.  }
+{ (go parent | daddy) }	{ file\_manager\_open\_parent.  }
+{ follow numb  \&lt;number{-}small\&gt;   }	{ Let $<$directory$>$ be the requested directory for the imgui display by index. opens the directory that's already visible in the view.  }
+{ follow $<$a href="\#user{-}file{-}manager{-}directories{-}list"$>$  \{user.file{-}manager{-}directories\}  $<$/a$>$ }	{ opens the directory that's already visible in the view.  }
+{ (select|cell) folder $<$a href="\#user{-}file{-}manager{-}directories{-}list"$>$  \{user.file{-}manager{-}directories\}  $<$/a$>$ }	{ selects the directory.  }
+{ open  \&lt;number{-}small\&gt;   }	{ Let $<$file$>$ be the requested directory for the imgui display by index. opens the file.  }
+{ folder numb  \&lt;number{-}small\&gt;   }	{ Let $<$directory$>$ be the requested directory for the imgui display by index. selects the directory.  }
+{ file numb  \&lt;number{-}small\&gt;   }	{ Let $<$file$>$ be the requested directory for the imgui display by index. selects the file.  }
+{ file $<$a href="\#user{-}file{-}manager{-}files{-}list"$>$  \{user.file{-}manager{-}files\}  $<$/a$>$ }	{ selects the file.  }
+{ (select|cell) file $<$a href="\#user{-}file{-}manager{-}files{-}list"$>$  \{user.file{-}manager{-}files\}  $<$/a$>$ }	{ selects the file.  }
+{ folder new  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  }	{ Creates a new folder in a gui filemanager or inserts the command to do so for terminals.  }
+{ properties show }	{ Shows the properties for the file.  }
+{ terminal here }	{ Opens terminal at current location.  }
+{ folder next }	{ next\_folder\_page.  }
+{ folder last }	{ previous\_folder\_page.  }
+{ file next }	{ next\_file\_page.  }
+{ file last }	{ previous\_file\_page.  }

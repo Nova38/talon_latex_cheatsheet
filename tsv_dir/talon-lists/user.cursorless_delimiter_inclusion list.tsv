@@ -1,0 +1,3 @@
+Command	Result
+{ inside }	{ interiorOnly }
+{ bound }	{ excludeInterior }

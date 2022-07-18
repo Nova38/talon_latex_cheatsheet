@@ -1,0 +1,2 @@
+Command	Result
+{ user.cursorless\_surrounding\_pair\_scope\_type }	{ CaptureImpl("user.cursorless{-}surrounding{-}pair{-}scope{-}type", Rule(" $<$a href="\#user{-}cursorless{-}selectable{-}paired{-}delimiter{-}capture"$>$ \&lt;user.cursorless{-}selectable{-}paired{-}delimiter\&gt; $<$/a$>$   | $<$a href="\#user{-}cursorless{-}surrounding{-}pair{-}scope{-}type{-}list"$>$  \{user.cursorless{-}surrounding{-}pair{-}scope{-}type\}  $<$/a$>$")) }

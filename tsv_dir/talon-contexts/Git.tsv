@@ -1,0 +1,95 @@
+Command	Result
+{ git add patch }	{ Insert "git add . {-}p\textbackslashn".  }
+{ git add }	{ Insert "git add ".  }
+{ git add everything }	{ Insert "git add {-}u\textbackslashn".  }
+{ git bisect }	{ Insert "git bisect ".  }
+{ git blame }	{ Insert "git blame ".  }
+{ git branch }	{ Insert "git branch ".  }
+{ git branch list }	{ Insert "git branch {-}vv\textbackslashn".  }
+{ git remote branches }	{ Insert "git branch {-}{-}remote\textbackslashn".  }
+{ git branch  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  }	{ Insert "git branch  $<$text$>$".  }
+{ git checkout }	{ Insert "git checkout ".  }
+{ git checkout master }	{ Insert "git checkout master\textbackslashn".  }
+{ git checkout main }	{ Insert "git checkout main\textbackslashn".  }
+{ git checkout  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  }	{ Insert "git checkout  $<$text$>$".  }
+{ git cherry pick }	{ Insert "git cherry{-}pick ".  }
+{ git cherry pick continue }	{ Insert "git cherry{-}pick {-}{-}continue ".  }
+{ git cherry pick abort }	{ Insert "git cherry{-}pick {-}{-}abort ".  }
+{ git cherry pick skip }	{ Insert "git cherry{-}pick {-}{-}skip ".  }
+{ git clone }	{ Insert "git clone ".  }
+{ git clean everything }	{ Insert "git clean {-}dfx".  }
+{ git commit message  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  }	{ Insert "git commit {-}m ' $<$text$>$ '".  }
+{ git commit }	{ Insert "git commit\textbackslashn".  }
+{ git commit amend }	{ Insert "git commit {-}{-}amend\textbackslashn".  }
+{ git commit no verify }	{ Insert "git commit {-}n".  }
+{ git commit existing }	{ Insert "git commit {-}a\textbackslashn".  }
+{ git diff (colour|color) words }	{ Insert "git diff {-}{-}color{-}words ".  }
+{ git diff }	{ Insert "git diff ".  }
+{ git diff cached }	{ Insert "git diff {-}{-}cached\textbackslashn".  }
+{ git diff tool }	{ Insert "git difftool {-}d\textbackslashn".  }
+{ git diff tool cached }	{ Insert "git difftool {-}{-}cached {-}d\textbackslashn".  }
+{ git fetch }	{ Insert "git fetch\textbackslashn".  }
+{ git fetch all }	{ Insert "git fetch {-}{-}all\textbackslashn".  }
+{ git fetch  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  }	{ Insert "git fetch  $<$text$>$".  }
+{ git fetch prune }	{ Insert "git fetch {-}{-}prune\textbackslashn".  }
+{ git in it }	{ Insert "git init\textbackslashn".  }
+{ git log all }	{ Insert "git log\textbackslashn".  }
+{ git log all changes }	{ Insert "git log {-}c\textbackslashn".  }
+{ git log }	{ Insert "git log ".  }
+{ git log changes }	{ Insert "git log {-}c ".  }
+{ git merge }	{ Insert "git merge ".  }
+{ git merge  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  }	{ Insert "git merge  $<$text$>$".  }
+{ git merge tool }	{ Insert "git mergetool\textbackslashn".  }
+{ git move }	{ Insert "git mv ".  }
+{ git pull }	{ Insert "git pull\textbackslashn".  }
+{ git pull origin }	{ Insert "git pull origin ".  }
+{ git pull rebase }	{ Insert "git pull {-}{-}rebase\textbackslashn".  }
+{ git pull fast forward }	{ Insert "git pull {-}{-}ff{-}only\textbackslashn".  }
+{ git pull  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  }	{ Insert "git pull  $<$text$>$  ".  }
+{ git push }	{ Insert "git push\textbackslashn".  }
+{ git push origin }	{ Insert "git push origin ".  }
+{ git push up stream origin }	{ Insert "git push {-}u origin".  }
+{ git push  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  }	{ Insert "git push  $<$text$>$  ".  }
+{ git push tags }	{ Insert "git push {-}{-}tags\textbackslashn".  }
+{ git rebase }	{ Insert "git rebase ".  }
+{ git rebase continue }	{ Insert "git rebase {-}{-}continue".  }
+{ git rebase skip }	{ Insert "git rebase {-}{-}skip".  }
+{ git remove }	{ Insert "git rm ".  }
+{ git (remove|delete) branch }	{ Insert "git branch {-}d ".  }
+{ git (remove|delete) remote branch }	{ Insert "git push {-}{-}delete origin ".  }
+{ git reset }	{ Insert "git reset ".  }
+{ git reset soft }	{ Insert "git reset {-}{-}soft ".  }
+{ git reset hard }	{ Insert "git reset {-}{-}hard ".  }
+{ git restore }	{ Insert "git restore ".  }
+{ git restore staged }	{ Insert "git restore {-}{-}staged ".  }
+{ git restore source }	{ Insert "git restore {-}{-}source=".  }
+{ git remote }	{ Insert "git remote ".  }
+{ git remote add }	{ Insert "git remote add ".  }
+{ git remote list }	{ Insert "git remote {-}v\textbackslashn".  }
+{ git remote set url }	{ Insert "git remote set{-}url ".  }
+{ git remote add upstream }	{ Insert "git remote add upstream ".  }
+{ git remote remove }	{ Insert "git remote remove ".  }
+{ git remote show origin }	{ Insert "git remote show origin\textbackslashn".  }
+{ git show }	{ Insert "git show ".  }
+{ git stash pop }	{ Insert "git stash pop\textbackslashn".  }
+{ git stash }	{ Insert "git stash\textbackslashn".  }
+{ git stash push }	{ Insert "git stash push {-}m ''". Press left.  }
+{ git stash apply }	{ Insert "git stash apply\textbackslashn".  }
+{ git stash list }	{ Insert "git stash list\textbackslashn".  }
+{ git stash show }	{ Insert "git stash show".  }
+{ git status }	{ Insert "git status\textbackslashn".  }
+{ git switch {[} $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$ {]} }	{ Insert "git switch  $<$text$>$ or  (formatted with DASH\_SEPARATED)".  }
+{ git switch master }	{ Insert "git switch master ".  }
+{ git switch main }	{ Insert "git switch main ".  }
+{ git switch detached }	{ Insert "git switch {-}{-}detach ".  }
+{ git (switch create | new branch) {[} $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$ {]} }	{ Insert "git switch {-}c  $<$text$>$ or  (formatted with DASH\_SEPARATED)".  }
+{ git switch orphan }	{ Insert "git switch {-}{-}orphan ".  }
+{ git submodule add }	{ Insert "git submodule add ".  }
+{ git tag }	{ Insert "git tag ".  }
+{ git edit config }	{ Insert "git config {-}{-}local {-}e\textbackslashn".  }
+{ git clone clipboard }	{ Insert "git clone ". Paste clipboard at cursor. Press enter.  }
+{ git diff highlighted }	{ Copy selection to clipboard. Insert "git diff ". Paste clipboard at cursor. Press enter.  }
+{ git diff clipboard }	{ Insert "git diff ". Paste clipboard at cursor. Press enter.  }
+{ git add highlighted }	{ Copy selection to clipboard. Insert "git add ". Paste clipboard at cursor. Press enter.  }
+{ git add clipboard }	{ Insert "git add ". Paste clipboard at cursor. Press enter.  }
+{ git commit highlighted }	{ Copy selection to clipboard. Insert "git add ". Paste clipboard at cursor. Insert "\textbackslashngit commit\textbackslashn".  }

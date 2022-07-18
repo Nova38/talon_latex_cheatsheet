@@ -1,0 +1,4 @@
+Command	Result
+{ row }	{ lineNumberModulo100 }
+{ up }	{ lineNumberRelativeUp }
+{ down }	{ lineNumberRelativeDown }

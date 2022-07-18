@@ -1,0 +1,82 @@
+Command	Result
+{ razer synapse service }	{ Razer Synapse Service Process }
+{ razer synapse }	{ Razer Synapse Service Process }
+{ synapse }	{ Razer Synapse Service Process }
+{ service }	{ Razer Synapse Service Process }
+{ process }	{ Razer Synapse Service Process }
+{ razer }	{ Razer Synapse Service Process }
+{ razer synapse service process }	{ Razer Synapse Service Process }
+{ explorer }	{ Windows Explorer }
+{ windows explorer }	{ Windows Explorer }
+{ search host dot }	{ SearchHost.exe }
+{ search }	{ FluentSearch }
+{ search host dot exe }	{ SearchHost.exe }
+{ search host }	{ SearchHost.exe }
+{ host }	{ SearchHost.exe }
+{ windows start }	{ Windows Start Experience Host }
+{ windows start experience host }	{ Windows Start Experience Host }
+{ experience }	{ Windows Start Experience Host }
+{ windows start experience }	{ Windows Start Experience Host }
+{ start }	{ Windows Start Experience Host }
+{ text }	{ TextInputHost.exe }
+{ input }	{ TextInputHost.exe }
+{ text input host }	{ TextInputHost.exe }
+{ text input host dot exe }	{ TextInputHost.exe }
+{ text input }	{ TextInputHost.exe }
+{ text input host dot }	{ TextInputHost.exe }
+{ n v i d }	{ NVIDIA Share }
+{ n v i d i a }	{ NVIDIA Share }
+{ n v i d i a share }	{ NVIDIA Share }
+{ n v i }	{ NVIDIA Share }
+{ share }	{ NVIDIA Share }
+{ n v i d i }	{ NVIDIA Share }
+{ n v }	{ NVIDIA Share }
+{ discord }	{ Discord }
+{ slack }	{ Slack }
+{ docker desktop }	{ Docker Desktop }
+{ docker }	{ Docker Desktop }
+{ desktop }	{ Docker Desktop }
+{ fluent }	{ FluentSearch }
+{ fluent search }	{ FluentSearch }
+{ shell }	{ Windows Shell Experience Host }
+{ windows shell }	{ Windows Shell Experience Host }
+{ windows shell experience host }	{ Windows Shell Experience Host }
+{ windows shell experience }	{ Windows Shell Experience Host }
+{ openscad dot }	{ openscad.exe }
+{ openscad }	{ openscad.exe }
+{ openscad dot exe }	{ openscad.exe }
+{ microsoft edge }	{ Microsoft Edge }
+{ edge }	{ Microsoft Edge }
+{ code }	{ Visual Studio Code }
+{ visual studio code }	{ Visual Studio Code }
+{ visual studio }	{ Visual Studio Code }
+{ application }	{ Application Frame Host }
+{ frame }	{ Application Frame Host }
+{ application frame host }	{ Application Frame Host }
+{ application frame }	{ Application Frame Host }
+{ audacity cross platform sound editor }	{ Audacity® Cross{-}Platform Sound Editor }
+{ audacity }	{ Audacity® Cross{-}Platform Sound Editor }
+{ cross }	{ Audacity® Cross{-}Platform Sound Editor }
+{ audacity cross platform }	{ Audacity® Cross{-}Platform Sound Editor }
+{ sound }	{ Audacity® Cross{-}Platform Sound Editor }
+{ audacity cross platform sound }	{ Audacity® Cross{-}Platform Sound Editor }
+{ audacity cross }	{ Audacity® Cross{-}Platform Sound Editor }
+{ editor }	{ Audacity® Cross{-}Platform Sound Editor }
+{ platform }	{ Audacity® Cross{-}Platform Sound Editor }
+{ audacity cross dash platform sound editor }	{ Audacity® Cross{-}Platform Sound Editor }
+{ talon }	{ Talon }
+{ windows terminal dot }	{ WindowsTerminal.exe }
+{ windows terminal }	{ WindowsTerminal.exe }
+{ windows terminal dot exe }	{ WindowsTerminal.exe }
+{ open console dot }	{ OpenConsole.exe }
+{ open console }	{ OpenConsole.exe }
+{ console }	{ OpenConsole.exe }
+{ open console dot exe }	{ OpenConsole.exe }
+{ open }	{ OpenConsole.exe }
+{ pwsh }	{ pwsh }
+{ console window }	{ Console Window Host }
+{ console window host }	{ Console Window Host }
+{ window }	{ Console Window Host }
+{ lock }	{ slack.exe }
+{ app }	{ slack.exe }
+{ lockapp }	{ slack.exe }

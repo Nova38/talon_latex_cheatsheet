@@ -1,0 +1,2 @@
+Command	Result
+{ user.cursorless\_swap\_targets }	{ CaptureImpl("user.cursorless{-}swap{-}targets", Rule("{[} $<$a href="\#user{-}cursorless{-}target{-}capture"$>$ \&lt;user.cursorless{-}target\&gt; $<$/a$>$ {]} $<$a href="\#user{-}cursorless{-}swap{-}connective{-}list"$>$  \{user.cursorless{-}swap{-}connective\}  $<$/a$>$  $<$a href="\#user{-}cursorless{-}target{-}capture"$>$ \&lt;user.cursorless{-}target\&gt; $<$/a$>$ ")) }

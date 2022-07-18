@@ -1,0 +1,33 @@
+Command	Result
+{ bottom }	{ scrollToBottom }
+{ breakpoint }	{ toggleLineBreakpoint }
+{ carve }	{ cutToClipboard }
+{ center }	{ scrollToCenter }
+{ chuck }	{ remove }
+{ clear }	{ clearAndSetSelection }
+{ clone up }	{ insertCopyBefore }
+{ clone }	{ insertCopyAfter }
+{ comment }	{ toggleLineComment }
+{ copy }	{ copyToClipboard }
+{ crown }	{ scrollToTop }
+{ dedent }	{ outdentLine }
+{ drink }	{ editNewLineBefore }
+{ drop }	{ insertEmptyLineBefore }
+{ extract }	{ extractVariable }
+{ float }	{ insertEmptyLineAfter }
+{ fold }	{ foldRegion }
+{ follow }	{ followLink }
+{ give }	{ deselect }
+{ highlight }	{ highlight }
+{ indent }	{ indentLine }
+{ paste to }	{ pasteFromClipboard }
+{ post }	{ setSelectionAfter }
+{ pour }	{ editNewLineAfter }
+{ pre }	{ setSelectionBefore }
+{ puff }	{ insertEmptyLinesAround }
+{ shuffle }	{ randomizeTargets }
+{ reverse }	{ reverseTargets }
+{ scout all }	{ findInWorkspace }
+{ sort }	{ sortTargets }
+{ take }	{ setSelection }
+{ unfold }	{ unfoldRegion }

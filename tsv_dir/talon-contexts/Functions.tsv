@@ -1,0 +1,10 @@
+Command	Result
+{ funky  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  }	{ Inserts function declaration.  }
+{ pro funky  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  }	{ Inserts protected function declaration.  }
+{ pub funky  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  }	{ Inserts public function.  }
+{ static funky  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  }	{ Inserts private static function.  }
+{ pro static funky  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  }	{ Inserts public function.  }
+{ pub static funky  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  }	{ Inserts public function.  }
+{ is type  $<$a href="\#user{-}code{-}type{-}capture"$>$ \&lt;user.code{-}type\&gt; $<$/a$>$  }	{ Inserts a type annotation.  }
+{ returns {[}type{]}  $<$a href="\#user{-}code{-}type{-}capture"$>$ \&lt;user.code{-}type\&gt; $<$/a$>$  }	{ Inserts a return type.  }
+{ type  $<$a href="\#user{-}code{-}type{-}capture"$>$ \&lt;user.code{-}type\&gt; $<$/a$>$  }	{ Insert "$<$code\_type$>$".  }

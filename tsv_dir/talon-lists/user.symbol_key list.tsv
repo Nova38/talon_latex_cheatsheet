@@ -1,0 +1,68 @@
+Command	Result
+{ dot }	{ . }
+{ point }	{ . }
+{ quote }	{ ' }
+{ apostrophe }	{ ' }
+{ L square }	{ {[} }
+{ left square }	{ {[} }
+{ square }	{ {[} }
+{ R square }	{ {]} }
+{ right square }	{ {]} }
+{ slash }	{ / }
+{ backslash }	{ \textbackslash }
+{ minus }	{ {-} }
+{ dash }	{ {-} }
+{ equals }	{ = }
+{ plus }	{ + }
+{ tilde }	{ \textasciitilde{} }
+{ bang }	{ ! }
+{ down score }	{ \_ }
+{ under score }	{ \_ }
+{ paren }	{ ( }
+{ L paren }	{ ( }
+{ left paren }	{ ( }
+{ R paren }	{ ) }
+{ right paren }	{ ) }
+{ brace }	{ \{ }
+{ left brace }	{ \{ }
+{ R brace }	{ \} }
+{ right brace }	{ \} }
+{ angle }	{ $<$ }
+{ left angle }	{ $<$ }
+{ less than }	{ $<$ }
+{ rangle }	{ $>$ }
+{ R angle }	{ $>$ }
+{ right angle }	{ $>$ }
+{ greater than }	{ $>$ }
+{ star }	{ * }
+{ hash }	{ \# }
+{ percent }	{ \% }
+{ caret }	{ \^{} }
+{ amper }	{ \& }
+{ pipe }	{ | }
+{ dubquote }	{ " }
+{ double quote }	{ " }
+{ dollar }	{ \$ }
+{ pound }	{ £ }
+{ ` }	{ ` }
+{ , }	{ , }
+{ back tick }	{ ` }
+{ grave }	{ ` }
+{ comma }	{ , }
+{ period }	{ . }
+{ full stop }	{ . }
+{ semicolon }	{ ; }
+{ colon }	{ : }
+{ forward slash }	{ / }
+{ question mark }	{ ? }
+{ exclamation mark }	{ ! }
+{ exclamation point }	{ ! }
+{ asterisk }	{ * }
+{ hash sign }	{ \# }
+{ number sign }	{ \# }
+{ percent sign }	{ \% }
+{ at sign }	{ @ }
+{ and sign }	{ \& }
+{ ampersand }	{ \& }
+{ dollar sign }	{ \$ }
+{ pound sign }	{ £ }

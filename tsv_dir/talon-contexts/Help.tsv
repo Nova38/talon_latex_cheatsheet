@@ -1,0 +1,16 @@
+Command	Result
+{ help alphabet }	{ Provides the symbol dictionary.  }
+{ help symbols }	{ Provides the symbol dictionary.  }
+{ help numbers }	{ Provides the symbol dictionary.  }
+{ help punctuation }	{ Provides the symbol dictionary.  }
+{ help modifier }	{ Provides the symbol dictionary.  }
+{ help special keys }	{ Provides the symbol dictionary.  }
+{ help function keys }	{ Provides the symbol dictionary.  }
+{ help arrows }	{ Provides the symbol dictionary.  }
+{ (help formatters | help format | format help) }	{ Provides the list of formatter keywords.  }
+{ help context }	{ Display contextual command info.  }
+{ help active }	{ Display contextual command info.  }
+{ help search  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  }	{ Display command info for search phrase.  }
+{ help context $<$a href="\#user{-}help{-}contexts{-}list"$>$  \{user.help{-}contexts\}  $<$/a$>$ }	{ Display command info for selected context.  }
+{ help help }	{ Display command info for search phrase.  }
+{ help scope }	{ Toggle help scope gui.  }

@@ -1,0 +1,5 @@
+Command	Result
+{  $<$a href="\#user{-}ordinals{-}capture"$>$ \&lt;user.ordinals\&gt; $<$/a$>$  }	{ Repeat the last command N times.  }
+{  \&lt;number{-}small\&gt;   times }	{ Repeat the last command N times.  }
+{ (repeat that|twice) }	{ Repeat the last command N times.  }
+{ repeat that  \&lt;number{-}small\&gt;   {[}times{]} }	{ Repeat the last command N times.  }

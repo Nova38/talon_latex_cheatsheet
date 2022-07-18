@@ -1,0 +1,12 @@
+Command	Result
+{ status bar content toolkit }	{ status\_bar|0 }
+{ status bar remove mode indicator }	{ status\_bar|1 }
+{ status bar remove microphone }	{ status\_bar|2 }
+{ status bar add language }	{ status\_bar|3 }
+{ status bar remove code language }	{ status\_bar|4 }
+{ status bar add focus indicator }	{ status\_bar|5 }
+{ event log keep alive }	{ event\_log|0 }
+{ event log clear logs }	{ event\_log|1 }
+{ walkthrough skip this step }	{ walkthrough|0 }
+{ walkthrough mark as done }	{ walkthrough|1 }
+{ walkthrough restore current step }	{ walkthrough|2 }

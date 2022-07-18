@@ -1,0 +1,10 @@
+Command	Result
+{ window next }	{ Press alt{-}shift{-}j.  }
+{ window previous }	{ Press alt{-}shift{-}k.  }
+{ window full }	{ Press alt{-}shift{-}d.  }
+{ window tall }	{ Press alt{-}shift{-}a.  }
+{ window middle }	{ Press alt{-}shift{-}`.  }
+{ window move main }	{ Press alt{-}shift{-}enter.  }
+{ window grow }	{ Press alt{-}shift{-}l.  }
+{ window shrink }	{ Press alt{-}shift{-}h.  }
+{ window reevaluate }	{ Press alt{-}shift{-}z.  }

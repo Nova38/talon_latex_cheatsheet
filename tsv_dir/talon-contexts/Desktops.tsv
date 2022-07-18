@@ -1,0 +1,8 @@
+Command	Result
+{ desk  \&lt;number{-}small\&gt;   }	{ change the current desktop.  }
+{ desk next }	{ move to next desktop.  }
+{ desk last }	{ move to previous desktop.  }
+{ desk show }	{ shows the current desktops.  }
+{ window move desk  \&lt;number\&gt;   }	{ move the current window to a different desktop.  }
+{ window move desk left }	{ move the current window to the desktop to the left.  }
+{ window move desk right }	{ move the current window to the desktop to the right.  }

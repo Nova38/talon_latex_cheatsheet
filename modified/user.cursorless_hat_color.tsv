@@ -1,0 +1,6 @@
+Command	Result
+{ blue }	{ \textcolor{blue}{blue} }
+{ green }	{ \textcolor{green}{green}}
+{ rose }	{ \textcolor{red}{red} }
+{ squash }	{ \textcolor{DarkGoldenrod1}{yellow} }
+{ plum }	{ \textcolor{pink}{pink} }

@@ -1,0 +1,2 @@
+Command	Result
+{ user.prose\_number\_with\_dot }	{ CaptureImpl("user.prose{-}number{-}with{-}dot", Rule("numeral  $<$a href="\#user{-}number{-}string{-}capture"$>$ \&lt;user.number{-}string\&gt; $<$/a$>$  (dot  |  point)  \&lt;digit{-}string\&gt;  ")) }

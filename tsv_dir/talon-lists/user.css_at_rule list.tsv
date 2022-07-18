@@ -1,0 +1,10 @@
+Command	Result
+{ charset }	{ charset }
+{ import }	{ import }
+{ namespace }	{ namespace }
+{ media }	{ media }
+{ supports }	{ supports }
+{ page }	{ page }
+{ font{-}face }	{ font{-}face }
+{ keyframes }	{ keyframes }
+{ value }	{ value }

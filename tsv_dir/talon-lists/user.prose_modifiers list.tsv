@@ -1,0 +1,5 @@
+Command	Result
+{ cap }	{ cap }
+{ no cap }	{ no\_cap }
+{ no caps }	{ no\_cap }
+{ no space }	{ no\_space }

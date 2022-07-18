@@ -1,0 +1,14 @@
+Command	Result
+{ {[}channel{]} mentions last }	{ Go up to channel with unread mentions.  }
+{ {[}channel{]} mentions next }	{ Go down to channel with unread mentions.  }
+{ oldest unread }	{ Go to oldest unread message.  }
+{ toggle pins }	{ Toggle pins popout.  }
+{ toggle inbox }	{ Toggle inbox popout.  }
+{ toggle (members | member list) }	{ Toggle channel member list.  }
+{ pick emoji }	{ Toggle emoji picker.  }
+{ pick (jif | gif | gift) }	{ Toggle gif picker.  }
+{ mark inbox channel read }	{ Mark top inbox channel read.  }
+{ {[}toggle{]} (mute | unmute) }	{ Toggle mute.  }
+{ {[}toggle{]} (deafen | undeafen) }	{ Toggle deafen.  }
+{ answer call }	{ Answer incoming call.  }
+{ decline call }	{ Decline incoming call.  }

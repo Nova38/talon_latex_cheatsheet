@@ -1,0 +1,10 @@
+Command	Result
+{ N map }	{ nmap }
+{ under documented }	{ under{-}documented }
+{ nmap }	{ nmap }
+{ admin }	{ admin }
+{ Cisco }	{ Cisco }
+{ Citrix }	{ Citrix }
+{ VPN }	{ VPN }
+{ DNS }	{ DNS }
+{ Minecraft }	{ Minecraft }

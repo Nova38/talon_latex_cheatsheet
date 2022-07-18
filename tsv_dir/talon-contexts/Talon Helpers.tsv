@@ -1,0 +1,28 @@
+Command	Result
+{ talon check updates }	{ Check for updates.  }
+{ talon open log }	{ Open Talon log.  }
+{ talon open rebel }	{ Open Talon REPL.  }
+{ talon home }	{ Open Talon config folder.  }
+{ talon copy context pie }	{ Adds os{-}specific context info to the clipboard for the focused app for .py files. Assumes you've a Module named mod declared..  }
+{ talon copy context }	{ Adds os{-}specific context info to the clipboard for the focused app for .talon files.  }
+{ talon copy name }	{ Let $<$name$>$ be active app's name. Set clipboard text.  }
+{ talon copy executable }	{ Let $<$executable$>$ be active app's executable name. Set clipboard text.  }
+{ talon copy bundle }	{ Let $<$bundle$>$ be active app's bundle identifier. Set clipboard text.  }
+{ talon copy title }	{ Let $<$title$>$ be window title. Set clipboard text.  }
+{ talon dump version }	{ Let $<$result$>$ be talon \& operation system verison information. Display an object in the log.  }
+{ talon insert version }	{ Let $<$result$>$ be talon \& operation system verison information. Pastes text and preserves clipboard.  }
+{ talon dump context }	{ Let $<$result$>$ be active context info. Display an object in the log.  }
+{ talon test last }	{ Let $<$phrase$>$ be the history entry at the specified index. Sims the phrase in the active app and dumps to the log.  }
+{ talon test numb  \&lt;number{-}small\&gt;   }	{ Let $<$phrase$>$ be the history entry at the specified index. Sims the phrase in the active app and dumps to the log.  }
+{ talon test  \&lt;phrase\&gt;   }	{ Sims the phrase in the active app and dumps to the log.  }
+{ talon debug action $<$a href="\#user{-}talon{-}actions{-}list"$>$  \{user.talon{-}actions\}  $<$/a$>$ }	{ Runs action.find for the provided action and dumps to the log.  }
+{ talon debug list $<$a href="\#user{-}talon{-}lists{-}list"$>$  \{user.talon{-}lists\}  $<$/a$>$ }	{ Dumps the contents of list to the console.  }
+{ talon copy list $<$a href="\#user{-}talon{-}lists{-}list"$>$  \{user.talon{-}lists\}  $<$/a$>$ }	{ Dumps the contents of list to the console.  }
+{ talon debug tags }	{ Dumps the active tags to the console.  }
+{ talon debug modes }	{ Dumps active modes to the console.  }
+{ talon debug scope $<$a href="\#user{-}talon{-}scopes{-}list"$>$  \{user.talon{-}scopes\}  $<$/a$>$ }	{ Dumps the active scope information to the console.  }
+{ talon debug setting $<$a href="\#user{-}talon{-}settings{-}list"$>$  \{user.talon{-}settings\}  $<$/a$>$ }	{ Dumps the current setting to the console.  }
+{ talon debug all settings }	{ Dumps all settings to the console.  }
+{ talon debug active app }	{ Let $<$result$>$ be all active app info to the cliboard. Display an object in the log. Display an object in the log. Display an object in the log.  }
+{ talon copy active app }	{ Let $<$result$>$ be all active app info to the cliboard. Set clipboard text.  }
+{ talon (bug report|report bug) }	{ Visit the given URL..  }

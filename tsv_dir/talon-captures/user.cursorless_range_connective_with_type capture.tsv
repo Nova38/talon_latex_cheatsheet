@@ -1,0 +1,2 @@
+Command	Result
+{ user.cursorless\_range\_connective\_with\_type }	{ CaptureImpl("user.cursorless{-}range{-}connective{-}with{-}type", Rule("{[} $<$a href="\#user{-}cursorless{-}range{-}type{-}capture"$>$ \&lt;user.cursorless{-}range{-}type\&gt; $<$/a$>$ {]} $<$a href="\#user{-}cursorless{-}range{-}connective{-}list"$>$  \{user.cursorless{-}range{-}connective\}  $<$/a$>$  |   $<$a href="\#user{-}cursorless{-}range{-}type{-}capture"$>$ \&lt;user.cursorless{-}range{-}type\&gt; $<$/a$>$ ")) }

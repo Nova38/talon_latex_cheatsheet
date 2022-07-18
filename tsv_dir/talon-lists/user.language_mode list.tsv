@@ -1,0 +1,25 @@
+Command	Result
+{ batch }	{ batch }
+{ c }	{ c }
+{ see sharp }	{ csharp }
+{ c s s }	{ css }
+{ g d b }	{ gdb }
+{ go }	{ go }
+{ go lang }	{ go }
+{ go language }	{ go }
+{ java }	{ java }
+{ javascript }	{ javascript }
+{ javascriptreact }	{ javascriptreact }
+{ markdown }	{ markdown }
+{ php }	{ php }
+{ python }	{ python }
+{ protobuf }	{ protobuf }
+{ are language }	{ r }
+{ ruby }	{ ruby }
+{ rust }	{ rust }
+{ scala }	{ scala }
+{ talon }	{ talon }
+{ terraform }	{ terraform }
+{ typescript }	{ typescript }
+{ typescriptreact }	{ typescriptreact }
+{ vimscript }	{ vimscript }

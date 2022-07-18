@@ -1,0 +1,2 @@
+Command	Result
+{ user.symbol\_key }	{ CaptureImpl("user.symbol{-}key", Rule("$<$a href="\#user{-}symbol{-}key{-}list"$>$  \{self.symbol{-}key\}  $<$/a$>$")) }

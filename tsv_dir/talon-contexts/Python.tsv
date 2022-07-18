@@ -1,0 +1,18 @@
+Command	Result
+{ dunder in it }	{ Insert "\_\_init\_\_".  }
+{ state (def | deaf | deft) }	{ Insert "def ".  }
+{ state try }	{ Insert "try:\textbackslashn".  }
+{ state except }	{ Insert "except ".  }
+{ state raise }	{ Insert "raise ".  }
+{ self taught }	{ Insert "self.".  }
+{ pie test }	{ Insert "pytest".  }
+{ state past }	{ Insert "pass".  }
+{ raise $<$a href="\#user{-}python{-}exception{-}list"$>$  \{user.python{-}exception\}  $<$/a$>$ }	{ Insert `before + after`, leaving cursor between `before` and `after`. Not entirely reliable if `after` contains newlines..  }
+{ except $<$a href="\#user{-}python{-}exception{-}list"$>$  \{user.python{-}exception\}  $<$/a$>$ }	{ Insert "except  $<$python\_exception$>$ :".  }
+{ dock string }	{ Inserts a document comment and positions the cursor appropriately.  }
+{ dock $<$a href="\#user{-}python{-}docstring{-}fields{-}list"$>$  \{user.python{-}docstring{-}fields\}  $<$/a$>$ }	{ Insert "$<$python\_docstring\_fields$>$". Move cursor left one column.  }
+{ dock type $<$a href="\#user{-}code{-}type{-}list"$>$  \{user.code{-}type\}  $<$/a$>$ }	{ Insert `before + after`, leaving cursor between `before` and `after`. Not entirely reliable if `after` contains newlines..  }
+{ dock returns type $<$a href="\#user{-}code{-}type{-}list"$>$  \{user.code{-}type\}  $<$/a$>$ }	{ Insert `before + after`, leaving cursor between `before` and `after`. Not entirely reliable if `after` contains newlines..  }
+{ toggle imports }	{ GUI: List libraries for active language.  }
+{ import  $<$a href="\#user{-}code{-}libraries{-}capture"$>$ \&lt;user.code{-}libraries\&gt; $<$/a$>$  }	{ Inserts a library and positions the cursor appropriately. Press end enter.  }
+{ from import }	{ Insert `before + after`, leaving cursor between `before` and `after`. Not entirely reliable if `after` contains newlines..  }

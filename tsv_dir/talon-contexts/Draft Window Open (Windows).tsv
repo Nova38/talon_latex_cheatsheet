@@ -1,0 +1,3 @@
+Command	Result
+{ draft hide }	{ Hides draft window.  }
+{ draft submit }	{ Let $<$content$>$ be the text in the draft window. Hides draft window. Insert "$<$content$>$".  }

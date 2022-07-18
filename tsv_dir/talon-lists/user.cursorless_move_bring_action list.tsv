@@ -1,0 +1,3 @@
+Command	Result
+{ bring }	{ replaceWithTarget }
+{ move }	{ moveToTarget }

@@ -1,0 +1,2 @@
+Command	Result
+{ user.c\_pointers }	{ CaptureImpl("user.c{-}pointers", Rule("$<$a href="\#user{-}c{-}pointers{-}list"$>$  \{self.c{-}pointers\}  $<$/a$>$")) }

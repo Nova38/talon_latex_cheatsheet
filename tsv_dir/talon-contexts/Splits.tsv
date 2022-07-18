@@ -1,0 +1,16 @@
+Command	Result
+{ split right }	{ Move active tab to right split.  }
+{ split left }	{ Move active tab to left split.  }
+{ split down }	{ Move active tab to lower split.  }
+{ split up }	{ Move active tab to upper split.  }
+{ split (vertically | vertical) }	{ Splits window vertically.  }
+{ split (horizontally | horizontal) }	{ Splits window horizontally.  }
+{ split flip }	{ Flips the orietation of the active split.  }
+{ split max }	{ Maximizes the active split.  }
+{ split reset }	{ Resets the split sizes.  }
+{ split window }	{ Splits the window.  }
+{ split clear }	{ Clears the current split.  }
+{ split clear all }	{ Clears all splits.  }
+{ split next }	{ Goes to next split.  }
+{ split last }	{ Goes to last split.  }
+{ go split  \&lt;number\&gt;   }	{ Navigates to a the specified split.  }

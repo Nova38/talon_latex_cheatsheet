@@ -1,0 +1,8 @@
+Command	Result
+{ print {[}html{]} help }	{ Print out a help document of all Talon commands as HTML.  }
+{ print developer help }	{ Print out a help document of all Talon commands as HTML{-}dev.  }
+{ print latex help }	{ Print out a help document of all Talon commands as TeX.  }
+{ print xml help }	{ Print out a help document of all Talon commands as XML.  }
+{ print json help }	{ Print out a help document of all Talon commands as Json.  }
+{ print tsv help }	{ Print out a help document of all Talon commands as tsv.  }
+{ print dict help }	{ Print out a help document of all Talon commands as dict.  }

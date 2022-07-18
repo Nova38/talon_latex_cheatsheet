@@ -1,0 +1,3 @@
+Command	Result
+{ curse yes }	{ Shows the cursor.  }
+{ curse no }	{ Hides the cursor.  }

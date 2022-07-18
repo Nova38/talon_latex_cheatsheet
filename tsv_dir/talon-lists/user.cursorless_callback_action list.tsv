@@ -1,0 +1,4 @@
+Command	Result
+{ call }	{ callAsFunction }
+{ scout }	{ findInDocument }
+{ phones }	{ nextHomophone }

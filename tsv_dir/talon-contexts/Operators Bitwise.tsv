@@ -1,0 +1,6 @@
+Command	Result
+{ {[}op{]} bitwise and }	{ code\_operator\_bitwise\_and.  }
+{ {[}op{]} bitwise or }	{ code\_operator\_bitwise\_or.  }
+{ (op | logical | bitwise) (ex | exclusive) or }	{ code\_operator\_bitwise\_exclusive\_or.  }
+{ (op | logical | bitwise) (left shift | shift left) }	{ code\_operator\_bitwise\_left\_shift.  }
+{ (op | logical | bitwise) (right shift | shift right) }	{ code\_operator\_bitwise\_right\_shift.  }

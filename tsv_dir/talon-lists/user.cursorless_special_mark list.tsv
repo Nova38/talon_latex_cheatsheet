@@ -1,0 +1,5 @@
+Command	Result
+{ this }	{ currentSelection }
+{ that }	{ previousTarget }
+{ source }	{ previousSource }
+{ nothing }	{ nothing }

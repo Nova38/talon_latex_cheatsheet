@@ -1,0 +1,3 @@
+Command	Result
+{ state true }	{ Insert True value.  }
+{ state false }	{ Insert False value.  }

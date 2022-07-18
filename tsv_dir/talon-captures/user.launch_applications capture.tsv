@@ -1,0 +1,2 @@
+Command	Result
+{ user.launch\_applications }	{ CaptureImpl("user.launch{-}applications", Rule("$<$a href="\#user{-}launch{-}list"$>$  \{self.launch\}  $<$/a$>$")) }

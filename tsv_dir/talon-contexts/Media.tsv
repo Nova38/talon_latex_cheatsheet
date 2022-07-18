@@ -1,0 +1,8 @@
+Command	Result
+{ volume up }	{ Press volup.  }
+{ volume down }	{ Press voldown.  }
+{ set volume  \&lt;number\&gt;   }	{ user.media\_set\_volume(number) }
+{ (volume|media) mute }	{ Press mute.  }
+{ {[}media{]} play next }	{ Press next.  }
+{ {[}media{]} play previous }	{ Press prev.  }
+{ media (play | pause) }	{ Plays or pauses media.  }

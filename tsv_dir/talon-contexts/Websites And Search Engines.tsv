@@ -1,0 +1,4 @@
+Command	Result
+{ open $<$a href="\#user{-}website{-}list"$>$  \{user.website\}  $<$/a$>$ }	{ Visit the given URL..  }
+{ $<$a href="\#user{-}search{-}engine{-}list"$>$  \{user.search{-}engine\}  $<$/a$>$ hunt  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  }	{ Search a search engine for given text.  }
+{ $<$a href="\#user{-}search{-}engine{-}list"$>$  \{user.search{-}engine\}  $<$/a$>$ (that|this) }	{ Let $<$text$>$ be the selected text. Search a search engine for given text.  }

@@ -1,0 +1,13 @@
+Command	Result
+{ previous (workspace | server) }	{ Move to previous workspace/server.  }
+{ next (workspace | server) }	{ Move to next qorkspace/server.  }
+{ channel }	{ Open channel picker.  }
+{ channel  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  }	{ Open channel picker. Insert "$<$user.text$>$ (formatted with ALL\_LOWERCASE)".  }
+{ channel up }	{ Move to previous channel.  }
+{ channel down }	{ Move to next channel.  }
+{ ({[}channel{]} unread last | gopreev) }	{ Move to previous unread channel.  }
+{ ({[}channel{]} unread next | goneck) }	{ Moved to next unread channel.  }
+{ go (find | search) }	{ Open message search.  }
+{ mark (all | workspace | server) read }	{ Mark this workspace/server as read.  }
+{ mark channel read }	{ Mark this channel as read..  }
+{ upload file }	{ Upload a file as a message.  }

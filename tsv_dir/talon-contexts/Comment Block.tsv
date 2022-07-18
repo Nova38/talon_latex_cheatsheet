@@ -1,0 +1,10 @@
+Command	Result
+{ block comment }	{ Block comment.  }
+{ block comment line }	{ Move cursor to start of line. Block comment start syntax. Press space. Move cursor to end of line. Press space. Block comment end syntax.  }
+{ block comment line  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  over }	{ Move cursor to start of line. Block comment. Insert "$<$user.text$>$".  }
+{ block comment  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  over }	{ Block comment. Insert "$<$user.text$>$".  }
+{ block comment  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  }	{ Block comment. Insert "$<$user.text$>$".  }
+{ (line | inline) block comment  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  over }	{ Move cursor to end of line. Block comment start syntax. Press space. Insert "$<$user.text$>$". Press space. Block comment end syntax.  }
+{ (line | inline) block comment  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  }	{ Move cursor to end of line. Block comment start syntax. Press space. Insert "$<$user.text$>$". Press space. Block comment end syntax.  }
+{ open block comment }	{ Block comment start syntax.  }
+{ close block comment }	{ Block comment end syntax.  }

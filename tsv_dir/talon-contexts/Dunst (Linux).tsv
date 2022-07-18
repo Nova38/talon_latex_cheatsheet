@@ -1,0 +1,4 @@
+Command	Result
+{ show notifications }	{ Press ctrl{-}`.  }
+{ dismiss {[}notifications{]} }	{ execute a command on the system.  }
+{ dismiss all {[}notifications{]} }	{ execute a command on the system.  }

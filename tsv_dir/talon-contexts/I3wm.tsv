@@ -1,0 +1,44 @@
+Command	Result
+{ port  \&lt;number{-}small\&gt;   }	{ execute a command on the system.  }
+{ port ten }	{ execute a command on the system.  }
+{ (port flip|flipper) }	{ execute a command on the system.  }
+{ port right }	{ execute a command on the system.  }
+{ port left }	{ execute a command on the system.  }
+{ (win|window) left }	{ execute a command on the system.  }
+{ (win|window) right }	{ execute a command on the system.  }
+{ (win|window) up }	{ execute a command on the system.  }
+{ (win|window) down }	{ execute a command on the system.  }
+{ ((win|window) kill|murder) }	{ execute a command on the system.  }
+{ (win|window) stacking }	{ execute a command on the system.  }
+{ (win|window) default }	{ execute a command on the system.  }
+{ (win|window) tabbed }	{ execute a command on the system.  }
+{ reload i three config }	{ execute a command on the system.  }
+{ restart i three }	{ execute a command on the system.  }
+{ (full screen|scuba) }	{ execute a command on the system.  }
+{ toggle floating }	{ execute a command on the system.  }
+{ focus floating }	{ execute a command on the system.  }
+{ center window }	{ execute a command on the system.  }
+{ resize mode }	{ execute a command on the system.  }
+{ focus parent }	{ execute a command on the system.  }
+{ focus child }	{ execute a command on the system.  }
+{ grow window }	{ execute a command on the system. Press right:10. Press down:10. Press escape. execute a command on the system.  }
+{ shrink window }	{ execute a command on the system. Press left:10. Press up:10. Press escape. execute a command on the system.  }
+{ horizontal (shell|terminal) }	{ execute a command on the system. Launch a shell.  }
+{ vertical (shell|terminal) }	{ execute a command on the system. Launch a shell.  }
+{ (shuffle|move (win|window) {[}to{]} port)  \&lt;number{-}small\&gt;   }	{ execute a command on the system.  }
+{ (shuffle|move (win|window) {[}to{]} port ten) }	{ execute a command on the system.  }
+{ (shuffle|move (win|window) {[}to{]} last port) }	{ execute a command on the system.  }
+{ (shuffle|move (win|window) left) }	{ execute a command on the system.  }
+{ (shuffle|move (win|window) right) }	{ execute a command on the system.  }
+{ (shuffle|move (win|window) up) }	{ execute a command on the system.  }
+{ (shuffle|move (win|window) down) }	{ execute a command on the system.  }
+{ (win|window) horizontal }	{ execute a command on the system.  }
+{ (win|window) vertical }	{ execute a command on the system.  }
+{ make scratch }	{ execute a command on the system.  }
+{ {[}(show|hide){]} scratch }	{ execute a command on the system.  }
+{ next scratch }	{ execute a command on the system. execute a command on the system.  }
+{ launch }	{ Trigger the i3 launcher: ex rofi.  }
+{ launch  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  }	{ Trigger the i3 launcher: ex rofi. Insert "$<$text$>$".  }
+{ lock screen }	{ Trigger the i3 launcher: ex rofi.  }
+{ (launch shell|koopa) }	{ Launch a shell.  }
+{ new scratch (shell|window) }	{ Launch a shell. execute a command on the system. execute a command on the system.  }

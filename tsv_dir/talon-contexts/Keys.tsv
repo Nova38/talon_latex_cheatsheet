@@ -1,0 +1,10 @@
+Command	Result
+{ go  $<$a href="\#user{-}arrow{-}keys{-}capture"$>$ \&lt;user.arrow{-}keys\&gt; $<$/a$>$  }	{ Given a sequence of directions, eg. 'left left up', moves the cursor accordingly using edit.\{left,right,up,down\}..  }
+{  $<$a href="\#user{-}letter{-}capture"$>$ \&lt;user.letter\&gt; $<$/a$>$  }	{ Press letter.  }
+{ (ship | uppercase)  $<$a href="\#user{-}letters{-}capture"$>$ \&lt;user.letters\&gt; $<$/a$>$  {[}(lowercase | sunk){]} }	{ Inserts a phrase formatted according to formatters. Formatters is a comma separated list of formatters (e.g. 'CAPITALIZE\_ALL\_WORDS,DOUBLE\_QUOTED\_STRING').  }
+{  $<$a href="\#user{-}symbol{-}key{-}capture"$>$ \&lt;user.symbol{-}key\&gt; $<$/a$>$  }	{ Press symbol\_key.  }
+{  $<$a href="\#user{-}function{-}key{-}capture"$>$ \&lt;user.function{-}key\&gt; $<$/a$>$  }	{ Press function\_key.  }
+{  $<$a href="\#user{-}special{-}key{-}capture"$>$ \&lt;user.special{-}key\&gt; $<$/a$>$  }	{ Press special\_key.  }
+{  $<$a href="\#user{-}modifiers{-}capture"$>$ \&lt;user.modifiers\&gt; $<$/a$>$   $<$a href="\#user{-}unmodified{-}key{-}capture"$>$ \&lt;user.unmodified{-}key\&gt; $<$/a$>$  }	{ Press $<$modifiers$>$ {-} $<$unmodified\_key$>$.  }
+{ press  $<$a href="\#user{-}modifiers{-}capture"$>$ \&lt;user.modifiers\&gt; $<$/a$>$  }	{ Press modifiers.  }
+{ press  $<$a href="\#user{-}keys{-}capture"$>$ \&lt;user.keys\&gt; $<$/a$>$  }	{ Press keys.  }

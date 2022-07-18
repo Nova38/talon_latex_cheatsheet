@@ -1,0 +1,16 @@
+Command	Result
+{ zoom in }	{ Zoom in.  }
+{ zoom out }	{ Zoom out.  }
+{ zoom reset }	{ Zoom to original size.  }
+{ scroll up }	{ Move cursor up one page.  }
+{ scroll down }	{ Move cursor down one page.  }
+{ copy that }	{ Copy selection to clipboard.  }
+{ cut that }	{ Cut selection to clipboard.  }
+{ paste that }	{ Paste clipboard at cursor.  }
+{ undo that }	{ Undo.  }
+{ redo that }	{ Redo.  }
+{ paste match }	{ Paste clipboard without style information.  }
+{ file save }	{ Save current document.  }
+{ wipe }	{ Press backspace.  }
+{ (pad | padding) }	{ Insert "  ". Press left.  }
+{ slap }	{ Insert line below cursor.  }

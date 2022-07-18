@@ -1,0 +1,45 @@
+Command	Result
+{ workspace  \&lt;number\&gt;   }	{ Press cmd{-} $<$number$>$.  }
+{ (slack | lack) {[}channel{]} info }	{ Press cmd{-}shift{-}i.  }
+{ focus (move | next) }	{ Press ctrl{-}`.  }
+{ (section | zone) {[}next{]} }	{ Press f6.  }
+{ (section | zone) (previous | last) }	{ Press shift{-}f6.  }
+{ (slack | lack) {[}direct{]} messages }	{ Press cmd{-}shift{-}k.  }
+{ (slack | lack) threads }	{ Press cmd{-}shift{-}t.  }
+{ (slack | lack) (history {[}next{]} | back | backward) }	{ Press cmd{-}{[}.  }
+{ (slack | lack) forward }	{ Press cmd{-}{]}.  }
+{ (element | bit) {[}next{]} }	{ Press tab.  }
+{ (element | bit) (previous | last) }	{ Press shift{-}tab.  }
+{ (slack | lack) (my stuff | activity) }	{ Press cmd{-}shift{-}m.  }
+{ (slack | lack) directory }	{ Press cmd{-}shift{-}e.  }
+{ (slack | lack) (starred {[}items{]} | stars) }	{ Press cmd{-}shift{-}s.  }
+{ (slack | lack) unread {[}messages{]} }	{ Press cmd{-}shift{-}a.  }
+{ (go | undo | toggle) full }	{ Press ctrl{-}cmd{-}f.  }
+{ grab left }	{ Press shift{-}up.  }
+{ grab right }	{ Press shift{-}down.  }
+{ add line }	{ Press shift{-}enter.  }
+{ (slack | lack) (slap | slaw | slapper) }	{ Press cmd{-}right shift{-}enter.  }
+{ (slack | lack) (react | reaction) }	{ Press cmd{-}shift{-}\textbackslash.  }
+{ (insert command | commandify) }	{ Press cmd{-}shift{-}c.  }
+{ insert link }	{ Press cmd{-}shift{-}u.  }
+{ insert code }	{ Press cmd{-}shift{-}alt{-}c.  }
+{ (slack | lack) (bull | bullet | bulleted) {[}list{]} }	{ Press cmd{-}shift{-}8.  }
+{ (slack | lack) (number | numbered) {[}list{]} }	{ Press cmd{-}shift{-}7.  }
+{ (slack | lack) (quotes | quotation) }	{ Press cmd{-}shift{-}$>$.  }
+{ bold }	{ Press cmd{-}b.  }
+{ (italic | italicize) }	{ Press cmd{-}i.  }
+{ (strike | strikethrough) }	{ Press cmd{-}shift{-}x.  }
+{ (slack | lack) snippet }	{ Press cmd{-}shift{-}enter.  }
+{ ({[}toggle{]} mute | unmute) }	{ Press m.  }
+{ (slack | lack) huddle }	{ Press cmd{-}shift{-}h.  }
+{ (slack | lack) ({[}toggle{]} video) }	{ Press v.  }
+{ (slack | lack) invite }	{ Press a.  }
+{ (slack | lack) shortcuts }	{ Press cmd{-}/.  }
+{ emote  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  }	{ Insert "$<$text$>$".  }
+{ toggle left sidebar }	{ Press cmd{-}shift{-}d.  }
+{ toggle right sidebar }	{ Press cmd{-}..  }
+{ (move | next) focus }	{ Show a desktop notification. Press ctrl{-}`.  }
+{ {[}next{]} (section | zone) }	{ Show a desktop notification. Press f6.  }
+{ (previous | last) (section | zone) }	{ Show a desktop notification. Press shift{-}f6.  }
+{ {[}next{]} (element | bit) }	{ Show a desktop notification. Press tab.  }
+{ (previous | last) (element | bit) }	{ Show a desktop notification. Press shift{-}tab.  }

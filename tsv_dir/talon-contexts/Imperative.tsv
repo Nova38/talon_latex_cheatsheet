@@ -1,0 +1,16 @@
+Command	Result
+{ block }	{ Inserts equivalent of \{.  }
+{ state if }	{ Inserts if statement.  }
+{ state else if }	{ Inserts else if statement.  }
+{ state else }	{ Inserts else statement.  }
+{ state while }	{ Inserts while statement.  }
+{ state loop }	{ Inserts infinite loop statement.  }
+{ state for }	{ Inserts for statement.  }
+{ state for in }	{ Inserts for each equivalent statement.  }
+{ state switch }	{ Inserts switch statement.  }
+{ state case }	{ Inserts case statement.  }
+{ state do }	{ Inserts do statement.  }
+{ state goto }	{ inserts go{-}to statement.  }
+{ state return }	{ Inserts return statement.  }
+{ state break }	{ Inserts break statement.  }
+{ state next }	{ Inserts next statement.  }

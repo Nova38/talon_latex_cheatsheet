@@ -1,0 +1,16 @@
+Command	Result
+{ (op | is) strict equal }	{ Insert " === ".  }
+{ (op | is) strict not equal }	{ Insert " !== ".  }
+{ op null else }	{ Insert " ?? ".  }
+{ state const }	{ Insert "const ".  }
+{ state let }	{ Insert "let ".  }
+{ state var }	{ Insert "var ".  }
+{ state export }	{ Insert "export ".  }
+{ state async }	{ Insert "async ".  }
+{ state await }	{ Insert "await ".  }
+{ dot $<$a href="\#user{-}code{-}common{-}member{-}function{-}list"$>$  \{user.code{-}common{-}member{-}function\}  $<$/a$>$ }	{ Insert `before + after`, leaving cursor between `before` and `after`. Not entirely reliable if `after` contains newlines..  }
+{ state map }	{ Show a desktop notification.  }
+{ state filter }	{ Show a desktop notification.  }
+{ state reduce }	{ Show a desktop notification.  }
+{ state spread }	{ Insert "...".  }
+{ from import }	{ Insert `before + after`, leaving cursor between `before` and `after`. Not entirely reliable if `after` contains newlines..  }

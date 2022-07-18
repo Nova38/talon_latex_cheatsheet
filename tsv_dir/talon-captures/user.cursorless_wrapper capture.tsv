@@ -1,0 +1,2 @@
+Command	Result
+{ user.cursorless\_wrapper }	{ CaptureImpl("user.cursorless{-}wrapper", Rule(" $<$a href="\#user{-}cursorless{-}wrapper{-}paired{-}delimiter{-}capture"$>$ \&lt;user.cursorless{-}wrapper{-}paired{-}delimiter\&gt; $<$/a$>$   |  $<$a href="\#user{-}cursorless{-}wrapper{-}snippet{-}list"$>$  \{user.cursorless{-}wrapper{-}snippet\}  $<$/a$>$")) }

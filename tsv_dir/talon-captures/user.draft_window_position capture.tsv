@@ -1,0 +1,2 @@
+Command	Result
+{ user.draft\_window\_position }	{ CaptureImpl("user.draft{-}window{-}position", Rule("(top | bottom | left | right | middle)")) }

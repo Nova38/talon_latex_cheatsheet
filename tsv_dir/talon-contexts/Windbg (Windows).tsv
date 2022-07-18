@@ -1,0 +1,21 @@
+Command	Result
+{ register  $<$a href="\#user{-}registers{-}capture"$>$ \&lt;user.registers\&gt; $<$/a$>$  }	{ Press @. Insert "$<$registers$>$".  }
+{ open help }	{ Insert ".hh\textbackslashn".  }
+{ add microsoft symbols }	{ Insert "srv*C:\textbackslashsymbols*http://msdl.microsoft.com/download/symbols;\textbackslashn".  }
+{ force reload symbols }	{ Insert ".reload /f\textbackslashn".  }
+{ reload symbols }	{ Insert ".reload\textbackslashn".  }
+{ loaded modules }	{ Insert "lm l\textbackslashn".  }
+{ display pointers }	{ Insert "dps ".  }
+{ dereference pointer }	{ Insert `before + after`, leaving cursor between `before` and `after`. Not entirely reliable if `after` contains newlines..  }
+{ show version }	{ Press ctrl{-}alt{-}w.  }
+{ view command }	{ Press alt{-}1.  }
+{ view watch }	{ Press alt{-}2.  }
+{ view locals }	{ Press alt{-}3.  }
+{ view registers }	{ Press alt{-}4.  }
+{ view memory }	{ Press alt{-}5.  }
+{ view call stack }	{ Press alt{-}6.  }
+{ view disassembly }	{ Press alt{-}7.  }
+{ view scratch pad }	{ Press alt{-}8.  }
+{ view (processes|threads) }	{ Press alt{-}9.  }
+{ dump function params }	{ Insert "r @rcx,@rdx,@r8,@r9\textbackslashn".  }
+{ (lib|library)  $<$a href="\#user{-}windows{-}dlls{-}capture"$>$ \&lt;user.windows{-}dlls\&gt; $<$/a$>$  }	{ Insert "$<$windows\_dlls$>$".  }

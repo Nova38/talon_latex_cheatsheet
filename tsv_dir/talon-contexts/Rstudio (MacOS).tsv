@@ -1,0 +1,89 @@
+Command	Result
+{ run that }	{ Press cmd{-}enter.  }
+{ run document }	{ Press cmd{-}alt{-}r.  }
+{ run from top }	{ Press cmd{-}alt{-}b.  }
+{ run to end }	{ Press cmd{-}alt{-}e.  }
+{ run (function|funk) }	{ Press cmd{-}alt{-}f.  }
+{ run section }	{ Press cmd{-}alt{-}t.  }
+{ run previous chunks }	{ Press cmd{-}alt{-}p.  }
+{ run chunk }	{ Press cmd{-}alt{-}c.  }
+{ run next chunk }	{ Press cmd{-}alt{-}n.  }
+{ run all }	{ Press cmd{-}shift{-}s.  }
+{ run knitter }	{ Press cmd{-}shift{-}k.  }
+{ run profiler }	{ Press cmd{-}shift{-}alt{-}p.  }
+{ jump back }	{ Press cmd{-}f9.  }
+{ jump forward }	{ Press cmd{-}f10.  }
+{ close all tabs }	{ Press cmd{-}shift{-}w.  }
+{ indent lines }	{ Press cmd{-}i.  }
+{ toggle comment }	{ Press cmd{-}shift{-}c.  }
+{ reformat comment }	{ Press cmd{-}shift{-}/.  }
+{ reformat R code }	{ Press cmd{-}shift{-}a.  }
+{ line up }	{ Press alt{-}up.  }
+{ line down }	{ Press alt{-}down.  }
+{ duplicate line up }	{ Press cmd{-}alt{-}up.  }
+{ duplicate line {[}down{]} }	{ Press cmd{-}alt{-}down.  }
+{ select to paren }	{ Press ctrl{-}shift{-}e.  }
+{ select to matching paren }	{ Press ctrl{-}shift{-}alt{-}e.  }
+{ jump to matching }	{ Press ctrl{-}p.  }
+{ expand selection }	{ Press shift{-}alt{-}cmd{-}up.  }
+{ reduce selection }	{ Press shift{-}alt{-}cmd{-}down.  }
+{ add cursor up }	{ Press ctrl{-}alt{-}up.  }
+{ add cursor down }	{ Press ctrl{-}alt{-}down.  }
+{ move active cursor up }	{ Press ctrl{-}alt{-}shift{-}up.  }
+{ move active cursor down }	{ Press ctrl{-}alt{-}shift{-}down.  }
+{ delete line }	{ Press cmd{-}d.  }
+{ delete word left }	{ Press alt{-}backspace.  }
+{ delete word right }	{ Press alt{-}delete.  }
+{ assign that }	{ Press alt{-}{-}.  }
+{ pipe that }	{ Press cmd{-}shift{-}m.  }
+{ insert knitter chunk }	{ Press cmd{-}alt{-}i.  }
+{ fold that }	{ Press cmd{-}alt{-}l.  }
+{ unfold that }	{ Press cmd{-}shift{-}alt{-}l.  }
+{ fold all }	{ Press cmd{-}alt{-}o.  }
+{ unfold all }	{ Press cmd{-}shift{-}alt{-}o.  }
+{ find and replace }	{ Press cmd{-}f.  }
+{ find next }	{ Press cmd{-}g.  }
+{ find previous }	{ Press cmd{-}shift{-}g.  }
+{ find with selection }	{ Press cmd{-}e.  }
+{ find in files }	{ Press cmd{-}shift{-}f.  }
+{ run replace }	{ Press cmd{-}shift{-}j.  }
+{ run spell check }	{ Press f7.  }
+{ go to source }	{ Press ctrl{-}1.  }
+{ go to console }	{ Press ctrl{-}2.  }
+{ go to help }	{ Press ctrl{-}3.  }
+{ go to history }	{ Press ctrl{-}4.  }
+{ go to files }	{ Press ctrl{-}5.  }
+{ go to (plots|plot) }	{ Press ctrl{-}6.  }
+{ go to packages }	{ Press ctrl{-}7.  }
+{ go to environment }	{ Press ctrl{-}8.  }
+{ go to git }	{ Press ctrl{-}9.  }
+{ go to build }	{ Press ctrl{-}0.  }
+{ go to terminal }	{ Press alt{-}shift{-}t.  }
+{ go to omni }	{ Press ctrl{-}..  }
+{ go to line }	{ Press cmd{-}shift{-}alt{-}g.  }
+{ go to section }	{ Press cmd{-}shift{-}alt{-}j.  }
+{ go to tab }	{ Press ctrl{-}shift{-}..  }
+{ go to previous tab }	{ Press ctrl{-}f11.  }
+{ go to next tab }	{ Press ctrl{-}f12.  }
+{ go to first tab }	{ Press ctrl{-}shift{-}f11.  }
+{ go to last tab }	{ Press ctrl{-}shift{-}f12.  }
+{ zoom source }	{ Press ctrl{-}shift{-}1.  }
+{ (zoom|show) all }	{ Press ctrl{-}shift{-}0.  }
+{ help that }	{ Press f1.  }
+{ define that }	{ Press f2.  }
+{ previous plot }	{ Press cmd{-}alt{-}f11.  }
+{ next plot }	{ Press cmd{-}alt{-}f12.  }
+{ restart R session }	{ Press cmd{-}shift{-}f10.  }
+{ dev tools build }	{ Press cmd{-}shift{-}b.  }
+{ dev tools load all }	{ Press cmd{-}shift{-}l.  }
+{ dev tools test }	{ Press cmd{-}shift{-}t.  }
+{ dev tools check }	{ Press cmd{-}shift{-}e.  }
+{ dev tools document }	{ Press cmd{-}shift{-}d.  }
+{ toggle breakpoint }	{ Press shift{-}f9.  }
+{ debug next }	{ Press f10.  }
+{ debug step into (function|funk) }	{ Press shift{-}f4.  }
+{ debug finish (function|funk) }	{ Press shift{-}f6.  }
+{ debug continue }	{ Press shift{-}f5.  }
+{ debug stop }	{ Press shift{-}f8.  }
+{ run git diff }	{ Press ctrl{-}alt{-}d.  }
+{ run git commit }	{ Press ctrl{-}alt{-}m.  }

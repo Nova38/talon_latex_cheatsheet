@@ -1,0 +1,2 @@
+Command	Result
+{ user.c\_types }	{ CaptureImpl("user.c{-}types", Rule("$<$a href="\#user{-}c{-}types{-}list"$>$  \{self.c{-}types\}  $<$/a$>$")) }

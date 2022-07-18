@@ -1,0 +1,4 @@
+Command	Result
+{ macro record }	{ Begin recording a new voice command macro..  }
+{ macro stop }	{ Stop recording the macro..  }
+{ macro play }	{ Execute the commands in the last recorded macro..  }

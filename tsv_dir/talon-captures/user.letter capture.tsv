@@ -1,0 +1,2 @@
+Command	Result
+{ user.letter }	{ CaptureImpl("user.letter", Rule("$<$a href="\#user{-}letter{-}list"$>$  \{self.letter\}  $<$/a$>$")) }

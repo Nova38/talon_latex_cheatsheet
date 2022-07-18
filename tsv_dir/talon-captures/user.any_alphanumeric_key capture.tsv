@@ -1,0 +1,2 @@
+Command	Result
+{ user.any\_alphanumeric\_key }	{ CaptureImpl("user.any{-}alphanumeric{-}key", Rule("(  $<$a href="\#user{-}letter{-}capture"$>$ \&lt;self.letter\&gt; $<$/a$>$   |   $<$a href="\#user{-}number{-}key{-}capture"$>$ \&lt;self.number{-}key\&gt; $<$/a$>$   |   $<$a href="\#user{-}symbol{-}key{-}capture"$>$ \&lt;self.symbol{-}key\&gt; $<$/a$>$  )")) }

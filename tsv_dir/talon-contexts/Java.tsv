@@ -1,0 +1,7 @@
+Command	Result
+{ boxed {[}type{]} $<$a href="\#user{-}java{-}boxed{-}type{-}list"$>$  \{user.java{-}boxed{-}type\}  $<$/a$>$ }	{ Insert "$<$user.java\_boxed\_type$>$ +  ".  }
+{ generic {[}type{]} $<$a href="\#user{-}java{-}generic{-}data{-}structure{-}list"$>$  \{user.java{-}generic{-}data{-}structure\}  $<$/a$>$ }	{ Insert `before + after`, leaving cursor between `before` and `after`. Not entirely reliable if `after` contains newlines..  }
+{ type $<$a href="\#user{-}code{-}type{-}list"$>$  \{user.code{-}type\}  $<$/a$>$ array }	{ Insert "$<$user.code\_type$>$". code\_operator\_subscript (e.g., C++ {[}{]}).  }
+{ {[}state{]} $<$a href="\#user{-}java{-}modifier{-}list"$>$  \{user.java{-}modifier\}  $<$/a$>$ }	{ Insert "$<$user.java\_modifier$>$ +  ".  }
+{ op array }	{ code\_operator\_subscript (e.g., C++ {[}{]}).  }
+{ op new }	{ Insert "new ".  }

@@ -1,0 +1,5 @@
+Command	Result
+{ page next }	{ Go to next page.  }
+{ page last }	{ Go to previous page.  }
+{ go page  \&lt;number\&gt;   }	{ Go to page number.  }
+{ go page final }	{ Go to final page.  }

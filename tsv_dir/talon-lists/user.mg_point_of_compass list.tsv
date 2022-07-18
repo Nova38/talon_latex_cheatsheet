@@ -1,0 +1,17 @@
+Command	Result
+{ east }	{ east }
+{ east south east }	{ east south east }
+{ south east }	{ south east }
+{ south south east }	{ south south east }
+{ south }	{ south }
+{ south south west }	{ south south west }
+{ south west }	{ south west }
+{ west south west }	{ west south west }
+{ west }	{ west }
+{ west north west }	{ west north west }
+{ north west }	{ north west }
+{ north north west }	{ north north west }
+{ north }	{ north }
+{ north north east }	{ north north east }
+{ north east }	{ north east }
+{ east north east }	{ east north east }

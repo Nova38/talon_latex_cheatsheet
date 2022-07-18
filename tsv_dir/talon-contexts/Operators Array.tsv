@@ -1,0 +1,2 @@
+Command	Result
+{ op subscript }	{ code\_operator\_subscript (e.g., C++ {[}{]}).  }

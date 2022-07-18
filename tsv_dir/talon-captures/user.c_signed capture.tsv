@@ -1,0 +1,2 @@
+Command	Result
+{ user.c\_signed }	{ CaptureImpl("user.c{-}signed", Rule("$<$a href="\#user{-}c{-}signed{-}list"$>$  \{self.c{-}signed\}  $<$/a$>$")) }

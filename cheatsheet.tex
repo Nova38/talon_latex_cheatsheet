@@ -20,7 +20,7 @@
 % --------------------------------------------------
 % Color
 % --------------------------------------------------
-\usepackage[usenames,dvipsnames,rgb]{xcolor}
+\usepackage[usenames,dvipsnames,HTML,rgb,table,x11names]{xcolor}
 
 % --------------------------------------------------
 
@@ -29,41 +29,56 @@
 \usepackage{booktabs}
 \usepackage{colortbl}
 \usepackage{array,ragged2e}
-
+\pgfplotsset{compat=1.18}
 
 \pgfplotstableset{
     string type,
     trim cells= true,
-    every even row/.style={ before row={\rowcolor[gray]{1}} },
-    every head row/.style={ before row=\toprule,after row=\midrule },
-    every last row/.style={ after row=\bottomrule },
+    every head row/.style={ before row=\hiderowcolors,after row=\midrule\showrowcolors },
+    every last row/.style={ after row= },
     assign column name/.style={/pgfplots/table/column name={\textbf{#1}}},
     display columns/0/.style={
         postproc cell content/.append style={
-            /pgfplots/table/@cell content/.add={\leavevmode\color{blue}}{},
+            /pgfplots/table/@cell content/.add={\leavevmode\color{CommandColor}}{},
         },
-        column type={>{\RaggedLeft}m{.4\textwidth}},
+        column type={>{\RaggedLeft}m{.41\textwidth}},
     },
     display columns/1/.style={
         postproc cell content/.append style={
             /pgfplots/table/@cell content/.add={
-                \leavevmode\color{red}}{},
+                \leavevmode\color{SpeechColor}}{},
         },
-        column type={>{\RaggedRight}m{.4\textwidth}}  
+        column type={>{\RaggedRight}m{.41\linewidth}}  
     },
+    search path = {.,./modified/,./tsv_dir/talon-lists/,./tsv_dir/talon-contexts/,./tsv_dir/talon-formatters/},
 }
+
+
+
 
 
 \newcommand{\OptionalPrefix}[1]{\footnotesize\textbf{(#1)}\upshape\normalsize{}}
 
 \newcommand{\RequiredPrefix}[1]{\footnotesize\textbf{[#1]}\upshape\normalsize{}}
 
-\newcommand{\AltCommand}[1]{\vfill{}/}
+\newcommand{\AltCommand}[1]{\vfill{}/#1}
 
+\newcommand{\SetColors}[1]{
+    % \definecolor{TitleBGColor}{HTML}{#1}
+    \colorlet{BGColor}{#1!5!white}
+    \colorlet{TitleBGColor}{#1!75!black}
+    \rowcolors{2}{#1!10!white}{#1!5!white}
+}
 
 \usepackage[poster]{tcolorbox}
 
 \begin{document}
+
+\colorlet{CommandColor}{RoyalBlue4}
+\colorlet{SpeechColor}{Coral2}
+
+% \definecolor{SpeachColor}{HTML}{#1}'
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{tcbposter}[
         coverage = {spread},
@@ -74,40 +89,82 @@
                 colback=blue!5!white,
                 fonttitle=\large\bfseries\ttfamily,
                 center title,
-                left=0.2mm,right=0.2mm,top=0.2mm,bottom=0.2mm,boxsep=0.2mm,arc=0.2mm,boxrule=0.20pt,
+                left=0mm,right=0mm,top=0.2mm,bottom=0.2mm,boxsep=0mm,arc=0.2mm,boxrule=0.20pt,
+                halign = center,
             },
     ]
-    \pgfplotstableset{
-        every even row/.style={ before row={\rowcolor[gray]{.4}} },
-    }
-    \posterbox[adjusted title=Letters ]{name=a,column=1,span=1}
-    {    
-        \begin{center}
-            \pgfplotstabletypeset[col sep=tab]
-                {../user/cheatsheet/tsv_dir/talon-lists/user.letter.tsv}
-        \end{center}
-    }
+    \SetColors{DodgerBlue1}
 
-    \posterbox[adjusted title=symbols]{name=b,column=2,span=1}
+    % \definecolor{Mycolor2}{HTML}{00F9DE}
+    \posterbox[adjusted title=Letters, colbacktitle=TitleBGColor, colback=BGColor]
+    {name=Letters,column=1,span=1}
     {
-        \begin{center}
-            \pgfplotstabletypeset[
-            col sep=tab,   
-            display columns/0/.append style={
-                column type={>{\RaggedLeft}m{.6\textwidth}},
-            },
-            display columns/1/.append style={
-                column type={>{\RaggedRight}m{.2\textwidth}},
-            },
-        ]{./modified/user.symbol_key.tsv}
-        \end{center}
+        \pgfplotstabletypeset[col sep=tab]{user.letter list.tsv}
     }
 
-    \posterbox[adjusted title=symbols]{name=b,column=4,span=1}
+
+    \posterbox[adjusted title=Numbers, colbacktitle=TitleBGColor, colback=BGColor]
+    {name=Numbers,below=Letters}
     {
-
-
+        \pgfplotstabletypeset[col sep=tab]{user.number_key.tsv}
     }
+
+
+    \posterbox[adjusted title=Special Keys, colbacktitle=TitleBGColor, colback=BGColor]
+    {name=Special,below=Numbers}
+    {
+        \pgfplotstabletypeset[col sep=tab]{user.special_key.tsv}
+    }
+
+
+    \posterbox[adjusted title=Arrow Keys, colbacktitle=TitleBGColor, colback=BGColor]
+    {name=Arrow, column=3}
+    {
+        \pgfplotstabletypeset[col sep=tab]{user.arrow_key.tsv}
+    }
+
+  
+
+
+    \posterbox[adjusted title=Symbols,colbacktitle=TitleBGColor, colback=BGColor]
+    {name=Symbols,column=2,span=1}
+    {
+        \pgfplotstabletypeset[
+        col sep=tab,
+        display columns/0/.append style={
+            column type={>{\RaggedLeft}m{.61\textwidth}},
+            },
+        display columns/1/.append style={
+            column type={>{\RaggedRight}m{.21\textwidth}},
+            },
+        ]{user.symbol_key.tsv}
+    }
+    \posterbox[adjusted title=Modifiers,colbacktitle=TitleBGColor, colback=BGColor]
+    {name=Modifiers,column=2,below=Symbols}
+    {
+        \pgfplotstabletypeset[col sep=tab]{user.modifier_key.tsv}
+    }
+
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \SetColors{MediumPurple1}
+
+    \posterbox[adjusted title=Cursorless Hat  Color,colbacktitle=TitleBGColor, colback=BGColor]
+    {name=HatColor,column=3,below=Arrow}
+    {
+        \pgfplotstabletypeset[col sep=tab]{user.cursorless_hat_color.tsv}
+    }
+  
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+  
+
+    % \posterbox[adjusted title=Code Formatter,colbacktitle=TitleBGColor, colback=BGColor]
+    % {name=Formatter_Code,column=2,below=Modifiers}
+    % {
+    %     \pgfplotstabletypeset[col sep=tab]{user.formatter_code.tsv}
+    % }
+
     % \posterbox[adjusted title=symbols]{name=C,column=3,span=2}
     % {
     %     \pgfplotstabletypeset[
@@ -119,4 +176,113 @@
     % }
 \end{tcbposter}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{tcbposter}[
+    coverage = {spread},
+    poster = {spacing=2mm, columns=2,rows = 10},
+    boxes = {
+            skin=enhanced,
+            colbacktitle=blue!50!black,
+            colback=blue!5!white,
+            fonttitle=\large\bfseries\ttfamily,
+            center title,
+            left=0mm,right=0mm,top=0.2mm,bottom=0.2mm,boxsep=0mm,arc=0.2mm,boxrule=0.20pt,
+            halign = center,
+        },
+]
+
+\SetColors{BurntOrange}
+    
+    \posterbox[adjusted title=Generic Browser,colbacktitle=TitleBGColor, colback=BGColor]
+    {name=Generic Browser,column=1}
+    {
+    \pgfplotstabletypeset[
+            col sep=tab
+            display columns/0/.append style={
+                column type={>{\RaggedLeft}m{.4\textwidth}},
+                },
+            display columns/1/.append style={
+                column type={>{\RaggedRight}m{.5\textwidth}},
+                },
+        ]
+        {Generic Browser.tsv}
+    }
+    % \posterbox[adjusted title=Generic Terminal,colbacktitle=TitleBGColor, colback=BGColor]
+    % {name=Generic Terminal,column=2}
+    % {
+    %  \pgfplotstabletypeset[
+    %     col sep=tab
+    %     display columns/0/.append style={
+    %         column type={>{\RaggedLeft}m{.4\textwidth}},
+    %         },
+    %     display columns/1/.append style={
+    %         column type={>{\RaggedRight}m{.5\textwidth}},
+    %         },
+    % ]{Generic Terminal.tsv}
+    % }
+
+
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \SetColors{SeaGreen}
+    \posterbox[adjusted title=Date Time Insert,colbacktitle=TitleBGColor, colback=BGColor]
+    {name=Datetimeinsert,column=1, below=Generic Browser}
+    {
+     \pgfplotstabletypeset[
+        col sep=tab
+        display columns/0/.append style={
+            column type={>{\RaggedLeft}m{.4\textwidth}},
+            },
+        display columns/1/.append style={
+            column type={>{\RaggedRight}m{.5\textwidth}},
+            },
+    ]{Datetimeinsert.tsv}
+    }
+
+\end{tcbposter}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{tcbposter}[
+    coverage = {spread},
+    poster = {spacing=2mm, columns=2,rows = 10},
+    boxes = {
+            skin=enhanced,
+            colbacktitle=blue!50!black,
+            colback=blue!5!white,
+            fonttitle=\large\bfseries\ttfamily,
+            center title,
+            left=0mm,right=0mm,top=0.2mm,bottom=0.2mm,boxsep=0mm,arc=0.2mm,boxrule=0.20pt,
+            halign = center,
+        },
+]
+
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \SetColors{SeaGreen}
+    \posterbox[adjusted title=Mouse,colbacktitle=TitleBGColor, colback=BGColor]
+    {name=Mouse,column=1}
+    {
+     \pgfplotstabletypeset[
+        col sep=tab
+        display columns/0/.append style={
+            column type={>{\RaggedLeft}p{.01\textwidth}},
+            },
+        display columns/1/.append style={
+            column type={>{\RaggedRight}m{.5\textwidth}},
+            },
+        skip rows between index={21}{100},
+    ]{Mouse.tsv}
+    }
+    \posterbox[adjusted title=Mouse,colbacktitle=TitleBGColor, colback=BGColor]
+    {name=Mouse,column=2}
+    {
+     \pgfplotstabletypeset[
+        col sep=tab
+        display columns/0/.append style={
+            column type={>{\RaggedLeft}m{.4\textwidth}},
+            },
+        display columns/1/.append style={
+            column type={>{\RaggedRight}m{.5\textwidth}},
+            },
+        skip rows between index={0}{21},
+    ]{Mouse.tsv}
+    }
+\end{tcbposter}
 \end{document}

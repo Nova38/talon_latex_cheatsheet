@@ -1,0 +1,2 @@
+Command	Result
+{ user.arrow\_keys }	{ CaptureImpl("user.arrow{-}keys", Rule(" $<$a href="\#user{-}arrow{-}key{-}capture"$>$ \&lt;self.arrow{-}key\&gt; $<$/a$>$ +")) }

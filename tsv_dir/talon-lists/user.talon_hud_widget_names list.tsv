@@ -1,0 +1,11 @@
+Command	Result
+{ status bar }	{ status\_bar }
+{ event log }	{ event\_log }
+{ text panel }	{ Text panel }
+{ documentation }	{ Documentation }
+{ choices }	{ Choices }
+{ ability bar }	{ ability\_bar }
+{ walkthrough }	{ walkthrough }
+{ context menu }	{ context\_menu }
+{ cursor tracker }	{ cursor\_tracker }
+{ screen overlay }	{ screen\_overlay }

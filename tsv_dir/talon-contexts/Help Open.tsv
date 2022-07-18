@@ -1,0 +1,7 @@
+Command	Result
+{ help next }	{ Navigates to next page.  }
+{ help previous }	{ Navigates to previous page.  }
+{ help  \&lt;number\&gt;   }	{ Select the context by a number.  }
+{ help return }	{ to the main help window }
+{ help refresh }	{ Refreshes the help.  }
+{ help close }	{ Hides the help.  }

@@ -1,0 +1,35 @@
+Command	Result
+{ anaconda }	{ Insert "conda ".  }
+{ anaconda help }	{ Insert "conda {-}{-}help\textbackslashn".  }
+{ anaconda version }	{ Insert "conda {-}{-}version\textbackslashn".  }
+{ anaconda environment list }	{ Insert "conda env list\textbackslashn".  }
+{ anaconda environment create }	{ Insert "conda env create {-}f ".  }
+{ anaconda environment remove }	{ Insert "conda env remove {-}n ".  }
+{ anaconda activate }	{ Insert "conda activate ".  }
+{ anaconda clean }	{ Insert "conda clean ".  }
+{ anaconda compare }	{ Insert "conda compare ".  }
+{ anaconda config }	{ Insert "conda config ".  }
+{ anaconda create }	{ Insert "conda create ".  }
+{ anaconda info }	{ Insert "conda info ".  }
+{ anaconda init }	{ Insert "conda init ".  }
+{ anaconda install }	{ Insert "conda install ".  }
+{ anaconda list }	{ Insert "conda list ".  }
+{ anaconda package }	{ Insert "conda package ".  }
+{ anaconda remove }	{ Insert "conda remove ".  }
+{ anaconda uninstall }	{ Insert "conda uninstall ".  }
+{ anaconda run }	{ Insert "conda run ".  }
+{ anaconda search }	{ Insert "conda search ".  }
+{ anaconda update }	{ Insert "conda update ".  }
+{ anaconda upgrade }	{ Insert "conda upgrade ".  }
+{ anaconda build }	{ Insert "conda build ".  }
+{ anaconda convert }	{ Insert "conda convert ".  }
+{ anaconda debug }	{ Insert "conda debug ".  }
+{ anaconda develop }	{ Insert "conda develop ".  }
+{ anaconda environment }	{ Insert "conda env ".  }
+{ anaconda index }	{ Insert "conda index ".  }
+{ anaconda inspect }	{ Insert "conda inspect ".  }
+{ anaconda metapackage }	{ Insert "conda metapackage ".  }
+{ anaconda render }	{ Insert "conda render ".  }
+{ anaconda server }	{ Insert "conda server ".  }
+{ anaconda skeleton }	{ Insert "conda skeleton ".  }
+{ anaconda verify }	{ Insert "conda verify ".  }

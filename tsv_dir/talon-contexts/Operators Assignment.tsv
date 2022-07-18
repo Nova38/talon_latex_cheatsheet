@@ -1,0 +1,11 @@
+Command	Result
+{ op (equals | assign) }	{ code\_operator\_assignment.  }
+{ op (minus | subtract) equals }	{ code\_operator\_subtraction\_equals.  }
+{ op (plus | add) equals }	{ code\_operator\_addition\_assignment.  }
+{ op (times | multiply) equals }	{ code\_operator\_multiplication\_assignment.  }
+{ op divide equals }	{ code\_operator\_division\_assignment.  }
+{ op mod equals }	{ code\_operator\_modulo\_assignment.  }
+{ {[}op{]} increment }	{ code\_operator\_increment.  }
+{ (op | logical | bitwise) (ex | exclusive) or equals }	{ user.code\_operator\_bitwise\_exclusive\_or\_equals() }
+{ {[}(op | logical | bitwise){]} (left shift | shift left) equals }	{ user.code\_operator\_bitwise\_left\_shift\_equals() }
+{ {[}(op | logical | bitwise){]} (left right | shift right) equals }	{ user.code\_operator\_bitwise\_right\_shift\_equals() }

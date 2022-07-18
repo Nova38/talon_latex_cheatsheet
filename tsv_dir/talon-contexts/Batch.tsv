@@ -1,0 +1,11 @@
+Command	Result
+{ soft exit }	{ Insert "exit /B 1\textbackslashn".  }
+{ hard exit }	{ Insert "exit 1\textbackslashn".  }
+{ echo }	{ Insert "echo ".  }
+{ echo off }	{ Insert "@echo off\textbackslashn".  }
+{ call }	{ Insert "call ".  }
+{ call shell }	{ Insert "call cmd \textbackslashc ".  }
+{ if error }	{ Insert "if errorlevel 1 ".  }
+{ go to }	{ Insert "goto ".  }
+{ delayed expansion }	{ Insert "SETLOCAL EnableDelayedExpansion\textbackslashn".  }
+{ arg  \&lt;number{-}small\&gt;   }	{ Insert "\% $<$number\_small$>$".  }

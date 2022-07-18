@@ -1,0 +1,43 @@
+Command	Result
+{ open help }	{ Press ?.  }
+{ {[}focus{]} search }	{ Press /.  }
+{ confirm active }	{ Press enter.  }
+{ close active }	{ Press escape.  }
+{ open command {[}palette{]} }	{ Press shift{-}space.  }
+{ new message }	{ Press c.  }
+{ send message }	{ Press ctrl{-}enter.  }
+{ save message }	{ Press ctrl{-}s.  }
+{ (go|jump) {[}to{]} inbox }	{ Press g. Press i.  }
+{ (go|jump) {[}to{]} draft }	{ Press g. Press d.  }
+{ (go|jump) {[}to{]} sent }	{ Press g. Press s.  }
+{ (go|jump) {[}to{]} starred }	{ Press g. Press ..  }
+{ (go|jump) {[}to{]} archive }	{ Press g. Press a.  }
+{ (go|jump) {[}to{]} spam }	{ Press g. Press x.  }
+{ (go|jump) {[}to{]} trash }	{ Press g. Press t.  }
+{ (prev|previous) message }	{ Press up.  }
+{ next message }	{ Press down.  }
+{ exit message }	{ Press left.  }
+{ enter message }	{ Press right.  }
+{ (show|display) newer {[}message{]} }	{ Press k.  }
+{ (show|display) older {[}message{]} }	{ Press j.  }
+{ open message }	{ Press enter.  }
+{ go back }	{ Press escape.  }
+{ select all }	{ Press *. Press a.  }
+{ (deselect|unselect) all }	{ Press *. Press n.  }
+{ select {[}the{]} (message|conversation) }	{ Press x.  }
+{ mark {[}as{]} read }	{ Press r.  }
+{ mark {[}as{]} unread }	{ Press u.  }
+{ star (message|conversation) }	{ Press ..  }
+{ move to inbox }	{ Press i.  }
+{ move to trash }	{ Press t.  }
+{ move to archive }	{ Press a.  }
+{ move to spam }	{ Press s.  }
+{ reply to (message|conversation) }	{ Press shift{-}r.  }
+{ reply all {[}to{]} (message|conversation) }	{ Press shift{-}a.  }
+{ forward (message|conversation) }	{ Press shift{-}f.  }
+{ (prev|previous) contact }	{ Press up.  }
+{ next contact }	{ Press down.  }
+{ enter contact }	{ Press right.  }
+{ delete contact }	{ Press t.  }
+{ exit contact }	{ Press left.  }
+{ save contact }	{ Press ctrl{-}s.  }

@@ -1,0 +1,8 @@
+Command	Result
+{ args pipe }	{ Insert "||". Press left.  }
+{ dock string }	{ Inserts a document comment and positions the cursor appropriately.  }
+{ state end }	{ Insert "end".  }
+{ state begin }	{ Insert "begin".  }
+{ state rescue }	{ Insert "rescue ".  }
+{ state module }	{ Insert "module ".  }
+{ instance  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  }	{ Insert "@". inserts properly formatted private function name.  }

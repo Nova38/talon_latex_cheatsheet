@@ -1,0 +1,13 @@
+Command	Result
+{ select }	{ Insert "SELECT ".  }
+{ star }	{ Insert "*".  }
+{ from }	{ Insert "FROM ".  }
+{ select star from }	{ Insert "SELECT * FROM ".  }
+{ where }	{ Insert "WHERE ".  }
+{ order by }	{ Insert "ORDER BY ".  }
+{ descending }	{ Insert " DESC".  }
+{ ascending }	{ Insert " ASC".  }
+{ dot i d }	{ Insert ".id".  }
+{ is not null }	{ Insert " IS NOT NULL".  }
+{ is null }	{ Insert " IS NULL".  }
+{ inner join }	{ Insert "INNER JOIN  ON ". Press left. Press left. Press left. Press left.  }

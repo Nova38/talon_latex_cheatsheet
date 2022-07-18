@@ -1,0 +1,42 @@
+Command	Result
+{ new message }	{ Press n.  }
+{ send {[}this{]} message }	{ Press alt{-}s.  }
+{ reply {[}to{]} {[}this{]} message }	{ Press r.  }
+{ reply all {[}to{]} {[}this{]} message }	{ Press ctrl{-}shift{-}r.  }
+{ forward {[}this{]} message }	{ Press ctrl{-}shift{-}f.  }
+{ save {[}draft{]} }	{ Press ctrl{-}s.  }
+{ discard {[}draft{]} }	{ Press esc.  }
+{ insert {[}a{]} {[}hyper{]} link }	{ Press ctrl{-}k.  }
+{ (select|unselect) {[}this{]} message }	{ Press ctrl{-}space.  }
+{ select all {[}messages{]} }	{ Press ctrl{-}a.  }
+{ clear all {[}messages{]} }	{ Press esc.  }
+{ select first {[}message{]} }	{ Press home.  }
+{ select last {[}message{]} }	{ Press and.  }
+{ open {[}this{]} message }	{ Press o.  }
+{ open {[}this{]} message {[}in{]} {[}a{]} new window }	{ Press shift{-}enter.  }
+{ close {[}this{]} message }	{ Press esc.  }
+{ {[}open{]} {[}the{]} next (item|message) }	{ Press ctrl{-}..  }
+{ {[}open{]} {[}the{]} (prev|previous) item }	{ Press ctrl{-},.  }
+{ next reading {[}pane{]} (item|message) }	{ Press ..  }
+{ (prev|previous) {[}pane{]} (item|message) }	{ Press ,.  }
+{ (expand|collapse) {[}conversation{]} }	{ Press x.  }
+{ go {[}to{]} mail }	{ Press ctrl{-}shift{-}1.  }
+{ go {[}to{]} calendar }	{ Press ctrl{-}shift{-}2.  }
+{ go {[}to{]} people }	{ Press ctrl{-}shift{-}3.  }
+{ go {[}to{]} to do }	{ Press ctrl{-}shift{-}4.  }
+{ go {[}to{]} inbox }	{ Press g. Press i.  }
+{ go to drafts }	{ Press g. Press d.  }
+{ go to sent }	{ Press g. Press s.  }
+{ search {[}email{]} }	{ Press alt{-}q.  }
+{ show help }	{ Press ?.  }
+{ undo {[}last{]} {[}action{]} }	{ Press ctrl{-}z.  }
+{ delete {[}this{]} {[}message{]} }	{ Press delete.  }
+{ (perm|permanently) delete {[}this{]} {[}message{]} }	{ Press shift+delete.  }
+{ new folder }	{ Press shift{-}e.  }
+{ mark {[}this{]} {[}(item|message){]} as read }	{ Press q.  }
+{ mark {[}this{]} {[}(item|message){]} as unread }	{ Press u.  }
+{ flag {[}this{]} {[}(item|message){]} }	{ Press insert.  }
+{ archive }	{ Press e.  }
+{ mark {[}this{]} {[}message{]} {[}as{]} junk }	{ Press j.  }
+{ moved to {[}a{]} folder }	{ Press v.  }
+{ categorize {[}this{]} message }	{ Press c.  }

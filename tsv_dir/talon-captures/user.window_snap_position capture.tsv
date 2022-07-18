@@ -1,0 +1,2 @@
+Command	Result
+{ user.window\_snap\_position }	{ CaptureImpl("user.window{-}snap{-}position", Rule("$<$a href="\#user{-}window{-}snap{-}positions{-}list"$>$  \{user.window{-}snap{-}positions\}  $<$/a$>$")) }

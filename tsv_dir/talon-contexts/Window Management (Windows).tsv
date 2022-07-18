@@ -1,0 +1,16 @@
+Command	Result
+{ window (new|open) }	{ Open a new window.  }
+{ window next }	{ Switch to next window for this app.  }
+{ window last }	{ Switch to previous window for this app.  }
+{ window close }	{ Close the current window.  }
+{ focus  $<$a href="\#user{-}running{-}applications{-}capture"$>$ \&lt;user.running{-}applications\&gt; $<$/a$>$  }	{ Focus a new application by name.  }
+{ focus }	{ Open a menu of running apps to switch to.  }
+{ running list }	{ Shows/hides all running applications.  }
+{ running close }	{ Hides list of running applications.  }
+{ launch  $<$a href="\#user{-}launch{-}applications{-}capture"$>$ \&lt;user.launch{-}applications\&gt; $<$/a$>$  }	{ Launch a new application by path (all OSes), or AppUserModel\_ID path on Windows.  }
+{ snap  $<$a href="\#user{-}window{-}snap{-}position{-}capture"$>$ \&lt;user.window{-}snap{-}position\&gt; $<$/a$>$  }	{ Move the active window to a specific position on{-}screen..  }
+{ snap next {[}screen{]} }	{ Move the active window to a specific screen..  }
+{ snap last {[}screen{]} }	{ Move the active window to the previous screen..  }
+{ snap screen  \&lt;number\&gt;   }	{ Move the active window leftward by one..  }
+{ snap  $<$a href="\#user{-}running{-}applications{-}capture"$>$ \&lt;user.running{-}applications\&gt; $<$/a$>$   $<$a href="\#user{-}window{-}snap{-}position{-}capture"$>$ \&lt;user.window{-}snap{-}position\&gt; $<$/a$>$  }	{ Snap a specific application to another screen..  }
+{ snap  $<$a href="\#user{-}running{-}applications{-}capture"$>$ \&lt;user.running{-}applications\&gt; $<$/a$>$  {[}screen{]}  \&lt;number\&gt;   }	{ Move a specific application to another screen..  }

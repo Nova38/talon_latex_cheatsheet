@@ -1,0 +1,7 @@
+Command	Result
+{ date insert }	{ Insert "the current time, formatted.".  }
+{ date insert UTC }	{ Insert "the current UTC time, formatted.".  }
+{ timestamp insert }	{ Insert "the current time, formatted.".  }
+{ timestamp insert high resolution }	{ Insert "the current time, formatted.".  }
+{ timestamp insert UTC }	{ Insert "the current UTC time, formatted.".  }
+{ timestamp insert UTC high resolution }	{ Insert "the current UTC time, formatted.".  }

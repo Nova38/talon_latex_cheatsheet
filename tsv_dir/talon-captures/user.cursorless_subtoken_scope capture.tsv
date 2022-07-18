@@ -1,0 +1,2 @@
+Command	Result
+{ user.cursorless\_subtoken\_scope }	{ CaptureImpl("user.cursorless{-}subtoken{-}scope", Rule("( $<$a href="\#user{-}cursorless{-}ordinal{-}range{-}capture"$>$ \&lt;user.cursorless{-}ordinal{-}range\&gt; $<$/a$>$   |   $<$a href="\#user{-}cursorless{-}first{-}last{-}range{-}capture"$>$ \&lt;user.cursorless{-}first{-}last{-}range\&gt; $<$/a$>$ )$<$a href="\#user{-}cursorless{-}subtoken{-}scope{-}type{-}list"$>$  \{user.cursorless{-}subtoken{-}scope{-}type\}  $<$/a$>$")) }

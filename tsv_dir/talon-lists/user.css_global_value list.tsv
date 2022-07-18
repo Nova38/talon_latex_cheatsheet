@@ -1,0 +1,5 @@
+Command	Result
+{ initial }	{ initial }
+{ inherit }	{ inherit }
+{ unset }	{ unset }
+{ revert }	{ revert }

@@ -1,0 +1,2 @@
+Command	Result
+{ user.prose\_simple\_number }	{ CaptureImpl("user.prose{-}simple{-}number", Rule("numeral  $<$a href="\#user{-}number{-}string{-}capture"$>$ \&lt;user.number{-}string\&gt; $<$/a$>$ ")) }

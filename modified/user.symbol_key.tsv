@@ -1,51 +1,35 @@
 Command	Result
-{ \OptionalPrefix{Left} angle \AltCommand{} less than}	{ $<$ }
+{ \OptionalPrefix{Left} angle \AltCommand{less than} }	{ $<$ }
 { \OptionalPrefix{L/Left} paren }	{ ( }
 { \OptionalPrefix{L/Left} square }	{ {[} }
 { \OptionalPrefix{left} brace } 	{ \{ }
-{ \RequiredPrefix{R/Right} angle \AltCommand{} rangle \AltCommand{} greater than }	{ $>$ }
+{ \RequiredPrefix{R/Right} angle \AltCommand{rangle} \AltCommand{greater than} }	{ $>$ }
 { \RequiredPrefix{R/Right} brace }	{ \} }
 { \RequiredPrefix{R/Right} paren }	{ ) }
 { \RequiredPrefix{R/Right} square}	{ {]} }
-{ ` }	{ ` }
-{ amper }	{ \& }
-{ and sign \AltCommand{} ampersand}	{ \& }
-{ apostrophe }	{ ' }
-{ asterisk }	{ * }
+{ amper \AltCommand{and sign} \AltCommand{ampersand} }	{ \& }
+{ apostrophe \AltCommand{quote}}	{ ' }
+{ asterisk \AltCommand{star}}	{ * }
 { at sign }	{ @ }
-{ back tick }	{ ` }
+{ grave \AltCommand{back tick}}	{ ` }
 { backslash }	{ \textbackslash }
 { bang }	{ ! }
 { caret }	{ \^{} }
 { colon }	{ : }
 { comma }	{ , }
-{ dash }	{ {-} }
-{ dollar }	{ \$ }
-{ dollar sign }	{ \$ }
-{ dot }	{ . }
-{ double quote }	{ " }
-{ down score }	{ \_ }
-{ dubquote }	{ "" }
+{ dash \AltCommand{minus}}	{ {-} }
+{ dollar \OptionalPrefix{sign} }	{ \$ }
+{ dot \AltCommand{period} \AltCommand{full stop} \AltCommand{point} }	{ . }
+{ double quote \AltCommand{dubquote}  }	{ " }
 { equals }	{ = }
 { exclamation  \RequiredPrefix{mark/point}}	{ ! }
-{ forward slash }	{ / }
-{ full stop }	{ . }
-{ grave }	{ ` }
-{ hash }	{ \# }
-{ hash sign \AltCommand{} number sign}	{ \# }
-{ minus }	{ {-} }
-{ percent }	{ \% }
-{ percent sign }	{ \% }
-{ period }	{ . }
+{ \OptionalPrefix{forward} slash }	{ / }
+{ hash \OptionalPrefix{sign} \AltCommand{number sign}}	{ \# }
+{ percent \OptionalPrefix{sign} }	{ \% }
 { pipe }	{ | }
 { plus }	{ + }
-{ point }	{ . }
-{ pound }	{ £ }
-{ pound sign }	{ £ }
+{ pound \OptionalPrefix{sign} }	{ £ }
 { question mark }	{ ? }
-{ quote }	{ ' }
 { semicolon }	{ ; }
-{ slash }	{ / }
-{ star }	{ * }
 { tilde }	{ $\sim $  }
-{ under score }	{ \_ }
+{ under score \AltCommand{down score}}	{ \_ }

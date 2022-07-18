@@ -1,0 +1,76 @@
+Command	Result
+{ add matrix row }	{ Press a sequence of keys prefixed with a lyx control chord (ctrl{-}\{type\} on mac, alt{-}\{type\} otherwise).  }
+{ (delete | remove) matrix row }	{ Press a sequence of keys prefixed with a lyx control chord (ctrl{-}\{type\} on mac, alt{-}\{type\} otherwise).  }
+{ add matrix column }	{ Press a sequence of keys prefixed with a lyx control chord (ctrl{-}\{type\} on mac, alt{-}\{type\} otherwise).  }
+{ (delete | remove) matrix column }	{ Press a sequence of keys prefixed with a lyx control chord (ctrl{-}\{type\} on mac, alt{-}\{type\} otherwise).  }
+{ square root }	{ Press a sequence of keys prefixed with a lyx control chord (ctrl{-}\{type\} on mac, alt{-}\{type\} otherwise).  }
+{ generic root }	{ Press a sequence of keys prefixed with a lyx control chord (ctrl{-}\{type\} on mac, alt{-}\{type\} otherwise).  }
+{ brackets }	{ Press a sequence of keys prefixed with a lyx control chord (ctrl{-}\{type\} on mac, alt{-}\{type\} otherwise).  }
+{ square brackets }	{ Press a sequence of keys prefixed with a lyx control chord (ctrl{-}\{type\} on mac, alt{-}\{type\} otherwise).  }
+{ curly brackets }	{ Press a sequence of keys prefixed with a lyx control chord (ctrl{-}\{type\} on mac, alt{-}\{type\} otherwise).  }
+{ absolute }	{ Press a sequence of keys prefixed with a lyx control chord (ctrl{-}\{type\} on mac, alt{-}\{type\} otherwise).  }
+{ accent hat }	{ Press a sequence of keys prefixed with a lyx control chord (ctrl{-}\{type\} on mac, alt{-}\{type\} otherwise).  }
+{ accent tilde }	{ Press a sequence of keys prefixed with a lyx control chord (ctrl{-}\{type\} on mac, alt{-}\{type\} otherwise).  }
+{ accent dot }	{ Press a sequence of keys prefixed with a lyx control chord (ctrl{-}\{type\} on mac, alt{-}\{type\} otherwise).  }
+{ accent double dot }	{ Press a sequence of keys prefixed with a lyx control chord (ctrl{-}\{type\} on mac, alt{-}\{type\} otherwise).  }
+{ accent bar }	{ Press a sequence of keys prefixed with a lyx control chord (ctrl{-}\{type\} on mac, alt{-}\{type\} otherwise).  }
+{ accent vector }	{ Press a sequence of keys prefixed with a lyx control chord (ctrl{-}\{type\} on mac, alt{-}\{type\} otherwise).  }
+{ blank summation }	{ Insert "\textbackslashsum ".  }
+{ summation }	{ Insert "\textbackslashstackrelthree ". Press down. Insert "\textbackslashsum ". Press down.  }
+{ blank product }	{ Insert "\textbackslashprod ".  }
+{ product }	{ Insert "\textbackslashstackrelthree ". Press down. Insert "\textbackslashprod ". Press down.  }
+{ blank limit }	{ Insert "\textbackslashlim ".  }
+{ limit }	{ Insert "\textbackslashunderset \textbackslashlim ". Press down.  }
+{ label above }	{ Insert "\textbackslashoverset ".  }
+{ label below }	{ Insert "\textbackslashunderset ".  }
+{ prime }	{ Superscript.  }
+{ degrees }	{ Superscript.  }
+{ exponential }	{ Insert "\textbackslashexp ". Press a sequence of keys prefixed with a lyx control chord (ctrl{-}\{type\} on mac, alt{-}\{type\} otherwise).  }
+{ expectation }	{ Insert "E". Press a sequence of keys prefixed with a lyx control chord (ctrl{-}\{type\} on mac, alt{-}\{type\} otherwise).  }
+{ variance }	{ Insert "Var". Press a sequence of keys prefixed with a lyx control chord (ctrl{-}\{type\} on mac, alt{-}\{type\} otherwise).  }
+{ real numbers }	{ Insert "\textbackslashmathbb R". Press right.  }
+{ complex numbers }	{ Insert "\textbackslashmathbb C". Press right.  }
+{ integer numbers }	{ Insert "\textbackslashmathbb Z". Press right.  }
+{ rational numbers }	{ Insert "\textbackslashmathbb Q". Press right.  }
+{ natural numbers }	{ Insert "\textbackslashmathbb N". Press right.  }
+{ text roman }	{ Insert "\textbackslashmathrm ".  }
+{ text bold }	{ Insert "\textbackslashmathbf ".  }
+{ text sans serif }	{ Insert "\textbackslashmathsf ".  }
+{ text italic }	{ Insert "\textbackslashmathit ".  }
+{ text typewriter }	{ Insert "\textbackslashmathtt ".  }
+{ text (beebee|blackboard bold | blackboard) }	{ Insert "\textbackslashmathbb ".  }
+{ new file }	{ Press ctrl{-}n.  }
+{ open file }	{ Press ctrl{-}o.  }
+{ save as }	{ Press ctrl{-}shift{-}s.  }
+{ (math | maths) mode }	{ Press ctrl{-}m.  }
+{ display mode }	{ Press ctrl{-}shift{-}m.  }
+{ normal mode }	{ Press a sequence of keys prefixed with a lyx control chord (ctrl{-}\{type\} on mac, alt{-}\{type\} otherwise).  }
+{ view PDF }	{ Press ctrl{-}r.  }
+{ update PDF }	{ Press ctrl{-}shift{-}r.  }
+{ next tab }	{ Press ctrl{-}pgdown.  }
+{ (prior | previous) tab }	{ Press ctrl{-}pgup.  }
+{ close tab }	{ Press ctrl{-}w.  }
+{ move line up }	{ Press alt{-}up.  }
+{ move line down }	{ Press alt{-}down.  }
+{ insert (in line formula | in line) }	{ Press a sequence of keys prefixed with a lyx control chord (ctrl{-}\{type\} on mac, alt{-}\{type\} otherwise).  }
+{ insert (numbered formula) }	{ Press a sequence of keys prefixed with a lyx control chord (ctrl{-}\{type\} on mac, alt{-}\{type\} otherwise).  }
+{ insert (display formula | display) }	{ Press a sequence of keys prefixed with a lyx control chord (ctrl{-}\{type\} on mac, alt{-}\{type\} otherwise).  }
+{ insert equation array }	{ Press a sequence of keys prefixed with a lyx control chord (ctrl{-}\{type\} on mac, alt{-}\{type\} otherwise).  }
+{ insert {[}bulleted{]} list }	{ Press a sequence of keys prefixed with a lyx control chord (ctrl{-}\{type\} on mac, alt{-}\{type\} otherwise).  }
+{ insert numbered list }	{ Press a sequence of keys prefixed with a lyx control chord (ctrl{-}\{type\} on mac, alt{-}\{type\} otherwise).  }
+{ insert description }	{ Press a sequence of keys prefixed with a lyx control chord (ctrl{-}\{type\} on mac, alt{-}\{type\} otherwise).  }
+{ insert part }	{ Press a sequence of keys prefixed with a lyx control chord (ctrl{-}\{type\} on mac, alt{-}\{type\} otherwise).  }
+{ insert (section | heading) }	{ Press a sequence of keys prefixed with a lyx control chord (ctrl{-}\{type\} on mac, alt{-}\{type\} otherwise).  }
+{ insert sub (section | heading) }	{ Press a sequence of keys prefixed with a lyx control chord (ctrl{-}\{type\} on mac, alt{-}\{type\} otherwise).  }
+{ insert sub sub (section | heading) }	{ Press a sequence of keys prefixed with a lyx control chord (ctrl{-}\{type\} on mac, alt{-}\{type\} otherwise).  }
+{ insert paragraph }	{ Press a sequence of keys prefixed with a lyx control chord (ctrl{-}\{type\} on mac, alt{-}\{type\} otherwise).  }
+{ insert sub paragraph }	{ Press a sequence of keys prefixed with a lyx control chord (ctrl{-}\{type\} on mac, alt{-}\{type\} otherwise).  }
+{ insert title }	{ Press a sequence of keys prefixed with a lyx control chord (ctrl{-}\{type\} on mac, alt{-}\{type\} otherwise).  }
+{ insert author }	{ Press a sequence of keys prefixed with a lyx control chord (ctrl{-}\{type\} on mac, alt{-}\{type\} otherwise).  }
+{ insert date }	{ Press a sequence of keys prefixed with a lyx control chord (ctrl{-}\{type\} on mac, alt{-}\{type\} otherwise).  }
+{ insert abstract }	{ Press a sequence of keys prefixed with a lyx control chord (ctrl{-}\{type\} on mac, alt{-}\{type\} otherwise).  }
+{ insert address }	{ Press a sequence of keys prefixed with a lyx control chord (ctrl{-}\{type\} on mac, alt{-}\{type\} otherwise).  }
+{ insert bibliography }	{ Press a sequence of keys prefixed with a lyx control chord (ctrl{-}\{type\} on mac, alt{-}\{type\} otherwise).  }
+{ insert quotation }	{ Press a sequence of keys prefixed with a lyx control chord (ctrl{-}\{type\} on mac, alt{-}\{type\} otherwise).  }
+{ insert quote }	{ Press a sequence of keys prefixed with a lyx control chord (ctrl{-}\{type\} on mac, alt{-}\{type\} otherwise).  }
+{ insert verse }	{ Press a sequence of keys prefixed with a lyx control chord (ctrl{-}\{type\} on mac, alt{-}\{type\} otherwise).  }

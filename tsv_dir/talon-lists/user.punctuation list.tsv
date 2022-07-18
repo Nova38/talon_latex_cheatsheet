@@ -1,0 +1,23 @@
+Command	Result
+{ ` }	{ ` }
+{ , }	{ , }
+{ back tick }	{ ` }
+{ grave }	{ ` }
+{ comma }	{ , }
+{ period }	{ . }
+{ full stop }	{ . }
+{ semicolon }	{ ; }
+{ colon }	{ : }
+{ forward slash }	{ / }
+{ question mark }	{ ? }
+{ exclamation mark }	{ ! }
+{ exclamation point }	{ ! }
+{ asterisk }	{ * }
+{ hash sign }	{ \# }
+{ number sign }	{ \# }
+{ percent sign }	{ \% }
+{ at sign }	{ @ }
+{ and sign }	{ \& }
+{ ampersand }	{ \& }
+{ dollar sign }	{ \$ }
+{ pound sign }	{ £ }

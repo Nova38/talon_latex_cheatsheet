@@ -1,0 +1,33 @@
+Command	Result
+{ lend }	{ Move cursor to end of line.  }
+{ bend }	{ Move cursor to start of line.  }
+{ go  \&lt;number\&gt;   }	{ Move cursor to line $<$n$>$.  }
+{ go  \&lt;number\&gt;   end }	{ Move cursor to line $<$n$>$. Move cursor to end of line.  }
+{ comment {[}line{]}  \&lt;number\&gt;   }	{ Selects lines from line\_start to line line\_end. Toggle comments on the current line(s).  }
+{ comment  \&lt;number\&gt;   until  \&lt;number\&gt;   }	{ Selects lines from line\_start to line line\_end. Toggle comments on the current line(s).  }
+{ clear {[}line{]}  \&lt;number\&gt;   }	{ Move cursor to line $<$n$>$. Selects lines from line\_start to line line\_end. Delete selection.  }
+{ clear  \&lt;number\&gt;   until  \&lt;number\&gt;   }	{ Selects lines from line\_start to line line\_end. Delete selection.  }
+{ copy {[}line{]}  \&lt;number\&gt;   }	{ Selects lines from line\_start to line line\_end. Copy selection to clipboard.  }
+{ copy  \&lt;number\&gt;   until  \&lt;number\&gt;   }	{ Selects lines from line\_start to line line\_end. Copy selection to clipboard.  }
+{ cut {[}line{]}  \&lt;number\&gt;   }	{ Selects lines from line\_start to line line\_end. Cut selection to clipboard.  }
+{ cut {[}line{]}  \&lt;number\&gt;   until  \&lt;number\&gt;   }	{ Selects lines from line\_start to line line\_end. Cut selection to clipboard.  }
+{ (paste | replace)  \&lt;number\&gt;   until  \&lt;number\&gt;   }	{ Selects lines from line\_start to line line\_end. Paste clipboard at cursor.  }
+{ (select | cell | sell) {[}line{]}  \&lt;number\&gt;   }	{ Selects lines from line\_start to line line\_end.  }
+{ (select | cell | sell)  \&lt;number\&gt;   until  \&lt;number\&gt;   }	{ Selects lines from line\_start to line line\_end.  }
+{ tab that }	{ Add a tab stop of indentation.  }
+{ tab {[}line{]}  \&lt;number\&gt;   }	{ Move cursor to line $<$n$>$. Add a tab stop of indentation.  }
+{ tab  \&lt;number\&gt;   until  \&lt;number\&gt;   }	{ Selects lines from line\_start to line line\_end. Add a tab stop of indentation.  }
+{ retab that }	{ Remove a tab stop of indentation.  }
+{ retab {[}line{]}  \&lt;number\&gt;   }	{ Selects lines from line\_start to line line\_end. Remove a tab stop of indentation.  }
+{ retab  \&lt;number\&gt;   until  \&lt;number\&gt;   }	{ Selects lines from line\_start to line line\_end. Remove a tab stop of indentation.  }
+{ drag {[}line{]} down }	{ Swap the current line with the line below.  }
+{ drag {[}line{]} up }	{ Swap the current line with the line above.  }
+{ drag up {[}line{]}  \&lt;number\&gt;   }	{ Selects lines from line\_start to line line\_end. Swap the current line with the line above.  }
+{ drag up  \&lt;number\&gt;   until  \&lt;number\&gt;   }	{ Selects lines from line\_start to line line\_end. Swap the current line with the line above.  }
+{ drag down {[}line{]}  \&lt;number\&gt;   }	{ Selects lines from line\_start to line line\_end. Swap the current line with the line below.  }
+{ drag down  \&lt;number\&gt;   until  \&lt;number\&gt;   }	{ Selects lines from line\_start to line line\_end. Swap the current line with the line below.  }
+{ clone (line|that) }	{ Create a new line identical to the current line.  }
+{ select camel left }	{ Extends the selection by camel/subword to the left.  }
+{ select camel right }	{ Extends the selection by camel/subword to the right.  }
+{ go camel left }	{ Moves cursor to the left by camel case/subword.  }
+{ go camel right }	{ Move cursor to the right by camel case/subword.  }

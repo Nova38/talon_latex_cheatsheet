@@ -1,0 +1,2 @@
+Command	Result
+{ user.navigation\_target }	{ CaptureImpl("user.navigation{-}target", Rule(" $<$a href="\#user{-}any{-}alphanumeric{-}key{-}capture"$>$ \&lt;user.any{-}alphanumeric{-}key\&gt; $<$/a$>$   |  $<$a href="\#user{-}navigation{-}target{-}name{-}list"$>$  \{user.navigation{-}target{-}name\}  $<$/a$>$  |  phrase  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$ ")) }

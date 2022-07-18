@@ -1,0 +1,6 @@
+Command	Result
+{ state $<$a href="\#user{-}terraform{-}module{-}block{-}list"$>$  \{user.terraform{-}module{-}block\}  $<$/a$>$ }	{ Inserts a new module{-}related block of a given type (e.g. variable, output, provider...).  }
+{ resource  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  }	{ Inserts a new resource block with given name.  }
+{ data {[}source{]}  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  }	{ Inserts a new data block with given name.  }
+{ {[}state{]} prop $<$a href="\#user{-}terraform{-}common{-}property{-}list"$>$  \{user.terraform{-}common{-}property\}  $<$/a$>$ }	{ Insert "$<$user.terraform\_common\_property$>$". code\_operator\_assignment.  }
+{ type $<$a href="\#user{-}code{-}type{-}list"$>$  \{user.code{-}type\}  $<$/a$>$ }	{ Insert "$<$code\_type$>$".  }

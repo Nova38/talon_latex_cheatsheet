@@ -1,0 +1,2 @@
+Command	Result
+{ user.system\_path }	{ CaptureImpl("user.system{-}path", Rule("$<$a href="\#user{-}system{-}paths{-}list"$>$  \{user.system{-}paths\}  $<$/a$>$")) }

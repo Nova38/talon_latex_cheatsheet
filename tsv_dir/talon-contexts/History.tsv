@@ -1,0 +1,6 @@
+Command	Result
+{ command history }	{ Toggles viewing the history.  }
+{ command history close }	{ Disables the history.  }
+{ command history clear }	{ Clear the history.  }
+{ command history less }	{ Show less history.  }
+{ command history more }	{ Show more history.  }

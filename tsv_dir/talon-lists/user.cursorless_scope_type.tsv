@@ -1,0 +1,26 @@
+Command	Result
+{ arg }	{ argumentOrParameter }
+{ attribute }	{ attribute }
+{ call }	{ functionCall }
+{ class name }	{ className }
+{ class }	{ class }
+{ comment }	{ comment }
+{ funk name }	{ functionName }
+{ funk }	{ namedFunction }
+{ if state }	{ ifStatement }
+{ item }	{ collectionItem }
+{ key }	{ collectionKey }
+{ lambda }	{ anonymousFunction }
+{ list }	{ list }
+{ map }	{ map }
+{ name }	{ name }
+{ regex }	{ regularExpression }
+{ section }	{ section }
+{ state }	{ statement }
+{ type }	{ type }
+{ value }	{ value }
+{ condition }	{ condition }
+{ element }	{ xmlElement }
+{ tags }	{ xmlBothTags }
+{ start tag }	{ xmlStartTag }
+{ end tag }	{ xmlEndTag }

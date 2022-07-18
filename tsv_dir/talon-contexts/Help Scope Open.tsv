@@ -1,0 +1,2 @@
+Command	Result
+{ scope (hide | close) }	{ Toggle help scope gui.  }

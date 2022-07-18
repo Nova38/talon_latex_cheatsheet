@@ -1,0 +1,5 @@
+Command	Result
+{ chapter next }	{ Go to next chapter.  }
+{ chapter last }	{ Go to previous chapter.  }
+{ go chapter  \&lt;number\&gt;   }	{ Go to chapter number.  }
+{ go chapter final }	{ Go to final chapter.  }

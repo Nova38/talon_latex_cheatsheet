@@ -1,0 +1,10 @@
+Command	Result
+{ assign {[} $<$a href="\#user{-}vimscript{-}scope{-}capture"$>$ \&lt;user.vimscript{-}scope\&gt; $<$/a$>$ {]} (variable|var) {[} $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$ {]} {[}over{]} }	{ Insert "let ". Insert "$<$vimscript\_scope$>$ or ". inserts properly formatted private function name.  }
+{ {[} $<$a href="\#user{-}vimscript{-}scope{-}capture"$>$ \&lt;user.vimscript{-}scope\&gt; $<$/a$>$ {]} (variable|var) {[} $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$ {]} {[}over{]} }	{ Insert "$<$vimscript\_scope$>$ or ". inserts properly formatted private function name.  }
+{  $<$a href="\#user{-}vimscript{-}functions{-}capture"$>$ \&lt;user.vimscript{-}functions\&gt; $<$/a$>$  }	{ Insert "$<$vimscript\_functions$>$  ".  }
+{ state command }	{ Insert "command! ".  }
+{ state end if }	{ Insert "endif".  }
+{ state end for }	{ Insert "endfor".  }
+{ state end while }	{ Insert "endwhile".  }
+{ state end function }	{ Insert "endfunction".  }
+{ state continue }	{ Insert "continue".  }

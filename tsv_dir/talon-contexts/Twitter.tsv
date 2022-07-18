@@ -1,0 +1,31 @@
+Command	Result
+{ (show shortcuts|shortcuts help) }	{ Press ?.  }
+{ next tweet }	{ Press j.  }
+{ previous tweet }	{ Press k.  }
+{ page down }	{ Press space.  }
+{ load new tweet }	{ Press ..  }
+{ go home }	{ Insert "gh".  }
+{ go explore }	{ Insert "ge".  }
+{ go notifications }	{ Insert "gn".  }
+{ go mentions }	{ Insert "gr".  }
+{ go profile }	{ Insert "gp".  }
+{ go likes }	{ Insert "gl".  }
+{ go lists }	{ Insert "gi".  }
+{ go direct messages }	{ Insert "gm".  }
+{ go settings }	{ Insert "gs".  }
+{ go book marks }	{ Insert "gb".  }
+{ go to user }	{ Insert "gu".  }
+{ display settings }	{ Insert "gd".  }
+{ new tweet }	{ Press n.  }
+{ send tweet }	{ Press ctrl{-}enter.  }
+{ new direct message }	{ Press m.  }
+{ search }	{ Press /.  }
+{ like message }	{ Press l.  }
+{ reply message }	{ Press r.  }
+{ re tweet {[}message{]} }	{ Press t.  }
+{ share tweet }	{ Press s.  }
+{ bookmark }	{ Press b.  }
+{ mute account }	{ Press urge.  }
+{ block account }	{ Press x.  }
+{ open details }	{ Press enter.  }
+{ expand photo }	{ Press o.  }

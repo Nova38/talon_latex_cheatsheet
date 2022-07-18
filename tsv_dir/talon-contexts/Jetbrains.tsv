@@ -1,0 +1,176 @@
+Command	Result
+{ complete }	{  }
+{ perfect }	{  }
+{ smart }	{  }
+{ (done | finish) }	{  }
+{ grab  \&lt;number\&gt;   }	{ Copies specified number of words to the left.  }
+{ (action | please) }	{  }
+{ (action | please)  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  }	{ Insert "$<$text$>$".  }
+{ refactor }	{  }
+{ refactor  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  }	{ Insert "$<$text$>$".  }
+{ extract variable }	{  }
+{ extract field }	{  }
+{ extract constant }	{  }
+{ extract parameter }	{  }
+{ extract interface }	{  }
+{ extract method }	{  }
+{ refactor in line }	{  }
+{ refactor move }	{  }
+{ refactor rename }	{  }
+{ rename file }	{  }
+{ fix (format | formatting) }	{  }
+{ fix imports }	{  }
+{ (go declaration | follow) }	{  }
+{ go implementation }	{  }
+{ go usage }	{  }
+{ go type }	{  }
+{ go test }	{  }
+{ go back }	{  }
+{ go forward }	{  }
+{ find (everywhere | all) }	{  }
+{ find (everywhere | all)  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  {[}over{]} }	{ Insert "$<$text$>$".  }
+{ (search | find) class }	{  }
+{ (search | find) file }	{  }
+{ (search | find) path }	{  }
+{ (search | find) symbol }	{  }
+{ (search | find) symbol  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  }	{ Insert "$<$text$>$". Press enter.  }
+{ recent }	{  }
+{ surround {[}this{]} with  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  {[}over{]} }	{ idea("action SurroundWith")\newline%
+sleep(500ms)\newline%
+insert(text)\newline%
+\# Making these longer to reduce collisions with real code dictation. }
+{ insert generated  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  {[}over{]} }	{ Insert "$<$text$>$".  }
+{ insert template  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  {[}over{]} }	{ idea("action InsertLiveTemplate")\newline%
+sleep(500ms)\newline%
+insert(text) }
+{ create (template|snippet) }	{  }
+{ toggle recording }	{  }
+{ change (recording | recordings) }	{  }
+{ play recording }	{  }
+{ play recording  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  {[}over{]} }	{ idea("action PlaySavedMacrosAction")\newline%
+insert(text)\newline%
+sleep(500ms)\newline%
+Key("enter")\newline%
+\# Marks }
+{ go mark }	{  }
+{ toggle mark }	{  }
+{ go next mark }	{  }
+{ go last mark }	{  }
+{ toggle mark  \&lt;number\&gt;   }	{  }
+{ go mark  \&lt;number\&gt;   }	{  }
+{ expand deep }	{  }
+{ expand all }	{  }
+{ collapse deep }	{  }
+{ collapse all }	{  }
+{ go next (method | function) }	{  }
+{ go last (method | function) }	{  }
+{ clippings }	{  }
+{ copy path }	{  }
+{ copy reference }	{  }
+{ copy pretty }	{  }
+{ create sibling }	{  }
+{ create sibling  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  {[}over{]} }	{ Insert "$<$text$>$".  }
+{ create file }	{  }
+{ create file  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  {[}over{]} }	{ Insert "$<$text$>$".  }
+{ go task }	{  }
+{ go browser task }	{  }
+{ switch task }	{  }
+{ clear task }	{  }
+{ configure servers }	{  }
+{ git pull }	{  }
+{ git commit }	{  }
+{ git push }	{  }
+{ git log }	{  }
+{ git browse }	{  }
+{ git (gets | gist) }	{  }
+{ git (pull request | request) }	{  }
+{ git (view | show | list) (requests | request) }	{  }
+{ git (annotate | blame) }	{  }
+{ git menu }	{  }
+{ toggle project }	{  }
+{ toggle find }	{  }
+{ toggle run }	{  }
+{ toggle debug }	{  }
+{ toggle events }	{  }
+{ toggle terminal }	{  }
+{ toggle git }	{  }
+{ toggle structure }	{  }
+{ toggle database }	{  }
+{ toggle database changes }	{  }
+{ toggle make }	{  }
+{ toggle to do }	{  }
+{ toggle docker }	{  }
+{ toggle favorites }	{  }
+{ toggle last }	{  }
+{ toggle pinned }	{  }
+{ toggle docked }	{  }
+{ toggle floating }	{  }
+{ toggle windowed }	{  }
+{ toggle split }	{  }
+{ toggle tool buttons }	{  }
+{ toggle toolbar }	{  }
+{ toggle status {[}bar{]} }	{  }
+{ toggle navigation {[}bar{]} }	{  }
+{ toggle power save }	{  }
+{ toggle whitespace }	{  }
+{ toggle indents }	{  }
+{ toggle line numbers }	{  }
+{ toggle (bread crumbs | breadcrumbs) }	{  }
+{ toggle gutter icons }	{  }
+{ toggle wrap }	{  }
+{ toggle parameters }	{  }
+{ toggle fullscreen }	{  }
+{ toggle distraction {[}free mode{]} }	{  }
+{ toggle presentation {[}mode{]} }	{  }
+{ toggle comment }	{ Toggle comments on the current line(s).  }
+{ change scheme }	{  }
+{ (toggle | pop) (doc | documentation) }	{  }
+{ (pop deaf | toggle definition) }	{  }
+{ pop type }	{  }
+{ pop parameters }	{  }
+{ go breakpoints }	{  }
+{ toggle {[}line{]} breakpoint }	{  }
+{ toggle method breakpoint }	{  }
+{ run menu }	{  }
+{ run test }	{  }
+{ run test again }	{  }
+{ debug test }	{  }
+{ step over }	{  }
+{ step into }	{  }
+{ step smart }	{  }
+{ step to line }	{  }
+{ continue }	{  }
+{ (grow | shrink) window right }	{  }
+{ (grow | shrink) window left }	{  }
+{ (grow | shrink) window up }	{  }
+{ (grow | shrink) window down }	{  }
+{ go next (error | air) }	{  }
+{ go last (error | air) }	{  }
+{ fix next (error | air) }	{  }
+{ fix last (error | air) }	{  }
+{ select less }	{  }
+{ select (more|this) }	{  }
+{ expand  \&lt;number\&gt;   until  \&lt;number\&gt;   }	{ Selects lines from line\_start to line line\_end.  }
+{ collapse  \&lt;number\&gt;   until  \&lt;number\&gt;   }	{ Selects lines from line\_start to line line\_end.  }
+{ paste  \&lt;number\&gt;   until  \&lt;number\&gt;   }	{ Selects lines from line\_start to line line\_end.  }
+{ refactor  \&lt;number\&gt;   until  \&lt;number\&gt;   }	{ Selects lines from line\_start to line line\_end.  }
+{ clone  \&lt;number\&gt;   }	{ Clones specified line at current position.  }
+{ clear last  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  {[}over{]} }	{  }
+{ clear next  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  {[}over{]} }	{  }
+{ comment last  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  {[}over{]} }	{  }
+{ comment next  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  {[}over{]} }	{  }
+{ go last  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  {[}over{]} }	{  }
+{ go next  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  {[}over{]} }	{  }
+{ paste last  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  {[}over{]} }	{  }
+{ paste next  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  {[}over{]} }	{  }
+{ refactor last  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  {[}over{]} }	{  }
+{ refactor next  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  {[}over{]} }	{  }
+{ replace last  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  {[}over{]} }	{  }
+{ replace next  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  {[}over{]} }	{  }
+{ select last  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  {[}over{]} }	{  }
+{ select next  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  {[}over{]} }	{  }
+{ select camel left }	{ Extends the selection by camel/subword to the left.  }
+{ select camel right }	{ Extends the selection by camel/subword to the right.  }
+{ go camel left }	{ Moves cursor to the left by camel case/subword.  }
+{ go camel right }	{ Move cursor to the right by camel case/subword.  }
+{ blacken }	{  }

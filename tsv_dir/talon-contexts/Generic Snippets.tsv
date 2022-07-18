@@ -1,0 +1,6 @@
+Command	Result
+{ snip $<$a href="\#user{-}snippets{-}list"$>$  \{user.snippets\}  $<$/a$>$ }	{ Inserts a snippet.  }
+{ snip hunt  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  }	{ Triggers the program's snippet search.  }
+{ snip hunt }	{ Triggers the program's snippet search.  }
+{ snip create }	{ Triggers snippet creation.  }
+{ snip show }	{ Toggles UI for available snippets.  }

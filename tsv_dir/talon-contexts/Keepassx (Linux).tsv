@@ -1,0 +1,16 @@
+Command	Result
+{ open database }	{ Press ctrl{-}o.  }
+{ save database }	{ Press ctrl{-}s.  }
+{ close database }	{ Press ctrl{-}w.  }
+{ lock database }	{ Press ctrl{-}l.  }
+{ quit }	{ Press ctrl{-}q.  }
+{ {[}add{]} new entry }	{ Press ctrl{-}n.  }
+{ clone entry }	{ Press ctrl{-}k.  }
+{ (view|edit) entry }	{ Press ctrl{-}e.  }
+{ delete entry }	{ Press ctrl{-}d.  }
+{ copy user {[}name{]} }	{ Press ctrl{-}b.  }
+{ copy password }	{ Press ctrl{-}c.  }
+{ open (earl|url|link) }	{ Press ctrl{-}u.  }
+{ copy (earl|url|link) }	{ Press ctrl{-}alt{-}u.  }
+{ find }	{ Press ctrl{-}f.  }
+{ find  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  }	{ Press ctrl{-}f. Insert "$<$text$>$".  }

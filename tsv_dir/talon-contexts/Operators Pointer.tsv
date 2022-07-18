@@ -1,0 +1,4 @@
+Command	Result
+{ op dereference }	{ code\_operator\_indirection.  }
+{ op address of }	{ code\_operator\_address\_of (e.g., C++ \& op).  }
+{ op arrow }	{ code\_operator\_structure\_dereference (e.g., C++ {-}$>$ op).  }

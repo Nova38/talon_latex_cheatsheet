@@ -1,0 +1,19 @@
+Command	Result
+{ preferences }	{ Press cmd{-},.  }
+{ options }	{ Press cmd{-}j.  }
+{ search }	{ Press cmd{-}alt{-}f.  }
+{ sort by none }	{ Press ctrl{-}alt{-}cmd{-}0.  }
+{ sort by name }	{ Press ctrl{-}alt{-}cmd{-}1.  }
+{ sort by kind }	{ Press ctrl{-}alt{-}cmd{-}2.  }
+{ sort by date opened }	{ Press ctrl{-}alt{-}cmd{-}3.  }
+{ sort by date added }	{ Press ctrl{-}alt{-}cmd{-}4.  }
+{ sort by date modified }	{ Press ctrl{-}alt{-}cmd{-}5.  }
+{ sort by size }	{ Press ctrl{-}alt{-}cmd{-}6.  }
+{ icon view }	{ Press cmd{-}1.  }
+{ column view }	{ Press cmd{-}3.  }
+{ list view }	{ Press cmd{-}2.  }
+{ gallery view }	{ Press cmd{-}4.  }
+{ copy path }	{ Press alt{-}cmd{-}c.  }
+{ trash it }	{ Press cmd{-}backspace.  }
+{ hide {[}finder{]} }	{ Press cmd{-}h.  }
+{ hide others }	{ Hide all other windows.  }

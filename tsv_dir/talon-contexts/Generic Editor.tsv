@@ -1,0 +1,57 @@
+Command	Result
+{ find it }	{ Open Find dialog, optionally searching for text.  }
+{ next one }	{ Select next Find result.  }
+{ go word left }	{ Move cursor left one word.  }
+{ go word right }	{ Move cursor right one word.  }
+{ go left }	{ Move cursor left one column.  }
+{ go right }	{ Move cursor right one column.  }
+{ go up }	{ Move cursor up one row.  }
+{ go down }	{ Move cursor down one row.  }
+{ go line start }	{ Move cursor to start of line.  }
+{ go line end }	{ Move cursor to end of line.  }
+{ go way left }	{ Move cursor to start of line. Move cursor to start of line.  }
+{ go way right }	{ Move cursor to end of line.  }
+{ go way down }	{ Move cursor to end of file (start of line).  }
+{ go way up }	{ Move cursor to start of file.  }
+{ go bottom }	{ Move cursor to end of file (start of line).  }
+{ go top }	{ Move cursor to start of file.  }
+{ go page down }	{ Move cursor down one page.  }
+{ go page up }	{ Move cursor up one page.  }
+{ select line }	{ Select entire line $<$n$>$, or current line.  }
+{ select all }	{ Select all text in the current document.  }
+{ select left }	{ Extend selection left one column.  }
+{ select right }	{ Extend selection right one column.  }
+{ select up }	{ Extend selection up one full line.  }
+{ select down }	{ Extend selection down one full line.  }
+{ select word }	{ Select word under cursor.  }
+{ select word left }	{ Extend selection left one word.  }
+{ select word right }	{ Extend selection right one word.  }
+{ select way left }	{ Extend selection to start of line.  }
+{ select way right }	{ Extend selection to end of line.  }
+{ select way up }	{ Extend selection to start of file.  }
+{ select way down }	{ Extend selection to end of file.  }
+{ indent {[}more{]} }	{ Add a tab stop of indentation.  }
+{ (indent less | out dent) }	{ Remove a tab stop of indentation.  }
+{ clear line }	{ Delete line under cursor.  }
+{ clear left }	{ Press backspace.  }
+{ clear right }	{ Press delete.  }
+{ clear up }	{ Extend selection up one full line. Delete selection.  }
+{ clear down }	{ Extend selection down one full line. Delete selection.  }
+{ clear word }	{ Delete word under cursor.  }
+{ clear word left }	{ Extend selection left one word. Delete selection.  }
+{ clear word right }	{ Extend selection right one word. Delete selection.  }
+{ clear way left }	{ Extend selection to start of line. Delete selection.  }
+{ clear way right }	{ Extend selection to end of line. Delete selection.  }
+{ clear way up }	{ Extend selection to start of file. Delete selection.  }
+{ clear way down }	{ Extend selection to end of file. Delete selection.  }
+{ clear all }	{ Select all text in the current document. Delete selection.  }
+{ copy all }	{ Select all text in the current document. Copy selection to clipboard.  }
+{ copy word }	{ Select word under cursor. Copy selection to clipboard.  }
+{ copy word left }	{ Extend selection left one word. Copy selection to clipboard.  }
+{ copy word right }	{ Extend selection right one word. Copy selection to clipboard.  }
+{ copy line }	{ Select entire line $<$n$>$, or current line. Copy selection to clipboard.  }
+{ cut all }	{ Select all text in the current document. Cut selection to clipboard.  }
+{ cut word }	{ Select word under cursor. Cut selection to clipboard.  }
+{ cut word left }	{ Extend selection left one word. Cut selection to clipboard.  }
+{ cut word right }	{ Extend selection right one word. Cut selection to clipboard.  }
+{ cut line }	{ Select entire line $<$n$>$, or current line. Cut selection to clipboard.  }

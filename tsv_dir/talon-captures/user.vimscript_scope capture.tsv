@@ -1,0 +1,2 @@
+Command	Result
+{ user.vimscript\_scope }	{ CaptureImpl("user.vimscript{-}scope", Rule("$<$a href="\#user{-}vimscript{-}scope{-}list"$>$  \{self.vimscript{-}scope\}  $<$/a$>$")) }

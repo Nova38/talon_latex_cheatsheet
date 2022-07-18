@@ -1,0 +1,3 @@
+Command	Result
+{ tab search }	{ Focus address bar. Insert "\% ".  }
+{ tab search  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  }	{ Focus address bar. Insert "\%  $<$text$>$". Press down.  }

@@ -1,0 +1,44 @@
+Command	Result
+{ show shortcuts }	{ Press ?.  }
+{ go to projects {[}page{]} }	{ Press shift{-}p.  }
+{ go to groups {[}page{]} }	{ Press shift{-}g.  }
+{ go to activity {[}page{]} }	{ Press shift{-}a.  }
+{ go to milestones {[}page{]} }	{ Press shift{-}l.  }
+{ go to snippets {[}page{]} }	{ Press shift{-}s.  }
+{ search page }	{ Press s.  }
+{ go to issues {[}page{]} }	{ Press shift{-}i.  }
+{ go to merge requests {[}page{]} }	{ Press shift{-}m.  }
+{ go to to do {[}list{]} {[}page{]} }	{ Press shift{-}t.  }
+{ (show|hide) performance bar }	{ Press p.  }
+{ edit last comment }	{ Press 1.  }
+{ toggle mark down {[}preview{]} }	{ Press ctrl{-}shift{-}p.  }
+{ go {[}to{]} project home {[}page{]} }	{ Insert "gp".  }
+{ go {[}to{]} project activity {[}feed{]} }	{ Insert "gv".  }
+{ go {[}to{]} project releases {[}list{]} }	{ Insert "gr".  }
+{ go {[}to{]} project files {[}list{]} }	{ Insert "gf".  }
+{ go {[}to{]} project file search {[}page{]} }	{ Press t.  }
+{ go {[}to{]} project (commit|commits) {[}list{]} }	{ Insert "gc".  }
+{ go {[}to{]} (repository|repo) graph {[}page{]} }	{ Insert "gn".  }
+{ go {[}to{]} (repository|repo) charts }	{ Insert "gd".  }
+{ go {[}to{]} project issues {[}list{]} }	{ Insert "gi".  }
+{ go {[}to{]} new issues {[}list{]} }	{ Insert "i".  }
+{ go {[}to{]} project issues boards {[}list{]} }	{ Insert "gb".  }
+{ go {[}to{]} project merge requests {[}list{]} }	{ Insert "gm".  }
+{ go {[}to{]} jobs {[}list{]} }	{ Insert "gj".  }
+{ go {[}to{]} project metrics }	{ Insert "gl".  }
+{ go {[}to{]} project environments }	{ Insert "ge".  }
+{ go {[}to{]} project cubes }	{ Insert "gk".  }
+{ go {[}to{]} project snippets {[}list{]} }	{ Insert "gs".  }
+{ go {[}to{]} project wiki }	{ Insert "gw".  }
+{ edit description }	{ Press e.  }
+{ change assignee }	{ Press a.  }
+{ change milestone }	{ Press m.  }
+{ change label }	{ Press l.  }
+{ right comment }	{ Press r.  }
+{ next {[}unresolved{]} discussion }	{ Press n.  }
+{ previous {[}unresolved{]} discussion }	{ Press p.  }
+{ next file }	{ Press {]}.  }
+{ previous file }	{ Press {[}.  }
+{ back to files }	{ Press escape.  }
+{ open permalink }	{ Press y.  }
+{ edit page }	{ Press e.  }

@@ -1,0 +1,23 @@
+Command	Result
+{ half }	{ 2 }
+{ halve }	{ 2 }
+{ third }	{ 3 }
+{ quarter }	{ 4 }
+{ fourth }	{ 4 }
+{ fifth }	{ 5 }
+{ sixth }	{ 6 }
+{ seventh }	{ 7 }
+{ eighth }	{ 8 }
+{ ninth }	{ 9 }
+{ tenth }	{ 10 }
+{ halfs }	{ 2 }
+{ halves }	{ 2 }
+{ thirds }	{ 3 }
+{ quarters }	{ 4 }
+{ fourths }	{ 4 }
+{ fifths }	{ 5 }
+{ sixths }	{ 6 }
+{ sevenths }	{ 7 }
+{ eighths }	{ 8 }
+{ ninths }	{ 9 }
+{ tenths }	{ 10 }

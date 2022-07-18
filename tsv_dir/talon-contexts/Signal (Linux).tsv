@@ -1,0 +1,32 @@
+Command	Result
+{ show shortcuts }	{ Press ctrl{-}/.  }
+{ (next|nav|navigate) {[}by{]} (sec|section) }	{ Press ctrl{-}t.  }
+{ (prev|previous) (chat|conversation) }	{ Press alt{-}down.  }
+{ next (chat|conversation) }	{ Press alt{-}up.  }
+{ (prev|previous) unread }	{ Press alt{-}shift{-}down.  }
+{ next unread }	{ Press alt{-}shift{-}up.  }
+{ {[}open{]} (pref|preferences) }	{ Press ctrl{-},.  }
+{ open conversation menu }	{ Press ctrl{-}shift{-}l.  }
+{ search }	{ Press ctrl{-}f.  }
+{ search chat }	{ Press ctrl{-}shift{-}f.  }
+{ focus (chat|composer) }	{ Press ctrl{-}shift{-}t.  }
+{ open media }	{ Press ctrl{-}shift{-}m.  }
+{ open emoji }	{ Press ctrl{-}shift{-}j.  }
+{ open sticker }	{ Press ctrl{-}shift{-}s.  }
+{ record {[}voice{]} message }	{ Press ctrl{-}shift{-}v.  }
+{ archive chat }	{ Press ctrl{-}shift{-}a.  }
+{ unarchive chat }	{ Press ctrl{-}shift{-}u.  }
+{ (first|top) message }	{ Press ctrl{-}up.  }
+{ (last|bottom) message }	{ Press ctrl{-}down.  }
+{ close chat }	{ Press ctrl{-}shift{-}c.  }
+{ send it }	{ Press enter.  }
+{ message details }	{ Press ctrl{-}d.  }
+{ reply {[}message{]} }	{ Press ctrl{-}shift{-}r.  }
+{ react {[}message{]} }	{ Press ctrl{-}shift{-}e.  }
+{ save attachment }	{ Press ctrl{-}s.  }
+{ delete {[}message{]} }	{ Press ctrl{-}shift{-}d.  }
+{ send message }	{ Press ctrl{-}enter.  }
+{ expand chat }	{ Press ctrl{-}shift{-}x.  }
+{ attach {[}file{]} }	{ Press ctrl{-}u.  }
+{ remove {[}link{]} preview }	{ Press ctrl{-}p.  }
+{ remove {[}link{]} attachment }	{ Press ctrl{-}shift{-}p.  }

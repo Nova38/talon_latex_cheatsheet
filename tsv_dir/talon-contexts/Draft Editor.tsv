@@ -1,0 +1,4 @@
+Command	Result
+{ draft this }	{ Open draft editor.  }
+{ draft all }	{ Select all text in the current document. Open draft editor.  }
+{ draft line }	{ Select entire line $<$n$>$, or current line. Open draft editor.  }

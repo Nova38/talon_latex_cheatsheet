@@ -1,0 +1,79 @@
+Command	Result
+{ product }	{ prod }
+{ integral }	{ int }
+{ double integral }	{ iint }
+{ triple integral }	{ iiint }
+{ times }	{ times }
+{ divide }	{ div }
+{ C dot }	{ cdot }
+{ plus or minus }	{ pm }
+{ partial }	{ partial }
+{ infinity }	{ infty }
+{ vector nabla }	{ nabla }
+{ accent hat }	{ hat }
+{ accent tilde }	{ tilde }
+{ accent dot }	{ dot }
+{ accent double dot }	{ ddot }
+{ accent bar }	{ bar }
+{ accent vector }	{ vec }
+{ sine }	{ sin }
+{ cosine }	{ cos }
+{ tangent }	{ tan }
+{ secant }	{ sec }
+{ cosecant }	{ csc }
+{ cotangent }	{ cot }
+{ arc sine }	{ arcsin }
+{ arc cosine }	{ arccos }
+{ arc tan }	{ arctan }
+{ hyperbolic sine }	{ sinh }
+{ hyperbolic cosine }	{ cosh }
+{ hyperbolic cotangent }	{ coth }
+{ hyperbolic tangent }	{ tanh }
+{ argument }	{ arg }
+{ degree }	{ deg }
+{ determinant }	{ det }
+{ dimension }	{ dim }
+{ natural log }	{ ln }
+{ logarithm }	{ log }
+{ maximum }	{ max }
+{ minimum }	{ min }
+{ modulus }	{ bmod }
+{ infimum }	{ inf }
+{ supremum }	{ sup }
+{ probability }	{ Pr }
+{ not equal to }	{ neq }
+{ greater than or equal to }	{ geq }
+{ less than or equal to }	{ leq }
+{ approximately equal to }	{ approx }
+{ proportional to }	{ propto }
+{ preference less than }	{ prec }
+{ preference less equals }	{ preceq }
+{ preference greater than }	{ succ }
+{ preference greater equal }	{ succeq }
+{ logic and }	{ land }
+{ logic or }	{ lor }
+{ logic not }	{ lnot }
+{ logic exists }	{ exists }
+{ logic member }	{ in }
+{ logic for all }	{ forall }
+{ left arrow }	{ leftarrow }
+{ right arrow }	{ rightarrow }
+{ up arrow }	{ uparrow }
+{ down arrow }	{ downarrow }
+{ left right arrow }	{ leftrightarrow }
+{ maps to }	{ mapsto }
+{ oh plus }	{ oplus }
+{ oh times }	{ otimes }
+{ big oh plus }	{ bigoplus }
+{ big oh times }	{ bigotimes }
+{ dot dot dot }	{ dots }
+{ diagonal dots }	{ ddots }
+{ horizontal dots }	{ cdots }
+{ vertical dots }	{ vdots }
+{ empty set }	{ emptyset }
+{ subset }	{ subset }
+{ superset }	{ supset }
+{ strict subset }	{ subsetneq }
+{ strict superset }	{ supsetneq }
+{ intersection }	{ cap }
+{ union }	{ cup }

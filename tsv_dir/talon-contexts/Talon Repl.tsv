@@ -1,0 +1,13 @@
+Command	Result
+{ test last }	{ Let $<$phrase$>$ be the history entry at the specified index. Let $<$command$>$ be sim(' $<$phrase$>$ '). Insert "$<$command$>$". Press enter.  }
+{ test  \&lt;phrase\&gt;   }	{ Insert "sim(' $<$phrase$>$ ')". Press enter.  }
+{ test numb  \&lt;number{-}small\&gt;   }	{ Let $<$phrase$>$ be the history entry at the specified index. Let $<$command$>$ be sim(' $<$phrase$>$ '). Insert "$<$command$>$". Press enter.  }
+{ debug action $<$a href="\#user{-}talon{-}actions{-}list"$>$  \{user.talon{-}actions\}  $<$/a$>$ }	{ Insert "actions.find(' $<$user.talon\_actions$>$ ')". Press enter.  }
+{ debug list $<$a href="\#user{-}talon{-}lists{-}list"$>$  \{user.talon{-}lists\}  $<$/a$>$ }	{ Insert "actions.user.talon\_pretty\_print(registry.lists{[}' $<$talon\_lists$>$ '{]})". Press enter.  }
+{ debug tags }	{ Insert "actions.user.talon\_pretty\_print(registry.tags)". Press enter.  }
+{ debug settings }	{ Insert "actions.user.talon\_pretty\_print(registry.settings)". Press enter.  }
+{ debug modes }	{ Insert "actions.user.talon\_pretty\_print(scope.get('mode'))". Press enter.  }
+{ debug scope $<$a href="\#user{-}talon{-}scopes{-}list"$>$  \{user.talon{-}scopes\}  $<$/a$>$ }	{ Insert "actions.user.talon\_pretty\_print(scope.get(' $<$talon\_scopes$>$ '))". Press enter.  }
+{ debug running apps }	{ Insert "actions.user.talon\_pretty\_print(ui.apps(background=False))". Press enter.  }
+{ debug all windows }	{ Insert "actions.user.talon\_pretty\_print(ui.windows())". Press enter.  }
+{ debug $<$a href="\#user{-}running{-}list"$>$  \{user.running\}  $<$/a$>$ windows }	{ Insert "actions.user.talon\_debug\_app\_windows(' $<$running$>$ ')". Press enter.  }

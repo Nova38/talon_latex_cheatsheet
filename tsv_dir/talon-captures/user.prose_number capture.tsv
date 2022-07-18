@@ -1,0 +1,2 @@
+Command	Result
+{ user.prose\_number }	{ CaptureImpl("user.prose{-}number", Rule(" $<$a href="\#user{-}prose{-}simple{-}number{-}capture"$>$ \&lt;user.prose{-}simple{-}number\&gt; $<$/a$>$   |   $<$a href="\#user{-}prose{-}number{-}with{-}dot{-}capture"$>$ \&lt;user.prose{-}number{-}with{-}dot\&gt; $<$/a$>$   |   $<$a href="\#user{-}prose{-}number{-}with{-}colon{-}capture"$>$ \&lt;user.prose{-}number{-}with{-}colon\&gt; $<$/a$>$ ")) }

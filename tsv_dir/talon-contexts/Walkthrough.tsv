@@ -1,0 +1,9 @@
+Command	Result
+{ (continue|skip step) }	{ Skip the current walk through step.  }
+{ (previous {[}step{]}|last step) }	{ Skip the current walk through step.  }
+{ skip everything }	{ Skip the current walk through step.  }
+{ head up theme dark }	{ sleep(0.5)\newline%
+user.switch\_hud\_theme('dark') }
+{ head up theme light }	{ sleep(1.5)\newline%
+user.switch\_hud\_theme('light') }
+{ music and video playlist }	{ Visit the given URL..  }

@@ -1,0 +1,9 @@
+Command	Result
+{ archive }	{ Press alt h o 1.  }
+{ new e{-}mail }	{ Press ctrl{-}n.  }
+{ calendar }	{ Press ctrl{-}2.  }
+{ inbox }	{ Press ctrl{-}1.  }
+{ Reply }	{ Press ctrl{-}r.  }
+{ Reply all }	{ Press ctrl{-}shift{-}r.  }
+{ Forward }	{ Press ctrl{-}f.  }
+{ accept }	{ Press shift{-}f10 c c enter.  }

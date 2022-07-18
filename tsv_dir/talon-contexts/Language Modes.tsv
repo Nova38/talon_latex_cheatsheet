@@ -1,0 +1,5 @@
+Command	Result
+{ force $<$a href="\#user{-}language{-}mode{-}list"$>$  \{user.language{-}mode\}  $<$/a$>$ }	{ Sets the active language mode, and disables extension matching.  }
+{ clear language modes }	{ Clears the active language mode, and re{-}enables code.language: extension matching.  }
+{ {[}enable{]} debug mode }	{ Enable a mode.  }
+{ disable debug mode }	{ Disable a mode.  }

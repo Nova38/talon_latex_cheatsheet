@@ -1,0 +1,4 @@
+Command	Result
+{ emoticon $<$a href="\#user{-}emoticon{-}list"$>$  \{user.emoticon\}  $<$/a$>$ }	{ Insert "$<$emoticon$>$".  }
+{ emoji $<$a href="\#user{-}emoji{-}list"$>$  \{user.emoji\}  $<$/a$>$ }	{ Pastes text and preserves clipboard.  }
+{ kaomoji $<$a href="\#user{-}kaomoji{-}list"$>$  \{user.kaomoji\}  $<$/a$>$ }	{ Pastes text and preserves clipboard.  }

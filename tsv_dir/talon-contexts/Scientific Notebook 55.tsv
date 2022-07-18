@@ -1,0 +1,49 @@
+Command	Result
+{ (parens | parentheses | prens) }	{ Press ctrl{-}0.  }
+{ (squares | square brackets) }	{ Press ctrl{-}6.  }
+{ absolute }	{ Press ctrl{-}\textbackslash.  }
+{ norma }	{ Press ctrl{-}shift{-}\textbackslash.  }
+{ chi squared }	{ Press ctrl{-}g q ctrl{-}h 2 right.  }
+{ (radical | square root) }	{ Press ctrl{-}r.  }
+{ summation }	{ Press ctrl{-}7.  }
+{ accent hat }	{ Press ctrl{-}\^{}.  }
+{ accent tilde }	{ Press ctrl{-}\textasciitilde{}.  }
+{ accent dot }	{ Press ctrl{-}..  }
+{ accent double dot }	{ Press ctrl{-}\textbackslash".  }
+{ accent bar }	{ Press ctrl{-}\_.  }
+{ accent vector }	{ Press ctrl{-}{-}.  }
+{ new file }	{ Press f10 f enter.  }
+{ open file }	{ Press ctrl{-}o.  }
+{ save file }	{ Press f10 f s.  }
+{ save as }	{ Press f10 f down:5 enter.  }
+{ print file }	{ Press ctrl{-}p.  }
+{ export document }	{ Press f10 f down:7 enter.  }
+{ page preview }	{ Press f10 f down:17 enter.  }
+{ body (math | maths) }	{ Press alt{-}2 down enter.  }
+{ body text }	{ Press alt{-}2 down:2 enter.  }
+{ (begin | insert) {[}bulleted{]} list }	{ Press alt{-}1 down:2 enter.  }
+{ (begin | insert) numbered list }	{ Press alt{-}1 down:4 enter.  }
+{ end {[}(bulleted | numbered){]} list }	{ Press alt{-}1 up enter.  }
+{ insert normal text }	{ Press alt{-}3 down enter.  }
+{ insert big text }	{ Press alt{-}3 down:2 enter.  }
+{ insert small text }	{ Press alt{-}3 down:9 enter.  }
+{ insert bold text }	{ Press alt{-}3 down:3 enter.  }
+{ insert italic text }	{ Press alt{-}3 down:6 enter.  }
+{ insert bold symbols }	{ Press alt{-}3 down:4 enter.  }
+{ insert centred text }	{ Press alt{-}2 down:3 enter.  }
+{ insert left text }	{ Press alt{-}2 down:4 enter.  }
+{ insert right text }	{ Press alt{-}2 down:5 enter.  }
+{ insert quotation }	{ Press alt{-}2 down:11 enter.  }
+{ insert (heading | title) {[}one{]} }	{ Press alt{-}2 down:6 enter.  }
+{ insert (heading | title) two }	{ Press alt{-}2 down:7 enter.  }
+{ insert (heading | title) three }	{ Press alt{-}2 down:8 enter.  }
+{ insert (heading | title) four }	{ Press alt{-}2 down:9 enter.  }
+{ insert (heading | title) five }	{ Press alt{-}2 down:10 enter.  }
+{ evaluate }	{ Press ctrl{-}e.  }
+{ evaluate numerically }	{ Press f10 c down enter.  }
+{ toggle (math | maths) }	{ Press ctrl{-}m.  }
+{ toggle text }	{ Press ctrl{-}t.  }
+{ label above }	{ Press f10 i down:11 enter a enter.  }
+{ label below }	{ Press f10 i down:11 enter b enter.  }
+{ add matrix row }	{ Press f10 e up up enter enter.  }
+{ add matrix column }	{ Press f10 e up enter enter.  }

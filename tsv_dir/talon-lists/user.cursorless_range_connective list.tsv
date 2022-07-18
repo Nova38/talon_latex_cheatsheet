@@ -1,0 +1,4 @@
+Command	Result
+{ between }	{ rangeExclusive }
+{ past }	{ rangeInclusive }
+{ until }	{ rangeExcludingEnd }

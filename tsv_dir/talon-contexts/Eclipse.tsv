@@ -1,0 +1,34 @@
+Command	Result
+{ please {[} $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$ {]} }	{ Press ctrl{-}3. Insert "$<$user.text$>$ or ".  }
+{ bar explore }	{ Press alt{-}shift{-}w p.  }
+{ bar outline }	{ Press alt{-}shift{-}q o.  }
+{ panel output }	{ Press alt{-}shift{-}q. Press c.  }
+{ panel problems }	{ Press alt{-}shift{-}q. Press x.  }
+{ panel errors }	{ Press alt{-}shift{-}q. Press l.  }
+{ panel breakpoints }	{ Press alt{-}shift{-}q. Press b.  }
+{ panel search }	{ Press alt{-}shift{-}q. Press s.  }
+{ panel variables }	{ Press alt{-}shift{-}q. Press v.  }
+{ show settings }	{ Press alt{-}w p.  }
+{ show shortcuts }	{ Press ctrl{-}shift{-}l.  }
+{ file hunt {[} $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$ {]} }	{ Press ctrl{-}shift{-}r. Insert "$<$text$>$ or ".  }
+{ file create }	{ Press ctrl{-}n.  }
+{ file open folder }	{ Press alt{-}shift{-}w x.  }
+{ file rename }	{ Press alt{-}shift{-}w p enter f2.  }
+{ file reveal }	{ Press alt{-}shift{-}w p enter.  }
+{ imports fix }	{ Press ctrl{-}shift{-}o.  }
+{ refactor rename }	{ Press alt{-}shift{-}r.  }
+{ refactor this }	{ Press alt{-}shift{-}i.  }
+{ (go declaration | follow) }	{ Press f3.  }
+{ go back }	{ Press alt{-}left.  }
+{ go forward }	{ Press alt{-}right.  }
+{ go marks }	{ Press alt{-}end.  }
+{ toggle mark }	{ Press ctrl{-}alt{-}b down enter.  }
+{ go next mark }	{ Press alt{-}pagedown.  }
+{ go last mark }	{ Press alt{-}pageup.  }
+{ break point }	{ Press ctrl{-}shift{-}b.  }
+{ step over }	{ Press f6.  }
+{ debug step into }	{ Press f5.  }
+{ debug step out {[}of{]} }	{ Press f7.  }
+{ debug continue }	{ Press f8.  }
+{ copy line down }	{ Press ctrl{-}alt{-}down.  }
+{ copy line up }	{ Press ctrl{-}alt{-}up.  }

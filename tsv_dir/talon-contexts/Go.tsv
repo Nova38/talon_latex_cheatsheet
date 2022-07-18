@@ -1,0 +1,73 @@
+Command	Result
+{ variadic }	{ Insert "...".  }
+{ logical and }	{ Insert " \&\& ".  }
+{ logical or }	{ Insert " || ".  }
+{ state comment }	{ Insert "// ".  }
+{ {[}line{]} comment  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  }	{ Press cmd{-}right. Insert " // ". Insert "$<$text$>$ (formatted with sentence)".  }
+{ state (funk | func | fun) }	{ Insert "func ".  }
+{ function (Annette | init) {[}over{]} }	{ Insert "func init() \{\textbackslashn".  }
+{ function  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  {[}over{]} }	{ Insert "func ". Insert "$<$text$>$ (formatted with PRIVATE\_CAMEL\_CASE)". Insert "(".  }
+{ method  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  {[}over{]} }	{ Insert "meth ". Insert "$<$text$>$ (formatted with PRIVATE\_CAMEL\_CASE)".  }
+{ state var }	{ Insert "var ".  }
+{ variable {[} $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$ {]} {[}over{]} }	{ Insert "var ". Insert "$<$text$>$ (formatted with PRIVATE\_CAMEL\_CASE)".  }
+{ of type {[} $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$ {]} {[}over{]} }	{ Insert " ". Insert "$<$text$>$ (formatted with PRIVATE\_CAMEL\_CASE)".  }
+{ state break }	{ Insert "break".  }
+{ state (chan | channel) }	{ Insert " chan ".  }
+{ state go }	{ Insert "go ".  }
+{ state if }	{ Insert "if ".  }
+{ if  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  {[}over{]} }	{ Insert "if ". Insert "$<$text$>$ (formatted with PRIVATE\_CAMEL\_CASE)".  }
+{ spawn  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  {[}over{]} }	{ Insert "go ". Insert "$<$text$>$ (formatted with PRIVATE\_CAMEL\_CASE)".  }
+{ state else if }	{ Insert " else if ".  }
+{ else if  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  {[}over{]} }	{ Insert " else if ". Insert "$<$text$>$ (formatted with PRIVATE\_CAMEL\_CASE)".  }
+{ state else }	{ Insert " else ".  }
+{ else  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  {[}over{]} }	{ Insert " else \{". Press enter. Insert "$<$text$>$ (formatted with PRIVATE\_CAMEL\_CASE)".  }
+{ state while }	{ Insert "while ".  }
+{ while  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  {[}over{]} }	{ Insert "while ". Insert "$<$text$>$ (formatted with PRIVATE\_CAMEL\_CASE)".  }
+{ state for }	{ Insert "for ".  }
+{ for  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  {[}over{]} }	{ Insert "for ". Insert "$<$text$>$ (formatted with PRIVATE\_CAMEL\_CASE)".  }
+{ state for range }	{ Insert "forr ".  }
+{ range  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  {[}over{]} }	{ Insert "forr ". Insert "$<$text$>$ (formatted with PRIVATE\_CAMEL\_CASE)".  }
+{ state format }	{ Insert "fmt".  }
+{ format  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  {[}over{]} }	{ Insert "fmt.". Insert "$<$text$>$ (formatted with PUBLIC\_CAMEL\_CASE)".  }
+{ state switch }	{ Insert "switch ".  }
+{ switch  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  {[}over{]} }	{ Insert "switch ". Insert "$<$text$>$ (formatted with PRIVATE\_CAMEL\_CASE)".  }
+{ state select }	{ Insert "select ".  }
+{ state (const | constant) }	{ Insert " const ".  }
+{ constant  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  {[}over{]} }	{ Insert "const ". Insert "$<$text$>$ (formatted with PUBLIC\_CAMEL\_CASE)".  }
+{ state case }	{ Insert " case ".  }
+{ state default }	{ Insert " default:".  }
+{ case  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  {[}over{]} }	{ Insert "case ". Insert "$<$text$>$ (formatted with PRIVATE\_CAMEL\_CASE)".  }
+{ state type }	{ Insert " type ".  }
+{ type  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  {[}over{]} }	{ Insert "type ". Insert "$<$text$>$ (formatted with PUBLIC\_CAMEL\_CASE)".  }
+{ state true }	{ Insert " true ".  }
+{ state false }	{ Insert " false ".  }
+{ state (start | struct | struck) }	{ Insert " struct \{". Press enter.  }
+{ (struct | struck)  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  {[}over{]} }	{ Insert " struct \{". Press enter. Insert "$<$text$>$ (formatted with PUBLIC\_CAMEL\_CASE)".  }
+{ {[}state{]} empty interface }	{ Insert " interface\{\} ".  }
+{ state interface }	{ Insert " interface \{". Press enter.  }
+{ interface  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  {[}over{]} }	{ Insert " interface \{". Press enter. Insert "$<$text$>$ (formatted with PUBLIC\_CAMEL\_CASE)".  }
+{ state string }	{ Insert " string ".  }
+{ {[}state{]} (int | integer | ant) }	{ Insert "int".  }
+{ state slice }	{ Insert " {[}{]}".  }
+{ slice of }	{ Insert "{[}{]}".  }
+{ {[}state{]} (no | nil) }	{ Insert "nil".  }
+{ state (int | integer | ant) 64 }	{ Insert " int64 ".  }
+{ state tag }	{ Insert `before + after`, leaving cursor between `before` and `after`. Not entirely reliable if `after` contains newlines..  }
+{ field tag  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  {[}over{]} }	{ Insert `before + after`, leaving cursor between `before` and `after`. Not entirely reliable if `after` contains newlines.. Insert "$<$text$>$ (formatted with snake)". Insert " ".  }
+{ state return }	{ Insert " return ".  }
+{ return   $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  {[}over{]} }	{ Insert "return ". Insert "$<$text$>$ (formatted with PRIVATE\_CAMEL\_CASE)".  }
+{ map of string to string }	{ Insert " map{[}string{]}string ".  }
+{ map of  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  {[}over{]} }	{ Insert "map{[}". Insert "$<$text$>$ (formatted with PRIVATE\_CAMEL\_CASE)". Press right.  }
+{ receive }	{ Insert " $<${-} ".  }
+{ make }	{ Insert "make(".  }
+{ loggers {[} $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$ {]} {[}over{]} }	{ Insert "logrus.". Insert "$<$text$>$ (formatted with PUBLIC\_CAMEL\_CASE)".  }
+{ length  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  {[}over{]} }	{ Insert "len(". Insert "$<$text$>$ (formatted with PRIVATE\_CAMEL\_CASE)".  }
+{ append  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  {[}over{]} }	{ Insert "append(". Insert "$<$text$>$ (formatted with PRIVATE\_CAMEL\_CASE)".  }
+{ state (air | err) }	{ Insert "err".  }
+{ error }	{ Insert " err ".  }
+{ loop over {[} $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$ {]} {[}over{]} }	{ Insert "forr ". Insert "$<$text$>$ (formatted with PRIVATE\_CAMEL\_CASE)".  }
+{ item  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  {[}over{]} }	{ Insert ", ". Insert "$<$text$>$ (formatted with PRIVATE\_CAMEL\_CASE)".  }
+{ value  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  {[}over{]} }	{ Insert ": ". Insert "$<$text$>$ (formatted with PRIVATE\_CAMEL\_CASE)".  }
+{ address of {[} $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$ {]} {[}over{]} }	{ Insert "\&". Insert "$<$text$>$ (formatted with PRIVATE\_CAMEL\_CASE)".  }
+{ pointer to {[} $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$ {]} {[}over{]} }	{ Insert "*". Insert "$<$text$>$ (formatted with PRIVATE\_CAMEL\_CASE)".  }
+{ swipe {[} $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$ {]} {[}over{]} }	{ Press right. Insert ", ". Insert "$<$text$>$ (formatted with PRIVATE\_CAMEL\_CASE)".  }

@@ -1,0 +1,6 @@
+Command	Result
+{ toggle funk }	{ GUI: List functions for active language.  }
+{ funk $<$code\_functions$>$ }	{ Inserts a function and positions the cursor appropriately.  }
+{ funk cell $<$number$>$ }	{ Inserts the selected function when the imgui is open.  }
+{ funk wrap $<$code\_functions$>$ }	{ Inserts a function and positions the cursor appropriately.  }
+{ funk wrap $<$number$>$ }	{ Inserts the selected function when the imgui is open.  }

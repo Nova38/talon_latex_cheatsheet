@@ -1,0 +1,36 @@
+Command	Result
+{ question {[}mark{]} }	{ Insert "?".  }
+{ (downscore | underscore) }	{ Insert "\_".  }
+{ double dash }	{ Insert "{-}{-}".  }
+{ (bracket | brack | left bracket) }	{ Insert "\{".  }
+{ (rbrack | are bracket | right bracket) }	{ Insert "\}".  }
+{ triple quote }	{ Insert "'''".  }
+{ (triple grave | triple back tick | gravy) }	{ Insert "```".  }
+{ (dot dot | dotdot) }	{ Insert "..".  }
+{ ellipses }	{ Insert "...".  }
+{ (comma and | spamma) }	{ Insert ", ".  }
+{ plus }	{ Insert "+".  }
+{ arrow }	{ Insert "{-}$>$".  }
+{ dub arrow }	{ Insert "=$>$".  }
+{ new line }	{ Insert "\textbackslashn".  }
+{ carriage return }	{ Insert "\textbackslashr".  }
+{ line feed }	{ Insert "\textbackslashr\textbackslashn".  }
+{ empty dubstring }	{ Insert """". Press left.  }
+{ empty escaped (dubstring|dub quotes) }	{ Insert "\textbackslash"\textbackslash"". Press left. Press left.  }
+{ empty string }	{ Insert "''". Press left.  }
+{ empty escaped string }	{ Insert "\textbackslash'\textbackslash'". Press left. Press left.  }
+{ (inside parens | args) }	{ Insert "()". Press left.  }
+{ inside (squares | square brackets | list) }	{ Insert "{[}{]}". Press left.  }
+{ inside (bracket | braces) }	{ Insert "\{\}". Press left.  }
+{ inside percent }	{ Insert "\%\%". Press left.  }
+{ inside (quotes | string) }	{ Insert "''". Press left.  }
+{ inside (double quotes | dubquotes) }	{ Insert """". Press left.  }
+{ inside (graves | back ticks) }	{ Insert "``". Press left.  }
+{ angle that }	{ Let $<$text$>$ be the selected text. Pastes text and preserves clipboard.  }
+{ (square | square bracket) that }	{ Let $<$text$>$ be the selected text. Pastes text and preserves clipboard.  }
+{ (bracket | brace) that }	{ Let $<$text$>$ be the selected text. Pastes text and preserves clipboard.  }
+{ (parens | args) that }	{ Let $<$text$>$ be the selected text. Pastes text and preserves clipboard.  }
+{ percent that }	{ Let $<$text$>$ be the selected text. Pastes text and preserves clipboard.  }
+{ quote that }	{ Let $<$text$>$ be the selected text. Pastes text and preserves clipboard.  }
+{ (double quote | dubquote) that }	{ Let $<$text$>$ be the selected text. Pastes text and preserves clipboard.  }
+{ (grave | back tick) that }	{ Let $<$text$>$ be the selected text. Pastes text and preserves clipboard.  }

@@ -1,0 +1,12 @@
+Command	Result
+{ word }	{ \textbackslashw+ }
+{ small }	{ {[}A{-}Z{]}?{[}a{-}z0{-}9{]}+ }
+{ big }	{ {[}\textbackslashS{]}+ }
+{ parens }	{ \textbackslash((.*?)\textbackslash) }
+{ squares }	{ \textbackslash{[}(.*?)\textbackslash{]} }
+{ braces }	{ \textbackslash\{(.*?)\textbackslash\} }
+{ quotes }	{ \textbackslash"(.*?)\textbackslash" }
+{ angles }	{ \textbackslash$<$(.*?)\textbackslash$>$ }
+{ all }	{ (.+) }
+{ method }	{ \textbackslashw+\textbackslash((.*?)\textbackslash) }
+{ constant }	{ {[}A{-}Z\_{]}{[}A{-}Z\_{]}+ }

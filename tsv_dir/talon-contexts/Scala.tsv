@@ -1,0 +1,9 @@
+Command	Result
+{ state $<$a href="\#user{-}scala{-}modifier{-}list"$>$  \{user.scala{-}modifier\}  $<$/a$>$ }	{ Insert "$<$user.scala\_modifier$>$  ".  }
+{ state $<$a href="\#user{-}scala{-}keyword{-}list"$>$  \{user.scala{-}keyword\}  $<$/a$>$ }	{ Insert "$<$scala\_keyword$>$  ".  }
+{ op right arrow }	{ Insert " {-}$>$ ".  }
+{ op left arrow }	{ Insert " $<${-} ".  }
+{ op plus plus }	{ Insert " ++ ".  }
+{ op subtype }	{ Insert " $<$: ".  }
+{ state match }	{ Inserts switch statement.  }
+{ block string }	{ Insert """""""". Press left left left.  }

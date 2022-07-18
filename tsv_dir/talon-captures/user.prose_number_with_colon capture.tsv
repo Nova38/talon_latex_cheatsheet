@@ -1,0 +1,2 @@
+Command	Result
+{ user.prose\_number\_with\_colon }	{ CaptureImpl("user.prose{-}number{-}with{-}colon", Rule("numeral  $<$a href="\#user{-}number{-}string{-}capture"$>$ \&lt;user.number{-}string\&gt; $<$/a$>$  colon  $<$a href="\#user{-}number{-}string{-}capture"$>$ \&lt;user.number{-}string\&gt; $<$/a$>$ ")) }

@@ -1,0 +1,9 @@
+Command	Result
+{ tab (open | new) }	{ Open a new tab.  }
+{ tab (last | previous) }	{ Switch to previous tab for this window.  }
+{ tab next }	{ Switch to next tab for this window.  }
+{ tab close }	{ Closes the current tab..  }
+{ tab (reopen|restore) }	{ Re{-}open the last{-}closed tab.  }
+{ go tab  \&lt;number\&gt;   }	{ Jumps to the specified tab.  }
+{ go tab final }	{ Jumps to the final tab.  }
+{ tab duplicate }	{ Duplicates the current tab..  }

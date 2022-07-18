@@ -1,0 +1,14 @@
+Command	Result
+{ user }	{ C:\textbackslashUsers\textbackslashdevcs }
+{ profile }	{ C:\textbackslashUsers\textbackslashdevcs }
+{ desktop }	{ C:\textbackslashUsers\textbackslashdevcs\textbackslashOneDrive\textbackslashDesktop }
+{ desk }	{ C:\textbackslashUsers\textbackslashdevcs\textbackslashDesktop }
+{ documents }	{ C:\textbackslashUsers\textbackslashdevcs\textbackslashOneDrive\textbackslashDocuments }
+{ docks }	{ C:\textbackslashUsers\textbackslashdevcs\textbackslashDocuments }
+{ downloads }	{ C:\textbackslashUsers\textbackslashdevcs\textbackslashDownloads }
+{ music }	{ C:\textbackslashUsers\textbackslashdevcs\textbackslashMusic }
+{ pictures }	{ C:\textbackslashUsers\textbackslashdevcs\textbackslashOneDrive\textbackslashPictures }
+{ videos }	{ C:\textbackslashUsers\textbackslashdevcs\textbackslashVideos }
+{ talon home }	{ C:\textbackslashUsers\textbackslashdevcs\textbackslashAppData\textbackslashRoaming\textbackslashtalon }
+{ talon user }	{ C:\textbackslashUsers\textbackslashdevcs\textbackslashAppData\textbackslashRoaming\textbackslashtalon\textbackslashuser }
+{ one drive }	{ C:\textbackslashUsers\textbackslashdevcs\textbackslashOneDrive }

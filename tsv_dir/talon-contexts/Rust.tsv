@@ -1,0 +1,43 @@
+Command	Result
+{ state unsafe }	{ Insert "unsafe ".  }
+{ unsafe block }	{ Inserts an unsafe block and positions the cursor appropriately.  }
+{ state (struct | structure)  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  }	{ Insert "struct ". Insert "$<$text$>$ (formatted with PUBLIC\_CAMEL\_CASE)".  }
+{ state enum  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  }	{ Insert "enum ". Insert "$<$text$>$ (formatted with PUBLIC\_CAMEL\_CASE)".  }
+{ toggle use }	{ GUI: List libraries for active language.  }
+{ borrow }	{ Insert "\&".  }
+{ borrow mutable }	{ Insert "\&mut ".  }
+{ state (pub | public) }	{ Insert "pub ".  }
+{ state (pub | public) crate }	{ Insert "pub(crate) ".  }
+{ state (dyn | dynamic) }	{ Insert "dyn ".  }
+{ state constant }	{ Insert "const ".  }
+{ state (funk | func | function) }	{ Insert "fn ".  }
+{ state (imp | implements) }	{ Insert "impl ".  }
+{ state let mute }	{ Insert "let mut ".  }
+{ state let }	{ Insert "let ".  }
+{ state (mute | mutable) }	{ Insert "mut ".  }
+{ state (mod | module) }	{ Insert "mod ".  }
+{ state ref (mute | mutable) }	{ Insert "ref mut ".  }
+{ state ref }	{ Insert "ref ".  }
+{ state trait }	{ Insert "trait ".  }
+{ state match }	{ Inserts switch statement.  }
+{ state (some | sum) }	{ Insert "Some".  }
+{ state static }	{ Insert "static ".  }
+{ self taught }	{ Insert "self.".  }
+{ state use }	{ import/using equivalent.  }
+{ use  $<$a href="\#user{-}code{-}libraries{-}capture"$>$ \&lt;user.code{-}libraries\&gt; $<$/a$>$  }	{ Inserts a library and positions the cursor appropriately. Press semicolon enter.  }
+{ state if let some }	{ Inserts if let some block, positioning the cursor appropriately.  }
+{ state if let error }	{ Inserts if let error block, positioning the cursor appropriately.  }
+{ is some }	{ Inserts check for non{-}null.  }
+{ implement (struct | structure) }	{ Inserts implements block, positioning the cursor appropriately.  }
+{ is implemented trait $<$a href="\#user{-}code{-}trait{-}list"$>$  \{user.code{-}trait\}  $<$/a$>$ }	{ Inserts type annotation for implementor of trait.  }
+{ is implemented trait }	{ Insert ": impl ".  }
+{ returns implemented trait $<$a href="\#user{-}code{-}trait{-}list"$>$  \{user.code{-}trait\}  $<$/a$>$ }	{ Inserts a return type for implementor of trait.  }
+{ returns implemented trait }	{ Insert " {-}$>$ impl ".  }
+{ trait $<$a href="\#user{-}code{-}trait{-}list"$>$  \{user.code{-}trait\}  $<$/a$>$ }	{ Insert "$<$code\_trait$>$".  }
+{ implemented trait $<$a href="\#user{-}code{-}trait{-}list"$>$  \{user.code{-}trait\}  $<$/a$>$ }	{ Insert "impl  $<$code\_trait$>$".  }
+{ dynamic trait $<$a href="\#user{-}code{-}trait{-}list"$>$  \{user.code{-}trait\}  $<$/a$>$ }	{ Insert "dyn  $<$code\_trait$>$".  }
+{ macro $<$a href="\#user{-}code{-}macros{-}list"$>$  \{user.code{-}macros\}  $<$/a$>$ }	{ Inserts a macro and positions the cursor appropriately.  }
+{ macro wrap $<$a href="\#user{-}code{-}macros{-}list"$>$  \{user.code{-}macros\}  $<$/a$>$ }	{ Inserts a macro and positions the cursor appropriately.  }
+{ block dock comment }	{ Inserts a block document comment and positions the cursor appropriately.  }
+{ inner dock comment }	{ Inserts an inner document comment and positions the cursor appropriately.  }
+{ inner block dock comment }	{ Inserts an inner block document comment and positions the cursor appropriately.  }

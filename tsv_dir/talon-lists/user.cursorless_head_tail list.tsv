@@ -1,0 +1,3 @@
+Command	Result
+{ head }	{ extendThroughStartOf }
+{ tail }	{ extendThroughEndOf }

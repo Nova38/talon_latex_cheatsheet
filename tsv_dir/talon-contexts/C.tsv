@@ -1,0 +1,30 @@
+Command	Result
+{ funky  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  }	{ Inserts function declaration.  }
+{ static funky  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  }	{ Inserts private static function.  }
+{ state include }	{ Insert "\#include ".  }
+{ state include system }	{ Insert `before + after`, leaving cursor between `before` and `after`. Not entirely reliable if `after` contains newlines..  }
+{ state include local }	{ Insert `before + after`, leaving cursor between `before` and `after`. Not entirely reliable if `after` contains newlines..  }
+{ state type deaf }	{ Insert "typedef ".  }
+{ state type deaf struct }	{ Insert "typedef struct". Insert "\{\textbackslashn\textbackslashn\}". Move cursor up one row. Press tab.  }
+{ state define }	{ Insert "\#define ".  }
+{ state undefine }	{ Insert "\#undef ".  }
+{ state if define }	{ Insert "\#ifdef ".  }
+{ state pre if }	{ Insert "\#if ".  }
+{ state error }	{ Insert "\#error ".  }
+{ state pre else if }	{ Insert "\#elif ".  }
+{ state pre end }	{ Insert "\#endif ".  }
+{ state pragma }	{ Insert "\#pragma ".  }
+{ state default }	{ Insert "default:\textbackslashnbreak;".  }
+{ push brackets }	{ Move cursor to end of line. Insert "\{\}". Move cursor left one column. Press enter. Press enter. Move cursor up one row.  }
+{  $<$a href="\#user{-}c{-}variable{-}capture"$>$ \&lt;user.c{-}variable\&gt; $<$/a$>$   \&lt;phrase\&gt;   }	{ Insert "$<$c\_variable$>$  ". Insert "$<$phrase$>$ (formatted with PRIVATE\_CAMEL\_CASE,NO\_SPACES)".  }
+{  $<$a href="\#user{-}c{-}variable{-}capture"$>$ \&lt;user.c{-}variable\&gt; $<$/a$>$   $<$a href="\#user{-}letter{-}capture"$>$ \&lt;user.letter\&gt; $<$/a$>$  }	{ Insert "$<$c\_variable$>$   $<$letter$>$  ".  }
+{ cast to  $<$a href="\#user{-}c{-}cast{-}capture"$>$ \&lt;user.c{-}cast\&gt; $<$/a$>$  }	{ Insert "$<$c\_cast$>$".  }
+{ standard cast to  $<$a href="\#user{-}stdint{-}cast{-}capture"$>$ \&lt;user.stdint{-}cast\&gt; $<$/a$>$  }	{ Insert "$<$stdint\_cast$>$".  }
+{  $<$a href="\#user{-}c{-}types{-}capture"$>$ \&lt;user.c{-}types\&gt; $<$/a$>$  }	{ Insert "$<$c\_types$>$".  }
+{  $<$a href="\#user{-}c{-}pointers{-}capture"$>$ \&lt;user.c{-}pointers\&gt; $<$/a$>$  }	{ Insert "$<$c\_pointers$>$".  }
+{  $<$a href="\#user{-}c{-}keywords{-}capture"$>$ \&lt;user.c{-}keywords\&gt; $<$/a$>$  }	{ Insert "$<$c\_keywords$>$".  }
+{  $<$a href="\#user{-}c{-}signed{-}capture"$>$ \&lt;user.c{-}signed\&gt; $<$/a$>$  }	{ Insert "$<$c\_signed$>$".  }
+{ standard  $<$a href="\#user{-}stdint{-}types{-}capture"$>$ \&lt;user.stdint{-}types\&gt; $<$/a$>$  }	{ Insert "$<$stdint\_types$>$".  }
+{ int main }	{ Insert `before + after`, leaving cursor between `before` and `after`. Not entirely reliable if `after` contains newlines..  }
+{ toggle includes }	{ GUI: List libraries for active language.  }
+{ include  $<$a href="\#user{-}code{-}libraries{-}capture"$>$ \&lt;user.code{-}libraries\&gt; $<$/a$>$  }	{ Inserts a library and positions the cursor appropriately. Press end enter.  }

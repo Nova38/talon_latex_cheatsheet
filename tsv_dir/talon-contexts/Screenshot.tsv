@@ -1,0 +1,9 @@
+Command	Result
+{ grab screen }	{ Takes a screenshot of the entire screen and saves it to the pictures folder..  }
+{ grab screen  \&lt;number{-}small\&gt;   }	{ Takes a screenshot of the entire screen and saves it to the pictures folder..  }
+{ grab window }	{ Takes a screenshot of the active window and saves it to the pictures folder.  }
+{ grab selection }	{ Triggers an application that is capable of taking a screenshot of a portion of the screen.  }
+{ grab settings }	{ Opens the settings UI for screenshots..  }
+{ grab screen clip }	{ Takes a screenshot of the entire screen and saves it to the clipboard..  }
+{ grab screen  \&lt;number{-}small\&gt;   clip }	{ Takes a screenshot of the entire screen and saves it to the clipboard..  }
+{ grab window clip }	{ Takes a screenshot of the active window and saves it to the clipboard.  }

@@ -1,0 +1,51 @@
+Command	Result
+{ panel solution }	{ Press ctrl{-}alt{-}l.  }
+{ panel properties }	{ Press f4.  }
+{ panel output }	{ Press ctrl{-}alt{-}o.  }
+{ panel class }	{ Press ctrl{-}shift{-}c.  }
+{ panel errors }	{ Press ctrl{-}\textbackslash ctrl{-}e.  }
+{ panel design }	{ Press shift{-}f7.  }
+{ panel marks }	{ Press ctrl{-}k ctrl{-}w.  }
+{ panel breakpoints }	{ Press ctrl{-}alt{-}b.  }
+{ show settings }	{ Press alt{-}t o.  }
+{ fullscreen switch }	{ Press shift{-}alt{-}enter.  }
+{ wrap switch }	{ Press ctrl{-}e ctrl{-}w.  }
+{ file hunt {[} $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$ {]} }	{ Press ctrl{-}shift{-}t. Insert "$<$text$>$ or ".  }
+{ file create }	{ Press ctrl{-}n.  }
+{ file rename }	{ Press ctrl{-}{[} s f2.  }
+{ file reveal }	{ Press ctrl{-}{[} s.  }
+{ hint show }	{ Press ctrl{-}shift{-}space.  }
+{ definition show }	{ Press f12.  }
+{ definition peek }	{ Press alt{-}f12.  }
+{ references find }	{ Press shift{-}f12.  }
+{ format that }	{ Press ctrl{-}k ctrl{-}d.  }
+{ format selection }	{ Press ctrl{-}k ctrl{-}f.  }
+{ imports fix }	{ Press ctrl{-}r ctrl{-}g.  }
+{ refactor field }	{ Press ctrl{-}r ctrl{-}e.  }
+{ refactor interface }	{ Press ctrl{-}r ctrl{-}i.  }
+{ refactor method }	{ Press ctrl{-}r ctrl{-}m.  }
+{ refactor reorder parameters }	{ Press ctrl{-}r ctrl{-}o.  }
+{ refactor remove parameters }	{ Press ctrl{-}r ctrl{-}v.  }
+{ refactor that }	{ Press ctrl{-}r ctrl{-}r.  }
+{ (go declaration | follow) }	{ Press ctrl{-}f12.  }
+{ go back }	{ Press ctrl{-}{-}.  }
+{ go forward }	{ Press ctrl{-}shift{-}{-}.  }
+{ go implementation }	{ Press f12.  }
+{ go recent {[} $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$ {]} }	{ Press ctrl{-}1 ctrl{-}r. Insert "$<$text$>$ or ".  }
+{ go type {[} $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$ {]} }	{ Press ctrl{-}1 ctrl{-}t. Insert "$<$text$>$ or ".  }
+{ go member {[} $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$ {]} }	{ Press alt{-}\textbackslash. Insert "$<$text$>$ or ".  }
+{ go usage }	{ Press shift{-}f12.  }
+{ go marks }	{ Press ctrl{-}k ctrl{-}w.  }
+{ toggle mark }	{ Press ctrl{-}k ctrl{-}k.  }
+{ go next mark }	{ Press ctrl{-}k ctrl{-}n.  }
+{ go last mark }	{ Press ctrl{-}k ctrl{-}p.  }
+{ fold toggle }	{ Press ctrl{-}m ctrl{-}m.  }
+{ fold toggle all }	{ Press ctrl{-}m ctrl{-}l.  }
+{ fold definitions }	{ Press ctrl{-}m ctrl{-}o.  }
+{ break point }	{ Press f9.  }
+{ step over }	{ Press f10.  }
+{ debug step into }	{ Press f11.  }
+{ debug step out {[}of{]} }	{ Press f10.  }
+{ debug start }	{ Press f5.  }
+{ debug stopper }	{ Press shift{-}f5.  }
+{ debug continue }	{ Press f5.  }

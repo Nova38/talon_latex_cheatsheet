@@ -1,0 +1,3 @@
+Command	Result
+{ draft submit }	{ Submit/save draft editor.  }
+{ draft discard }	{ Discard draft editor.  }

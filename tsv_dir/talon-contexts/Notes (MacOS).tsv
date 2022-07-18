@@ -1,0 +1,29 @@
+Command	Result
+{ new note }	{ Press cmd{-}n.  }
+{ duplicate note }	{ Press cmd{-}d.  }
+{ new folder }	{ Press shift{-}cmd{-}n.  }
+{ toggle folders }	{ Press alt{-}cmd{-}s.  }
+{ show main }	{ Press cmd{-}0.  }
+{ list view }	{ Press cmd{-}1.  }
+{ gallery view }	{ Press cmd{-}2.  }
+{ toggle attachments }	{ Press cmd{-}3.  }
+{ find all }	{ Press alt{-}cmd{-}f.  }
+{ print note }	{ Press cmd{-}p.  }
+{ attach file }	{ Press shift{-}cmd{-}a.  }
+{ create link }	{ Press cmd{-}k.  }
+{ insert table }	{ Press alt{-}cmd{-}t.  }
+{ apply title }	{ Press shift{-}cmd{-}t.  }
+{ apply heading }	{ Press shift{-}cmd{-}h.  }
+{ apply subheading }	{ Press shift{-}cmd{-}j.  }
+{ apply body }	{ Press shift{-}cmd{-}b.  }
+{ apply mono }	{ Press shift{-}cmd{-}m.  }
+{ apply bullet }	{ Press shift{-}cmd{-}7.  }
+{ apply dash }	{ Press shift{-}cmd{-}8.  }
+{ apply number }	{ Press shift{-}cmd{-}9.  }
+{ apply checklist }	{ Press shift{-}cmd{-}l.  }
+{ increase font }	{ Press cmd{-}+.  }
+{ decrease font }	{ Press cmd{-}{-}.  }
+{ line break }	{ Press ctrl{-}enter.  }
+{ mark }	{ Press shift{-}cmd{-}u.  }
+{ drag {[}line{]} down }	{ Press ctrl{-}cmd{-}down.  }
+{ drag {[}line{]} up }	{ Press ctrl{-}cmd{-}up.  }

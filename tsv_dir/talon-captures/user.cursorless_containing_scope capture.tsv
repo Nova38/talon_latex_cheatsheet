@@ -1,0 +1,2 @@
+Command	Result
+{ user.cursorless\_containing\_scope }	{ CaptureImpl("user.cursorless{-}containing{-}scope", Rule("{[}every{]} $<$a href="\#user{-}cursorless{-}scope{-}type{-}list"$>$  \{user.cursorless{-}scope{-}type\}  $<$/a$>$")) }

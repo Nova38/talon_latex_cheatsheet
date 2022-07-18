@@ -1,0 +1,21 @@
+Command	Result
+{ dot talon }	{ Insert ".talon".  }
+{ action block }	{ Insert `before + after`, leaving cursor between `before` and `after`. Not entirely reliable if `after` contains newlines..  }
+{ setting block }	{ Insert "settings():\textbackslashn	".  }
+{ setting $<$a href="\#user{-}talon{-}settings{-}list"$>$  \{user.talon{-}settings\}  $<$/a$>$ }	{ Pastes text and preserves clipboard.  }
+{ win require }	{ Insert "os: windows\textbackslashn".  }
+{ mac require }	{ Insert "os: mac\textbackslashn".  }
+{ linux require }	{ Insert "os: linux\textbackslashn".  }
+{ title require }	{ Insert "win.title: ".  }
+{ application {[}require{]} {[}$<$a href="\#user{-}talon{-}apps{-}list"$>$  \{user.talon{-}apps\}  $<$/a$>${]} }	{ Let $<$app$>$ be $<$talon\_apps$>$ or . Pastes text and preserves clipboard.  }
+{ mode require {[}$<$a href="\#user{-}talon{-}modes{-}list"$>$  \{user.talon{-}modes\}  $<$/a$>${]} }	{ Let $<$mode$>$ be $<$talon\_modes$>$ or . Pastes text and preserves clipboard.  }
+{ tag require {[}$<$a href="\#user{-}talon{-}tags{-}list"$>$  \{user.talon{-}tags\}  $<$/a$>${]} }	{ Let $<$tag$>$ be $<$talon\_tags$>$ or . Pastes text and preserves clipboard.  }
+{ tag set {[}$<$a href="\#user{-}talon{-}tags{-}list"$>$  \{user.talon{-}tags\}  $<$/a$>${]} }	{ Let $<$tag$>$ be $<$talon\_tags$>$ or . Pastes text and preserves clipboard.  }
+{ list $<$a href="\#user{-}talon{-}lists{-}list"$>$  \{user.talon{-}lists\}  $<$/a$>$ }	{ Insert "\{ $<$talon\_lists$>$ \}".  }
+{ capture $<$a href="\#user{-}talon{-}captures{-}list"$>$  \{user.talon{-}captures\}  $<$/a$>$ }	{ Insert "$<$ $<$talon\_captures$>$ $>$".  }
+{ key  $<$a href="\#user{-}keys{-}capture"$>$ \&lt;user.keys\&gt; $<$/a$>$  over }	{ Insert "$<$keys$>$".  }
+{ key  $<$a href="\#user{-}modifiers{-}capture"$>$ \&lt;user.modifiers\&gt; $<$/a$>$  over }	{ Insert "$<$modifiers$>$".  }
+{ funk $<$a href="\#user{-}talon{-}actions{-}list"$>$  \{user.talon{-}actions\}  $<$/a$>$ }	{ Inserts a function and positions the cursor appropriately.  }
+{ funk cell  \&lt;number\&gt;   }	{ Inserts the selected function when the imgui is open.  }
+{ funk wrap  $<$a href="\#user{-}code{-}common{-}function{-}capture"$>$ \&lt;user.code{-}common{-}function\&gt; $<$/a$>$  }	{ Inserts a function and positions the cursor appropriately.  }
+{ funk wrap  \&lt;number\&gt;   }	{ Inserts the selected function when the imgui is open.  }

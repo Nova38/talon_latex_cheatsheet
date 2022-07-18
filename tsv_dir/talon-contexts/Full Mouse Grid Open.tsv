@@ -1,0 +1,19 @@
+Command	Result
+{  $<$a href="\#user{-}letter{-}capture"$>$ \&lt;user.letter\&gt; $<$/a$>$   $<$a href="\#user{-}letter{-}capture"$>$ \&lt;user.letter\&gt; $<$/a$>$   \&lt;number\&gt;   }	{ Input one letter to highlight a row or column. Input one letter to highlight a row or column. Input one letter to highlight a row or column.  }
+{  $<$a href="\#user{-}letter{-}capture"$>$ \&lt;user.letter\&gt; $<$/a$>$   $<$a href="\#user{-}letter{-}capture"$>$ \&lt;user.letter\&gt; $<$/a$>$  }	{ Input one letter to highlight a row or column. Input one letter to highlight a row or column.  }
+{  \&lt;number\&gt;    $<$a href="\#user{-}letter{-}capture"$>$ \&lt;user.letter\&gt; $<$/a$>$   $<$a href="\#user{-}letter{-}capture"$>$ \&lt;user.letter\&gt; $<$/a$>$  }	{ Input one letter to highlight a row or column. Input one letter to highlight a row or column. Input one letter to highlight a row or column.  }
+{  \&lt;number\&gt;    $<$a href="\#user{-}letter{-}capture"$>$ \&lt;user.letter\&gt; $<$/a$>$  }	{ Input one letter to highlight a row or column. Input one letter to highlight a row or column.  }
+{  \&lt;number\&gt;   }	{ Input one letter to highlight a row or column.  }
+{ horizontal  $<$a href="\#user{-}letter{-}capture"$>$ \&lt;user.letter\&gt; $<$/a$>$  }	{ This command is for if you chose the wrong row and you want to choose a different row before choosing a column.  }
+{  $<$a href="\#user{-}letter{-}capture"$>$ \&lt;user.letter\&gt; $<$/a$>$  }	{ Input one letter to highlight a row or column.  }
+{ {[}dense{]} grid close }	{ Close the active grid.  }
+{ checker grid }	{ Show or hide every other label box so more of the underlying screen content is visible.  }
+{ frame grid }	{ Show or hide rulers all around the window.  }
+{ phonetic grid }	{ toggle phonetic mouse grid on.  }
+{ full grid }	{ toggle full mouse grid on.  }
+{ darker letters }	{ Increase or decrease the opacity of the labels behind text for the full mouse grid (also returns new value).  }
+{ lighter letters }	{ Increase or decrease the opacity of the labels behind text for the full mouse grid (also returns new value).  }
+{ darker background }	{ Increase or decrease the opacity of the background of the full mouse grid (also returns new value).  }
+{ lighter background }	{ Increase or decrease the opacity of the background of the full mouse grid (also returns new value).  }
+{ bigger grid }	{ increase or decrease size of everything.  }
+{ smaller grid }	{ increase or decrease size of everything.  }

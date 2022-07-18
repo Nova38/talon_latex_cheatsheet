@@ -1,0 +1,4 @@
+Command	Result
+{ say }	{ NOOP }
+{ speak }	{ NOOP }
+{ sentence }	{ CAPITALIZE\_FIRST\_WORD }

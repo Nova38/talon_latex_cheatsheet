@@ -1,0 +1,50 @@
+Command	Result
+{ cube {[}control{]} }	{ Insert "kubectl ".  }
+{ cube create }	{ Insert "kubectl create ".  }
+{ cube expose }	{ Insert "kubectl expose ".  }
+{ cube run }	{ Insert "kubectl run ".  }
+{ cube set }	{ Insert "kubectl set ".  }
+{ cube run container }	{ Insert "kubectl run{-}container ".  }
+{ cube explain }	{ Insert "kubectl explain ".  }
+{ cube get }	{ Insert "kubectl get ".  }
+{ cube edit }	{ Insert "kubectl edit ".  }
+{ cube delete }	{ Insert "kubectl delete ".  }
+{ cube rollout }	{ Insert "kubectl rollout ".  }
+{ cube rolling update }	{ Insert "kubectl rolling{-}update ".  }
+{ cube scale }	{ Insert "kubectl scale ".  }
+{ cube auto scale }	{ Insert "kubectl autoscale ".  }
+{ cube certificate }	{ Insert "kubectl certificate ".  }
+{ cube top }	{ Insert "kubectl top ".  }
+{ cube drain }	{ Insert "kubectl drain ".  }
+{ cube taint }	{ Insert "kubectl taint ".  }
+{ cube (cord | cordon) }	{ Insert "kubectl cordon ".  }
+{ cube (uncord | uncordon) }	{ Insert "kubectl uncordon ".  }
+{ cube cluster (info | information) }	{ Insert "kubectl cluster{-}info ".  }
+{ cube describe }	{ Insert "kubectl describe ".  }
+{ cube logs }	{ Insert "kubectl logs ".  }
+{ cube attach }	{ Insert "kubectl attach ".  }
+{ cube exec }	{ Insert "kubectl exec ".  }
+{ cube port forward }	{ Insert "kubectl port{-}forward ".  }
+{ cube proxy }	{ Insert "kubectl proxy ".  }
+{ cube copy }	{ Insert "kubectl cp ".  }
+{ cube auth }	{ Insert "kubectl auth ".  }
+{ cube diff }	{ Insert "kubectl diff ".  }
+{ cube apply }	{ Insert "kubectl apply ".  }
+{ cube patch }	{ Insert "kubectl patch ".  }
+{ cube replace }	{ Insert "kubectl replace ".  }
+{ cube wait }	{ Insert "kubectl wait ".  }
+{ cube convert }	{ Insert "kubectl convert ".  }
+{ cube customize }	{ Insert "kubectl kustomize ".  }
+{ cube label }	{ Insert "kubectl label ".  }
+{ cube annotate }	{ Insert "kubectl annotate ".  }
+{ cube completion }	{ Insert "kubectl completion ".  }
+{ cube (interface | API) }	{ Insert "kubectl api ".  }
+{ cube interface resources }	{ Insert "kubectl api{-}resources ".  }
+{ cube interface versions }	{ Insert "kubectl api{-}versions ".  }
+{ cube config }	{ Insert "kubectl config ".  }
+{ cube help }	{ Insert "kubectl help ".  }
+{ cube plugin }	{ Insert "kubectl plugin ".  }
+{ cube version }	{ Insert "kubectl version ".  }
+{ cube $<$a href="\#user{-}kubectl{-}action{-}list"$>$  \{user.kubectl{-}action\}  $<$/a$>$ {[}$<$a href="\#user{-}kubectl{-}object{-}list"$>$  \{user.kubectl{-}object\}  $<$/a$>${]} }	{ Insert "kubectl  $<$kubectl\_action$>$  ". Insert "$<$kubectl\_object$>$ or ".  }
+{ cube detach }	{ Press ctrl{-}p. Press ctrl{-}q.  }
+{ cube shell }	{ Insert `before + after`, leaving cursor between `before` and `after`. Not entirely reliable if `after` contains newlines..  }

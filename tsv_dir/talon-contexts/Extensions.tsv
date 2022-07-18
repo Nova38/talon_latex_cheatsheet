@@ -1,0 +1,2 @@
+Command	Result
+{ $<$a href="\#user{-}file{-}extension{-}list"$>$  \{user.file{-}extension\}  $<$/a$>$ }	{ Insert "$<$file\_extension$>$".  }

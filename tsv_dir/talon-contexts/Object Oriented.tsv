@@ -1,0 +1,4 @@
+Command	Result
+{ self dot }	{ Inserts a reference to the current object (e.g., C++ "this" or Python's "self"). Inserts the object accessor operator (e.g., Java's "." or PHP's "{-}$>$).  }
+{ state self }	{ Inserts a reference to the current object (e.g., C++ "this" or Python's "self").  }
+{ state class }	{ Starts a class definition (e.g., Java's "class" keyword).  }

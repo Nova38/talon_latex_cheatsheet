@@ -1,0 +1,2 @@
+Command	Result
+{ user.cursorless\_target }	{ CaptureImpl("user.cursorless{-}target", Rule(" $<$a href="\#user{-}cursorless{-}range{-}capture"$>$ \&lt;user.cursorless{-}range\&gt; $<$/a$>$  ($<$a href="\#user{-}cursorless{-}list{-}connective{-}list"$>$  \{user.cursorless{-}list{-}connective\}  $<$/a$>$  $<$a href="\#user{-}cursorless{-}range{-}capture"$>$ \&lt;user.cursorless{-}range\&gt; $<$/a$>$ )*")) }

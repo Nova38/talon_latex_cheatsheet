@@ -1,0 +1,9 @@
+Command	Result
+{ toolkit options }	{ Shows the content available in the HUD toolkit.  }
+{ toolkit debugging }	{ Shows the content available in the debug menu of the HUD toolkit.  }
+{ toolkit scope }	{ Start debugging the Talon scope in the Talon HUD.  }
+{ toolkit speech }	{ Start displaying the phrase debugging tools.  }
+{ toolkit lists }	{ Show available  lists to view for the Talon HUD.  }
+{ toolkit microphones }	{ Show the microphone options in a choice panel.  }
+{ toolkit documentation }	{ Show the general documentation.  }
+{ toolkit walkthroughs }	{ Show all the currently available walk through options.  }

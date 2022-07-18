@@ -1,0 +1,10 @@
+Command	Result
+{ cursor multiple }	{ Enables multi{-}cursor mode.  }
+{ cursor stop }	{ Disables multi{-}cursor mode.  }
+{ cursor up }	{ Adds cursor to line above.  }
+{ cursor down }	{ Adds cursor to line below.  }
+{ cursor less }	{ Removes selection \& cursor at last occurrence.  }
+{ cursor more }	{ Adds cursor at next occurrence of selection.  }
+{ cursor skip }	{ Skips adding a cursor at next occurrence of selection.  }
+{ cursor all }	{ Adds cursor at every occurrence of selection.  }
+{ cursor lines }	{ Adds cursor at end of every selected line.  }

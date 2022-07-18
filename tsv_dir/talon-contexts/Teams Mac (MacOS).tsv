@@ -1,0 +1,57 @@
+Command	Result
+{ open history }	{ Press super{-}shift{-}h.  }
+{ view shortcuts }	{ Press super{-}..  }
+{ show shortcuts }	{ Press super{-}..  }
+{ {[}go{]} {[}to{]} search }	{ Press super{-}e.  }
+{ show commands }	{ Press super{-}/.  }
+{ open filter }	{ Press super{-}shift{-}f.  }
+{ go to }	{ Press super{-}g.  }
+{ open (apps|applications) }	{ Press ctrl{-}`.  }
+{ {[}start{]} new chat }	{ Press super{-}n.  }
+{ open settings }	{ Press super{-},.  }
+{ open help }	{ Press f1.  }
+{ close }	{ Press escape.  }
+{ reset }	{ Press escape. Press escape. Press escape. Press escape.  }
+{ zoom reset }	{ Press super{-}0.  }
+{ open (act|activity) }	{ Press super{-}1.  }
+{ open chat }	{ Press super{-}2.  }
+{ open teams }	{ Press super{-}3.  }
+{ open calendar }	{ Press super{-}4.  }
+{ open calls }	{ Press super{-}5.  }
+{ open files }	{ Press super{-}6.  }
+{ {[}go{]} {[}to{]} (prev|previous) {[}list{]} item }	{ Press alt{-}up.  }
+{ {[}go{]} {[}to{]} next {[}list{]} item }	{ Press alt{-}down.  }
+{ move {[}selected{]} team up }	{ Press super{-}shift{-}up.  }
+{ move {[}selected{]} team down }	{ Press super{-}shift{-}down.  }
+{ {[}go{]} {[}to{]} (prev|previous) section }	{ Press super{-}shift{-}f6.  }
+{ {[}go{]} {[}to{]} next section }	{ Press super{-}f6.  }
+{ {[}go{]} {[}to{]} compose {[}box{]} }	{ Press shift{-}alt{-}c.  }
+{ {[}expand{]} compose {[}box{]} }	{ Press super{-}shift{-}x.  }
+{ send message }	{ Press super{-}enter.  }
+{ attach file }	{ Press shift{-}alt{-}o.  }
+{ attach local file }	{ Press shift{-}alt{-}o. Press down. Press space.  }
+{ {[}start{]} new line }	{ Press shift{-}enter.  }
+{ reply {[}to{]} {[}thread{]} }	{ Press shift{-}alt{-}r.  }
+{ accept video call }	{ Press super{-}shift{-}a.  }
+{ accept audio call }	{ Press super{-}shift{-}s.  }
+{ decline call }	{ Press super{-}shift{-}d.  }
+{ start audio call }	{ Press super{-}shift{-}c.  }
+{ start video call }	{ Press super{-}shift{-}u.  }
+{ toggle mute }	{ Press super{-}shift{-}m.  }
+{ starch screen share session }	{ Press super{-}shift{-}e.  }
+{ toggle video }	{ Press super{-}shift{-}o.  }
+{ {[}go{]} {[}to{]} sharing toolbar }	{ Press super{-}shift{-}space.  }
+{ decline screen share }	{ Press super{-}shift{-}d.  }
+{ accept screen share }	{ Press super{-}shift{-}a.  }
+{ schedule {[}a{]} meeting }	{ Press alt{-}shift{-}n.  }
+{ go to current time }	{ Press alt{-}..  }
+{ go to (prev|previous) (day|week) }	{ Press super{-}alt{-}left.  }
+{ go to next (day|week) }	{ Press super{-}alt{-}right.  }
+{ view day }	{ Press super{-}alt{-}1.  }
+{ view work week }	{ Press super{-}alt{-}2.  }
+{ view week }	{ Press super{-}alt{-}3.  }
+{ (save|send) meeting request }	{ Press super{-}s.  }
+{ join {[}from{]} meeting {[}details{]} }	{ Press alt{-}shift{-}j.  }
+{ go to suggested time }	{ Press alt{-}shift{-}s.  }
+{ (raise|lower) hand }	{ Press super{-}shift{-}k.  }
+{ leave team meeting }	{ Press super{-}shift{-}h.  }

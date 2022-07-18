@@ -1,0 +1,41 @@
+Command	Result
+{ workspace  \&lt;number\&gt;   }	{ Press ctrl{-} $<$number$>$.  }
+{ (slack | lack) {[}channel{]} info }	{ Press ctrl{-}shift{-}i.  }
+{ focus (move | next) }	{ Press ctrl{-}`.  }
+{ (section | zone) {[}next{]} }	{ Press f6.  }
+{ (section | zone) (previous | last) }	{ Press shift{-}f6.  }
+{ (slack | lack) {[}direct{]} messages }	{ Press ctrl{-}shift{-}k.  }
+{ (slack | lack) threads }	{ Press ctrl{-}shift{-}t.  }
+{ (slack | lack) (history {[}next{]} | back | backward) }	{ Press alt{-}left.  }
+{ (slack | lack) forward }	{ Press alt{-}right.  }
+{ (element | bit) {[}next{]} }	{ Press tab.  }
+{ (element | bit) (previous | last) }	{ Press shift{-}tab.  }
+{ (slack | lack) (my stuff | activity) }	{ Press ctrl{-}shift{-}m.  }
+{ (slack | lack) directory }	{ Press ctrl{-}shift{-}e.  }
+{ (slack | lack) (starred {[}items{]} | stars) }	{ Press ctrl{-}shift{-}s.  }
+{ (slack | lack) unread {[}messages{]} }	{ Press ctrl{-}shift{-}a.  }
+{ grab left }	{ Press shift{-}up.  }
+{ grab right }	{ Press shift{-}down.  }
+{ add line }	{ Press shift{-}enter.  }
+{ (slack | lack) (react | reaction) }	{ Press ctrl{-}shift{-}\textbackslash.  }
+{ (insert command | commandify) }	{ Press ctrl{-}shift{-}c.  }
+{ insert code }	{ Insert "```".  }
+{ (slack | lack) (bull | bullet | bulleted) {[}list{]} }	{ Press ctrl{-}shift{-}8.  }
+{ (slack | lack) (number | numbered) {[}list{]} }	{ Press ctrl{-}shift{-}7.  }
+{ (slack | lack) (quotes | quotation) }	{ Press ctrl{-}shift{-}9.  }
+{ bold }	{ Press ctrl{-}b.  }
+{ (italic | italicize) }	{ Press ctrl{-}i.  }
+{ (strike | strikethrough) }	{ Press ctrl{-}shift{-}x.  }
+{ (slack | lack) snippet }	{ Press ctrl{-}shift{-}enter.  }
+{ ({[}toggle{]} mute | unmute) }	{ Press m.  }
+{ (slack | lack) ({[}toggle{]} video) }	{ Press v.  }
+{ (slack | lack) invite }	{ Press a.  }
+{ (slack | lack) shortcuts }	{ Press ctrl{-}/.  }
+{ emote  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  }	{ Insert "$<$text$>$".  }
+{ toggle left sidebar }	{ Press ctrl{-}shift{-}d.  }
+{ toggle right sidebar }	{ Press ctrl{-}..  }
+{ (move | next) focus }	{ Show a desktop notification. Press ctrl{-}`.  }
+{ {[}next{]} (section | zone) }	{ Show a desktop notification. Press f6.  }
+{ (previous | last) (section | zone) }	{ Show a desktop notification. Press shift{-}f6.  }
+{ {[}next{]} (element | bit) }	{ Show a desktop notification. Press tab.  }
+{ (previous | last) (element | bit) }	{ Show a desktop notification. Press shift{-}tab.  }

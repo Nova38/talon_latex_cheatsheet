@@ -1,0 +1,2 @@
+Command	Result
+{ user.c\_cast }	{ CaptureImpl("user.c{-}cast", Rule("{[} $<$a href="\#user{-}c{-}signed{-}capture"$>$ \&lt;self.c{-}signed\&gt; $<$/a$>$ {]}  $<$a href="\#user{-}c{-}types{-}capture"$>$ \&lt;self.c{-}types\&gt; $<$/a$>$  {[} $<$a href="\#user{-}c{-}pointers{-}capture"$>$ \&lt;self.c{-}pointers\&gt; $<$/a$>$ +{]}")) }
