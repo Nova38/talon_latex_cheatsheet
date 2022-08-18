@@ -6,11 +6,12 @@ Command	Result
 { scroll down }	{ Move cursor down one page.  }
 { copy that }	{ Copy selection to clipboard.  }
 { cut that }	{ Cut selection to clipboard.  }
-{ paste that }	{ Paste clipboard at cursor.  }
+{ (pace | paste) that }	{ Paste clipboard at cursor.  }
+{ (pace | paste) enter }	{ Paste clipboard at cursor. Press enter.  }
 { undo that }	{ Undo.  }
 { redo that }	{ Redo.  }
 { paste match }	{ Paste clipboard without style information.  }
 { file save }	{ Save current document.  }
-{ wipe }	{ Press backspace.  }
-{ (pad | padding) }	{ Insert "  ". Press left.  }
+{ file save all }	{ Save all open documents.  }
+{ (pad | padding) }	{ Insert `before + after`, leaving cursor between `before` and `after`. Not entirely reliable if `after` contains newlines..  }
 { slap }	{ Insert line below cursor.  }

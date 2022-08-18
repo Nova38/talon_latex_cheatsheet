@@ -1,2 +1,2 @@
 Command	Result
-{ user.cursorless\_decorated\_symbol }	{ CaptureImpl("user.cursorless{-}decorated{-}symbol", Rule("{[}$<$a href="\#user{-}cursorless{-}hat{-}color{-}list"$>$  \{user.cursorless{-}hat{-}color\}  $<$/a$>${]} {[}$<$a href="\#user{-}cursorless{-}hat{-}shape{-}list"$>$  \{user.cursorless{-}hat{-}shape\}  $<$/a$>${]}  $<$a href="\#user{-}any{-}alphanumeric{-}key{-}capture"$>$ \&lt;user.any{-}alphanumeric{-}key\&gt; $<$/a$>$ ")) }
+{ user.cursorless\_decorated\_symbol }	{ CaptureImpl("user.cursorless{-}decorated{-}symbol", Rule("{[}\{user.cursorless{-}hat{-}color\}{]} {[}\{user.cursorless{-}hat{-}shape\}{]} $<$user.any{-}alphanumeric{-}key$>$")) }

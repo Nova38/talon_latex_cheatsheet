@@ -1,2 +1,2 @@
 Command	Result
-{ user.special\_key }	{ CaptureImpl("user.special{-}key", Rule("$<$a href="\#user{-}special{-}key{-}list"$>$  \{self.special{-}key\}  $<$/a$>$")) }
+{ user.special\_key }	{ CaptureImpl("user.special{-}key", Rule("\{self.special{-}key\}")) }

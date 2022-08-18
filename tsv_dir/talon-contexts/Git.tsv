@@ -73,7 +73,7 @@ Command	Result
 { git show }	{ Insert "git show ".  }
 { git stash pop }	{ Insert "git stash pop\textbackslashn".  }
 { git stash }	{ Insert "git stash\textbackslashn".  }
-{ git stash push }	{ Insert "git stash push {-}m ''". Press left.  }
+{ git stash push }	{ Insert `before + after`, leaving cursor between `before` and `after`. Not entirely reliable if `after` contains newlines..  }
 { git stash apply }	{ Insert "git stash apply\textbackslashn".  }
 { git stash list }	{ Insert "git stash list\textbackslashn".  }
 { git stash show }	{ Insert "git stash show".  }

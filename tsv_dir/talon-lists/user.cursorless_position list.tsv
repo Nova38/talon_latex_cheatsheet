@@ -1,5 +1,5 @@
 Command	Result
-{ after }	{ after }
+{ start of }	{ start }
+{ end of }	{ end }
 { before }	{ before }
-{ start of }	{ start of }
-{ end of }	{ end of }
+{ after }	{ after }

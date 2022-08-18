@@ -1,2 +1,2 @@
 Command	Result
-{ user.c\_variable }	{ CaptureImpl("user.c{-}variable", Rule("{[} $<$a href="\#user{-}c{-}signed{-}capture"$>$ \&lt;self.c{-}signed\&gt; $<$/a$>$ {]}  $<$a href="\#user{-}c{-}types{-}capture"$>$ \&lt;self.c{-}types\&gt; $<$/a$>$  {[} $<$a href="\#user{-}c{-}pointers{-}capture"$>$ \&lt;self.c{-}pointers\&gt; $<$/a$>$ {]}")) }
+{ user.c\_variable }	{ CaptureImpl("user.c{-}variable", Rule("{[}$<$self.c{-}signed$>${]} $<$self.c{-}types$>$ {[}$<$self.c{-}pointers$>${]}")) }

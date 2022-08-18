@@ -7,8 +7,7 @@ Command	Result
 { value  $<$a href="\#user{-}number{-}string{-}capture"$>$ \&lt;user.number{-}string\&gt; $<$/a$>$  point  \&lt;digit{-}string\&gt;   {[}$<$a href="\#user{-}css{-}unit{-}list"$>$  \{user.css{-}unit\}  $<$/a$>${]} }	{ Insert "$<$number\_string$>$ . $<$digit\_string$>$ $<$css\_unit$>$ or ".  }
 { (value|state) $<$a href="\#user{-}css{-}global{-}value{-}list"$>$  \{user.css{-}global{-}value\}  $<$/a$>$ }	{ Insert "$<$css\_global\_value$>$".  }
 { value  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  }	{ Inserts a phrase formatted according to formatters. Formatters is a comma separated list of formatters (e.g. 'CAPITALIZE\_ALL\_WORDS,DOUBLE\_QUOTED\_STRING').  }
-{ variable  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  }	{ name = user.formatted\_text(text, settings.get("user.code\_public\_variable\_formatter"))\newline%
-insert("var({-}{-}\{name\})") }
+{ variable  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  }	{ Let $<$name$>$ be $<$text$>$ (formatted with DASH\_SEPARATED). Insert "var({-}{-} $<$name$>$ )".  }
 { op var }	{ Insert `before + after`, leaving cursor between `before` and `after`. Not entirely reliable if `after` contains newlines..  }
 { at $<$a href="\#user{-}css{-}at{-}rule{-}list"$>$  \{user.css{-}at{-}rule\}  $<$/a$>$ }	{ Insert "@ $<$css\_at\_rule$>$  ".  }
 { unit $<$a href="\#user{-}css{-}unit{-}list"$>$  \{user.css{-}unit\}  $<$/a$>$ }	{ Insert "$<$css\_unit$>$".  }

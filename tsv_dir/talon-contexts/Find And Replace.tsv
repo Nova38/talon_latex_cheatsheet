@@ -1,7 +1,9 @@
 Command	Result
 { hunt this }	{ Finds text in current editor.  }
+{ hunt this (pace | paste) }	{ Finds text in current editor. Paste clipboard at cursor.  }
 { hunt this  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  }	{ Finds text in current editor.  }
 { hunt all }	{ Finds text across project.  }
+{ hunt all (pace | paste) }	{ Finds text across project. Paste clipboard at cursor.  }
 { hunt all  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  }	{ Finds text across project.  }
 { hunt case }	{ Toggles find match by case sensitivity.  }
 { hunt word }	{ Toggles find match by whole words.  }

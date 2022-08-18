@@ -1,2 +1,2 @@
 Command	Result
-{ user.format\_text }	{ CaptureImpl("user.format{-}text", Rule(" $<$a href="\#user{-}formatters{-}capture"$>$ \&lt;self.formatters\&gt; $<$/a$>$   $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  ( $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$   |   $<$a href="\#user{-}formatter{-}immune{-}capture"$>$ \&lt;user.formatter{-}immune\&gt; $<$/a$>$ )*")) }
+{ user.format\_text }	{ CaptureImpl("user.format{-}text", Rule("$<$self.formatters$>$ $<$user.text$>$ ($<$user.text$>$  |  $<$user.formatter{-}immune$>$)*")) }

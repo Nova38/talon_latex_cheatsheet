@@ -1,2 +1,2 @@
 Command	Result
-{ user.formatter\_immune }	{ CaptureImpl("user.formatter{-}immune", Rule("( $<$a href="\#user{-}symbol{-}key{-}capture"$>$ \&lt;user.symbol{-}key\&gt; $<$/a$>$   |  numb  \&lt;number\&gt;  )")) }
+{ user.formatter\_immune }	{ CaptureImpl("user.formatter{-}immune", Rule("($<$user.symbol{-}key$>$  |  numb $<$number$>$)")) }

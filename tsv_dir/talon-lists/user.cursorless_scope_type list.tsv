@@ -2,6 +2,7 @@ Command	Result
 { arg }	{ argumentOrParameter }
 { attribute }	{ attribute }
 { call }	{ functionCall }
+{ callee }	{ functionCallee }
 { class name }	{ className }
 { class }	{ class }
 { comment }	{ comment }
@@ -25,3 +26,11 @@ Command	Result
 { tags }	{ xmlBothTags }
 { start tag }	{ xmlStartTag }
 { end tag }	{ xmlEndTag }
+{ block }	{ paragraph }
+{ cell }	{ notebookCell }
+{ file }	{ document }
+{ line }	{ line }
+{ paint }	{ nonWhitespaceSequence }
+{ short paint }	{ boundedNonWhitespaceSequence }
+{ link }	{ url }
+{ token }	{ token }

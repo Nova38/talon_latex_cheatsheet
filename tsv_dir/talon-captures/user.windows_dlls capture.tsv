@@ -1,2 +1,2 @@
 Command	Result
-{ user.windows\_dlls }	{ CaptureImpl("user.windows{-}dlls", Rule("$<$a href="\#user{-}windows{-}dlls{-}list"$>$  \{self.windows{-}dlls\}  $<$/a$>$")) }
+{ user.windows\_dlls }	{ CaptureImpl("user.windows{-}dlls", Rule("\{self.windows{-}dlls\}")) }

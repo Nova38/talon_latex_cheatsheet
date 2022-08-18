@@ -1,2 +1,2 @@
 Command	Result
-{ user.homophones\_canonical }	{ CaptureImpl("user.homophones{-}canonical", Rule("$<$a href="\#user{-}homophones{-}canonicals{-}list"$>$  \{self.homophones{-}canonicals\}  $<$/a$>$")) }
+{ user.homophones\_canonical }	{ CaptureImpl("user.homophones{-}canonical", Rule("\{self.homophones{-}canonicals\}")) }

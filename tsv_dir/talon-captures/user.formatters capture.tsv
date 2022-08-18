@@ -1,2 +1,2 @@
 Command	Result
-{ user.formatters }	{ CaptureImpl("user.formatters", Rule("$<$a href="\#user{-}formatters{-}list"$>$  \{self.formatters\}  $<$/a$>$+")) }
+{ user.formatters }	{ CaptureImpl("user.formatters", Rule("\{self.formatters\}+")) }

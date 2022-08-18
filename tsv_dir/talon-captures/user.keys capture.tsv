@@ -1,2 +1,2 @@
 Command	Result
-{ user.keys }	{ CaptureImpl("user.keys", Rule(" $<$a href="\#user{-}key{-}capture"$>$ \&lt;self.key\&gt; $<$/a$>$ +")) }
+{ user.keys }	{ CaptureImpl("user.keys", Rule("$<$self.key$>$+")) }

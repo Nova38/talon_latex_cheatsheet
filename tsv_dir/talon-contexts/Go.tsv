@@ -51,7 +51,7 @@ Command	Result
 { state slice }	{ Insert " {[}{]}".  }
 { slice of }	{ Insert "{[}{]}".  }
 { {[}state{]} (no | nil) }	{ Insert "nil".  }
-{ state (int | integer | ant) 64 }	{ Insert " int64 ".  }
+{ state (int | integer | ant) sixty four }	{ Insert " int64 ".  }
 { state tag }	{ Insert `before + after`, leaving cursor between `before` and `after`. Not entirely reliable if `after` contains newlines..  }
 { field tag  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  {[}over{]} }	{ Insert `before + after`, leaving cursor between `before` and `after`. Not entirely reliable if `after` contains newlines.. Insert "$<$text$>$ (formatted with snake)". Insert " ".  }
 { state return }	{ Insert " return ".  }

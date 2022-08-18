@@ -8,6 +8,7 @@ Command	Result
 { pageup }	{ pageup }
 { space }	{ space }
 { tab }	{ tab }
+{ wipe }	{ backspace }
 { delete }	{ backspace }
 { forward delete }	{ delete }
 { page up }	{ pageup }

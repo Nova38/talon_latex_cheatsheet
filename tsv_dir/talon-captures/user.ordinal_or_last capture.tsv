@@ -1,2 +1,2 @@
 Command	Result
-{ user.ordinal\_or\_last }	{ CaptureImpl("user.ordinal{-}or{-}last", Rule(" $<$a href="\#user{-}ordinals{-}small{-}capture"$>$ \&lt;user.ordinals{-}small\&gt; $<$/a$>$   |  last")) }
+{ user.ordinal\_or\_last }	{ CaptureImpl("user.ordinal{-}or{-}last", Rule("$<$user.ordinals{-}small$>$  |  last")) }

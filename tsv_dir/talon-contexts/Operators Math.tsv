@@ -13,4 +13,6 @@ Command	Result
 { (op | is) less {[}than{]} or equal }	{ code\_operator\_less\_than\_or\_equal\_to.  }
 { (op | logical) and }	{ code\_operator\_and.  }
 { (op | logical) or }	{ code\_operator\_or.  }
+{ (op | is) in }	{ code\_operator\_in.  }
+{ (op | is) not in }	{ code\_operator\_not\_in.  }
 { (op | pad) colon }	{ Insert " : ".  }

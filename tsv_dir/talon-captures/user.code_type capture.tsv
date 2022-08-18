@@ -1,2 +1,2 @@
 Command	Result
-{ user.code\_type }	{ CaptureImpl("user.code{-}type", Rule("$<$a href="\#user{-}code{-}type{-}list"$>$  \{user.code{-}type\}  $<$/a$>$")) }
+{ user.code\_type }	{ CaptureImpl("user.code{-}type", Rule("\{user.code{-}type\}")) }

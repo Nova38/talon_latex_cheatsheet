@@ -1,2 +1,2 @@
 Command	Result
-{ user.cursorless\_move\_bring\_targets }	{ CaptureImpl("user.cursorless{-}move{-}bring{-}targets", Rule(" $<$a href="\#user{-}cursorless{-}target{-}capture"$>$ \&lt;user.cursorless{-}target\&gt; $<$/a$>$  {[}$<$a href="\#user{-}cursorless{-}source{-}destination{-}connective{-}list"$>$  \{user.cursorless{-}source{-}destination{-}connective\}  $<$/a$>$  $<$a href="\#user{-}cursorless{-}target{-}capture"$>$ \&lt;user.cursorless{-}target\&gt; $<$/a$>$ {]}")) }
+{ user.cursorless\_move\_bring\_targets }	{ CaptureImpl("user.cursorless{-}move{-}bring{-}targets", Rule("$<$user.cursorless{-}target$>$ {[}$<$user.cursorless{-}positional{-}target$>${]}")) }

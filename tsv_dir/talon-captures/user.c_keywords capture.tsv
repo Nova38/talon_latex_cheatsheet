@@ -1,2 +1,2 @@
 Command	Result
-{ user.c\_keywords }	{ CaptureImpl("user.c{-}keywords", Rule("$<$a href="\#user{-}c{-}keywords{-}list"$>$  \{self.c{-}keywords\}  $<$/a$>$")) }
+{ user.c\_keywords }	{ CaptureImpl("user.c{-}keywords", Rule("\{self.c{-}keywords\}")) }

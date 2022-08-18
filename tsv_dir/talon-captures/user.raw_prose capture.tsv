@@ -1,2 +1,2 @@
 Command	Result
-{ user.raw\_prose }	{ CaptureImpl("user.raw{-}prose", Rule("($<$a href="\#user{-}vocabulary{-}list"$>$  \{user.vocabulary\}  $<$/a$>$  |  $<$a href="\#user{-}punctuation{-}list"$>$  \{user.punctuation\}  $<$/a$>$  |  $<$a href="\#user{-}prose{-}snippets{-}list"$>$  \{user.prose{-}snippets\}  $<$/a$>$  |   \&lt;phrase\&gt;    |   $<$a href="\#user{-}prose{-}number{-}capture"$>$ \&lt;user.prose{-}number\&gt; $<$/a$>$ )+")) }
+{ user.raw\_prose }	{ CaptureImpl("user.raw{-}prose", Rule("(\{user.vocabulary\}  |  \{user.punctuation\}  |  \{user.prose{-}snippets\}  |  $<$phrase$>$  |  $<$user.prose{-}number$>$)+")) }

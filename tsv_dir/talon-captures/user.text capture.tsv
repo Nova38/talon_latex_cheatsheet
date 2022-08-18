@@ -1,2 +1,2 @@
 Command	Result
-{ user.text }	{ CaptureImpl("user.text", Rule("($<$a href="\#user{-}vocabulary{-}list"$>$  \{user.vocabulary\}  $<$/a$>$  |   \&lt;phrase\&gt;  )+")) }
+{ user.text }	{ CaptureImpl("user.text", Rule("(\{user.vocabulary\}  |  $<$phrase$>$)+")) }

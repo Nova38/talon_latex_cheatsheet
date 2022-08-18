@@ -1,31 +1,26 @@
 Command	Result
-{ question {[}mark{]} }	{ Insert "?".  }
-{ (downscore | underscore) }	{ Insert "\_".  }
 { double dash }	{ Insert "{-}{-}".  }
-{ (bracket | brack | left bracket) }	{ Insert "\{".  }
-{ (rbrack | are bracket | right bracket) }	{ Insert "\}".  }
 { triple quote }	{ Insert "'''".  }
 { (triple grave | triple back tick | gravy) }	{ Insert "```".  }
 { (dot dot | dotdot) }	{ Insert "..".  }
 { ellipses }	{ Insert "...".  }
 { (comma and | spamma) }	{ Insert ", ".  }
-{ plus }	{ Insert "+".  }
 { arrow }	{ Insert "{-}$>$".  }
 { dub arrow }	{ Insert "=$>$".  }
 { new line }	{ Insert "\textbackslashn".  }
 { carriage return }	{ Insert "\textbackslashr".  }
 { line feed }	{ Insert "\textbackslashr\textbackslashn".  }
-{ empty dubstring }	{ Insert """". Press left.  }
-{ empty escaped (dubstring|dub quotes) }	{ Insert "\textbackslash"\textbackslash"". Press left. Press left.  }
-{ empty string }	{ Insert "''". Press left.  }
-{ empty escaped string }	{ Insert "\textbackslash'\textbackslash'". Press left. Press left.  }
-{ (inside parens | args) }	{ Insert "()". Press left.  }
-{ inside (squares | square brackets | list) }	{ Insert "{[}{]}". Press left.  }
-{ inside (bracket | braces) }	{ Insert "\{\}". Press left.  }
-{ inside percent }	{ Insert "\%\%". Press left.  }
-{ inside (quotes | string) }	{ Insert "''". Press left.  }
-{ inside (double quotes | dubquotes) }	{ Insert """". Press left.  }
-{ inside (graves | back ticks) }	{ Insert "``". Press left.  }
+{ empty dubstring }	{ Insert `before + after`, leaving cursor between `before` and `after`. Not entirely reliable if `after` contains newlines..  }
+{ empty escaped (dubstring|dub quotes) }	{ Insert `before + after`, leaving cursor between `before` and `after`. Not entirely reliable if `after` contains newlines..  }
+{ empty string }	{ Insert `before + after`, leaving cursor between `before` and `after`. Not entirely reliable if `after` contains newlines..  }
+{ empty escaped string }	{ Insert `before + after`, leaving cursor between `before` and `after`. Not entirely reliable if `after` contains newlines..  }
+{ (inside parens | args) }	{ Insert `before + after`, leaving cursor between `before` and `after`. Not entirely reliable if `after` contains newlines..  }
+{ inside (squares | square brackets | list) }	{ Insert `before + after`, leaving cursor between `before` and `after`. Not entirely reliable if `after` contains newlines..  }
+{ inside (bracket | braces) }	{ Insert `before + after`, leaving cursor between `before` and `after`. Not entirely reliable if `after` contains newlines..  }
+{ inside percent }	{ Insert `before + after`, leaving cursor between `before` and `after`. Not entirely reliable if `after` contains newlines..  }
+{ inside (quotes | string) }	{ Insert `before + after`, leaving cursor between `before` and `after`. Not entirely reliable if `after` contains newlines..  }
+{ inside (double quotes | dubquotes) }	{ Insert `before + after`, leaving cursor between `before` and `after`. Not entirely reliable if `after` contains newlines..  }
+{ inside (graves | back ticks) }	{ Insert `before + after`, leaving cursor between `before` and `after`. Not entirely reliable if `after` contains newlines..  }
 { angle that }	{ Let $<$text$>$ be the selected text. Pastes text and preserves clipboard.  }
 { (square | square bracket) that }	{ Let $<$text$>$ be the selected text. Pastes text and preserves clipboard.  }
 { (bracket | brace) that }	{ Let $<$text$>$ be the selected text. Pastes text and preserves clipboard.  }

@@ -55,3 +55,4 @@ Command	Result
 { cut word left }	{ Extend selection left one word. Cut selection to clipboard.  }
 { cut word right }	{ Extend selection right one word. Cut selection to clipboard.  }
 { cut line }	{ Select entire line $<$n$>$, or current line. Cut selection to clipboard.  }
+{ (pace | paste) all }	{ Select all text in the current document. Paste clipboard at cursor.  }

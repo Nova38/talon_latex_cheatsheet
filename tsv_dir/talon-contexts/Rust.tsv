@@ -6,6 +6,7 @@ Command	Result
 { toggle use }	{ GUI: List libraries for active language.  }
 { borrow }	{ Insert "\&".  }
 { borrow mutable }	{ Insert "\&mut ".  }
+{ state (a sink | async | asynchronous) }	{ Insert "async ".  }
 { state (pub | public) }	{ Insert "pub ".  }
 { state (pub | public) crate }	{ Insert "pub(crate) ".  }
 { state (dyn | dynamic) }	{ Insert "dyn ".  }
@@ -24,8 +25,9 @@ Command	Result
 { state static }	{ Insert "static ".  }
 { self taught }	{ Insert "self.".  }
 { state use }	{ import/using equivalent.  }
-{ use  $<$a href="\#user{-}code{-}libraries{-}capture"$>$ \&lt;user.code{-}libraries\&gt; $<$/a$>$  }	{ Inserts a library and positions the cursor appropriately. Press semicolon enter.  }
+{ use  $<$a href="\#user{-}code{-}libraries{-}capture"$>$ \&lt;user.code{-}libraries\&gt; $<$/a$>$  }	{ Inserts a library and positions the cursor appropriately. Press ; enter.  }
 { state if let some }	{ Inserts if let some block, positioning the cursor appropriately.  }
+{ state if let (ok|okay) }	{ user.code\_insert\_if\_let\_okay() }
 { state if let error }	{ Inserts if let error block, positioning the cursor appropriately.  }
 { is some }	{ Inserts check for non{-}null.  }
 { implement (struct | structure) }	{ Inserts implements block, positioning the cursor appropriately.  }

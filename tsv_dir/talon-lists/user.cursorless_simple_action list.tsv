@@ -20,7 +20,6 @@ Command	Result
 { give }	{ deselect }
 { highlight }	{ highlight }
 { indent }	{ indentLine }
-{ paste to }	{ pasteFromClipboard }
 { post }	{ setSelectionAfter }
 { pour }	{ editNewLineAfter }
 { pre }	{ setSelectionBefore }
@@ -28,6 +27,7 @@ Command	Result
 { shuffle }	{ randomizeTargets }
 { reverse }	{ reverseTargets }
 { scout all }	{ findInWorkspace }
+{ snippet make }	{ generateSnippet }
 { sort }	{ sortTargets }
 { take }	{ setSelection }
 { unfold }	{ unfoldRegion }

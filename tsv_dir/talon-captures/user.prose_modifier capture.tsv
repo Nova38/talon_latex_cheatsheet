@@ -1,2 +1,2 @@
 Command	Result
-{ user.prose\_modifier }	{ CaptureImpl("user.prose{-}modifier", Rule("$<$a href="\#user{-}prose{-}modifiers{-}list"$>$  \{user.prose{-}modifiers\}  $<$/a$>$")) }
+{ user.prose\_modifier }	{ CaptureImpl("user.prose{-}modifier", Rule("\{user.prose{-}modifiers\}")) }

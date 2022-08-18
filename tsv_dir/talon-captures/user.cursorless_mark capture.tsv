@@ -1,2 +1,2 @@
 Command	Result
-{ user.cursorless\_mark }	{ CaptureImpl("user.cursorless{-}mark", Rule(" $<$a href="\#user{-}cursorless{-}decorated{-}symbol{-}capture"$>$ \&lt;user.cursorless{-}decorated{-}symbol\&gt; $<$/a$>$   |  $<$a href="\#user{-}cursorless{-}special{-}mark{-}list"$>$  \{user.cursorless{-}special{-}mark\}  $<$/a$>$  |  $<$a href="\#user{-}cursorless{-}line{-}number{-}capture"$>$ \&lt;user.cursorless{-}line{-}number\&gt; $<$/a$>$ ")) }
+{ user.cursorless\_mark }	{ CaptureImpl("user.cursorless{-}mark", Rule("$<$user.cursorless{-}decorated{-}symbol$>$  |  \{user.cursorless{-}special{-}mark\}  | $<$user.cursorless{-}line{-}number$>$")) }

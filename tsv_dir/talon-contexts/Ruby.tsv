@@ -1,5 +1,5 @@
 Command	Result
-{ args pipe }	{ Insert "||". Press left.  }
+{ args pipe }	{ Insert `before + after`, leaving cursor between `before` and `after`. Not entirely reliable if `after` contains newlines..  }
 { dock string }	{ Inserts a document comment and positions the cursor appropriately.  }
 { state end }	{ Insert "end".  }
 { state begin }	{ Insert "begin".  }

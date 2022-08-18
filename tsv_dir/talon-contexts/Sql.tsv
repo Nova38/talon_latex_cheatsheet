@@ -1,13 +1,20 @@
 Command	Result
 { select }	{ Insert "SELECT ".  }
-{ star }	{ Insert "*".  }
+{ distinct }	{ Insert "DISTINCT ".  }
 { from }	{ Insert "FROM ".  }
-{ select star from }	{ Insert "SELECT * FROM ".  }
+{ select star from }	{ Insert "SELECT *\textbackslashnFROM ".  }
 { where }	{ Insert "WHERE ".  }
 { order by }	{ Insert "ORDER BY ".  }
+{ group by }	{ Insert "GROUP BY ".  }
+{ having }	{ Insert "HAVING ".  }
 { descending }	{ Insert " DESC".  }
 { ascending }	{ Insert " ASC".  }
 { dot i d }	{ Insert ".id".  }
-{ is not null }	{ Insert " IS NOT NULL".  }
-{ is null }	{ Insert " IS NULL".  }
-{ inner join }	{ Insert "INNER JOIN  ON ". Press left. Press left. Press left. Press left.  }
+{ inner join }	{ Insert `before + after`, leaving cursor between `before` and `after`. Not entirely reliable if `after` contains newlines..  }
+{ inner join using }	{ Insert `before + after`, leaving cursor between `before` and `after`. Not entirely reliable if `after` contains newlines..  }
+{ left outer join }	{ Insert `before + after`, leaving cursor between `before` and `after`. Not entirely reliable if `after` contains newlines..  }
+{ right outer join }	{ Insert `before + after`, leaving cursor between `before` and `after`. Not entirely reliable if `after` contains newlines..  }
+{ with }	{ Press enter up. Insert "WITH  AS (". Press enter tab. Insert "SELECT ". Press enter shift{-}tab. Extend selection to end of line. Delete selection. Insert ") ". Press delete up:2 right:3.  }
+{ column }	{ Press return. Insert ", ".  }
+{ count }	{ Inserts a function and positions the cursor appropriately.  }
+{ date }	{ Insert `before + after`, leaving cursor between `before` and `after`. Not entirely reliable if `after` contains newlines..  }

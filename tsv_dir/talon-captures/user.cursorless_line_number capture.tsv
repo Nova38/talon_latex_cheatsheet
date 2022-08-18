@@ -1,2 +1,2 @@
 Command	Result
-{ user.cursorless\_line\_number }	{ CaptureImpl("user.cursorless{-}line{-}number", Rule("$<$a href="\#user{-}cursorless{-}line{-}direction{-}list"$>$  \{user.cursorless{-}line{-}direction\}  $<$/a$>$  \&lt;number{-}small\&gt;  ")) }
+{ user.cursorless\_line\_number }	{ CaptureImpl("user.cursorless{-}line{-}number", Rule("\{user.cursorless{-}line{-}direction\} $<$number{-}small$>$")) }

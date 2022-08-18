@@ -4,10 +4,6 @@ Command	Result
 { focus right }	{ Press ctrl{-}alt{-}shift{-}right.  }
 { focus up }	{ Press ctrl{-}alt{-}shift{-}up.  }
 { focus down }	{ Press ctrl{-}alt{-}shift{-}down.  }
-{ split right }	{ Press alt{-}shift{-}=.  }
-{ split down }	{ Press alt{-}shift{-}{-}.  }
 { term menu }	{ Press ctrl{-}shift{-}f1.  }
-{ run last }	{ Press up enter.  }
-{ kill all }	{ Press ctrl{-}c. Insert "y". Press enter.  }
 { find it }	{ Open Find dialog, optionally searching for text.  }
 { find it  \&lt;phrase\&gt;   }	{ Press escape. Open Find dialog, optionally searching for text.  }

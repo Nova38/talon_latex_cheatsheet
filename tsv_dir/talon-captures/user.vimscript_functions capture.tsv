@@ -1,2 +1,2 @@
 Command	Result
-{ user.vimscript\_functions }	{ CaptureImpl("user.vimscript{-}functions", Rule("$<$a href="\#user{-}vimscript{-}functions{-}list"$>$  \{self.vimscript{-}functions\}  $<$/a$>$")) }
+{ user.vimscript\_functions }	{ CaptureImpl("user.vimscript{-}functions", Rule("\{self.vimscript{-}functions\}")) }

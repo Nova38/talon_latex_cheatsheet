@@ -1,2 +1,2 @@
 Command	Result
-{ user.modifiers }	{ CaptureImpl("user.modifiers", Rule("$<$a href="\#user{-}modifier{-}key{-}list"$>$  \{self.modifier{-}key\}  $<$/a$>$+")) }
+{ user.modifiers }	{ CaptureImpl("user.modifiers", Rule("\{self.modifier{-}key\}+")) }

@@ -1,2 +1,2 @@
 Command	Result
-{ user.key }	{ CaptureImpl("user.key", Rule("$<$a href="\#user{-}modifier{-}key{-}list"$>$  \{self.modifier{-}key\}  $<$/a$>$*  $<$a href="\#user{-}unmodified{-}key{-}capture"$>$ \&lt;self.unmodified{-}key\&gt; $<$/a$>$ ")) }
+{ user.key }	{ CaptureImpl("user.key", Rule("\{self.modifier{-}key\}* $<$self.unmodified{-}key$>$")) }

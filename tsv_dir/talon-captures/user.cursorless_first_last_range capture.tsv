@@ -1,2 +1,2 @@
 Command	Result
-{ user.cursorless\_first\_last\_range }	{ CaptureImpl("user.cursorless{-}first{-}last{-}range", Rule("(first  |  last)  \&lt;number{-}small\&gt;  ")) }
+{ user.cursorless\_first\_last\_range }	{ CaptureImpl("user.cursorless{-}first{-}last{-}range", Rule("(first  |  last) $<$number{-}small$>$")) }

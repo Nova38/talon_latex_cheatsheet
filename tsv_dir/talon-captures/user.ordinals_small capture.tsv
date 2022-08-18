@@ -1,2 +1,2 @@
 Command	Result
-{ user.ordinals\_small }	{ CaptureImpl("user.ordinals{-}small", Rule("$<$a href="\#user{-}ordinals{-}small{-}list"$>$  \{self.ordinals{-}small\}  $<$/a$>$")) }
+{ user.ordinals\_small }	{ CaptureImpl("user.ordinals{-}small", Rule("\{self.ordinals{-}small\}")) }

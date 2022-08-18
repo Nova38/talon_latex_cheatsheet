@@ -1,2 +1,2 @@
 Command	Result
-{ user.stdint\_types }	{ CaptureImpl("user.stdint{-}types", Rule("$<$a href="\#user{-}stdint{-}types{-}list"$>$  \{self.stdint{-}types\}  $<$/a$>$")) }
+{ user.stdint\_types }	{ CaptureImpl("user.stdint{-}types", Rule("\{self.stdint{-}types\}")) }

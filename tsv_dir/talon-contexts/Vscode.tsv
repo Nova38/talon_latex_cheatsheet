@@ -31,10 +31,14 @@ Command	Result
 { wrap switch }	{  }
 { zen switch }	{  }
 { file hunt {[} $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$ {]} }	{ Insert "$<$text$>$ or ".  }
+{ file hunt (pace | paste) }	{ Paste clipboard at cursor.  }
+{ file copy name }	{  }
 { file copy path }	{  }
 { file copy local {[}path{]} }	{  }
 { file create sibling }	{ Execute command via vscode command server, if available, and wait.  }
 { file create }	{  }
+{ file create relative }	{  }
+{ file create root }	{  }
 { file rename }	{  }
 { file move }	{  }
 { file clone }	{  }
@@ -130,6 +134,7 @@ Command	Result
 { debug continue }	{  }
 { debug restart }	{  }
 { debug console }	{  }
+{ debug clean }	{  }
 { terminal external }	{  }
 { terminal new }	{  }
 { terminal next }	{  }
@@ -161,3 +166,4 @@ Command	Result
 { cell run above }	{  }
 { cell run }	{  }
 { install local }	{  }
+{ preview markdown }	{  }

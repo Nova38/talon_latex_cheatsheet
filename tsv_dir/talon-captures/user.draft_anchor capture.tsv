@@ -1,2 +1,2 @@
 Command	Result
-{ user.draft\_anchor }	{ CaptureImpl("user.draft{-}anchor", Rule("$<$a href="\#user{-}letter{-}list"$>$  \{self.letter\}  $<$/a$>$+")) }
+{ user.draft\_anchor }	{ CaptureImpl("user.draft{-}anchor", Rule("\{self.letter\}+")) }

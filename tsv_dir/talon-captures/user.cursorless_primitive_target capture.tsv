@@ -1,2 +1,2 @@
 Command	Result
-{ user.cursorless\_primitive\_target }	{ CaptureImpl("user.cursorless{-}primitive{-}target", Rule(" $<$a href="\#user{-}cursorless{-}modifier{-}capture"$>$ \&lt;user.cursorless{-}modifier\&gt; $<$/a$>$ + {[} $<$a href="\#user{-}cursorless{-}mark{-}capture"$>$ \&lt;user.cursorless{-}mark\&gt; $<$/a$>$ {]}  |   $<$a href="\#user{-}cursorless{-}mark{-}capture"$>$ \&lt;user.cursorless{-}mark\&gt; $<$/a$>$ ")) }
+{ user.cursorless\_primitive\_target }	{ CaptureImpl("user.cursorless{-}primitive{-}target", Rule("$<$user.cursorless{-}modifier$>$+ {[}$<$user.cursorless{-}mark$>${]}  |  $<$user.cursorless{-}mark$>$")) }

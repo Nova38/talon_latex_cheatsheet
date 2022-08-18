@@ -1,2 +1,2 @@
 Command	Result
-{ user.running\_applications }	{ CaptureImpl("user.running{-}applications", Rule("$<$a href="\#user{-}running{-}list"$>$  \{self.running\}  $<$/a$>$")) }
+{ user.running\_applications }	{ CaptureImpl("user.running{-}applications", Rule("\{self.running\}")) }
