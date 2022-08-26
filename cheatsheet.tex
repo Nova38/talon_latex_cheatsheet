@@ -23,7 +23,7 @@
 %                    Color                         
 % ╓────────────────────────────────────────────────────────────╖ 
 % ╚════════════════════════════════════════════════════════════╝ 
-\usepackage[usenames,table,x11names]{xcolor}
+\usepackage[usenames,table,x11names, dvipsnames]{xcolor}
 \newcommand{\AltCommand}[1]{#1\normalsize}
 
 \newcommand{\OptionalPrefix}[1]{\footnotesize{}\textbf{(#1)}\upshape{}\normalsize{}}
@@ -44,7 +44,6 @@
     % \rowcolors{2}{#1!10!white}{#1!5!white}
 }
 \SetColors{DodgerBlue1}
-\SetColors{red}
 
 
 \usepackage{texosquery}
@@ -56,11 +55,6 @@
 %                    Tables                         
 % ╓────────────────────────────────────────────────────────────╖ 
 % ╚════════════════════════════════════════════════════════════╝ 
-\ExplSyntaxOn
-\cs_set_eq:NN \my_section:n \section
-\ExplSyntaxOff
-    
-
 
     \usepackage[l3]{csvsimple}
     \usepackage{tabularray}
@@ -70,7 +64,7 @@
         no head,
         centered tabularray =
         {
-            colspec={ X[2.0001,r,m] X[2,m]},
+            colspec={ X[1,r,m] X[m]},
             rowsep=0pt,
             column{1} = {fg=CommandColor},
             column{2} = {fg=SpeechColor},
@@ -84,7 +78,7 @@
     }
     \def\scale{2}
 
-    \csvstyle{myTableStyle}{
+    \csvstyle{LongerCommandTableStyle}{
         separator=tab,
         no head,
         centered tabularray =
@@ -111,27 +105,7 @@
 % ╚════════════════════════════════════════════════════════════╝ 
 \usepackage[most]{tcolorbox}
 
-    % \newtcolorbox{tablebox}[2][]{   skin=enhanced,
-    %                         colbacktitle=TitleBGColor,
-    %                         colback=BGColor,
-    %                         fonttitle=\large\bfseries\ttfamily,
-    %                         center title,
-    %                         colback=BGColor,
-    %                         adjusted title={#2},
-    %                         left=0mm,
-    %                         right=0mm,
-    %                         top=0mm,
-    %                         bottom=0mm,
-    %                         boxsep=0mm,
-    %                         % toptitle=0.75mm,
-    %                         % bottomtitle=0.75mm,
-    %                         arc=0.2mm,
-    %                         boxrule=0.20pt,
-    %                         halign = center,
-    %                         #1
-    %                     }
-
-
+% This is the style used for the boxes
     \tcbset{
         settablebox/.style = {
             skin=enhanced,
@@ -146,8 +120,8 @@
             top=0mm,
             bottom=0mm,
             boxsep=0mm,
-            toptitle=0.75mm,
-            bottomtitle=0.75mm,
+            toptitle=0.25mm,
+            bottomtitle=0.25mm,
             arc=0.2mm,
             boxrule=0.20pt,
             halign = center,
@@ -172,48 +146,52 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{tcbposter}[
         coverage = {spread},
-        poster = {spacing=2mm, columns=4,rows = 10},
-        boxes = {
-                % blankest,
-            },
+        poster = {spacing=2mm, columns=4,rows = 10, showframe},
+        boxes = {},
     ]
 
-    % \SetTblrInner{colspec={ X[r,m] X[m]},}
+    \posterbox[settablebox={Letters}]{name=Letters, column=1}{
+        \csvreader[MainTableSytle]
+        {./tsv_dir/talon-lists/user.letter list.tsv}{}
+        {\csvlinetotablerow}
+    }
 
-    \posterbox[settablebox={Symbols}]{}{
+    \posterbox[settablebox={Numbers}]{name=Numbers, column=1, below=Letters}{
+        \csvreader[MainTableSytle]
+        {./tsv_dir/talon-lists/user.number_key.tsv}{}
+        {\csvlinetotablerow}
+    }
 
+    \posterbox[settablebox={Modifiers}]{name=Modifiers, column=1, below=Numbers}{
+        \csvreader[MainTableSytle]
+        {./tsv_dir/talon-lists/user.modifier_key.tsv}{}
+        {\csvlinetotablerow}
+    }
+    % ----------------------------------------------------------------------------
+
+    \posterbox[settablebox={Symbols}]{name=Symbols, column=2}{
+        \csvreader[LongerCommandTableStyle]
+        {./modified/user.symbol_key.tsv}{}
+        {\csvlinetotablerow}
+    }
+
+    % ----------------------------------------------------------------------------
+    \SetColors{MediumPurple1}
+    \posterbox[settablebox={Cursorless Hat Color}]{name=hats,column=3}{
         \csvreader[
             MainTableSytle,
-        ]{./tsv_dir/talon-lists/user.letter list.tsv}{}{%
-            \csvlinetotablerow%
-        }
-        % \begin{tablebox}[]{Numbers}
-        %     \csvreader[
-        %         MainTableSytle,
-        %     ]{./tsv_dir/talon-lists/user.number_key.tsv}{}{%
-        %         \csvlinetotablerow%
-        %     }
-        % \end{tablebox}
-    }
-
-    \posterbox[settablebox={Symbols}]{column=2}{
-        \csvreader[
-            myTableStyle,
-        ]{./modified/user.symbol_key.tsv}{}{%
-            \csvlinetotablerow%
-        }
-    }
-
-    \posterbox[settablebox={Cursorless Hat Color}]{column=3}{
-        \csvreader[
-            myTableStyle,
         ]{ ./modified/user.cursorless_hat_color.tsv}{}{%
             \csvlinetotablerow%
         }
     }
 
-
-
+    \SetColors{BurntOrange}
+    \posterbox[settablebox={Generic Browser}]{name=GenericBrowser, column=3, below=hats, span=2}{
+        \csvreader[MainTableSytle]
+        {./tsv_dir/talon-contexts/Generic Browser.tsv}{}
+        {\csvlinetotablerow}
+    }
+    Generic Browser.tsv
 \end{tcbposter}
 
 
@@ -221,37 +199,8 @@
 
 
 
-% \posterbox[adjusted title=Symbols,colbacktitle=TitleBGColor, colback=BGColor]
-% {name=Symbols,column=2,span=1}
-% {
-%     % \pgfplotstabletypeset[
-%     % col sep=tab,
-%     % display columns/0/.append style={
-%     % column type={>{\RaggedLeft}m{.61\textwidth}},
-%     % },
-%     % display columns/1/.append style={
-%     % column type={>{\RaggedRight}m{.21\textwidth}},
-%     % },
-%     % ]{user.symbol_key.tsv}
-% }
-% \posterbox[adjusted title=Modifiers,colbacktitle=TitleBGColor, colback=BGColor]
-% {name=Modifiers,column=2,below=Symbols}
-% {
-%     % \pgfplotstabletypeset[col sep=tab]{user.modifier_key.tsv}
-%     \csvautotabular[separator=tab]{./modified/user.cursorless_hat_color.tsv}
 
-% }
 
-% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% \SetColors{MediumPurple1}
-
-% \posterbox[adjusted title=Cursorless Hat  Color,colbacktitle=TitleBGColor, colback=BGColor]
-% {name=HatColor,column=3,below=Arrow}
-% {
-%     % \pgfplotstabletypeset[col sep=tab]{user.cursorless_hat_color.tsv}
-% }
-
-% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
 
