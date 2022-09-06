@@ -1,4 +1,4 @@
-Command	Result
+{Command}	{Result}
 { address bar| go address | go url }	{ Focus address bar.  }
 { address copy| url copy| copy address| copy url }	{ Focus address bar. Copy selection to clipboard.  }
 { go home }	{ Go to home page.  }

@@ -1,0 +1,169 @@
+Command	Result
+{ window reload }	{  }
+{ window close }	{  }
+{ please {[} user.text{]} }	{ Insert "$<$user.text$>$ or ".  }
+{ bar explore }	{  }
+{ bar extensions }	{  }
+{ bar outline }	{  }
+{ bar run }	{  }
+{ bar search }	{  }
+{ bar source }	{  }
+{ bar test }	{  }
+{ bar switch }	{  }
+{ symbol hunt {[}user.text {]} }	{ Insert "$<$text$>$ or ".  }
+{ panel control }	{  }
+{ panel output }	{  }
+{ panel problems }	{  }
+{ panel switch }	{  }
+{ panel terminal }	{  }
+{ focus editor }	{  }
+{ show settings }	{  }
+{ show settings json }	{  }
+{ show settings folder }	{  }
+{ show settings folder json }	{  }
+{ show settings workspace }	{  }
+{ show settings workspace json }	{  }
+{ show shortcuts }	{  }
+{ show snippets }	{  }
+{ centered switch }	{  }
+{ fullscreen switch }	{  }
+{ theme switch }	{  }
+{ wrap switch }	{  }
+{ zen switch }	{  }
+{ file hunt {[} user.text{]} }	{ Insert "$<$text$>$ or ".  }
+{ file hunt (pace | paste) }	{ Paste clipboard at cursor.  }
+{ file copy name }	{  }
+{ file copy path }	{  }
+{ file copy local {[}path{]} }	{  }
+{ file create sibling }	{ Execute command via vscode command server, if available, and wait.  }
+{ file create }	{  }
+{ file create relative }	{  }
+{ file create root }	{  }
+{ file rename }	{  }
+{ file move }	{  }
+{ file clone }	{  }
+{ file delete }	{  }
+{ file open folder }	{  }
+{ file reveal }	{  }
+{ save ugly }	{  }
+{ suggest show }	{  }
+{ hint show }	{  }
+{ definition show }	{  }
+{ definition peek }	{  }
+{ definition side }	{  }
+{ references show }	{  }
+{ references find }	{  }
+{ format that }	{  }
+{ format selection }	{  }
+{ imports fix }	{  }
+{ problem next }	{  }
+{ problem last }	{  }
+{ problem fix }	{  }
+{ rename that }	{  }
+{ refactor that }	{  }
+{ whitespace trim }	{  }
+{ language switch }	{  }
+{ refactor rename }	{  }
+{ refactor this }	{  }
+{ (go declaration | follow) }	{  }
+{ go back }	{  }
+{ go forward }	{  }
+{ go implementation }	{  }
+{ go type }	{  }
+{ go usage }	{  }
+{ go recent {[} user.text{]} }	{ Insert "$<$text$>$ or ".  }
+{ go edit }	{  }
+{ go marks }	{  }
+{ toggle mark }	{  }
+{ go next mark }	{  }
+{ go last mark }	{  }
+{ close other tabs }	{  }
+{ close all tabs }	{  }
+{ close tabs way right }	{  }
+{ close tabs way left }	{  }
+{ fold that }	{  }
+{ unfold that }	{  }
+{ fold those }	{  }
+{ unfold those }	{  }
+{ fold all }	{  }
+{ unfold all }	{  }
+{ fold comments }	{  }
+{ fold one }	{  }
+{ fold two }	{  }
+{ fold three }	{  }
+{ fold four }	{  }
+{ fold five }	{  }
+{ fold six }	{  }
+{ fold seven }	{  }
+{ git branch }	{  }
+{ git branch this }	{  }
+{ git checkout {[} user.text{]} }	{ Insert "$<$text$>$ or ".  }
+{ git commit {[} user.text{]} }	{ Inserts a phrase formatted according to formatters. Formatters is a comma separated list of formatters (e.g. 'CAPITALIZE\_ALL\_WORDS,DOUBLE\_QUOTED\_STRING').  }
+{ git commit undo }	{  }
+{ git commit amend }	{  }
+{ git diff }	{  }
+{ git fetch }	{  }
+{ git fetch all }	{  }
+{ git ignore }	{  }
+{ git merge }	{  }
+{ git output }	{  }
+{ git pull }	{  }
+{ git push }	{  }
+{ git push focus }	{  }
+{ git rebase abort }	{  }
+{ git reveal }	{  }
+{ git revert }	{  }
+{ git stash }	{  }
+{ git stash pop }	{  }
+{ git status }	{  }
+{ git stage }	{  }
+{ git stage all }	{  }
+{ git sync }	{  }
+{ git unstage }	{  }
+{ git unstage all }	{  }
+{ pull request }	{  }
+{ change next }	{ Press alt{-}f5.  }
+{ change last }	{ Press shift{-}alt{-}f5.  }
+{ break point }	{  }
+{ step over }	{  }
+{ debug step into }	{  }
+{ debug step out {[}of{]} }	{  }
+{ debug start }	{  }
+{ debug pause }	{  }
+{ debug stopper }	{  }
+{ debug continue }	{  }
+{ debug restart }	{  }
+{ debug console }	{  }
+{ debug clean }	{  }
+{ terminal external }	{  }
+{ terminal new }	{  }
+{ terminal next }	{  }
+{ terminal last }	{  }
+{ terminal split }	{  }
+{ terminal zoom }	{  }
+{ terminal trash }	{  }
+{ terminal toggle }	{ Execute command via vscode command server, if available, and wait.  }
+{ terminal scroll up }	{  }
+{ terminal scroll down }	{  }
+{ terminal  {[}number{-}small{]}   }	{ Activate a terminal by number.  }
+{ copy line down }	{  }
+{ copy line up }	{  }
+{ select less }	{  }
+{ select (more|this) }	{  }
+{ minimap }	{  }
+{ maximize }	{  }
+{ restore }	{  }
+{ select breadcrumb }	{  }
+{ replace here }	{ Search and replace for text in the active editor. Press cmd{-}alt{-}l.  }
+{ hover show }	{  }
+{ join lines }	{  }
+{ full screen }	{  }
+{ curse undo }	{  }
+{ select word }	{  }
+{ skip word }	{  }
+{ cell next }	{  }
+{ cell last }	{  }
+{ cell run above }	{  }
+{ cell run }	{  }
+{ install local }	{  }
+{ preview markdown }	{  }

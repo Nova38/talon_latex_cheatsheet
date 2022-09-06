@@ -61,7 +61,7 @@
 
     \csvstyle{MainTableSytle}{
         separator=tab,
-        no head,
+        head to column names,
         centered tabularray =
         {
             colspec={ X[1,r,m] X[m]},
@@ -72,9 +72,9 @@
             row{even} = {evenBGColor},
             row{1} = {fg=black, bg = white, font=\bfseries},
             },
-        table head = {\hline[0.1em,base!50!black]},
         table foot = {\hline[0.1em,base!50!black]},
-        late after first line = {\\\hline[base!50!black]},
+        table head = {Command & Result \\},
+        before first line = {\hline[base!50!black]},
     }
     \def\scale{2}
 
@@ -95,6 +95,24 @@
         table foot = {\hline[0.1em,base!50!black]},
         late after first line = {\\\hline[base!50!black]},
     }
+    \csvstyle{JustCommandsTableSytle}{
+        separator=tab,
+        head to column names,
+        centered tabularray =
+        {
+            colspec={ X[1,m]},
+            rowsep=0pt,
+            column{1} = {fg=CommandColor},
+            row{odd} = {oddBGColor},
+            row{even} = {evenBGColor},
+            row{1} = {fg=black, bg = white, font=\bfseries},
+            },
+            table foot = {\hline[0.1em,base!50!black]},
+            table head = {Command \\},
+            before first line = {\hline[base!50!black]
+        },
+    }
+
 % ──────────────────────────────────────────────────
 
 
@@ -148,6 +166,7 @@
         coverage = {spread},
         poster = {spacing=2mm, columns=4,rows = 10},
         boxes = {},
+        fontsize = 9pt
     ]
 
     \posterbox[settablebox={Letters}]{name=Letters, column=1}{
@@ -176,29 +195,96 @@
     }
 
     % ----------------------------------------------------------------------------
-    \SetColors{MediumPurple1}
-    \posterbox[settablebox={Cursorless Hat Color}]{name=hats,column=3}{
-        \csvreader[
-            MainTableSytle,
-        ]{ ./modified/user.cursorless_hat_color.tsv}{}{%
-            \csvlinetotablerow%
-        }
-    }
 
-    \SetColors{BurntOrange}
-    \posterbox[settablebox={Generic Browser}]{name=GenericBrowser, column=3, below=hats, span=2}{
-        \csvreader[MainTableSytle]
-        {./tsv_dir/talon-contexts/Generic Browser.tsv}{}
-        {\csvlinetotablerow}
-    }
-    Generic Browser.tsv
+    % \posterbox[settablebox={Cursorless Hat Color}]{name=hats,column=3}{
+    %     \csvereader
+    %     [JustCommandsTableSytle
+    %     ]
+    %     { ./modified/Vscode.tsv}
+    %     {}
+    %     {
+    %         \csvlinetotablerow% \command
+    %     }
+    % }
+
+    % \SetColors{BurntOrange}
+    % \posterbox[settablebox={Generic Browser}]{name=GenericBrowser, column=3, below=top, span=2}{
+    %     \csvreader[MainTableSytle]
+    %     {./tsv_dir/talon-contexts/Generic Browser.tsv}{}
+    %     {\csvlinetotablerow}
+    % }
+    % Generic Browser.tsv
 \end{tcbposter}
 
 
 
+\begin{tcbposter}[
+        coverage = {spread},
+        poster = {spacing=2mm, columns=4,rows = 10},
+        boxes = {},
+        fontsize = 9pt
+    ]
+
+    \SetColors{MediumPurple1}
+
+    \posterbox[settablebox={Vscode}]
+    {name=CompoundTargets, column=1,span=1}
+    {
+        \csvreader[
+            JustCommandsTableSytle,
+            range = 0-66
+        ]
+        {./modified/Vscode.tsv}{}
+        {
+            \Command
+        }
+    }
+    \posterbox[settablebox={Vscode cont..}]
+    {name=CompoundTargets, column=2,span=1}
+    {
+        \csvreader[
+            JustCommandsTableSytle,
+            range = 0 + 67-133
+        ]
+        {./modified/Vscode.tsv}{}
+        {
+            \Command
+        }
+    }
 
 
+    \SetColors{BurntOrange}
+    \posterbox[settablebox={Generic Editor}]
+    {name=Generic-Editor, column=4,span=1}
+    {
+        \csvreader[
+            JustCommandsTableSytle,
+            range = 0-
+        ]
+        {./tsv_dir/talon-contexts/Generic Editor.tsv}{}
+        {
+            \Command
 
+        }
+    }
+    
+    \SetColors{MediumPurple1}
+
+    \posterbox[settablebox={Vscode cont..}]
+    {name=vscode3, column=3,span=1, }
+    {
+        \csvreader[
+            JustCommandsTableSytle,
+            range = 0 + 134-
+        ]
+        {./modified/Vscode.tsv}{}
+        {
+            \Command
+        }
+    }
+
+
+\end{tcbposter}
 
 
 
