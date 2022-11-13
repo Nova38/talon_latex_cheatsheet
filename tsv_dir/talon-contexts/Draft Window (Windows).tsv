@@ -1,10 +1,10 @@
 Command	Result
-{ replace  $<$a href="\#user{-}draft{-}anchor{-}capture"$>$ \&lt;user.draft{-}anchor\&gt; $<$/a$>$  with  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  }	{ Selects text in the draft window. Let $<$result$>$ be $<$text$>$ (formatted with NOOP). Insert "$<$result$>$".  }
-{ (pre | cursor | cursor before)  $<$a href="\#user{-}draft{-}anchor{-}capture"$>$ \&lt;user.draft{-}anchor\&gt; $<$/a$>$  }	{ Positions the caret in the draft window.  }
-{ (post | cursor after)  $<$a href="\#user{-}draft{-}anchor{-}capture"$>$ \&lt;user.draft{-}anchor\&gt; $<$/a$>$  }	{ Positions the caret in the draft window.  }
-{ (take | select)  $<$a href="\#user{-}draft{-}anchor{-}capture"$>$ \&lt;user.draft{-}anchor\&gt; $<$/a$>$  }	{ Selects text in the draft window.  }
-{ (take | select)  $<$a href="\#user{-}draft{-}anchor{-}capture"$>$ \&lt;user.draft{-}anchor\&gt; $<$/a$>$  (through | past)  $<$a href="\#user{-}draft{-}anchor{-}capture"$>$ \&lt;user.draft{-}anchor\&gt; $<$/a$>$  }	{ Selects text in the draft window.  }
-{ (change | chuck | clear)  $<$a href="\#user{-}draft{-}anchor{-}capture"$>$ \&lt;user.draft{-}anchor\&gt; $<$/a$>$  }	{ Selects text in the draft window. Press backspace.  }
-{ (change | chuck | clear)  $<$a href="\#user{-}draft{-}anchor{-}capture"$>$ \&lt;user.draft{-}anchor\&gt; $<$/a$>$  (through | past)  $<$a href="\#user{-}draft{-}anchor{-}capture"$>$ \&lt;user.draft{-}anchor\&gt; $<$/a$>$  }	{ Selects text in the draft window. Press backspace.  }
-{  $<$a href="\#user{-}formatters{-}capture"$>$ \&lt;user.formatters\&gt; $<$/a$>$  word  $<$a href="\#user{-}draft{-}anchor{-}capture"$>$ \&lt;user.draft{-}anchor\&gt; $<$/a$>$  }	{ Selects text in the draft window. Reformats the current selection..  }
-{  $<$a href="\#user{-}formatters{-}capture"$>$ \&lt;user.formatters\&gt; $<$/a$>$   $<$a href="\#user{-}draft{-}anchor{-}capture"$>$ \&lt;user.draft{-}anchor\&gt; $<$/a$>$  (through | past)  $<$a href="\#user{-}draft{-}anchor{-}capture"$>$ \&lt;user.draft{-}anchor\&gt; $<$/a$>$  }	{ Selects text in the draft window. Reformats the current selection..  }
+{ replace $<$user.draft{-}anchor$>$ with $<$user.text$>$ }	{ Selects text in the draft window. Let $<$result$>$ be $<$text$>$ (formatted with NOOP). Insert "$<$result$>$".  }
+{ (pre | cursor | cursor before) $<$user.draft{-}anchor$>$ }	{ Positions the caret in the draft window.  }
+{ (post | cursor after) $<$user.draft{-}anchor$>$ }	{ Positions the caret in the draft window.  }
+{ (take | select) $<$user.draft{-}anchor$>$ }	{ Selects text in the draft window.  }
+{ (take | select) $<$user.draft{-}anchor$>$ (through | past) $<$user.draft{-}anchor$>$ }	{ Selects text in the draft window.  }
+{ (change | chuck | clear) $<$user.draft{-}anchor$>$ }	{ Selects text in the draft window. Press backspace.  }
+{ (change | chuck | clear) $<$user.draft{-}anchor$>$ (through | past) $<$user.draft{-}anchor$>$ }	{ Selects text in the draft window. Press backspace.  }
+{ $<$user.formatters$>$ word $<$user.draft{-}anchor$>$ }	{ Selects text in the draft window. Reformats the current selection..  }
+{ $<$user.formatters$>$ $<$user.draft{-}anchor$>$ (through | past) $<$user.draft{-}anchor$>$ }	{ Selects text in the draft window. Reformats the current selection..  }

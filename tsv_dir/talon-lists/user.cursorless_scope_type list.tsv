@@ -22,10 +22,14 @@ Command	Result
 { type }	{ type }
 { value }	{ value }
 { condition }	{ condition }
+{ unit }	{ unit }
 { element }	{ xmlElement }
 { tags }	{ xmlBothTags }
 { start tag }	{ xmlStartTag }
 { end tag }	{ xmlEndTag }
+{ char }	{ character }
+{ word }	{ word }
+{ identifier }	{ identifier }
 { block }	{ paragraph }
 { cell }	{ notebookCell }
 { file }	{ document }
@@ -34,3 +38,10 @@ Command	Result
 { short paint }	{ boundedNonWhitespaceSequence }
 { link }	{ url }
 { token }	{ token }
+{ part }	{ part }
+{ chapter }	{ chapter }
+{ subsection }	{ subSection }
+{ subsubsection }	{ subSubSection }
+{ paragraph }	{ namedParagraph }
+{ subparagraph }	{ subParagraph }
+{ environment }	{ environment }

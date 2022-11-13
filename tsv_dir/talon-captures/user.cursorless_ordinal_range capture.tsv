@@ -1,2 +1,2 @@
 Command	Result
-{ user.cursorless\_ordinal\_range }	{ CaptureImpl("user.cursorless{-}ordinal{-}range", Rule("$<$user.ordinal{-}or{-}last$>$ {[}\{user.cursorless{-}range{-}connective\} $<$user.ordinal{-}or{-}last$>${]}")) }
+{ user.cursorless\_ordinal\_range }	{ CaptureImpl("user.cursorless{-}ordinal{-}range", Rule("$<$user.ordinal{-}or{-}last$>$ {[}\{user.cursorless{-}range{-}connective\} $<$user.ordinal{-}or{-}last$>${]} $<$user.cursorless{-}scope{-}type$>$")) }

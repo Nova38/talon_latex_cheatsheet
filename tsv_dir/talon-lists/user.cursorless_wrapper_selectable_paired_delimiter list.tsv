@@ -4,9 +4,9 @@ Command	Result
 { escaped quad }	{ escapedDoubleQuotes }
 { escaped twin }	{ escapedSingleQuotes }
 { escaped round }	{ escapedParentheses }
-{ escaped square }	{ escapedSquareBrackets }
+{ escaped box }	{ escapedSquareBrackets }
 { quad }	{ doubleQuotes }
 { round }	{ parentheses }
 { skis }	{ backtickQuotes }
-{ square }	{ squareBrackets }
+{ box }	{ squareBrackets }
 { twin }	{ singleQuotes }

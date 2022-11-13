@@ -20,13 +20,13 @@ Command	Result
 { (set|add) hardware (break|break point) }	{ Add one hardware breakpoint in the debugger.  }
 { clear all (breaks|break points) }	{ Clear all breakpoints in the debugger.  }
 { clear (break|break point) }	{ Clear one breakpoint in the debugger.  }
-{ clear (break|break point)  \&lt;number{-}small\&gt;   }	{ Clear one breakpoint id in the debugger.  }
+{ clear (break|break point) $<$number{-}small$>$ }	{ Clear one breakpoint id in the debugger.  }
 { disable all (breaks|break points) }	{ Disable all breakpoints in the debugger.  }
 { disable (break|break point) }	{ Disable one breakpoint in the debugger.  }
-{ disable (break|break point)  \&lt;number{-}small\&gt;   }	{ Disable one breakpoint id in the debugger.  }
+{ disable (break|break point) $<$number{-}small$>$ }	{ Disable one breakpoint id in the debugger.  }
 { enable all (breaks|break points) }	{ Enable all breakpoints in the debugger.  }
 { enable (break|break point) }	{ Enable one breakpoint in the debugger.  }
-{ enable (break|break point)  \&lt;number{-}small\&gt;   }	{ Enable one breakpoint id in the debugger.  }
+{ enable (break|break point) $<$number{-}small$>$ }	{ Enable one breakpoint id in the debugger.  }
 { (stack|back) trace }	{ Print a back trace in the debugger.  }
 { disassemble }	{ Preps the disassemble command in the debugger.  }
 { disassemble here }	{ Disassembles instructions at the current instruction pointer.  }

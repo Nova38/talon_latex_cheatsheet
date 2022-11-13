@@ -45,6 +45,6 @@ Command	Result
 { cube help }	{ Insert "kubectl help ".  }
 { cube plugin }	{ Insert "kubectl plugin ".  }
 { cube version }	{ Insert "kubectl version ".  }
-{ cube $<$a href="\#user{-}kubectl{-}action{-}list"$>$  \{user.kubectl{-}action\}  $<$/a$>$ {[}$<$a href="\#user{-}kubectl{-}object{-}list"$>$  \{user.kubectl{-}object\}  $<$/a$>${]} }	{ Insert "kubectl  $<$kubectl\_action$>$  ". Insert "$<$kubectl\_object$>$ or ".  }
+{ cube \{user.kubectl{-}action\} {[}\{user.kubectl{-}object\}{]} }	{ Insert "kubectl  $<$kubectl\_action$>$  ". Insert "$<$kubectl\_object$>$ or ".  }
 { cube detach }	{ Press ctrl{-}p. Press ctrl{-}q.  }
 { cube shell }	{ Insert `before + after`, leaving cursor between `before` and `after`. Not entirely reliable if `after` contains newlines..  }

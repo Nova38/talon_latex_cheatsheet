@@ -1,2 +1,2 @@
 Command	Result
-{ (abbreviate|abreviate|brief) $<$a href="\#user{-}abbreviation{-}list"$>$  \{user.abbreviation\}  $<$/a$>$ }	{ Insert "$<$abbreviation$>$".  }
+{ (abbreviate | abreviate | brief) \{user.abbreviation\} }	{ Insert "$<$abbreviation$>$".  }

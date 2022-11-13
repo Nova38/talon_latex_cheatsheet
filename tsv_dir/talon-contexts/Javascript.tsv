@@ -8,7 +8,7 @@ Command	Result
 { state export }	{ Insert "export ".  }
 { state async }	{ Insert "async ".  }
 { state await }	{ Insert "await ".  }
-{ dot $<$a href="\#user{-}code{-}common{-}member{-}function{-}list"$>$  \{user.code{-}common{-}member{-}function\}  $<$/a$>$ }	{ Insert `before + after`, leaving cursor between `before` and `after`. Not entirely reliable if `after` contains newlines..  }
+{ dot \{user.code{-}common{-}member{-}function\} }	{ Insert `before + after`, leaving cursor between `before` and `after`. Not entirely reliable if `after` contains newlines..  }
 { state map }	{ Show a desktop notification.  }
 { state filter }	{ Show a desktop notification.  }
 { state reduce }	{ Show a desktop notification.  }

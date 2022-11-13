@@ -5,7 +5,7 @@ Command	Result
 { mux name session }	{ Press ctrl{-}b. Press \$.  }
 { mux kill session }	{ Insert "tmux kill{-}session {-}t ".  }
 { mux new window }	{ Press ctrl{-}b. Press c.  }
-{ mux window  \&lt;number\&gt;   }	{ Press ctrl{-}b. Press $<$number$>$.  }
+{ mux window $<$number$>$ }	{ Press ctrl{-}b. Press $<$number$>$.  }
 { mux previous window }	{ Press ctrl{-}b. Press p.  }
 { mux next window }	{ Press ctrl{-}b. Press n.  }
 { mux rename window }	{ Press ctrl{-}b. Press ,.  }
@@ -13,6 +13,6 @@ Command	Result
 { mux split horizontal }	{ Press ctrl{-}b. Press \%.  }
 { mux split vertical }	{ Press ctrl{-}b. Press ".  }
 { mux next pane }	{ Press ctrl{-}b. Press o.  }
-{ mux move  $<$a href="\#user{-}arrow{-}key{-}capture"$>$ \&lt;user.arrow{-}key\&gt; $<$/a$>$  }	{ Press ctrl{-}b. Press arrow\_key.  }
+{ mux move $<$user.arrow{-}key$>$ }	{ Press ctrl{-}b. Press arrow\_key.  }
 { mux close pane }	{ Press ctrl{-}b. Press x.  }
 { mux pane numbers }	{ Press ctrl{-}b. Press q.  }

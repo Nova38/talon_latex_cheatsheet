@@ -1,7 +1,7 @@
 Command	Result
-{ copy to vocab {[}as  \&lt;phrase\&gt;  {]} }	{ Permanently adds the currently selected text to the vocabulary with the provided.  }
-{ copy name to vocab {[}as  \&lt;phrase\&gt;  {]} }	{ Permanently adds the currently selected text to the vocabulary with the provided.  }
-{ copy noun to vocab {[}as  \&lt;phrase\&gt;  {]} }	{ Permanently adds the currently selected text to the vocabulary with the provided.  }
-{ copy to replacements as  \&lt;phrase\&gt;   }	{ Permanently adds the currently selected text as replacement for the provided.  }
-{ copy name to replacements as  \&lt;phrase\&gt;   }	{ Permanently adds the currently selected text as replacement for the provided.  }
-{ copy noun to replacements as  \&lt;phrase\&gt;   }	{ Permanently adds the currently selected text as replacement for the provided.  }
+{ copy to vocab {[}as $<$phrase$>${]} }	{ Permanently adds the currently selected text to the vocabulary with the provided.  }
+{ copy name to vocab {[}as $<$phrase$>${]} }	{ Permanently adds the currently selected text to the vocabulary with the provided.  }
+{ copy noun to vocab {[}as $<$phrase$>${]} }	{ Permanently adds the currently selected text to the vocabulary with the provided.  }
+{ copy to replacements as $<$phrase$>$ }	{ Permanently adds the currently selected text as replacement for the provided.  }
+{ copy name to replacements as $<$phrase$>$ }	{ Permanently adds the currently selected text as replacement for the provided.  }
+{ copy noun to replacements as $<$phrase$>$ }	{ Permanently adds the currently selected text as replacement for the provided.  }

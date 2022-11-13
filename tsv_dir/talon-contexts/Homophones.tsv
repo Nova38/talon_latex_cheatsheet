@@ -1,9 +1,9 @@
 Command	Result
-{ phones  $<$a href="\#user{-}homophones{-}canonical{-}capture"$>$ \&lt;user.homophones{-}canonical\&gt; $<$/a$>$  }	{ Show the homophones display.  }
+{ phones $<$user.homophones{-}canonical$>$ }	{ Show the homophones display.  }
 { phones that }	{ Show the homophones display for the selected text.  }
-{ phones force  $<$a href="\#user{-}homophones{-}canonical{-}capture"$>$ \&lt;user.homophones{-}canonical\&gt; $<$/a$>$  }	{ Show the homophones display forcibly.  }
+{ phones force $<$user.homophones{-}canonical$>$ }	{ Show the homophones display forcibly.  }
 { phones force }	{ Show the homophones display for the selected text forcibly.  }
 { phones hide }	{ Hides the homophones display.  }
 { phones word }	{ Select word under cursor. Show the homophones display for the selected text.  }
-{ phones {[} $<$a href="\#user{-}ordinals{-}capture"$>$ \&lt;user.ordinals\&gt; $<$/a$>$ {]} word left }	{ Let $<$n$>$ be $<$ordinals$>$ or 1. Moves left by n words.. Extend selection left one word. Show the homophones display for the selected text.  }
-{ phones {[} $<$a href="\#user{-}ordinals{-}capture"$>$ \&lt;user.ordinals\&gt; $<$/a$>$ {]} word right }	{ Let $<$n$>$ be $<$ordinals$>$ or 1. Moves right by n words.. Extend selection right one word. Show the homophones display for the selected text.  }
+{ phones {[}$<$user.ordinals$>${]} word left }	{ Let $<$n$>$ be $<$ordinals$>$ or 1. Moves left by n words.. Extend selection left one word. Show the homophones display for the selected text.  }
+{ phones {[}$<$user.ordinals$>${]} word right }	{ Let $<$n$>$ be $<$ordinals$>$ or 1. Moves right by n words.. Extend selection right one word. Show the homophones display for the selected text.  }

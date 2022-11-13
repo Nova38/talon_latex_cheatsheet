@@ -1,7 +1,7 @@
 Command	Result
 { window reload }	{  }
 { window close }	{  }
-{ please {[} $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$ {]} }	{ Insert "$<$user.text$>$ or ".  }
+{ please {[}$<$user.text$>${]} }	{ Insert "$<$user.text$>$ or ".  }
 { bar explore }	{  }
 { bar extensions }	{  }
 { bar outline }	{  }
@@ -10,13 +10,13 @@ Command	Result
 { bar source }	{  }
 { bar test }	{  }
 { bar switch }	{  }
-{ symbol hunt {[} $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$ {]} }	{ Insert "$<$text$>$ or ".  }
+{ symbol hunt {[}$<$user.text$>${]} }	{ Insert "$<$text$>$ or ".  }
 { panel control }	{  }
 { panel output }	{  }
 { panel problems }	{  }
 { panel switch }	{  }
 { panel terminal }	{  }
-{ focus editor }	{  }
+{ f ocus editor }	{  }
 { show settings }	{  }
 { show settings json }	{  }
 { show settings folder }	{  }
@@ -30,7 +30,7 @@ Command	Result
 { theme switch }	{  }
 { wrap switch }	{  }
 { zen switch }	{  }
-{ file hunt {[} $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$ {]} }	{ Insert "$<$text$>$ or ".  }
+{ file hunt {[}$<$user.text$>${]} }	{ Insert "$<$text$>$ or ".  }
 { file hunt (pace | paste) }	{ Paste clipboard at cursor.  }
 { file copy name }	{  }
 { file copy path }	{  }
@@ -66,12 +66,12 @@ Command	Result
 { refactor rename }	{  }
 { refactor this }	{  }
 { (go declaration | follow) }	{  }
-{ go back }	{  }
+{ go  back }	{  }
 { go forward }	{  }
 { go implementation }	{  }
 { go type }	{  }
 { go usage }	{  }
-{ go recent {[} $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$ {]} }	{ Insert "$<$text$>$ or ".  }
+{ go recent {[}$<$user.text$>${]} }	{ Insert "$<$text$>$ or ".  }
 { go edit }	{  }
 { go marks }	{  }
 { toggle mark }	{  }
@@ -97,8 +97,8 @@ Command	Result
 { fold seven }	{  }
 { git branch }	{  }
 { git branch this }	{  }
-{ git checkout {[} $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$ {]} }	{ Insert "$<$text$>$ or ".  }
-{ git commit {[} $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$ {]} }	{ Inserts a phrase formatted according to formatters. Formatters is a comma separated list of formatters (e.g. 'CAPITALIZE\_ALL\_WORDS,DOUBLE\_QUOTED\_STRING').  }
+{ git checkout {[}$<$user.text$>${]} }	{ Insert "$<$text$>$ or ".  }
+{ git commit {[}$<$user.text$>${]} }	{ Inserts a phrase formatted according to formatters. Formatters is a comma separated list of formatters (e.g. 'CAPITALIZE\_ALL\_WORDS,DOUBLE\_QUOTED\_STRING').  }
 { git commit undo }	{  }
 { git commit amend }	{  }
 { git diff }	{  }
@@ -145,11 +145,11 @@ Command	Result
 { terminal toggle }	{ Execute command via vscode command server, if available, and wait.  }
 { terminal scroll up }	{  }
 { terminal scroll down }	{  }
-{ terminal  \&lt;number{-}small\&gt;   }	{ Activate a terminal by number.  }
+{ terminal $<$number{-}small$>$ }	{ Activate a terminal by number.  }
 { copy line down }	{  }
 { copy line up }	{  }
 { select less }	{  }
-{ select (more|this) }	{  }
+{ select (more | this) }	{  }
 { minimap }	{  }
 { maximize }	{  }
 { restore }	{  }

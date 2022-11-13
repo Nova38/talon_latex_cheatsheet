@@ -1,13 +1,8 @@
 Command	Result
-{  $<$a href="\#user{-}cursorless{-}action{-}or{-}vscode{-}command{-}capture"$>$ \&lt;user.cursorless{-}action{-}or{-}vscode{-}command\&gt; $<$/a$>$   $<$a href="\#user{-}cursorless{-}target{-}capture"$>$ \&lt;user.cursorless{-}target\&gt; $<$/a$>$  }	{ Perform cursorless action or vscode command on target (internal use only).  }
-{ $<$a href="\#user{-}cursorless{-}positional{-}action{-}list"$>$  \{user.cursorless{-}positional{-}action\}  $<$/a$>$  $<$a href="\#user{-}cursorless{-}positional{-}target{-}capture"$>$ \&lt;user.cursorless{-}positional{-}target\&gt; $<$/a$>$  }	{ Execute single{-}target cursorless command.  }
-{ $<$a href="\#user{-}cursorless{-}swap{-}action{-}list"$>$  \{user.cursorless{-}swap{-}action\}  $<$/a$>$  $<$a href="\#user{-}cursorless{-}swap{-}targets{-}capture"$>$ \&lt;user.cursorless{-}swap{-}targets\&gt; $<$/a$>$  }	{ Execute multi{-}target cursorless command.  }
-{ $<$a href="\#user{-}cursorless{-}move{-}bring{-}action{-}list"$>$  \{user.cursorless{-}move{-}bring{-}action\}  $<$/a$>$  $<$a href="\#user{-}cursorless{-}move{-}bring{-}targets{-}capture"$>$ \&lt;user.cursorless{-}move{-}bring{-}targets\&gt; $<$/a$>$  }	{ Execute multi{-}target cursorless command.  }
-{ $<$a href="\#user{-}cursorless{-}reformat{-}action{-}list"$>$  \{user.cursorless{-}reformat{-}action\}  $<$/a$>$  $<$a href="\#user{-}formatters{-}capture"$>$ \&lt;user.formatters\&gt; $<$/a$>$  at  $<$a href="\#user{-}cursorless{-}target{-}capture"$>$ \&lt;user.cursorless{-}target\&gt; $<$/a$>$  }	{ Reformat targets with formatter.  }
-{  $<$a href="\#user{-}cursorless{-}wrapper{-}capture"$>$ \&lt;user.cursorless{-}wrapper\&gt; $<$/a$>$  $<$a href="\#user{-}cursorless{-}wrap{-}action{-}list"$>$  \{user.cursorless{-}wrap{-}action\}  $<$/a$>$  $<$a href="\#user{-}cursorless{-}target{-}capture"$>$ \&lt;user.cursorless{-}target\&gt; $<$/a$>$  }	{ Perform cursorless wrap action.  }
-{ cursorless help }	{ Toggle cursorless cheat sheet.  }
-{ cursorless instructions }	{ Open web page with cursorless instructions.  }
-{ cursorless docks }	{ Open web page with cursorless instructions.  }
-{ cursorless reference }	{ Show new cursorless html cheat sheet.  }
-{ cursorless cheat sheet }	{ Show new cursorless html cheat sheet.  }
-{ cursorless settings }	{ Insert "cursorless".  }
+{ $<$user.cursorless{-}action{-}or{-}ide{-}command$>$ $<$user.cursorless{-}target$>$ }	{ Perform cursorless action or ide command on target (internal use only).  }
+{ \{user.cursorless{-}positional{-}action\} $<$user.cursorless{-}positional{-}target$>$ }	{ Execute single{-}target cursorless command.  }
+{ \{user.cursorless{-}swap{-}action\} $<$user.cursorless{-}swap{-}targets$>$ }	{ Execute multi{-}target cursorless command.  }
+{ \{user.cursorless{-}move{-}bring{-}action\} $<$user.cursorless{-}move{-}bring{-}targets$>$ }	{ Execute multi{-}target cursorless command.  }
+{ \{user.cursorless{-}reformat{-}action\} $<$user.formatters$>$ at $<$user.cursorless{-}target$>$ }	{ Reformat targets with formatter.  }
+{ $<$user.cursorless{-}wrapper$>$ \{user.cursorless{-}wrap{-}action\} $<$user.cursorless{-}target$>$ }	{ Perform cursorless wrap action.  }
+{ \{user.cursorless{-}homophone\} settings }	{ Show Cursorless{-}specific settings in ide.  }

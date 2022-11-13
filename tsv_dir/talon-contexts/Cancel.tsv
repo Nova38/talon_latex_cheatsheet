@@ -1,3 +1,3 @@
 Command	Result
 { cancel cancel }	{ Do nothing.  }
-{ ignore {[} \&lt;phrase\&gt;  {]} }	{ Show a desktop notification.  }
+{ ignore {[}$<$phrase$>${]} }	{ Show a desktop notification.  }

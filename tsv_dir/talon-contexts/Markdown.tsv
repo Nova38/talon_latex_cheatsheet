@@ -5,4 +5,4 @@ Command	Result
 { level four }	{ Insert "\#\#\#\# ".  }
 { level five }	{ Insert "\#\#\#\#\# ".  }
 { level six }	{ Insert "\#\#\#\#\#\# ".  }
-{ $<$a href="\#user{-}markdown{-}code{-}block{-}language{-}list"$>$  \{user.markdown{-}code{-}block{-}language\}  $<$/a$>$ block }	{ Insert "``` $<$markdown\_code\_block\_language$>$". Press enter:2. Insert "```". Press up.  }
+{ \{user.markdown{-}code{-}block{-}language\} block }	{ Insert "``` $<$markdown\_code\_block\_language$>$". Press enter:2. Insert "```". Press up.  }

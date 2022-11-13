@@ -1,5 +1,5 @@
 Command	Result
-{  $<$a href="\#user{-}number{-}key{-}capture"$>$ \&lt;user.number{-}key\&gt; $<$/a$>$  }	{ Choose a field of the grid and narrow the selection down.  }
+{ $<$user.number{-}key$>$ }	{ Choose a field of the grid and narrow the selection down.  }
 { grid off }	{ Close the active grid.  }
 { grid reset }	{ Resets the grid to fill the whole screen again.  }
 { grid back }	{ Sets the grid state back to what it was before the last command.  }

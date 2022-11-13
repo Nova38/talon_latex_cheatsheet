@@ -1,32 +1,32 @@
 Command	Result
-{ press  $<$a href="\#user{-}modifiers{-}capture"$>$ \&lt;user.modifiers\&gt; $<$/a$>$  }	{ Press modifiers.  }
-{ press  $<$a href="\#user{-}keys{-}capture"$>$ \&lt;user.keys\&gt; $<$/a$>$  }	{ Press keys.  }
-{  $<$a href="\#user{-}raw{-}prose{-}capture"$>$ \&lt;user.raw{-}prose\&gt; $<$/a$>$  }	{ Insert "$<$raw\_prose$>$".  }
+{ press $<$user.modifiers$>$ }	{ Press modifiers.  }
+{ press $<$user.keys$>$ }	{ Press keys.  }
+{ $<$user.raw{-}prose$>$ }	{ Insert "$<$raw\_prose$>$".  }
 { cap }	{ Sets the dictation formatter to capitalize.  }
 { (no cap | no{-}caps) }	{ Sets the dictation formatter to not capitalize.  }
 { (no space | no{-}space) }	{ Sets the dictation formatter to not prepend a space.  }
 { cap that }	{ Capitalizes the last utterance.  }
 { (no cap | no{-}caps) that }	{ Lowercases the last utterance.  }
 { (no space | no{-}space) that }	{ Removes space before the last utterance.  }
-{ go up  \&lt;number{-}small\&gt;   (line|lines) }	{ Move cursor up one row. Repeat $<$number\_small$>$ {-} 1 times.  }
-{ go down  \&lt;number{-}small\&gt;   (line|lines) }	{ Move cursor down one row. Repeat $<$number\_small$>$ {-} 1 times.  }
-{ go left  \&lt;number{-}small\&gt;   (word|words) }	{ Move cursor left one word. Repeat $<$number\_small$>$ {-} 1 times.  }
-{ go right  \&lt;number{-}small\&gt;   (word|words) }	{ Move cursor right one word. Repeat $<$number\_small$>$ {-} 1 times.  }
+{ go up $<$number{-}small$>$ (line | lines) }	{ Move cursor up one row. Repeat $<$number\_small$>$ {-} 1 times.  }
+{ go down $<$number{-}small$>$ (line | lines) }	{ Move cursor down one row. Repeat $<$number\_small$>$ {-} 1 times.  }
+{ go left $<$number{-}small$>$ (word | words) }	{ Move cursor left one word. Repeat $<$number\_small$>$ {-} 1 times.  }
+{ go right $<$number{-}small$>$ (word | words) }	{ Move cursor right one word. Repeat $<$number\_small$>$ {-} 1 times.  }
 { go line start }	{ Move cursor to start of line.  }
 { go line end }	{ Move cursor to end of line.  }
-{ select left  \&lt;number{-}small\&gt;   (word|words) }	{ Extend selection left one word. Repeat $<$number\_small$>$ {-} 1 times.  }
-{ select right  \&lt;number{-}small\&gt;   (word|words) }	{ Extend selection right one word. Repeat $<$number\_small$>$ {-} 1 times.  }
-{ select left  \&lt;number{-}small\&gt;   (character|characters) }	{ Extend selection left one column. Repeat $<$number\_small$>$ {-} 1 times.  }
-{ select right  \&lt;number{-}small\&gt;   (character|characters) }	{ Extend selection right one column. Repeat $<$number\_small$>$ {-} 1 times.  }
-{ clear left  \&lt;number{-}small\&gt;   (word|words) }	{ Extend selection left one word. Repeat $<$number\_small$>$ {-} 1 times. Delete selection.  }
-{ clear right  \&lt;number{-}small\&gt;   (word|words) }	{ Extend selection right one word. Repeat $<$number\_small$>$ {-} 1 times. Delete selection.  }
-{ clear left  \&lt;number{-}small\&gt;   (character|characters) }	{ Extend selection left one column. Repeat $<$number\_small$>$ {-} 1 times. Delete selection.  }
-{ clear right  \&lt;number{-}small\&gt;   (character|characters) }	{ Extend selection right one column. Repeat $<$number\_small$>$ {-} 1 times. Delete selection.  }
-{ formatted  $<$a href="\#user{-}format{-}text{-}capture"$>$ \&lt;user.format{-}text\&gt; $<$/a$>$  }	{ Inserts text as{-}is, without invoking the dictation formatter..  }
-{ format selection  $<$a href="\#user{-}formatters{-}capture"$>$ \&lt;user.formatters\&gt; $<$/a$>$  }	{ Reformats the current selection..  }
+{ select left $<$number{-}small$>$ (word | words) }	{ Extend selection left one word. Repeat $<$number\_small$>$ {-} 1 times.  }
+{ select right $<$number{-}small$>$ (word | words) }	{ Extend selection right one word. Repeat $<$number\_small$>$ {-} 1 times.  }
+{ select left $<$number{-}small$>$ (character | characters) }	{ Extend selection left one column. Repeat $<$number\_small$>$ {-} 1 times.  }
+{ select right $<$number{-}small$>$ (character | characters) }	{ Extend selection right one column. Repeat $<$number\_small$>$ {-} 1 times.  }
+{ clear left $<$number{-}small$>$ (word | words) }	{ Extend selection left one word. Repeat $<$number\_small$>$ {-} 1 times. Delete selection.  }
+{ clear right $<$number{-}small$>$ (word | words) }	{ Extend selection right one word. Repeat $<$number\_small$>$ {-} 1 times. Delete selection.  }
+{ clear left $<$number{-}small$>$ (character | characters) }	{ Extend selection left one column. Repeat $<$number\_small$>$ {-} 1 times. Delete selection.  }
+{ clear right $<$number{-}small$>$ (character | characters) }	{ Extend selection right one column. Repeat $<$number\_small$>$ {-} 1 times. Delete selection.  }
+{ formatted $<$user.format{-}text$>$ }	{ Inserts text as{-}is, without invoking the dictation formatter..  }
+{ format selection $<$user.formatters$>$ }	{ Reformats the current selection..  }
 { scratch that }	{ Clears the last phrase.  }
 { scratch selection }	{ Delete selection.  }
 { select that }	{ Selects the last phrase.  }
-{ spell that  $<$a href="\#user{-}letters{-}capture"$>$ \&lt;user.letters\&gt; $<$/a$>$  }	{ Insert "$<$letters$>$".  }
-{ spell that  $<$a href="\#user{-}formatters{-}capture"$>$ \&lt;user.formatters\&gt; $<$/a$>$   $<$a href="\#user{-}letters{-}capture"$>$ \&lt;user.letters\&gt; $<$/a$>$  }	{ Let $<$result$>$ be $<$letters$>$ (formatted with $<$formatters$>$). Inserts text as{-}is, without invoking the dictation formatter..  }
-{ escape  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  }	{ Insert "$<$user.text$>$".  }
+{ spell that $<$user.letters$>$ }	{ Insert "$<$letters$>$".  }
+{ spell that $<$user.formatters$>$ $<$user.letters$>$ }	{ Let $<$result$>$ be $<$letters$>$ (formatted with $<$formatters$>$). Inserts text as{-}is, without invoking the dictation formatter..  }
+{ escape $<$user.text$>$ }	{ Insert "$<$user.text$>$".  }

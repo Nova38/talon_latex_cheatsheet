@@ -9,7 +9,7 @@ Command	Result
 { go to issues {[}page{]} }	{ Press shift{-}i.  }
 { go to merge requests {[}page{]} }	{ Press shift{-}m.  }
 { go to to do {[}list{]} {[}page{]} }	{ Press shift{-}t.  }
-{ (show|hide) performance bar }	{ Press p.  }
+{ (show | hide) performance bar }	{ Press p.  }
 { edit last comment }	{ Press 1.  }
 { toggle mark down {[}preview{]} }	{ Press ctrl{-}shift{-}p.  }
 { go {[}to{]} project home {[}page{]} }	{ Insert "gp".  }
@@ -17,9 +17,9 @@ Command	Result
 { go {[}to{]} project releases {[}list{]} }	{ Insert "gr".  }
 { go {[}to{]} project files {[}list{]} }	{ Insert "gf".  }
 { go {[}to{]} project file search {[}page{]} }	{ Press t.  }
-{ go {[}to{]} project (commit|commits) {[}list{]} }	{ Insert "gc".  }
-{ go {[}to{]} (repository|repo) graph {[}page{]} }	{ Insert "gn".  }
-{ go {[}to{]} (repository|repo) charts }	{ Insert "gd".  }
+{ go {[}to{]} project (commit | commits) {[}list{]} }	{ Insert "gc".  }
+{ go {[}to{]} (repository | repo) graph {[}page{]} }	{ Insert "gn".  }
+{ go {[}to{]} (repository | repo) charts }	{ Insert "gd".  }
 { go {[}to{]} project issues {[}list{]} }	{ Insert "gi".  }
 { go {[}to{]} new issues {[}list{]} }	{ Insert "i".  }
 { go {[}to{]} project issues boards {[}list{]} }	{ Insert "gb".  }

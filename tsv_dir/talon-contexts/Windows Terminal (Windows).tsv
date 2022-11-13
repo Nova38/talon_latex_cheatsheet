@@ -6,4 +6,4 @@ Command	Result
 { focus down }	{ Press ctrl{-}alt{-}shift{-}down.  }
 { term menu }	{ Press ctrl{-}shift{-}f1.  }
 { find it }	{ Open Find dialog, optionally searching for text.  }
-{ find it  \&lt;phrase\&gt;   }	{ Press escape. Open Find dialog, optionally searching for text.  }
+{ find it $<$phrase$>$ }	{ Press escape. Open Find dialog, optionally searching for text.  }

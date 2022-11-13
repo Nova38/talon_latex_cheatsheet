@@ -1,4 +1,4 @@
 Command	Result
 { dense {[}mouse{]} grid }	{ Close the active grid. Show mouse grid.  }
-{ dense {[}mouse{]} grid screen  \&lt;number\&gt;   }	{ Close the active grid. Brings up mouse grid.  }
+{ dense {[}mouse{]} grid screen $<$number$>$ }	{ Close the active grid. Brings up mouse grid.  }
 { dense {[}mouse{]} grid win }	{ Close the active grid. Places the grid on the currently active window.  }

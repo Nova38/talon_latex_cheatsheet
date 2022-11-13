@@ -1,5 +1,5 @@
 Command	Result
-{ please {[} $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$ {]} }	{ Press ctrl{-}3. Insert "$<$user.text$>$ or ".  }
+{ please {[}$<$user.text$>${]} }	{ Press ctrl{-}3. Insert "$<$user.text$>$ or ".  }
 { bar explore }	{ Press alt{-}shift{-}w p.  }
 { bar outline }	{ Press alt{-}shift{-}q o.  }
 { panel output }	{ Press alt{-}shift{-}q. Press c.  }
@@ -10,7 +10,7 @@ Command	Result
 { panel variables }	{ Press alt{-}shift{-}q. Press v.  }
 { show settings }	{ Press alt{-}w p.  }
 { show shortcuts }	{ Press ctrl{-}shift{-}l.  }
-{ file hunt {[} $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$ {]} }	{ Press ctrl{-}shift{-}r. Insert "$<$text$>$ or ".  }
+{ file hunt {[}$<$user.text$>${]} }	{ Press ctrl{-}shift{-}r. Insert "$<$text$>$ or ".  }
 { file create }	{ Press ctrl{-}n.  }
 { file open folder }	{ Press alt{-}shift{-}w x.  }
 { file rename }	{ Press alt{-}shift{-}w p enter f2.  }

@@ -13,4 +13,4 @@ Command	Result
 { open (earl|url|link) }	{ Press ctrl{-}u.  }
 { copy (earl|url|link) }	{ Press ctrl{-}alt{-}u.  }
 { find }	{ Press ctrl{-}f.  }
-{ find  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  }	{ Press ctrl{-}f. Insert "$<$text$>$".  }
+{ find $<$user.text$>$ }	{ Press ctrl{-}f. Insert "$<$text$>$".  }

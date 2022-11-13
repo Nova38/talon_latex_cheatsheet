@@ -1,5 +1,5 @@
 Command	Result
-{ register  $<$a href="\#user{-}registers{-}capture"$>$ \&lt;user.registers\&gt; $<$/a$>$  }	{ Press @. Insert "$<$registers$>$".  }
+{ register $<$user.registers$>$ }	{ Press @. Insert "$<$registers$>$".  }
 { open help }	{ Insert ".hh\textbackslashn".  }
 { add microsoft symbols }	{ Insert "srv*C:\textbackslashsymbols*http://msdl.microsoft.com/download/symbols;\textbackslashn".  }
 { force reload symbols }	{ Insert ".reload /f\textbackslashn".  }
@@ -16,6 +16,6 @@ Command	Result
 { view call stack }	{ Press alt{-}6.  }
 { view disassembly }	{ Press alt{-}7.  }
 { view scratch pad }	{ Press alt{-}8.  }
-{ view (processes|threads) }	{ Press alt{-}9.  }
+{ view (processes | threads) }	{ Press alt{-}9.  }
 { dump function params }	{ Insert "r @rcx,@rdx,@r8,@r9\textbackslashn".  }
-{ (lib|library)  $<$a href="\#user{-}windows{-}dlls{-}capture"$>$ \&lt;user.windows{-}dlls\&gt; $<$/a$>$  }	{ Insert "$<$windows\_dlls$>$".  }
+{ (lib | library) $<$user.windows{-}dlls$>$ }	{ Insert "$<$windows\_dlls$>$".  }

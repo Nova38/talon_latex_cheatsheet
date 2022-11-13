@@ -1,2 +1,2 @@
 Command	Result
-{ user.cursorless\_line\_number }	{ CaptureImpl("user.cursorless{-}line{-}number", Rule("\{user.cursorless{-}line{-}direction\} $<$number{-}small$>$")) }
+{ user.cursorless\_line\_number }	{ CaptureImpl("user.cursorless{-}line{-}number", Rule("\{user.cursorless{-}line{-}direction\} $<$user.private{-}cursorless{-}number{-}small$>$ {[}\{user.cursorless{-}range{-}connective\} $<$user.private{-}cursorless{-}number{-}small$>${]}")) }

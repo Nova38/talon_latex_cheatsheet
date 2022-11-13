@@ -8,4 +8,4 @@ Command	Result
 { if error }	{ Insert "if errorlevel 1 ".  }
 { go to }	{ Insert "goto ".  }
 { delayed expansion }	{ Insert "SETLOCAL EnableDelayedExpansion\textbackslashn".  }
-{ arg  \&lt;number{-}small\&gt;   }	{ Insert "\% $<$number\_small$>$".  }
+{ arg $<$number{-}small$>$ }	{ Insert "\% $<$number\_small$>$".  }

@@ -11,7 +11,7 @@ Command	Result
 { carriage return }	{ Insert "\textbackslashr".  }
 { line feed }	{ Insert "\textbackslashr\textbackslashn".  }
 { empty dubstring }	{ Insert `before + after`, leaving cursor between `before` and `after`. Not entirely reliable if `after` contains newlines..  }
-{ empty escaped (dubstring|dub quotes) }	{ Insert `before + after`, leaving cursor between `before` and `after`. Not entirely reliable if `after` contains newlines..  }
+{ empty escaped (dubstring | dub quotes) }	{ Insert `before + after`, leaving cursor between `before` and `after`. Not entirely reliable if `after` contains newlines..  }
 { empty string }	{ Insert `before + after`, leaving cursor between `before` and `after`. Not entirely reliable if `after` contains newlines..  }
 { empty escaped string }	{ Insert `before + after`, leaving cursor between `before` and `after`. Not entirely reliable if `after` contains newlines..  }
 { (inside parens | args) }	{ Insert `before + after`, leaving cursor between `before` and `after`. Not entirely reliable if `after` contains newlines..  }

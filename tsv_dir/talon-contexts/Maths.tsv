@@ -2,12 +2,12 @@ Command	Result
 { help (math | maths) }	{ Show help dialogue.  }
 { show (math | maths) help }	{ Show help dialogue.  }
 { hide maths help }	{ Hide help dialogue.  }
-{ greek $<$a href="\#user{-}greek{-}letters{-}list"$>$  \{user.greek{-}letters\}  $<$/a$>$ }	{ Insert a greek letter (one of those in the greek\_letters list).  }
-{ $<$a href="\#user{-}tex{-}symbols{-}list"$>$  \{user.tex{-}symbols\}  $<$/a$>$ }	{ Insert a TeX symbol (one of those in the tex\_symbols list).  }
-{ matrix  \&lt;number\&gt;   by  \&lt;number\&gt;   }	{ Insert a matrix (rows x columns).  }
+{ greek \{user.greek{-}letters\} }	{ Insert a greek letter (one of those in the greek\_letters list).  }
+{ \{user.tex{-}symbols\} }	{ Insert a TeX symbol (one of those in the tex\_symbols list).  }
+{ matrix $<$number$>$ by $<$number$>$ }	{ Insert a matrix (rows x columns).  }
 { fraction }	{ Begin a fraction.  }
 { over }	{ Press shift{-}left. Begin a fraction. Press down.  }
-{  \&lt;number\&gt;   $<$a href="\#user{-}maths{-}fractions{-}list"$>$  \{user.maths{-}fractions\}  $<$/a$>$ }	{ Begin a fraction. Insert "$<$number$>$". Press down. Insert "$<$maths\_fractions$>$". Press right.  }
+{ $<$number$>$ \{user.maths{-}fractions\} }	{ Begin a fraction. Insert "$<$number$>$". Press down. Insert "$<$maths\_fractions$>$". Press right.  }
 { (super script | to the power) }	{ Begin superscript.  }
 { inverse }	{ Superscript.  }
 { squared }	{ Superscript.  }

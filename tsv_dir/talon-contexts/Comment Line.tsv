@@ -1,8 +1,8 @@
 Command	Result
 { comment }	{ Inserts line comment prefix at current cursor location.  }
 { comment line }	{ Move cursor to start of line. Inserts line comment prefix at current cursor location.  }
-{ comment line  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  over }	{ Move cursor to start of line. Inserts line comment prefix at current cursor location. Insert "$<$user.text$>$". Insert " ".  }
-{ comment  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  over }	{ Inserts line comment prefix at current cursor location. Insert "$<$user.text$>$".  }
-{ comment  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  }	{ Inserts line comment prefix at current cursor location. Insert "$<$user.text$>$".  }
-{ (line | inline) comment  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  over }	{ Move cursor to end of line. Inserts line comment prefix at current cursor location. Insert "$<$user.text$>$".  }
-{ (line | inline) comment  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  }	{ Move cursor to end of line. Inserts line comment prefix at current cursor location. Insert "$<$user.text$>$".  }
+{ comment line $<$user.text$>$ over }	{ Move cursor to start of line. Inserts line comment prefix at current cursor location. Insert "$<$user.text$>$". Insert " ".  }
+{ comment $<$user.text$>$ over }	{ Inserts line comment prefix at current cursor location. Insert "$<$user.text$>$".  }
+{ comment $<$user.text$>$ }	{ Inserts line comment prefix at current cursor location. Insert "$<$user.text$>$".  }
+{ (line | inline) comment $<$user.text$>$ over }	{ Move cursor to end of line. Inserts line comment prefix at current cursor location. Insert "$<$user.text$>$".  }
+{ (line | inline) comment $<$user.text$>$ }	{ Move cursor to end of line. Inserts line comment prefix at current cursor location. Insert "$<$user.text$>$".  }

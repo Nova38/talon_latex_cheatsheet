@@ -1,3 +1,3 @@
 Command	Result
-{ choose  \&lt;number{-}small\&gt;   }	{ Let $<$result$>$ be homophone \#$<$number\_small$>$. Insert "$<$result$>$". Hides the homophones display.  }
-{ choose  $<$a href="\#user{-}formatters{-}capture"$>$ \&lt;user.formatters\&gt; $<$/a$>$   \&lt;number{-}small\&gt;   }	{ Let $<$result$>$ be homophone \#$<$number\_small$>$. Insert "$<$result$>$ (formatted with $<$formatters$>$)". Hides the homophones display.  }
+{ choose $<$number{-}small$>$ }	{ Let $<$result$>$ be homophone \#$<$number\_small$>$. Insert "$<$result$>$". Hides the homophones display.  }
+{ choose $<$user.formatters$>$ $<$number{-}small$>$ }	{ Let $<$result$>$ be homophone \#$<$number\_small$>$. Insert "$<$result$>$ (formatted with $<$formatters$>$)". Hides the homophones display.  }

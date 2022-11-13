@@ -2,6 +2,10 @@ Command	Result
 { {[}channel{]} mentions last }	{ Go up to channel with unread mentions.  }
 { {[}channel{]} mentions next }	{ Go down to channel with unread mentions.  }
 { oldest unread }	{ Go to oldest unread message.  }
+{ \{user.discord{-}destination\} {[}$<$user.text$>${]} }	{ Open up the quick switcher, optionally specifying a type of destination.  }
+{ switcher }	{ Open up the quick switcher, optionally specifying a type of destination.  }
+{ current call }	{ Go to current call.  }
+{ toggle (dee ems | dims) }	{ Toggle between dms and your most recent server.  }
 { toggle pins }	{ Toggle pins popout.  }
 { toggle inbox }	{ Toggle inbox popout.  }
 { toggle (members | member list) }	{ Toggle channel member list.  }
@@ -9,6 +13,7 @@ Command	Result
 { pick (jif | gif | gift) }	{ Toggle gif picker.  }
 { mark inbox channel read }	{ Mark top inbox channel read.  }
 { {[}toggle{]} (mute | unmute) }	{ Toggle mute.  }
+{ (mute | unmute) and sleep }	{ Toggle mute. Disable speech recognition.  }
 { {[}toggle{]} (deafen | undeafen) }	{ Toggle deafen.  }
 { answer call }	{ Answer incoming call.  }
 { decline call }	{ Decline incoming call.  }

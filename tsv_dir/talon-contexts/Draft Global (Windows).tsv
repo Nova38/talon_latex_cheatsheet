@@ -1,6 +1,6 @@
 Command	Result
 { draft show }	{ Hides draft window. Shows draft window.  }
-{ draft show  $<$a href="\#user{-}draft{-}window{-}position{-}capture"$>$ \&lt;user.draft{-}window{-}position\&gt; $<$/a$>$  }	{ Hides draft window. Shows draft window. Lets you move the window to the top, bottom, left, right, or middle.  }
+{ draft show $<$user.draft{-}window{-}position$>$ }	{ Hides draft window. Shows draft window. Lets you move the window to the top, bottom, left, right, or middle.  }
 { draft show small }	{ Hides draft window. Shows draft window. Resize the draft window..  }
 { draft show large }	{ Hides draft window. Shows draft window. Resize the draft window..  }
 { draft empty }	{ Shows draft window.  }

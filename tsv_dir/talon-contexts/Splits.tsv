@@ -13,4 +13,4 @@ Command	Result
 { split clear all }	{ Clears all splits.  }
 { split next }	{ Goes to next split.  }
 { split last }	{ Goes to last split.  }
-{ go split  \&lt;number\&gt;   }	{ Navigates to a the specified split.  }
+{ go split $<$number$>$ }	{ Navigates to a the specified split.  }

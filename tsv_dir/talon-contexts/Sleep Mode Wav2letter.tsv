@@ -1,2 +1,2 @@
 Command	Result
-{  \&lt;phrase\&gt;   }	{ Do nothing.  }
+{ $<$phrase$>$ }	{ Do nothing.  }

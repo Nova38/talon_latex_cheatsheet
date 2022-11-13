@@ -1,52 +1,52 @@
 Command	Result
-{ until  \&lt;number\&gt;   }	{ Insert "until  $<$number$>$".  }
+{ until $<$number$>$ }	{ Insert "until  $<$number$>$".  }
 { force clear all break points }	{ Insert "d br\textbackslashn". Insert "y\textbackslashn".  }
 { break {[}on{]} clipboard }	{ Insert "break ". Press ctrl{-}shift{-}v. Press enter.  }
 { list {[}source{]} }	{ Insert "list\textbackslashn".  }
 { info source }	{ Insert "info source\textbackslashn".  }
 { print }	{ Insert "p ".  }
-{ print {[}variable{]}  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  }	{ Insert "p  $<$text$>$".  }
+{ print {[}variable{]} $<$user.text$>$ }	{ Insert "p  $<$text$>$".  }
 { print hex }	{ Insert "p/x ".  }
-{ print hex {[}variable{]}  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  }	{ Insert "p/x  $<$text$>$".  }
+{ print hex {[}variable{]} $<$user.text$>$ }	{ Insert "p/x  $<$text$>$".  }
 { print string }	{ Insert "p/s ".  }
-{ hex dump  \&lt;number\&gt;   bytes }	{ Insert "x/ $<$number$>$ bx ".  }
-{ hex dump  \&lt;number\&gt;   (half|short) words }	{ Insert "x/ $<$number$>$ hx ".  }
-{ hex dump  \&lt;number\&gt;   (d|long) words }	{ Insert "x/ $<$number$>$ dx ".  }
-{ hex dump  \&lt;number\&gt;   quad words }	{ Insert "x/ $<$number$>$ gx ".  }
+{ hex dump $<$number$>$ bytes }	{ Insert "x/ $<$number$>$ bx ".  }
+{ hex dump $<$number$>$ (half | short) words }	{ Insert "x/ $<$number$>$ hx ".  }
+{ hex dump $<$number$>$ (d | long) words }	{ Insert "x/ $<$number$>$ dx ".  }
+{ hex dump $<$number$>$ quad words }	{ Insert "x/ $<$number$>$ gx ".  }
 { hex dump }	{ Insert "x/100gx ".  }
 { hex dump highlighted }	{ Insert "x/100gx ". Copy selection to clipboard. Paste clipboard at cursor. Press enter.  }
 { hex dump clipboard }	{ Insert "x/100gx ". Paste clipboard at cursor. Press enter.  }
 { source }	{ Insert "source 		".  }
-{ (list|show|info) display }	{ Insert "info display\textbackslashn".  }
+{ (list | show | info) display }	{ Insert "info display\textbackslashn".  }
 { display assembly line }	{ Insert "display /i \$pc\textbackslashn".  }
 { display source }	{ Insert "display ".  }
-{ enable display  \&lt;number{-}small\&gt;   }	{ Insert "enable display  $<$number\_small$>$ \textbackslashn".  }
-{ disable display  \&lt;number{-}small\&gt;   }	{ Insert "disable display  $<$number\_small$>$ \textbackslashn".  }
+{ enable display $<$number{-}small$>$ }	{ Insert "enable display  $<$number\_small$>$ \textbackslashn".  }
+{ disable display $<$number{-}small$>$ }	{ Insert "disable display  $<$number\_small$>$ \textbackslashn".  }
 { undisplay }	{ Insert "undisplay\textbackslashn".  }
-{ (list|show|info) local }	{ Insert "info local ".  }
-{ (list|show|info) local typed }	{ Insert "info local {-}t ".  }
-{ (list|show|info) variable }	{ Insert "info variable ".  }
-{ (list|show|info) variable typed }	{ Insert "info variable {-}t ".  }
-{ (list|show|info) locals }	{ Insert "info local\textbackslashn".  }
-{ (list|show|info) variables }	{ Insert "info variables\textbackslashn".  }
+{ (list | show | info) local }	{ Insert "info local ".  }
+{ (list | show | info) local typed }	{ Insert "info local {-}t ".  }
+{ (list | show | info) variable }	{ Insert "info variable ".  }
+{ (list | show | info) variable typed }	{ Insert "info variable {-}t ".  }
+{ (list | show | info) locals }	{ Insert "info local\textbackslashn".  }
+{ (list | show | info) variables }	{ Insert "info variables\textbackslashn".  }
 { info threads }	{ Insert "info threads\textbackslashn".  }
 { restart {[}program{]} }	{ Insert "r\textbackslashn".  }
 { continue }	{ Insert "c\textbackslashn".  }
 { back trace }	{ Insert "bt\textbackslashn".  }
 { debug quit }	{ Insert "quit\textbackslashn".  }
 { debug force quit }	{ Insert "quit\textbackslashny\textbackslashn".  }
-{ (show|info) (inf|inferiors) }	{ Insert "info inferiors\textbackslashn".  }
-{ inferior  \&lt;number{-}small\&gt;   }	{ Insert "inferior  $<$number\_small$>$ \textbackslashn".  }
+{ (show | info) (inf | inferiors) }	{ Insert "info inferiors\textbackslashn".  }
+{ inferior $<$number{-}small$>$ }	{ Insert "inferior  $<$number\_small$>$ \textbackslashn".  }
 { inferior }	{ Insert "inferior ".  }
-{ resume main (inf|inferior) }	{ Insert "inferior 1\textbackslashn". Insert "c\textbackslashn".  }
-{ resume {[}from{]} (inf|inferior)  \&lt;number{-}small\&gt;   }	{ Insert "inferior  $<$number\_small$>$ \textbackslashn". Insert "c\textbackslashn".  }
+{ resume main (inf | inferior) }	{ Insert "inferior 1\textbackslashn". Insert "c\textbackslashn".  }
+{ resume {[}from{]} (inf | inferior) $<$number{-}small$>$ }	{ Insert "inferior  $<$number\_small$>$ \textbackslashn". Insert "c\textbackslashn".  }
 { set args }	{ Insert "set args ".  }
-{ show follow (fork|forks) {[}mode{]} }	{ Insert "show follow{-}fork{-}mode\textbackslashn".  }
-{ {[}set{]} follow (fork|forks) {[}mode{]} child }	{ Insert "set follow{-}fork{-}mode child\textbackslashn".  }
-{ {[}set{]} follow (fork|forks) {[}mode{]} parent }	{ Insert "set follow{-}fork{-}mode parent\textbackslashn".  }
+{ show follow (fork | forks) {[}mode{]} }	{ Insert "show follow{-}fork{-}mode\textbackslashn".  }
+{ {[}set{]} follow (fork | forks) {[}mode{]} child }	{ Insert "set follow{-}fork{-}mode child\textbackslashn".  }
+{ {[}set{]} follow (fork | forks) {[}mode{]} parent }	{ Insert "set follow{-}fork{-}mode parent\textbackslashn".  }
 { show detach on fork }	{ Insert "show detach{-}on{-}fork\textbackslashn".  }
 { set detach on fork }	{ Insert "set detach{-}on{-}fork on\textbackslashn".  }
 { unset detach on fork }	{ Insert "set detach{-}on{-}fork off\textbackslashn".  }
 { show list size }	{ Insert "show listsize\textbackslashn".  }
-{ set list size  \&lt;number{-}small\&gt;   }	{ Insert "set listsize  $<$number\_small$>$ \textbackslashn".  }
+{ set list size $<$number{-}small$>$ }	{ Insert "set listsize  $<$number\_small$>$ \textbackslashn".  }
 { clear screen }	{ Insert "shell clear\textbackslashn".  }

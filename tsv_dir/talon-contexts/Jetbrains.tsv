@@ -3,11 +3,11 @@ Command	Result
 { perfect }	{  }
 { smart }	{  }
 { (done | finish) }	{  }
-{ grab  \&lt;number\&gt;   }	{ Copies specified number of words to the left.  }
+{ grab $<$number$>$ }	{ Copies specified number of words to the left.  }
 { (action | please) }	{  }
-{ (action | please)  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  }	{ Insert "$<$text$>$".  }
+{ (action | please) $<$user.text$>$ }	{ Insert "$<$text$>$".  }
 { refactor }	{  }
-{ refactor  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  }	{ Insert "$<$text$>$".  }
+{ refactor $<$user.text$>$ }	{ Insert "$<$text$>$".  }
 { extract variable }	{  }
 { extract field }	{  }
 { extract constant }	{  }
@@ -28,26 +28,26 @@ Command	Result
 { go back }	{  }
 { go forward }	{  }
 { find (everywhere | all) }	{  }
-{ find (everywhere | all)  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  {[}over{]} }	{ Insert "$<$text$>$".  }
+{ find (everywhere | all) $<$user.text$>$ {[}over{]} }	{ Insert "$<$text$>$".  }
 { (search | find) class }	{  }
 { (search | find) file }	{  }
 { (search | find) path }	{  }
 { (search | find) symbol }	{  }
-{ (search | find) symbol  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  }	{ Insert "$<$text$>$". Press enter.  }
+{ (search | find) symbol $<$user.text$>$ }	{ Insert "$<$text$>$". Press enter.  }
 { recent }	{  }
-{ surround {[}this{]} with  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  {[}over{]} }	{ idea("action SurroundWith")\newline%
+{ surround {[}this{]} with $<$user.text$>$ {[}over{]} }	{ idea("action SurroundWith")\newline%
 sleep(500ms)\newline%
 insert(text)\newline%
 \# Making these longer to reduce collisions with real code dictation. }
-{ insert generated  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  {[}over{]} }	{ Insert "$<$text$>$".  }
-{ insert template  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  {[}over{]} }	{ idea("action InsertLiveTemplate")\newline%
+{ insert generated $<$user.text$>$ {[}over{]} }	{ Insert "$<$text$>$".  }
+{ insert template $<$user.text$>$ {[}over{]} }	{ idea("action InsertLiveTemplate")\newline%
 sleep(500ms)\newline%
 insert(text) }
-{ create (template|snippet) }	{  }
+{ create (template | snippet) }	{  }
 { toggle recording }	{  }
 { change (recording | recordings) }	{  }
 { play recording }	{  }
-{ play recording  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  {[}over{]} }	{ idea("action PlaySavedMacrosAction")\newline%
+{ play recording $<$user.text$>$ {[}over{]} }	{ idea("action PlaySavedMacrosAction")\newline%
 insert(text)\newline%
 sleep(500ms)\newline%
 Key("enter")\newline%
@@ -56,8 +56,8 @@ Key("enter")\newline%
 { toggle mark }	{  }
 { go next mark }	{  }
 { go last mark }	{  }
-{ toggle mark  \&lt;number\&gt;   }	{  }
-{ go mark  \&lt;number\&gt;   }	{  }
+{ toggle mark $<$number$>$ }	{  }
+{ go mark $<$number$>$ }	{  }
 { expand deep }	{  }
 { expand all }	{  }
 { collapse deep }	{  }
@@ -69,9 +69,9 @@ Key("enter")\newline%
 { copy reference }	{  }
 { copy pretty }	{  }
 { create sibling }	{  }
-{ create sibling  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  {[}over{]} }	{ Insert "$<$text$>$".  }
+{ create sibling $<$user.text$>$ {[}over{]} }	{ Insert "$<$text$>$".  }
 { create file }	{  }
-{ create file  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  {[}over{]} }	{ Insert "$<$text$>$".  }
+{ create file $<$user.text$>$ {[}over{]} }	{ Insert "$<$text$>$".  }
 { go task }	{  }
 { go browser task }	{  }
 { switch task }	{  }
@@ -149,26 +149,26 @@ Key("enter")\newline%
 { fix next (error | air) }	{  }
 { fix last (error | air) }	{  }
 { select less }	{  }
-{ select (more|this) }	{  }
-{ expand  \&lt;number\&gt;   until  \&lt;number\&gt;   }	{ Selects lines from line\_start to line line\_end.  }
-{ collapse  \&lt;number\&gt;   until  \&lt;number\&gt;   }	{ Selects lines from line\_start to line line\_end.  }
-{ paste  \&lt;number\&gt;   until  \&lt;number\&gt;   }	{ Selects lines from line\_start to line line\_end.  }
-{ refactor  \&lt;number\&gt;   until  \&lt;number\&gt;   }	{ Selects lines from line\_start to line line\_end.  }
-{ clone  \&lt;number\&gt;   }	{ Clones specified line at current position.  }
-{ clear last  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  {[}over{]} }	{  }
-{ clear next  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  {[}over{]} }	{  }
-{ comment last  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  {[}over{]} }	{  }
-{ comment next  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  {[}over{]} }	{  }
-{ go last  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  {[}over{]} }	{  }
-{ go next  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  {[}over{]} }	{  }
-{ paste last  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  {[}over{]} }	{  }
-{ paste next  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  {[}over{]} }	{  }
-{ refactor last  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  {[}over{]} }	{  }
-{ refactor next  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  {[}over{]} }	{  }
-{ replace last  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  {[}over{]} }	{  }
-{ replace next  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  {[}over{]} }	{  }
-{ select last  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  {[}over{]} }	{  }
-{ select next  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  {[}over{]} }	{  }
+{ select (more | this) }	{  }
+{ expand $<$number$>$ until $<$number$>$ }	{ Selects lines from line\_start to line line\_end.  }
+{ collapse $<$number$>$ until $<$number$>$ }	{ Selects lines from line\_start to line line\_end.  }
+{ paste $<$number$>$ until $<$number$>$ }	{ Selects lines from line\_start to line line\_end.  }
+{ refactor $<$number$>$ until $<$number$>$ }	{ Selects lines from line\_start to line line\_end.  }
+{ clone $<$number$>$ }	{ Clones specified line at current position.  }
+{ clear last $<$user.text$>$ {[}over{]} }	{  }
+{ clear next $<$user.text$>$ {[}over{]} }	{  }
+{ comment last $<$user.text$>$ {[}over{]} }	{  }
+{ comment next $<$user.text$>$ {[}over{]} }	{  }
+{ go last $<$user.text$>$ {[}over{]} }	{  }
+{ go next $<$user.text$>$ {[}over{]} }	{  }
+{ paste last $<$user.text$>$ {[}over{]} }	{  }
+{ paste next $<$user.text$>$ {[}over{]} }	{  }
+{ refactor last $<$user.text$>$ {[}over{]} }	{  }
+{ refactor next $<$user.text$>$ {[}over{]} }	{  }
+{ replace last $<$user.text$>$ {[}over{]} }	{  }
+{ replace next $<$user.text$>$ {[}over{]} }	{  }
+{ select last $<$user.text$>$ {[}over{]} }	{  }
+{ select next $<$user.text$>$ {[}over{]} }	{  }
 { select camel left }	{ Extends the selection by camel/subword to the left.  }
 { select camel right }	{ Extends the selection by camel/subword to the right.  }
 { go camel left }	{ Moves cursor to the left by camel case/subword.  }

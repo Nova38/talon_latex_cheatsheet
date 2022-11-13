@@ -1,5 +1,5 @@
 Command	Result
-{ {[}option{]} $<$a href="\#user{-}talon{-}hud{-}choices{-}list"$>$  \{user.talon{-}hud{-}choices\}  $<$/a$>$ }	{ Activate a choice available on the screen.  }
-{ option $<$a href="\#user{-}talon{-}hud{-}numerical{-}choices{-}list"$>$  \{user.talon{-}hud{-}numerical{-}choices\}  $<$/a$>$+ }	{ Activate multiple choices available on the screen.  }
-{ option $<$a href="\#user{-}talon{-}hud{-}numerical{-}choices{-}list"$>$  \{user.talon{-}hud{-}numerical{-}choices\}  $<$/a$>$+ $<$a href="\#user{-}talon{-}hud{-}choices{-}list"$>$  \{user.talon{-}hud{-}choices\}  $<$/a$>$ }	{ Activate multiple choices available on the screen. Activate a choice available on the screen.  }
-{ $<$a href="\#user{-}talon{-}hud{-}widget{-}enabled{-}voice{-}commands{-}list"$>$  \{user.talon{-}hud{-}widget{-}enabled{-}voice{-}commands\}  $<$/a$>$ }	{ Activate a defined voice command attached to an enabled widget.  }
+{ {[}option{]} \{user.talon{-}hud{-}choices\} }	{ Activate a choice available on the screen.  }
+{ option \{user.talon{-}hud{-}numerical{-}choices\}+ }	{ Activate multiple choices available on the screen.  }
+{ option \{user.talon{-}hud{-}numerical{-}choices\}+ \{user.talon{-}hud{-}choices\} }	{ Activate multiple choices available on the screen. Activate a choice available on the screen.  }
+{ \{user.talon{-}hud{-}widget{-}enabled{-}voice{-}commands\} }	{ Activate a defined voice command attached to an enabled widget.  }

@@ -1,8 +1,8 @@
 Command	Result
-{ navigate {[}$<$a href="\#user{-}arrow{-}key{-}list"$>$  \{user.arrow{-}key\}  $<$/a$>${]} {[}$<$a href="\#user{-}navigation{-}action{-}list"$>$  \{user.navigation{-}action\}  $<$/a$>${]} {[}$<$a href="\#user{-}navigation{-}target{-}name{-}list"$>$  \{user.navigation{-}target{-}name\}  $<$/a$>${]} {[}$<$a href="\#user{-}before{-}or{-}after{-}list"$>$  \{user.before{-}or{-}after\}  $<$/a$>${]} {[} $<$a href="\#user{-}ordinals{-}capture"$>$ \&lt;user.ordinals\&gt; $<$/a$>$ {]}  $<$a href="\#user{-}navigation{-}target{-}capture"$>$ \&lt;user.navigation{-}target\&gt; $<$/a$>$  }	{ Navigate in `direction` to the occurrence\_number{-}th time that `regex` occurs, then execute `navigation\_action` at the given `before\_or\_after` position..  }
-{ word neck {[} \&lt;number{-}small\&gt;  {]} }	{ Like user.navigation, but to a named target..  }
-{ word pre {[} \&lt;number{-}small\&gt;  {]} }	{ Like user.navigation, but to a named target..  }
-{ small word neck {[} \&lt;number{-}small\&gt;  {]} }	{ Like user.navigation, but to a named target..  }
-{ small word pre {[} \&lt;number{-}small\&gt;  {]} }	{ Like user.navigation, but to a named target..  }
-{ big word neck {[} \&lt;number{-}small\&gt;  {]} }	{ Like user.navigation, but to a named target..  }
-{ big word pre {[} \&lt;number{-}small\&gt;  {]} }	{ Like user.navigation, but to a named target..  }
+{ navigate {[}\{user.arrow{-}key\}{]} {[}\{user.navigation{-}action\}{]} {[}\{user.navigation{-}target{-}name\}{]} {[}\{user.before{-}or{-}after\}{]} {[}$<$user.ordinals$>${]} $<$user.navigation{-}target$>$ }	{ Navigate in `direction` to the occurrence\_number{-}th time that `regex` occurs, then execute `navigation\_action` at the given `before\_or\_after` position..  }
+{ word neck {[}$<$number{-}small$>${]} }	{ Like user.navigation, but to a named target..  }
+{ word pre {[}$<$number{-}small$>${]} }	{ Like user.navigation, but to a named target..  }
+{ small word neck {[}$<$number{-}small$>${]} }	{ Like user.navigation, but to a named target..  }
+{ small word pre {[}$<$number{-}small$>${]} }	{ Like user.navigation, but to a named target..  }
+{ big word neck {[}$<$number{-}small$>${]} }	{ Like user.navigation, but to a named target..  }
+{ big word pre {[}$<$number{-}small$>${]} }	{ Like user.navigation, but to a named target..  }

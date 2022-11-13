@@ -8,10 +8,13 @@ Command	Result
 { cut that }	{ Cut selection to clipboard.  }
 { (pace | paste) that }	{ Paste clipboard at cursor.  }
 { (pace | paste) enter }	{ Paste clipboard at cursor. Press enter.  }
-{ undo that }	{ Undo.  }
-{ redo that }	{ Redo.  }
+{ (undo that | nope) }	{ Undo.  }
+{ (redo that | yes indeed) }	{ Redo.  }
 { paste match }	{ Paste clipboard without style information.  }
-{ file save }	{ Save current document.  }
-{ file save all }	{ Save all open documents.  }
+{ (disk|file save) }	{ Save current document.  }
+{ (disk oliver|file save all) }	{ Save all open documents.  }
 { (pad | padding) }	{ Insert `before + after`, leaving cursor between `before` and `after`. Not entirely reliable if `after` contains newlines..  }
 { slap }	{ Insert line below cursor.  }
+{ pour }	{ Insert line below cursor.  }
+{ drink }	{ Insert line above cursor.  }
+{ show clip }	{ Press super{-}v.  }

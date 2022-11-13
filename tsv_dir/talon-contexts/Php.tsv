@@ -3,4 +3,4 @@ Command	Result
 { (op | is) loosely not equal }	{ Insert " != ".  }
 { state try }	{ Insert "try \{\textbackslashn".  }
 { state catch }	{ Insert "catch (\textbackslashThrowable \$exception) \{\textbackslashn".  }
-{ var  \&lt;phrase\&gt;   {[}over{]} }	{ Insert "\$". Insert "$<$phrase$>$ (formatted with PRIVATE\_CAMEL\_CASE)".  }
+{ var $<$phrase$>$ {[}over{]} }	{ Insert "\$". Insert "$<$phrase$>$ (formatted with PRIVATE\_CAMEL\_CASE)".  }

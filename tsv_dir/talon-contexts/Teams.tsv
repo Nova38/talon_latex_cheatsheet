@@ -4,7 +4,7 @@ Command	Result
 { show commands }	{ Press ctrl{-}/.  }
 { open filter }	{ Press ctrl{-}shift{-}f.  }
 { go to }	{ Press ctrl{-}g.  }
-{ open (apps|applications) }	{ Press ctrl{-}`.  }
+{ open (apps | applications) }	{ Press ctrl{-}`.  }
 { {[}start{]} new chat }	{ Press ctrl{-}n.  }
 { open settings }	{ Press ctrl{-},.  }
 { open help }	{ Press f1.  }
@@ -16,11 +16,11 @@ Command	Result
 { open planner }	{ Press ctrl{-}5.  }
 { open calls }	{ Press ctrl{-}6.  }
 { open files }	{ Press ctrl{-}7.  }
-{ {[}go{]} {[}to{]} (prev|previous) {[}list{]} item }	{ Press alt{-}up.  }
+{ {[}go{]} {[}to{]} (prev | previous) {[}list{]} item }	{ Press alt{-}up.  }
 { {[}go{]} {[}to{]} next {[}list{]} item }	{ Press alt{-}down.  }
 { move {[}selected{]} team up }	{ Press ctrl{-}shift{-}up.  }
 { move {[}selected{]} team down }	{ Press ctrl{-}shift{-}down.  }
-{ {[}go{]} {[}to{]} (prev|previous) section }	{ Press ctrl{-}shift{-}f6.  }
+{ {[}go{]} {[}to{]} (prev | previous) section }	{ Press ctrl{-}shift{-}f6.  }
 { {[}go{]} {[}to{]} next section }	{ Press ctrl{-}f6.  }
 { {[}go{]} {[}to{]} compose {[}box{]} }	{ Press c.  }
 { {[}expand{]} compose {[}box{]} }	{ Press ctrl{-}shift{-}x.  }
@@ -41,11 +41,11 @@ Command	Result
 { accept screen share }	{ Press ctrl{-}shift{-}a.  }
 { schedule {[}a{]} meeting }	{ Press alt{-}shift{-}n.  }
 { go to current time }	{ Press alt{-}..  }
-{ go to (prev|previous) (day|week) }	{ Press ctrl{-}alt{-}left.  }
-{ go to next (day|week) }	{ Press ctrl{-}alt{-}right.  }
+{ go to (prev | previous) (day | week) }	{ Press ctrl{-}alt{-}left.  }
+{ go to next (day | week) }	{ Press ctrl{-}alt{-}right.  }
 { view day }	{ Press ctrl{-}alt{-}1.  }
 { view work week }	{ Press ctrl{-}alt{-}2.  }
 { view week }	{ Press ctrl{-}alt{-}3.  }
-{ (safe|send) meeting request }	{ Press ctrl{-}s.  }
+{ (safe | send) meeting request }	{ Press ctrl{-}s.  }
 { join {[}from{]} meeting {[}details{]} }	{ Press alt{-}shift{-}j.  }
 { go to suggested time }	{ Press alt{-}shift{-}s.  }

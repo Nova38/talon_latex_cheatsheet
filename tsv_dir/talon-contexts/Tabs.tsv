@@ -4,6 +4,6 @@ Command	Result
 { tab next }	{ Switch to next tab for this window.  }
 { tab close }	{ Closes the current tab..  }
 { tab (reopen|restore) }	{ Re{-}open the last{-}closed tab.  }
-{ go tab  \&lt;number\&gt;   }	{ Jumps to the specified tab.  }
+{ go tab $<$number$>$ }	{ Jumps to the specified tab.  }
 { go tab final }	{ Jumps to the final tab.  }
 { tab duplicate }	{ Duplicates the current tab..  }

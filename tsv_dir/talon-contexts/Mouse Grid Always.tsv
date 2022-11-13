@@ -1,5 +1,5 @@
 Command	Result
 { mouse grid }	{ Brings up mouse grid. Show mouse grid.  }
 { grid win }	{ Places the grid on the currently active window. Show mouse grid.  }
-{ grid  $<$a href="\#user{-}number{-}key{-}capture"$>$ \&lt;user.number{-}key\&gt; $<$/a$>$ + }	{ Show mouse grid. Choose fields multiple times in a row.  }
-{ grid screen {[} \&lt;number\&gt;  {]} }	{ Brings up mouse grid. Show mouse grid.  }
+{ grid $<$user.number{-}key$>$+ }	{ Show mouse grid. Choose fields multiple times in a row.  }
+{ grid screen {[}$<$number$>${]} }	{ Brings up mouse grid. Show mouse grid.  }

@@ -1,5 +1,5 @@
 Command	Result
-{ workspace  \&lt;number\&gt;   }	{ Press ctrl{-} $<$number$>$.  }
+{ workspace $<$number$>$ }	{ Press ctrl{-} $<$number$>$.  }
 { (slack | lack) {[}channel{]} info }	{ Press ctrl{-}shift{-}i.  }
 { focus (move | next) }	{ Press ctrl{-}`.  }
 { (section | zone) {[}next{]} }	{ Press f6.  }
@@ -31,7 +31,7 @@ Command	Result
 { (slack | lack) ({[}toggle{]} video) }	{ Press v.  }
 { (slack | lack) invite }	{ Press a.  }
 { (slack | lack) shortcuts }	{ Press ctrl{-}/.  }
-{ emote  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  }	{ Insert "$<$text$>$".  }
+{ emote $<$user.text$>$ }	{ Insert "$<$text$>$".  }
 { toggle left sidebar }	{ Press ctrl{-}shift{-}d.  }
 { toggle right sidebar }	{ Press ctrl{-}..  }
 { (move | next) focus }	{ Show a desktop notification. Press ctrl{-}`.  }

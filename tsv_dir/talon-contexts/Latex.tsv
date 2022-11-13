@@ -1,10 +1,10 @@
 Command	Result
-{ document class $<$a href="\#user{-}tex{-}document{-}classes{-}list"$>$  \{user.tex{-}document{-}classes\}  $<$/a$>$ }	{ Insert "\textbackslashdocumentclass \{ $<$tex\_document\_classes$>$ \}".  }
-{ use package $<$a href="\#user{-}tex{-}packages{-}list"$>$  \{user.tex{-}packages\}  $<$/a$>$ }	{ Insert "\textbackslashusepackage \{ $<$tex\_packages$>$ \}".  }
+{ document class \{user.tex{-}document{-}classes\} }	{ Insert "\textbackslashdocumentclass \{ $<$tex\_document\_classes$>$ \}".  }
+{ use package \{user.tex{-}packages\} }	{ Insert "\textbackslashusepackage \{ $<$tex\_packages$>$ \}".  }
 { use package bib latex }	{ Insert "\textbackslashusepackage{[}style=authoryear{]} \{ biblatex\}".  }
-{ begin $<$a href="\#user{-}tex{-}environments{-}list"$>$  \{user.tex{-}environments\}  $<$/a$>$ }	{ Insert "\textbackslashbegin \{ $<$tex\_environments$>$ \}". Press enter:2. Insert "\textbackslashend \{ $<$tex\_environments$>$ \}". Press up.  }
-{ insert $<$a href="\#user{-}tex{-}commands{-}list"$>$  \{user.tex{-}commands\}  $<$/a$>$ }	{ Insert "\textbackslash $<$tex\_commands$>$ \{ \}". Press left.  }
-{ insert $<$a href="\#user{-}tex{-}commands{-}noarg{-}list"$>$  \{user.tex{-}commands{-}noarg\}  $<$/a$>$ }	{ Insert "\textbackslash $<$tex\_commands\_noarg$>$  ".  }
-{ greek $<$a href="\#user{-}greek{-}letters{-}list"$>$  \{user.greek{-}letters\}  $<$/a$>$ }	{ Insert "\textbackslash $<$greek\_letters$>$  ".  }
-{ symbol $<$a href="\#user{-}tex{-}symbols{-}list"$>$  \{user.tex{-}symbols\}  $<$/a$>$ }	{ Insert "\textbackslash $<$tex\_symbols$>$  ".  }
-{ template $<$a href="\#user{-}tex{-}templates{-}list"$>$  \{user.tex{-}templates\}  $<$/a$>$ }	{ Pastes text and preserves clipboard.  }
+{ begin \{user.tex{-}environments\} }	{ Insert "\textbackslashbegin \{ $<$tex\_environments$>$ \}". Press enter:2. Insert "\textbackslashend \{ $<$tex\_environments$>$ \}". Press up.  }
+{ insert \{user.tex{-}commands\} }	{ Insert "\textbackslash $<$tex\_commands$>$ \{ \}". Press left.  }
+{ insert \{user.tex{-}commands{-}noarg\} }	{ Insert "\textbackslash $<$tex\_commands\_noarg$>$  ".  }
+{ greek \{user.greek{-}letters\} }	{ Insert "\textbackslash $<$greek\_letters$>$  ".  }
+{ symbol \{user.tex{-}symbols\} }	{ Insert "\textbackslash $<$tex\_symbols$>$  ".  }
+{ template \{user.tex{-}templates\} }	{ Pastes text and preserves clipboard.  }

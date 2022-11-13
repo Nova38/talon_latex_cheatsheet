@@ -1,2 +1,2 @@
 Command	Result
-{ keyword ( $<$a href="\#user{-}code{-}keyword{-}capture"$>$ \&lt;user.code{-}keyword\&gt; $<$/a$>$ +) }	{ Adds keywords.  }
+{ keyword ($<$user.code{-}keyword$>$+) }	{ Adds keywords.  }

@@ -1,15 +1,15 @@
 Command	Result
 { block }	{ Inserts equivalent of \{.  }
-{ attribute {[} $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$ {]} }	{ Let $<$name$>$ be $<$text$>$ or  (formatted with DASH\_SEPARATED). Insert `before + after`, leaving cursor between `before` and `after`. Not entirely reliable if `after` contains newlines..  }
-{ prop  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  }	{ Let $<$name$>$ be $<$text$>$ (formatted with DASH\_SEPARATED). Insert `before + after`, leaving cursor between `before` and `after`. Not entirely reliable if `after` contains newlines..  }
-{ rule  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  }	{ Let $<$name$>$ be $<$text$>$ (formatted with DASH\_SEPARATED). Insert "$<$name$>$ : ".  }
-{ value  $<$a href="\#user{-}number{-}string{-}capture"$>$ \&lt;user.number{-}string\&gt; $<$/a$>$  {[}$<$a href="\#user{-}css{-}unit{-}list"$>$  \{user.css{-}unit\}  $<$/a$>${]} }	{ Insert "$<$number\_string$>$ $<$css\_unit$>$ or ".  }
-{ value  $<$a href="\#user{-}number{-}string{-}capture"$>$ \&lt;user.number{-}string\&gt; $<$/a$>$  point  \&lt;digit{-}string\&gt;   {[}$<$a href="\#user{-}css{-}unit{-}list"$>$  \{user.css{-}unit\}  $<$/a$>${]} }	{ Insert "$<$number\_string$>$ . $<$digit\_string$>$ $<$css\_unit$>$ or ".  }
-{ (value|state) $<$a href="\#user{-}css{-}global{-}value{-}list"$>$  \{user.css{-}global{-}value\}  $<$/a$>$ }	{ Insert "$<$css\_global\_value$>$".  }
-{ value  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  }	{ Inserts a phrase formatted according to formatters. Formatters is a comma separated list of formatters (e.g. 'CAPITALIZE\_ALL\_WORDS,DOUBLE\_QUOTED\_STRING').  }
-{ variable  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  }	{ Let $<$name$>$ be $<$text$>$ (formatted with DASH\_SEPARATED). Insert "var({-}{-} $<$name$>$ )".  }
+{ attribute {[}$<$user.text$>${]} }	{ Let $<$name$>$ be $<$text$>$ or  (formatted with DASH\_SEPARATED). Insert `before + after`, leaving cursor between `before` and `after`. Not entirely reliable if `after` contains newlines..  }
+{ prop $<$user.text$>$ }	{ Let $<$name$>$ be $<$text$>$ (formatted with DASH\_SEPARATED). Insert `before + after`, leaving cursor between `before` and `after`. Not entirely reliable if `after` contains newlines..  }
+{ rule $<$user.text$>$ }	{ Let $<$name$>$ be $<$text$>$ (formatted with DASH\_SEPARATED). Insert "$<$name$>$ : ".  }
+{ value $<$user.number{-}string$>$ {[}\{user.css{-}unit\}{]} }	{ Insert "$<$number\_string$>$ $<$css\_unit$>$ or ".  }
+{ value $<$user.number{-}string$>$ point $<$digit{-}string$>$ {[}\{user.css{-}unit\}{]} }	{ Insert "$<$number\_string$>$ . $<$digit\_string$>$ $<$css\_unit$>$ or ".  }
+{ (value | state) \{user.css{-}global{-}value\} }	{ Insert "$<$css\_global\_value$>$".  }
+{ value $<$user.text$>$ }	{ Inserts a phrase formatted according to formatters. Formatters is a comma separated list of formatters (e.g. 'CAPITALIZE\_ALL\_WORDS,DOUBLE\_QUOTED\_STRING').  }
+{ variable $<$user.text$>$ }	{ Let $<$name$>$ be $<$text$>$ (formatted with DASH\_SEPARATED). Insert "var({-}{-} $<$name$>$ )".  }
 { op var }	{ Insert `before + after`, leaving cursor between `before` and `after`. Not entirely reliable if `after` contains newlines..  }
-{ at $<$a href="\#user{-}css{-}at{-}rule{-}list"$>$  \{user.css{-}at{-}rule\}  $<$/a$>$ }	{ Insert "@ $<$css\_at\_rule$>$  ".  }
-{ unit $<$a href="\#user{-}css{-}unit{-}list"$>$  \{user.css{-}unit\}  $<$/a$>$ }	{ Insert "$<$css\_unit$>$".  }
+{ at \{user.css{-}at{-}rule\} }	{ Insert "@ $<$css\_at\_rule$>$  ".  }
+{ unit \{user.css{-}unit\} }	{ Insert "$<$css\_unit$>$".  }
 { {[}value{]} current color }	{ Insert "currentColor".  }
 { op important }	{ Insert " !important".  }

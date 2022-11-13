@@ -6,6 +6,8 @@ Command	Result
 { op divide equals }	{ code\_operator\_division\_assignment.  }
 { op mod equals }	{ code\_operator\_modulo\_assignment.  }
 { {[}op{]} increment }	{ code\_operator\_increment.  }
+{ {[}op{]} bit {[}wise{]} and equals }	{ code\_operator\_and\_assignment.  }
+{ {[}op{]} bit {[}wise{]} or equals }	{ code\_operator\_or\_assignment.  }
 { (op | logical | bitwise) (ex | exclusive) or equals }	{ code\_operator\_bitwise\_exclusive\_or\_assignment.  }
 { {[}(op | logical | bitwise){]} (left shift | shift left) equals }	{ code\_operator\_bitwise\_left\_shift\_assigment.  }
 { {[}(op | logical | bitwise){]} (right shift | shift right) equals }	{ code\_operator\_bitwise\_right\_shift\_assignment.  }

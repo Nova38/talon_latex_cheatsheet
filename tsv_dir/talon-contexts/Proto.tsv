@@ -8,5 +8,5 @@ Command	Result
 { state import public }	{ Insert "import public ".  }
 { state option }	{ Insert "option ".  }
 { state repeated }	{ Insert "repeated ".  }
-{ type $<$a href="\#user{-}code{-}type{-}list"$>$  \{user.code{-}type\}  $<$/a$>$ }	{ Insert "$<$code\_type$>$".  }
-{ repeated type $<$a href="\#user{-}code{-}type{-}list"$>$  \{user.code{-}type\}  $<$/a$>$ }	{ Insert "repeated  $<$code\_type$>$".  }
+{ type \{user.code{-}type\} }	{ Insert "$<$code\_type$>$".  }
+{ repeated type \{user.code{-}type\} }	{ Insert "repeated  $<$code\_type$>$".  }

@@ -1,2 +1,2 @@
 Command	Result
-{  $<$a href="\#user{-}number{-}string{-}capture"$>$ \&lt;user.number{-}string\&gt; $<$/a$>$  }	{ Insert "$<$number\_string$>$".  }
+{ $<$user.number{-}string$>$ }	{ Insert "$<$number\_string$>$".  }

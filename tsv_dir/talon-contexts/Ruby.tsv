@@ -5,4 +5,4 @@ Command	Result
 { state begin }	{ Insert "begin".  }
 { state rescue }	{ Insert "rescue ".  }
 { state module }	{ Insert "module ".  }
-{ instance  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  }	{ Insert "@". inserts properly formatted private function name.  }
+{ instance $<$user.text$>$ }	{ Insert "@". inserts properly formatted private function name.  }

@@ -1,37 +1,37 @@
 Command	Result
 { hunt this }	{ Finds text in current editor.  }
 { hunt this (pace | paste) }	{ Finds text in current editor. Paste clipboard at cursor.  }
-{ hunt this  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  }	{ Finds text in current editor.  }
+{ hunt this $<$user.text$>$ }	{ Finds text in current editor.  }
 { hunt all }	{ Finds text across project.  }
 { hunt all (pace | paste) }	{ Finds text across project. Paste clipboard at cursor.  }
-{ hunt all  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  }	{ Finds text across project.  }
+{ hunt all $<$user.text$>$ }	{ Finds text across project.  }
 { hunt case }	{ Toggles find match by case sensitivity.  }
 { hunt word }	{ Toggles find match by whole words.  }
 { hunt expression }	{ Toggles find match by regex.  }
 { hunt next }	{ Navigates to the next occurrence.  }
 { hunt previous }	{ Navigates to the previous occurrence.  }
-{ replace this {[} $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$ {]} }	{ Search and replace for text in the active editor.  }
+{ replace this {[}$<$user.text$>${]} }	{ Search and replace for text in the active editor.  }
 { replace all }	{ Search and replaces for text in the entire project.  }
-{ replace  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  all }	{ Search and replaces for text in the entire project.  }
+{ replace $<$user.text$>$ all }	{ Search and replaces for text in the entire project.  }
 { replace confirm that }	{ Confirm replace at current position.  }
 { replace confirm all }	{ Confirm replace all.  }
-{ clear last  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  {[}over{]} }	{ Selects the previous occurrence of the text, and suppresses any find/replace dialogs.. Delete selection.  }
-{ clear next  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  {[}over{]} }	{ Selects the next occurrence of the text, and suppresses any find/replace dialogs.. Delete selection.  }
+{ clear last $<$user.text$>$ {[}over{]} }	{ Selects the previous occurrence of the text, and suppresses any find/replace dialogs.. Delete selection.  }
+{ clear next $<$user.text$>$ {[}over{]} }	{ Selects the next occurrence of the text, and suppresses any find/replace dialogs.. Delete selection.  }
 { clear last clip }	{ Selects the previous occurrence of the text, and suppresses any find/replace dialogs.. Delete selection.  }
 { clear next clip }	{ Selects the next occurrence of the text, and suppresses any find/replace dialogs.. Delete selection.  }
-{ comment last  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  {[}over{]} }	{ Selects the previous occurrence of the text, and suppresses any find/replace dialogs.. Toggle comments on the current line(s).  }
+{ comment last $<$user.text$>$ {[}over{]} }	{ Selects the previous occurrence of the text, and suppresses any find/replace dialogs.. Toggle comments on the current line(s).  }
 { comment last clip }	{ Selects the previous occurrence of the text, and suppresses any find/replace dialogs.. Toggle comments on the current line(s).  }
-{ comment next  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  {[}over{]} }	{ Selects the next occurrence of the text, and suppresses any find/replace dialogs.. Toggle comments on the current line(s).  }
+{ comment next $<$user.text$>$ {[}over{]} }	{ Selects the next occurrence of the text, and suppresses any find/replace dialogs.. Toggle comments on the current line(s).  }
 { comment next clip }	{ Selects the next occurrence of the text, and suppresses any find/replace dialogs.. Toggle comments on the current line(s).  }
-{ go last  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  {[}over{]} }	{ Selects the previous occurrence of the text, and suppresses any find/replace dialogs.. Move cursor right one column.  }
+{ go last $<$user.text$>$ {[}over{]} }	{ Selects the previous occurrence of the text, and suppresses any find/replace dialogs.. Move cursor right one column.  }
 { go last clip }	{ Selects the previous occurrence of the text, and suppresses any find/replace dialogs.. Move cursor right one column.  }
-{ go next  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  {[}over{]} }	{ Selects the next occurrence of the text, and suppresses any find/replace dialogs.. Move cursor right one column.  }
+{ go next $<$user.text$>$ {[}over{]} }	{ Selects the next occurrence of the text, and suppresses any find/replace dialogs.. Move cursor right one column.  }
 { go next clip }	{ Selects the next occurrence of the text, and suppresses any find/replace dialogs.. Move cursor right one column.  }
-{ paste last  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  {[}over{]} }	{ Selects the previous occurrence of the text, and suppresses any find/replace dialogs.. Move cursor right one column. Paste clipboard at cursor.  }
-{ paste next  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  {[}over{]} }	{ Selects the next occurrence of the text, and suppresses any find/replace dialogs.. Move cursor right one column. Paste clipboard at cursor.  }
-{ replace last  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  {[}over{]} }	{ Selects the previous occurrence of the text, and suppresses any find/replace dialogs.. Paste clipboard at cursor.  }
-{ replace next  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  {[}over{]} }	{ Selects the next occurrence of the text, and suppresses any find/replace dialogs.. Paste clipboard at cursor.  }
-{ select last  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  {[}over{]} }	{ Selects the previous occurrence of the text, and suppresses any find/replace dialogs..  }
-{ select next  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  {[}over{]} }	{ Selects the next occurrence of the text, and suppresses any find/replace dialogs..  }
+{ paste last $<$user.text$>$ {[}over{]} }	{ Selects the previous occurrence of the text, and suppresses any find/replace dialogs.. Move cursor right one column. Paste clipboard at cursor.  }
+{ paste next $<$user.text$>$ {[}over{]} }	{ Selects the next occurrence of the text, and suppresses any find/replace dialogs.. Move cursor right one column. Paste clipboard at cursor.  }
+{ replace last $<$user.text$>$ {[}over{]} }	{ Selects the previous occurrence of the text, and suppresses any find/replace dialogs.. Paste clipboard at cursor.  }
+{ replace next $<$user.text$>$ {[}over{]} }	{ Selects the next occurrence of the text, and suppresses any find/replace dialogs.. Paste clipboard at cursor.  }
+{ select last $<$user.text$>$ {[}over{]} }	{ Selects the previous occurrence of the text, and suppresses any find/replace dialogs..  }
+{ select next $<$user.text$>$ {[}over{]} }	{ Selects the next occurrence of the text, and suppresses any find/replace dialogs..  }
 { select last clip }	{ Selects the previous occurrence of the text, and suppresses any find/replace dialogs..  }
 { select next clip }	{ Selects the next occurrence of the text, and suppresses any find/replace dialogs..  }

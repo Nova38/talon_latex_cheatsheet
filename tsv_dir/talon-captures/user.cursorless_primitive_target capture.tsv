@@ -1,2 +1,2 @@
 Command	Result
-{ user.cursorless\_primitive\_target }	{ CaptureImpl("user.cursorless{-}primitive{-}target", Rule("$<$user.cursorless{-}modifier$>$+ {[}$<$user.cursorless{-}mark$>${]}  |  $<$user.cursorless{-}mark$>$")) }
+{ user.cursorless\_primitive\_target }	{ CaptureImpl("user.cursorless{-}primitive{-}target", Rule("{[}$<$user.cursorless{-}position$>${]} ($<$user.cursorless{-}modifier$>$+ {[}$<$user.cursorless{-}mark$>${]}  |  $<$user.cursorless{-}mark$>$)")) }

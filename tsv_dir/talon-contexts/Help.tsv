@@ -10,7 +10,7 @@ Command	Result
 { (help formatters | help format | format help) }	{ Provides the list of formatter keywords.  }
 { help context }	{ Display contextual command info.  }
 { help active }	{ Display contextual command info.  }
-{ help search  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  }	{ Display command info for search phrase.  }
-{ help context $<$a href="\#user{-}help{-}contexts{-}list"$>$  \{user.help{-}contexts\}  $<$/a$>$ }	{ Display command info for selected context.  }
+{ help search $<$user.text$>$ }	{ Display command info for search phrase.  }
+{ help context \{user.help{-}contexts\} }	{ Display command info for selected context.  }
 { help help }	{ Display command info for search phrase.  }
 { help scope }	{ Toggle help scope gui.  }

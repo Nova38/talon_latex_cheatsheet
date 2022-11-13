@@ -1,8 +1,8 @@
 Command	Result
 { (op | is) in }	{ Insert " \%in\% ".  }
 { toggle library }	{ GUI: List libraries for active language.  }
-{ library  $<$a href="\#user{-}code{-}libraries{-}capture"$>$ \&lt;user.code{-}libraries\&gt; $<$/a$>$  }	{ Inserts a library and positions the cursor appropriately. Press end enter.  }
-{ (chain|pipe that) }	{ Press end. Insert " \%$>$\%". Press enter.  }
+{ library $<$user.code{-}libraries$>$ }	{ Inserts a library and positions the cursor appropriately. Press end enter.  }
+{ (chain | pipe that) }	{ Press end. Insert " \%$>$\%". Press enter.  }
 { state na }	{ Insert "NA".  }
-{ function define  $<$a href="\#user{-}text{-}capture"$>$ \&lt;user.text\&gt; $<$/a$>$  }	{ Inserts private function declaration.  }
-{ named arg $<$a href="\#user{-}code{-}parameter{-}name{-}list"$>$  \{user.code{-}parameter{-}name\}  $<$/a$>$ }	{ Inserts a named argument.  }
+{ function define $<$user.text$>$ }	{ Inserts private function declaration.  }
+{ named arg \{user.code{-}parameter{-}name\} }	{ Inserts a named argument.  }

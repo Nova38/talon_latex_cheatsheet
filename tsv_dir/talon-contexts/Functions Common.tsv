@@ -1,6 +1,6 @@
 Command	Result
 { toggle funk }	{ GUI: List functions for active language.  }
-{ funk  $<$a href="\#user{-}code{-}common{-}function{-}capture"$>$ \&lt;user.code{-}common{-}function\&gt; $<$/a$>$  }	{ Inserts a function and positions the cursor appropriately.  }
-{ funk cell  \&lt;number\&gt;   }	{ Inserts the selected function when the imgui is open.  }
-{ funk wrap  $<$a href="\#user{-}code{-}common{-}function{-}capture"$>$ \&lt;user.code{-}common{-}function\&gt; $<$/a$>$  }	{ Inserts a function and positions the cursor appropriately.  }
-{ funk wrap  \&lt;number\&gt;   }	{ Inserts the selected function when the imgui is open.  }
+{ funk $<$user.code{-}common{-}function$>$ }	{ Inserts a function and positions the cursor appropriately.  }
+{ funk cell $<$number$>$ }	{ Inserts the selected function when the imgui is open.  }
+{ funk wrap $<$user.code{-}common{-}function$>$ }	{ Inserts a function and positions the cursor appropriately.  }
+{ funk wrap $<$number$>$ }	{ Inserts the selected function when the imgui is open.  }

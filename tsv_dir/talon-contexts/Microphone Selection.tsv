@@ -1,4 +1,4 @@
 Command	Result
 { microphone show }	{ Show GUI for choosing the Talon microphone.  }
 { microphone close }	{ Hide the microphone selection GUI.  }
-{ microphone pick  \&lt;number{-}small\&gt;   }	{ Selects a micropohone.  }
+{ microphone pick $<$number{-}small$>$ }	{ Selects a micropohone.  }

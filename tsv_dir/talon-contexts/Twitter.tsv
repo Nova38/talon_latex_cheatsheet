@@ -1,5 +1,5 @@
 Command	Result
-{ (show shortcuts|shortcuts help) }	{ Press ?.  }
+{ (show shortcuts | shortcuts help) }	{ Press ?.  }
 { next tweet }	{ Press j.  }
 { previous tweet }	{ Press k.  }
 { page down }	{ Press space.  }

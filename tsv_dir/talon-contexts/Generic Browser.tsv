@@ -4,7 +4,7 @@ Command	Result
 { go home }	{ Go to home page.  }
 { {[}go{]} forward }	{ Go forward in the history.  }
 { go (back | backward) }	{ Go back in the history.  }
-{ go to $<$a href="\#user{-}website{-}list"$>$  \{user.website\}  $<$/a$>$ }	{ Go to a new URL.  }
+{ go to \{user.website\} }	{ Go to a new URL.  }
 { go private }	{ Open a private browsing window.  }
 { bookmark it }	{ Bookmark the current page.  }
 { bookmark tabs }	{ Bookmark all open tabs.  }
