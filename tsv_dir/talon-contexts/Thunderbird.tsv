@@ -1,0 +1,6 @@
+Command	Result
+{ go (mails | messages | inbox) }	{ Jumps to the specified tab.  }
+{ go (calendar | lightning) }	{ Press keys with modifier ctrl or cmd.  }
+{ go tasks }	{ Press keys with modifier ctrl or cmd.  }
+{ (open address {[}book{]} | address book | open contacts) }	{ Press keys with modifier ctrl or cmd.  }
+{ dev tools }	{ Press keys with modifier ctrl or cmd.  }

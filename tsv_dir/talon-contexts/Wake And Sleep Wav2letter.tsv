@@ -1,0 +1,3 @@
+Command	Result
+{ go to sleep {[}$<$phrase$>${]} }	{ Disable speech recognition.  }
+{ wake up }	{ Enable speech recognition.  }

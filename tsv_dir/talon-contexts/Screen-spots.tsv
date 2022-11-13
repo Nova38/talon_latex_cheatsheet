@@ -1,0 +1,11 @@
+Command	Result
+{ spot save $<$user.text$>$ }	{ Saves the current mouse position (to a specific key phrase).  }
+{ spot {[}(click|touch){]} $<$user.text$>$ }	{ Clicks the saved mouse position (if it exists) then returns your cursor to its current position.  }
+{ spot move $<$user.text$>$ }	{ Moves the cursor to a location, if one was saved for the given key..  }
+{ spot drag $<$user.text$>$ }	{ Drag the mouse from its current location to the saved position (if it exists).  }
+{ spot swipe $<$user.text$>$ }	{ Drag the mouse from its current location to the saved position (if it exists).  }
+{ spot clear all }	{ Reset the active spot list to a new empty dictionary.  }
+{ spot clear $<$user.text$>$ }	{ Remove a specific saved spot.  }
+{ spot list {[}all{]} }	{ Display a list of existing spot names.  }
+{ spot (close|clothes) }	{ Closes the list of existing spot names.  }
+{ spot {[}toggle{]} heatmap }	{ Display the spot on the screen.  }

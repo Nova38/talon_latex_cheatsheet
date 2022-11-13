@@ -1,0 +1,17 @@
+Command	Result
+{ task version }	{ Insert "task {-}{-}version\textbackslashn".  }
+{ task commands }	{ Insert "task commands\textbackslashn".  }
+{ task help }	{ Insert "task help\textbackslashn".  }
+{ task list }	{ Insert "task list\textbackslashn".  }
+{ task list orphans }	{ Insert "task project: list\textbackslashn".  }
+{ task list untagged }	{ Insert "task tags.none: list\textbackslashn".  }
+{ task list $<$user.text$>$ }	{ Insert "task list  $<$text$>$ \textbackslashn".  }
+{ task list project }	{ Insert "task list project: ".  }
+{ task list project $<$user.text$>$ }	{ Insert "task list project: $<$text$>$ \textbackslashn".  }
+{ task add }	{ Insert "task add ".  }
+{ task add $<$user.text$>$ }	{ Insert "task add  $<$text$>$ \textbackslashn".  }
+{ task undo }	{ Insert "task undo\textbackslashn".  }
+{ (tasks | task next) }	{ Insert "task next\textbackslashn".  }
+{ task $<$number$>$ edit }	{ Insert "task  $<$number$>$  edit".  }
+{ task $<$number$>$ done }	{ Insert "task  $<$number$>$  done".  }
+{ task $<$number$>$ delete }	{ Insert "task  $<$number$>$  delete".  }

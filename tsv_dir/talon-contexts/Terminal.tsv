@@ -1,0 +1,12 @@
+Command	Result
+{ lisa }	{ Lists directories.  }
+{ lisa all }	{ Lists all directories including hidden.  }
+{ katie {[}$<$user.text$>${]} }	{ Lists change directory.  }
+{ katie root }	{ Root of current drive.  }
+{ go $<$user.system{-}path$>$ }	{ Insert "cd " $<$system\_path$>$ "\textbackslashn".  }
+{ clear screen }	{ Clear screen.  }
+{ run last }	{ Repeats the last command.  }
+{ rerun {[}$<$user.text$>${]} }	{ Searches through the previously executed commands.  }
+{ rerun search }	{ Searches through the previously executed commands.  }
+{ kill all }	{ kills the running command.  }
+{ copy paste }	{ Copy selection to clipboard. Paste clipboard at cursor.  }

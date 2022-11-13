@@ -1,0 +1,2 @@
+Command	Result
+{ user.cursorless\_simple\_scope\_modifier }	{ CaptureImpl("user.cursorless{-}simple{-}scope{-}modifier", Rule("{[}\{user.cursorless{-}simple{-}scope{-}modifier\}{]} $<$user.cursorless{-}scope{-}type$>$")) }

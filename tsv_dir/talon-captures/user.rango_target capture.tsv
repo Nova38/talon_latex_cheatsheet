@@ -1,0 +1,2 @@
+Command	Result
+{ user.rango\_target }	{ CaptureImpl("user.rango{-}target", Rule("$<$user.rango{-}hints$>$")) }

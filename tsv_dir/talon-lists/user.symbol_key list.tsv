@@ -19,6 +19,8 @@ Command	Result
 { bang }	{ ! }
 { down score }	{ \_ }
 { underscore }	{ \_ }
+{ circly }	{ ( }
+{ closing circly }	{ ) }
 { paren }	{ ( }
 { L paren }	{ ( }
 { left paren }	{ ( }
@@ -47,7 +49,7 @@ Command	Result
 { caret }	{ \^{} }
 { amper }	{ \& }
 { pipe }	{ | }
-{ dubquote }	{ " }
+{ dub quote }	{ " }
 { double quote }	{ " }
 { dollar }	{ \$ }
 { pound }	{ £ }
@@ -56,6 +58,7 @@ Command	Result
 { back tick }	{ ` }
 { grave }	{ ` }
 { comma }	{ , }
+{ coma }	{ , }
 { period }	{ . }
 { full stop }	{ . }
 { semicolon }	{ ; }

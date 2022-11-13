@@ -1,0 +1,2 @@
+Command	Result
+{ user.cursorless\_positional\_target }	{ CaptureImpl("user.cursorless{-}positional{-}target", Rule("(\{user.cursorless{-}position\}  |  \{user.cursorless{-}source{-}destination{-}connective\}) $<$user.cursorless{-}target$>$")) }

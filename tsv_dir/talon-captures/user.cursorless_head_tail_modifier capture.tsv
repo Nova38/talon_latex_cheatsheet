@@ -1,0 +1,2 @@
+Command	Result
+{ user.cursorless\_head\_tail\_modifier }	{ CaptureImpl("user.cursorless{-}head{-}tail{-}modifier", Rule("\{user.cursorless{-}head{-}tail{-}modifier\} {[}$<$user.cursorless{-}interior{-}modifier$>${]} {[}$<$user.cursorless{-}head{-}tail{-}swallowed{-}modifier$>${]}")) }

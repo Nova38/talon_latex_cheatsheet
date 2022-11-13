@@ -1,0 +1,2 @@
+Command	Result
+{ \{user.file{-}extension\} }	{ Insert "$<$file\_extension$>$".  }

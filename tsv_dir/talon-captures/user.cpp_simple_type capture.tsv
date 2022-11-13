@@ -1,0 +1,2 @@
+Command	Result
+{ user.cpp\_simple\_type }	{ CaptureImpl("user.cpp{-}simple{-}type", Rule("{[}\{self.cpp{-}type{-}sign{-}modifiers\}{]} \{self.cpp{-}simple{-}types\}           |  \{self.cpp{-}standard\} \{self.cpp{-}standard{-}types\}           |  \{self.cpp{-}standard\} $<$self.cpp{-}fixed{-}width{-}integer{-}type$>$           |  \{self.cpp{-}user{-}types\}           |  $<$self.cpp{-}fixed{-}width{-}integer{-}type$>$")) }

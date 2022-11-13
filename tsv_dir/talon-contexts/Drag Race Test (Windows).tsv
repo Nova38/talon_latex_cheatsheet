@@ -1,0 +1,32 @@
+Command	Result
+{ test this thing }	{ x = mouse\_x()\newline%
+y = mouse\_y()\newline%
+mouse\_drag(0)\newline%
+\newline%
+\newline%
+new\_x = x + 100\newline%
+new\_y = y + 0\newline%
+mouse\_move(new\_x,new\_y)\newline%
+mouse\_drag(0)\newline%
+\newline%
+sleep(1000ms)\newline%
+new\_x = new\_x + 100\newline%
+new\_y = new\_y + 100\newline%
+mouse\_move(new\_x,new\_y)\newline%
+mouse\_drag(0)\newline%
+\newline%
+sleep(1000ms)\newline%
+new\_x = new\_x + 0\newline%
+new\_y = new\_y + 100\newline%
+mouse\_move(new\_x,new\_y)\newline%
+mouse\_drag(0)\newline%
+\newline%
+sleep(1000ms)\newline%
+new\_x = new\_x {-} 200\newline%
+new\_y = new\_y {-} 200\newline%
+mouse\_move(new\_x,new\_y)\newline%
+mouse\_drag(0)\newline%
+mouse\_release(0)\newline%
+\newline%
+\newline%
+}

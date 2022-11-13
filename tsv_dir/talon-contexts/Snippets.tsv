@@ -1,0 +1,6 @@
+Command	Result
+{ snip \{user.snippets\} }	{ Inserts a snippet.  }
+{ snip hunt $<$user.text$>$ }	{ Triggers the program's snippet search.  }
+{ snip hunt }	{ Triggers the program's snippet search.  }
+{ snip create }	{ Triggers snippet creation.  }
+{ snip show }	{ Toggles UI for available snippets.  }

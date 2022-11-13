@@ -1,0 +1,8 @@
+Command	Result
+{ bounds }	{ excludeInterior }
+{ just }	{ toRawSelection }
+{ leading }	{ leading }
+{ trailing }	{ trailing }
+{ content }	{ keepContentFilter }
+{ empty }	{ keepEmptyFilter }
+{ its }	{ inferPreviousMark }

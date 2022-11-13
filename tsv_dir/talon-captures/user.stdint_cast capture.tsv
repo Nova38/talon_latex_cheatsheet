@@ -1,0 +1,2 @@
+Command	Result
+{ user.stdint\_cast }	{ CaptureImpl("user.stdint{-}cast", Rule("{[}$<$self.stdint{-}signed$>${]} $<$self.stdint{-}types$>$ {[}$<$self.c{-}pointers$>$+{]}")) }

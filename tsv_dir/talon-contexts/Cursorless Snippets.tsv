@@ -1,0 +1,4 @@
+Command	Result
+{ \{user.cursorless{-}insert{-}snippet{-}action\} $<$user.cursorless{-}insertion{-}snippet$>$ }	{ Execute cursorless command with implicit target.  }
+{ \{user.cursorless{-}insert{-}snippet{-}action\} $<$user.cursorless{-}insertion{-}snippet$>$ $<$user.cursorless{-}positional{-}target$>$ }	{ Execute single{-}target cursorless command.  }
+{ \{user.cursorless{-}insert{-}snippet{-}action\} \{user.cursorless{-}insertion{-}snippet{-}single{-}phrase\} $<$user.text$>$ {[}\{user.cursorless{-}phrase{-}terminator\}{]} }	{ Perform cursorless wrap action.  }

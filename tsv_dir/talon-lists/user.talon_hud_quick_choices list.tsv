@@ -4,13 +4,11 @@ Command	Result
 { status bar remove microphone }	{ status\_bar|2 }
 { status bar add language }	{ status\_bar|3 }
 { status bar remove code language }	{ status\_bar|4 }
-{ status bar add focus indicator }	{ status\_bar|5 }
+{ status bar remove focus indicator }	{ status\_bar|5 }
 { event log keep alive }	{ event\_log|0 }
 { event log clear logs }	{ event\_log|1 }
-{ text panel copy contents }	{ Text panel|0 }
-{ toolkit scope copy contents }	{ Text panel|0 }
 { documentation copy contents }	{ Documentation|0 }
-{ documentation panel copy contents }	{ Documentation|0 }
+{ browser usage copy contents }	{ Documentation|0 }
 { walkthrough skip this step }	{ walkthrough|0 }
 { walkthrough mark as done }	{ walkthrough|1 }
 { walkthrough restore current step }	{ walkthrough|2 }

@@ -1,0 +1,3 @@
+Command	Result
+{ suspend }	{ Press ctrl{-}z.  }
+{ resume }	{ Insert "fg". Press enter.  }

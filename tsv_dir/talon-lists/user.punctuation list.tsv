@@ -4,6 +4,7 @@ Command	Result
 { back tick }	{ ` }
 { grave }	{ ` }
 { comma }	{ , }
+{ coma }	{ , }
 { period }	{ . }
 { full stop }	{ . }
 { semicolon }	{ ; }

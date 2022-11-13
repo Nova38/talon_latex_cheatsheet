@@ -1,0 +1,10 @@
+Command	Result
+{ (draft | mail | message) save }	{ Press keys with modifier ctrl or cmd.  }
+{ (draft | mail | message) print }	{ Press keys with modifier ctrl or cmd.  }
+{ (draft | mail | message) send }	{ Press keys with modifier ctrl or cmd.  }
+{ toggle contacts }	{ Press f9.  }
+{ go (inbox | thunderbird | main) }	{ Press keys with modifier ctrl or cmd.  }
+{ cite paste }	{ Press keys with modifier ctrl or cmd.  }
+{ (unformatted | raw) paste }	{ Press keys with modifier ctrl or cmd.  }
+{ link new }	{ Press keys with modifier ctrl or cmd.  }
+{ link delete }	{ Press keys with modifier ctrl or cmd.  }

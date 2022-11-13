@@ -1,0 +1,47 @@
+Command	Result
+{ focus search }	{ Press s.  }
+{ go to notifications }	{ Insert "gn".  }
+{ go to dashboard }	{ Insert "gd".  }
+{ (keyboard shortcuts show | show keyboard shortcuts) }	{ Press ?.  }
+{ (selection move down | move selection down) }	{ Press j.  }
+{ (selection move up | move selection up) }	{ Press k.  }
+{ (selection toggle | toggle selection) }	{ Press x.  }
+{ (selection open | open selection) }	{ Press o.  }
+{ go to code }	{ Insert "gc".  }
+{ go to issues }	{ Insert "gi".  }
+{ go to pull requests }	{ Insert "gp".  }
+{ go to wiki }	{ Insert "gw".  }
+{ go to actions }	{ Insert "ga".  }
+{ go to projects }	{ Insert "gb".  }
+{ go to discussions }	{ Insert "gg".  }
+{ {[}web{]} editor open }	{ Press ..  }
+{ (file find | find file) }	{ Press t.  }
+{ jump to line }	{ Press l.  }
+{ ((branch | tag) switch | switch (branch | tag)) }	{ Press w.  }
+{ (url expand | expand url) }	{ Press y.  }
+{ (show | hide) comments }	{ Press i.  }
+{ blame view open }	{ Press b.  }
+{ (show | hide) annotations }	{ Press a.  }
+{ (issue create | create {[}an{]} issue) }	{ Press c.  }
+{ search (issues | {[}pull{]} requests) }	{ Press /.  }
+{ (filter by | edit) labels }	{ Press l.  }
+{ (filter by | edit) milestones }	{ Press m.  }
+{ (filter by | edit) assignee }	{ Press a.  }
+{ reply }	{ Press r.  }
+{ (comment submit | submit comment) }	{ Press ctrl{-}enter.  }
+{ (comment preview | preview comment) }	{ Press ctrl{-}shift{-}p.  }
+{ git hub full screen }	{ Press ctrl{-}shift{-}l.  }
+{ (form close | close form) }	{ Press escape.  }
+{ parent commit }	{ Press p.  }
+{ other parent commit }	{ Press o.  }
+{ mark as read }	{ Press y.  }
+{ (thread mute | mute thread) }	{ Press shift{-}m.  }
+{ (issue open | open issue) }	{ Press o.  }
+{ (issue create | create issue) }	{ Press c.  }
+{ reviewer request }	{ Press q.  }
+{ milestone set }	{ Press m.  }
+{ assignee set }	{ Press a.  }
+{ label set }	{ Press l.  }
+{ go to workflow }	{ Insert "gf".  }
+{ timestamps toggle }	{ Press shift{-}t.  }
+{ fullscreen toggle }	{ Press shift{-}f.  }

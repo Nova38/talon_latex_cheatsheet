@@ -1,0 +1,2 @@
+Command	Result
+{ user.compass\_direction }	{ CaptureImpl("user.compass{-}direction", Rule("in  |  out  |  center  |  ((north  |  south) {[}(east  |  west){]}  |  east  |  west)")) }

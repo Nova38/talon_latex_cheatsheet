@@ -1,0 +1,4 @@
+Command	Result
+{ go $<$user.letter$>$ }	{ file\_manager\_open\_volume.  }
+{ go app data }	{ opens the directory that's already visible in the view.  }
+{ go program files }	{ opens the directory that's already visible in the view.  }

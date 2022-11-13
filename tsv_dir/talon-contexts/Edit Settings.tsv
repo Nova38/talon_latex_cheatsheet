@@ -1,0 +1,2 @@
+Command	Result
+{ customize \{user.talon{-}settings{-}csv\} }	{ Tries to open a file in the user's preferred text editor.. Move cursor to end of file (start of line).  }

@@ -1,4 +1,9 @@
 Command	Result
+{ talon home page }	{ http://talonvoice.com }
+{ talon slack }	{ http://talonvoice.slack.com/messages/help }
+{ talon wiki }	{ https://talon.wiki/ }
+{ talon practice }	{ https://chaosparrot.github.io/talon\_practice/ }
+{ talon repository search }	{ https://search.talonvoice.com/search/ }
 { amazon }	{ https://www.amazon.com/ }
 { dropbox }	{ https://dropbox.com/ }
 { google }	{ https://www.google.com/ }
@@ -6,7 +11,7 @@ Command	Result
 { google maps }	{ https://maps.google.com/ }
 { google scholar }	{ https://scholar.google.com/ }
 { gmail }	{ https://mail.google.com/ }
-{ github }	{ https://www.github.com }
+{ github }	{ https://github.com/ }
 { gist }	{ https://gist.github.com/ }
 { wikipedia }	{ https://en.wikipedia.org/ }
 { youtube }	{ https://www.youtube.com/ }

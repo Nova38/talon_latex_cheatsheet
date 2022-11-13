@@ -1,0 +1,5 @@
+Command	Result
+{ pub }	{ public }
+{ pro }	{ protected }
+{ private }	{ private }
+{ static }	{ static }

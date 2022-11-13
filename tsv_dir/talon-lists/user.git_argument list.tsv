@@ -1,0 +1,58 @@
+Command	Result
+{ abort }	{ {-}{-}abort }
+{ all }	{ {-}{-}all }
+{ allow empty }	{ {-}{-}allow{-}empty }
+{ amend }	{ {-}{-}amend }
+{ cached }	{ {-}{-}cached }
+{ cashed }	{ {-}{-}cached }
+{ color words }	{ {-}{-}color{-}words }
+{ colour words }	{ {-}{-}color{-}words }
+{ continue }	{ {-}{-}continue }
+{ copy }	{ {-}{-}copy }
+{ create }	{ {-}{-}create }
+{ delete }	{ {-}{-}delete }
+{ detach }	{ {-}{-}detach }
+{ dir diff }	{ {-}{-}dir{-}diff }
+{ directory diff }	{ {-}{-}dir{-}diff }
+{ dry run }	{ {-}{-}dry{-}run }
+{ edit }	{ {-}{-}edit }
+{ fast forward only }	{ {-}{-}ff{-}only }
+{ force }	{ {-}{-}force }
+{ force create }	{ {-}{-}force{-}create }
+{ global }	{ {-}{-}global }
+{ hard }	{ {-}{-}hard }
+{ ignore case }	{ {-}{-}ignore{-}case }
+{ interactive }	{ {-}{-}interactive }
+{ list }	{ {-}{-}list }
+{ local }	{ {-}{-}local }
+{ mixed }	{ {-}{-}mixed }
+{ move }	{ {-}{-}move }
+{ no track }	{ {-}{-}no{-}track }
+{ no verify }	{ {-}{-}no{-}verify }
+{ orphan }	{ {-}{-}orphan }
+{ patch }	{ {-}{-}patch }
+{ prune }	{ {-}{-}prune }
+{ quiet }	{ {-}{-}quiet }
+{ quit }	{ {-}{-}quit }
+{ rebase }	{ {-}{-}rebase }
+{ remote }	{ {-}{-}remote }
+{ set up stream }	{ {-}{-}set{-}upstream }
+{ short }	{ {-}{-}short }
+{ short stat }	{ {-}{-}shortstat }
+{ skip }	{ {-}{-}skip }
+{ soft }	{ {-}{-}soft }
+{ staged }	{ {-}{-}staged }
+{ stat }	{ {-}{-}stat }
+{ system }	{ {-}{-}system }
+{ track }	{ {-}{-}track }
+{ update }	{ {-}{-}update }
+{ verbose }	{ {-}{-}verbose }
+{ branch }	{ {-}b }
+{ combined }	{ {-}c }
+{ deep }	{ {-}d }
+{ very verbose }	{ {-}vv }
+{ HEAD }	{ HEAD }
+{ main }	{ main }
+{ master }	{ master }
+{ origin }	{ origin }
+{ upstream }	{ upstream }

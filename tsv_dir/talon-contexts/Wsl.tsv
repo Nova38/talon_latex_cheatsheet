@@ -1,0 +1,4 @@
+Command	Result
+{ go $<$user.letter$>$ }	{ file\_manager\_open\_volume.  }
+{ (wsl | weasel) reset path detection }	{ reset wsl path detection.  }
+{ (wsl | weasel) speak }	{ ask each distro to say hello (in the log).  }

@@ -1,0 +1,2 @@
+Command	Result
+{ user.cursorless\_action\_or\_ide\_command }	{ CaptureImpl("user.cursorless{-}action{-}or{-}ide{-}command", Rule("\{user.cursorless{-}simple{-}action\}  | \{user.cursorless{-}callback{-}action\}  | \{user.cursorless{-}custom{-}action\}")) }

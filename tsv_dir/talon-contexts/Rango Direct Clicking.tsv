@@ -1,0 +1,2 @@
+Command	Result
+{ $<$user.rango{-}target$>$ }	{ Executes a Rango command.  }

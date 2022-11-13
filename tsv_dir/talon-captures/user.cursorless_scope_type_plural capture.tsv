@@ -1,0 +1,2 @@
+Command	Result
+{ user.cursorless\_scope\_type\_plural }	{ CaptureImpl("user.cursorless{-}scope{-}type{-}plural", Rule("\{user.cursorless{-}scope{-}type{-}plural\}  |  \{user.cursorless{-}custom{-}regex{-}scope{-}type{-}plural\}")) }

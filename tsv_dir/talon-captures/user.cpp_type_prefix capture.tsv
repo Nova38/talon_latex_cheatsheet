@@ -1,0 +1,2 @@
+Command	Result
+{ user.cpp\_type\_prefix }	{ CaptureImpl("user.cpp{-}type{-}prefix", Rule("\{self.cpp{-}type{-}qualifiers\}  |  \{self.cpp{-}pointers\} to  |  array of  |  function returning")) }

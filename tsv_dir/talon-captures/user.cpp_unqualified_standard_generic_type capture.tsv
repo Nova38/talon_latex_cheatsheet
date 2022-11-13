@@ -1,0 +1,2 @@
+Command	Result
+{ user.cpp\_unqualified\_standard\_generic\_type }	{ CaptureImpl("user.cpp{-}unqualified{-}standard{-}generic{-}type", Rule("( \{self.cpp{-}standard{-}types\} {[}(to | of) $<$self.cpp{-}type$>${]}  |  $<$self.cpp{-}fixed{-}width{-}integer{-}type$>$)")) }

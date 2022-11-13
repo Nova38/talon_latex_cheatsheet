@@ -2,11 +2,10 @@ Command	Result
 { status bar }	{ status\_bar }
 { event log }	{ event\_log }
 { text panel }	{ Text panel }
-{ toolkit scope }	{ Text panel }
 { documentation }	{ Documentation }
-{ documentation panel }	{ Documentation }
+{ browser usage }	{ Documentation }
 { choices }	{ Choices }
-{ toolkit debugging }	{ Choices }
+{ toolkit options }	{ Choices }
 { ability bar }	{ ability\_bar }
 { walkthrough }	{ walkthrough }
 { context menu }	{ context\_menu }

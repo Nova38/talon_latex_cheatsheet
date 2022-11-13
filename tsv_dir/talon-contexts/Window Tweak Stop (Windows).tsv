@@ -1,0 +1,2 @@
+Command	Result
+{ window stop }	{ Module action declaration for stopping current window move/resize operation.  }

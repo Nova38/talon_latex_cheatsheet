@@ -1,0 +1,3 @@
+Command	Result
+{ \{user.cursorless{-}homophone\} (reference | ref | cheatsheet | cheat sheet) }	{ Show new cursorless html cheat sheet.  }
+{ \{user.cursorless{-}homophone\} (instructions | docks | help) | help \{user.cursorless{-}homophone\} }	{ Open web page with cursorless instructions.  }

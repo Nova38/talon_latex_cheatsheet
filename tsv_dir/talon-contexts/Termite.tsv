@@ -1,0 +1,6 @@
+Command	Result
+{ shell yank }	{ Press y.  }
+{ shell select }	{ Press ctrl{-}shift{-}space.  }
+{ shell insert }	{ Press escape.  }
+{ visual line }	{ Press v.  }
+{ visual line mode }	{ Press V.  }

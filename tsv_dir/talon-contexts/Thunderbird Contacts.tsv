@@ -1,0 +1,8 @@
+Command	Result
+{ contact new }	{ Press keys with modifier ctrl or cmd.  }
+{ contact edit }	{ Press keys with modifier ctrl or cmd.  }
+{ contact delete }	{ Press delete.  }
+{ contact print }	{ Press keys with modifier ctrl or cmd.  }
+{ contact message }	{ Press keys with modifier ctrl or cmd.  }
+{ contact up }	{ Press up.  }
+{ contact down }	{ Press down.  }

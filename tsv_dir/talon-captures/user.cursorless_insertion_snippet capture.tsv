@@ -1,0 +1,2 @@
+Command	Result
+{ user.cursorless\_insertion\_snippet }	{ CaptureImpl("user.cursorless{-}insertion{-}snippet", Rule("\{user.cursorless{-}insertion{-}snippet{-}no{-}phrase\}  |  \{user.cursorless{-}insertion{-}snippet{-}single{-}phrase\}")) }

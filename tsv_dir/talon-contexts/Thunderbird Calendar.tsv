@@ -1,0 +1,10 @@
+Command	Result
+{ event new }	{ Press keys with modifier ctrl or cmd.  }
+{ task new }	{ Press keys with modifier ctrl or cmd.  }
+{ (task | event) delete }	{ Press delete.  }
+{ toggle today }	{ Press f11.  }
+{ view $<$number{-}small$>$ }	{ Select between calendar view tabs.  }
+{ view day }	{ Select between calendar view tabs.  }
+{ view week }	{ Select between calendar view tabs.  }
+{ view multi {[}week{]} }	{ Select between calendar view tabs.  }
+{ view month }	{ Select between calendar view tabs.  }

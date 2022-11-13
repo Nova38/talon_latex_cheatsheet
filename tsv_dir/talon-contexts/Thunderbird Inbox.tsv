@@ -1,0 +1,24 @@
+Command	Result
+{ (mail | message) open }	{ Press enter.  }
+{ (mail | message) (up | last) }	{ Press b.  }
+{ (mail | message) (down | next) }	{ Press f.  }
+{ unread {[}mail | message{]} (up | last) }	{ Press p.  }
+{ unread {[}mail | message{]} (down | next) }	{ Press n.  }
+{ go home }	{ Press alt{-}home.  }
+{ toggle (mail | message) {[}pane{]} }	{ Press f8.  }
+{ (mail | message) (favorite | unfavorite) }	{ Press s.  }
+{ (mail | message) (read | unread) }	{ Press m.  }
+{ (mail | message) (watch | unwatch) }	{ Press w.  }
+{ (mail | message) (ignore | unignore) }	{ Press k.  }
+{ (mail | message) suspend }	{ Press c.  }
+{ (mail | message) spam }	{ Press j.  }
+{ (mail | message) new }	{ Press keys with modifier ctrl or cmd.  }
+{ (mail | message) edit }	{ Press keys with modifier ctrl or cmd.  }
+{ (mail | message) reply sender }	{ Press keys with modifier ctrl or cmd.  }
+{ (mail | message) reply all }	{ Press keys with modifier ctrl or cmd.  }
+{ (mail | message) reply list }	{ Press keys with modifier ctrl or cmd.  }
+{ (mail | message) forward }	{ Press keys with modifier ctrl or cmd.  }
+{ (mail | message) delete }	{ Press delete.  }
+{ (mail | message) archive }	{ Press a.  }
+{ (mail | message) save }	{ Press keys with modifier ctrl or cmd.  }
+{ (mail | message) print }	{ Press keys with modifier ctrl or cmd.  }

@@ -1,0 +1,47 @@
+Command	Result
+{ args }	{ argumentOrParameter }
+{ attributes }	{ attribute }
+{ calls }	{ functionCall }
+{ callees }	{ functionCallee }
+{ class names }	{ className }
+{ classes }	{ class }
+{ comments }	{ comment }
+{ funk names }	{ functionName }
+{ funks }	{ namedFunction }
+{ if states }	{ ifStatement }
+{ items }	{ collectionItem }
+{ keys }	{ collectionKey }
+{ lambdas }	{ anonymousFunction }
+{ lists }	{ list }
+{ maps }	{ map }
+{ names }	{ name }
+{ regexes }	{ regularExpression }
+{ sections }	{ section }
+{ selectors }	{ selector }
+{ states }	{ statement }
+{ types }	{ type }
+{ values }	{ value }
+{ conditions }	{ condition }
+{ units }	{ unit }
+{ elements }	{ xmlElement }
+{ tags }	{ xmlBothTags }
+{ start tags }	{ xmlStartTag }
+{ end tags }	{ xmlEndTag }
+{ chars }	{ character }
+{ words }	{ word }
+{ identifiers }	{ identifier }
+{ blocks }	{ paragraph }
+{ cells }	{ notebookCell }
+{ files }	{ document }
+{ lines }	{ line }
+{ paints }	{ nonWhitespaceSequence }
+{ short paints }	{ boundedNonWhitespaceSequence }
+{ links }	{ url }
+{ tokens }	{ token }
+{ parts }	{ part }
+{ chapters }	{ chapter }
+{ subsections }	{ subSection }
+{ subsubsections }	{ subSubSection }
+{ paragraphs }	{ namedParagraph }
+{ subparagraphs }	{ subParagraph }
+{ environments }	{ environment }

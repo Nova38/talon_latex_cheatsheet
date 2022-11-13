@@ -1,0 +1,52 @@
+Command	Result
+{ funky $<$user.text$>$ }	{ Inserts function declaration.  }
+{ static funky $<$user.text$>$ }	{ Inserts private static function.  }
+{ state include }	{ Insert "\#include ".  }
+{ state include system }	{ Insert "\#include $<$$>$". Move cursor left one column.  }
+{ state include local }	{ Insert "\#include """. Move cursor left one column.  }
+{ state type deaf }	{ Insert "typedef ".  }
+{ state struct }	{ Insert "struct  \{\};". Press left:4.  }
+{ state {[}pre{]} define }	{ Insert "\#define ".  }
+{ state {[}pre{]} undefine }	{ Insert "\#undef ".  }
+{ state {[}pre{]} if (define|def) }	{ Insert "\#ifdef ".  }
+{ state pre if }	{ Insert "\#if ".  }
+{ state error }	{ Insert "\#error ".  }
+{ state pre else }	{ Insert "\#else".  }
+{ state pre else if }	{ Insert "\#elif ".  }
+{ state pre end if }	{ Insert "\#endif".  }
+{ state pragma }	{ Insert "\#pragma ".  }
+{ state default }	{ Insert "default:\textbackslashnbreak;". Extend selection left one column. Extend selection left one word.  }
+{ state assert }	{ Insert "assert();". Move cursor left one column. Move cursor left one column.  }
+{ (variable|declare) $<$user.cpp{-}raw{-}type$>$ $<$user.text$>$ }	{ var\_name = user.formatted\_text(text, "SNAKE\_CASE")\newline%
+insert(user.cpp\_build\_declarator(cpp\_raw\_type, var\_name)) }
+{ (variable|declare) $<$user.cpp{-}raw{-}type$>$ $<$user.letter$>$ }	{ insert(user.cpp\_build\_declarator(cpp\_raw\_type, letter))\newline%
+\newline%
+\# Ex. (int *) }
+{ \{user.cpp{-}cast{-}style\} }	{ Insert a cast operator. If some text is selected, the cast is wrapped around the selected code..  }
+{ \{user.cpp{-}cast{-}style\} {[}to{]} $<$user.cpp{-}type$>$ }	{ Insert a cast operator. If some text is selected, the cast is wrapped around the selected code..  }
+{ \{user.cpp{-}pointers\} }	{ Insert "$<$cpp\_pointers$>$".  }
+{ \{user.cpp{-}type{-}qualifiers\} }	{ Insert "$<$cpp\_type\_qualifiers$>$  ".  }
+{ type $<$user.cpp{-}type$>$ }	{ Insert "$<$cpp\_type$>$  ".  }
+{ $<$user.cpp{-}type{-}prefix$>$ $<$user.cpp{-}raw{-}type$>$ }	{ ty = user.cpp\_build\_declarator\_with\_prefix(cpp\_type\_prefix, cpp\_raw\_type, '')\newline%
+insert("\{ty\} ") }
+{ \{user.cpp{-}standard\} $<$user.cpp{-}unqualified{-}standard{-}generic{-}type$>$ }	{ Insert "std:: $<$cpp\_unqualified\_standard\_generic\_type$>$  ".  }
+{ auto }	{ Insert "auto ".  }
+{ call $<$user.code{-}functions$>$ }	{ Inserts a function call. If some text is selected, the call is wrapped around the selected code..  }
+{ \{user.cpp{-}standard\} double colon }	{ Insert "std::".  }
+{ \{user.cpp{-}standard\} \{user.cpp{-}standard{-}functions\} }	{ Inserts a function call. If some text is selected, the call is wrapped around the selected code..  }
+{ \{user.cpp{-}standard\} \{user.cpp{-}standard{-}range{-}algorithms\} }	{ Inserts a function call. If some text is selected, the call is wrapped around the selected code..  }
+{ \{user.cpp{-}standard\} ranges \{user.cpp{-}standard{-}range{-}algorithms\} }	{ Inserts a function call. If some text is selected, the call is wrapped around the selected code..  }
+{ \{user.cpp{-}standard\} \{user.cpp{-}standard{-}objects\} }	{ Insert "std:: $<$cpp\_standard\_objects$>$".  }
+{ access \{user.cpp{-}access{-}specifiers\} }	{ Insert "$<$cpp\_access\_specifiers$>$ :\textbackslashn".  }
+{ \{user.cpp{-}declaration{-}specifiers\} }	{ Insert "$<$cpp\_declaration\_specifiers$>$  ".  }
+{ equals zero }	{ Insert "= 0".  }
+{ equals default }	{ Insert "= default".  }
+{ equals delete }	{ Insert "= delete".  }
+{ state semi }	{ Press escape. Move cursor to end of line. Insert ";\textbackslashn".  }
+{ toggle includes }	{ GUI: List libraries for active language.  }
+{ include $<$user.code{-}libraries$>$ }	{ Inserts a library and positions the cursor appropriately.  }
+{ {[}state{]} (no | nil | null) pointer }	{ Inserts null.  }
+{ is not (none|null) pointer }	{ Inserts check for non{-}null.  }
+{ is (none|null) pointer }	{ Inserts check for null.  }
+{ member $<$user.prose$>$ }	{ Let $<$name$>$ be $<$prose$>$ (formatted with SNAKE\_CASE). Insert "\_ $<$name$>$".  }
+{ member $<$user.prose$>$ over }	{ Let $<$name$>$ be $<$prose$>$ (formatted with SNAKE\_CASE). Insert "\_ $<$name$>$".  }

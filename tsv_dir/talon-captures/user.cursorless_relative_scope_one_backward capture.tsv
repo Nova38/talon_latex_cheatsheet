@@ -1,0 +1,2 @@
+Command	Result
+{ user.cursorless\_relative\_scope\_one\_backward }	{ CaptureImpl("user.cursorless{-}relative{-}scope{-}one{-}backward", Rule("$<$user.cursorless{-}scope{-}type$>$ \{user.cursorless{-}forward{-}backward{-}modifier\}")) }

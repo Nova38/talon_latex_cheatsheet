@@ -1,0 +1,42 @@
+Command	Result
+{ step into }	{ Step into an instruction in the debugger.  }
+{ step over }	{ Step over an instruction in the debugger.  }
+{ step line }	{ Step into a source line in the debugger.  }
+{ step over line }	{ Step over a source line in the debugger.  }
+{ step out }	{ Step until function exit in the debugger.  }
+{ continue }	{ Continue execution in the debugger.  }
+{ debug start }	{ Start debugging.  }
+{ debug stop }	{ Stop the debugger.  }
+{ debug exit }	{ Exit the debugger.  }
+{ debug detach }	{ Detach the debugger.  }
+{ debug restart }	{ Restart execution in the debugger.  }
+{ show registers }	{ Print the current registers in the debugger.  }
+{ get register }	{ Print specific register in the debugger.  }
+{ set register }	{ Set specific register in the debugger.  }
+{ break now }	{ Break into the debugger.  }
+{ break here }	{ Set a break on the current line.  }
+{ (list | show) (breaks | break points) }	{ Print the current breakpoints in the debugger.  }
+{ (set | add) (break | break point) }	{ Add one software breakpoint in the debugger.  }
+{ (set | add) hardware (break | break point) }	{ Add one hardware breakpoint in the debugger.  }
+{ clear all (breaks | break points) }	{ Clear all breakpoints in the debugger.  }
+{ clear (break | break point) }	{ Clear one breakpoint in the debugger.  }
+{ clear (break | break point) $<$number{-}small$>$ }	{ Clear one breakpoint id in the debugger.  }
+{ disable all (breaks | break points) }	{ Disable all breakpoints in the debugger.  }
+{ disable (break | break point) }	{ Disable one breakpoint in the debugger.  }
+{ disable (break | break point) $<$number{-}small$>$ }	{ Disable one breakpoint id in the debugger.  }
+{ enable all (breaks | break points) }	{ Enable all breakpoints in the debugger.  }
+{ enable (break | break point) }	{ Enable one breakpoint in the debugger.  }
+{ enable (break | break point) $<$number{-}small$>$ }	{ Enable one breakpoint id in the debugger.  }
+{ (stack | back) trace }	{ Print a back trace in the debugger.  }
+{ disassemble }	{ Preps the disassemble command in the debugger.  }
+{ disassemble here }	{ Disassembles instructions at the current instruction pointer.  }
+{ disassemble clipboard }	{ Disassemble instructions at an address in the clipboard.  }
+{ jump to address }	{ Jump to a specific address in the debugger.  }
+{ jump to clipboard }	{ Jump to a specific address stored in the clipboard.  }
+{ jump to highlighted }	{ Jump to a specific highlighted address in the debugger.  }
+{ dump string }	{ Display as specific address as an ascii string in the debugger.  }
+{ dump unicode {[}string{]} }	{ Display as specific address as an unicode string in the debugger.  }
+{ dump pointers }	{ Display as specific address as a list of pointers in the debugger.  }
+{ list modules }	{ List the loaded modules in the debuggee memory space.  }
+{ inspect type }	{ Inspect a specific data type in the debugger.  }
+{ clear line }	{ Clear unwanted data from the command line.  }

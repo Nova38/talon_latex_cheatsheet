@@ -1,0 +1,23 @@
+Command	Result
+{ address bar | go address | go url }	{ Focus address bar.  }
+{ address copy | url copy | copy address | copy url }	{ Focus address bar. Copy selection to clipboard.  }
+{ go home }	{ Go to home page.  }
+{ {[}go{]} forward }	{ Go forward in the history.  }
+{ go (back | backward) }	{ Go back in the history.  }
+{ go to \{user.website\} }	{ Go to a new URL.  }
+{ go private }	{ Open a private browsing window.  }
+{ bookmark it }	{ Bookmark the current page.  }
+{ bookmark tabs }	{ Bookmark all open tabs.  }
+{ (refresh | reload) it }	{ Reload current page.  }
+{ (refresh | reload) it hard }	{ Reload current page (harder).  }
+{ bookmark show }	{ Open the Bookmarks editor.  }
+{ bookmark bar {[}show{]} }	{ Toggle the bookmarks bar.  }
+{ downloads show }	{ Show download list.  }
+{ extensions show }	{ Show installed extensions.  }
+{ history show }	{ Show recently visited pages.  }
+{ cache show }	{ Show 'Clear Cache' dialog.  }
+{ dev tools {[}show{]} }	{ Open or close the developer tools.  }
+{ show downloads }	{ Show download list.  }
+{ show extensions }	{ Show installed extensions.  }
+{ show history }	{ Show recently visited pages.  }
+{ show cache }	{ Show 'Clear Cache' dialog.  }

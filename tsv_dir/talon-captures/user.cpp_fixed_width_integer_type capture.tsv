@@ -1,0 +1,2 @@
+Command	Result
+{ user.cpp\_fixed\_width\_integer\_type }	{ CaptureImpl("user.cpp{-}fixed{-}width{-}integer{-}type", Rule("{[} \{self.cpp{-}type{-}sign{-}modifiers\}  |  U {]}            (int  |  integer)            {[}fast  |  least{]}            ( \{self.cpp{-}type{-}bit{-}width\} {[}T  |  type{]}             |  pointer (T  |  type)            )")) }

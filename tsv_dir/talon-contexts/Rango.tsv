@@ -1,0 +1,51 @@
+Command	Result
+{ click $<$user.rango{-}target$>$ }	{ Executes a Rango command.  }
+{ blank $<$user.rango{-}target$>$ }	{ Executes a Rango command.  }
+{ stash $<$user.rango{-}target$>$ }	{ Executes a Rango command.  }
+{ tab split }	{ Executes a Rango command without a target.  }
+{ tab back }	{ Executes a Rango command without a target.  }
+{ tab close other }	{ Executes a Rango command without a target.  }
+{ tab close left }	{ Executes a Rango command without a target.  }
+{ tab close right }	{ Executes a Rango command without a target.  }
+{ tab close first {[}$<$number{-}small$>${]} }	{ Executes a Rango command without a target.  }
+{ tab close final {[}$<$number{-}small$>${]} }	{ Executes a Rango command without a target.  }
+{ tab close previous {[}$<$number{-}small$>${]} }	{ Executes a Rango command without a target.  }
+{ tab close next {[}$<$number{-}small$>${]} }	{ Executes a Rango command without a target.  }
+{ tab clone }	{ Executes a Rango command without a target.  }
+{ hover $<$user.rango{-}target$>$ }	{ Executes a Rango command.  }
+{ dismiss }	{ Executes a Rango command without a target.  }
+{ show $<$user.rango{-}target$>$ }	{ Executes a Rango command.  }
+{ upper }	{ Executes a Rango command without a target.  }
+{ tiny up }	{ Executes a Rango command without a target.  }
+{ downer }	{ Executes a Rango command without a target.  }
+{ tiny down }	{ Executes a Rango command without a target.  }
+{ upper $<$user.rango{-}target$>$ }	{ Executes a Rango command.  }
+{ tiny up $<$user.rango{-}target$>$ }	{ Executes a Rango command.  }
+{ downer $<$user.rango{-}target$>$ }	{ Executes a Rango command.  }
+{ tiny down $<$user.rango{-}target$>$ }	{ Executes a Rango command.  }
+{ up again }	{ Executes a Rango command without a target.  }
+{ down again }	{ Executes a Rango command without a target.  }
+{ crown $<$user.rango{-}target$>$ }	{ Executes a Rango command.  }
+{ bottom $<$user.rango{-}target$>$ }	{ Executes a Rango command.  }
+{ center $<$user.rango{-}target$>$ }	{ Executes a Rango command.  }
+{ copy {[}link{]} $<$user.rango{-}target$>$ }	{ Executes a Rango command.  }
+{ copy mark $<$user.rango{-}target$>$ }	{ Executes a Rango command.  }
+{ copy text $<$user.rango{-}target$>$ }	{ Executes a Rango command.  }
+{ copy page \{user.rango{-}page{-}location{-}property\} }	{ Executes a Rango command without a target.  }
+{ copy mark address }	{ Executes a Rango command without a target.  }
+{ hint bigger }	{ Executes a Rango command without a target.  }
+{ hint smaller }	{ Executes a Rango command without a target.  }
+{ hint \{user.rango{-}hint{-}styles\} }	{ Executes a Rango command without a target.  }
+{ hint weight \{user.rango{-}hint{-}weights\} }	{ Executes a Rango command without a target.  }
+{ hint exclude singles }	{ Executes a Rango command without a target.  }
+{ hint include singles }	{ Executes a Rango command without a target.  }
+{ hints refresh }	{ Executes a Rango command without a target.  }
+{ hints toggle }	{ Executes a Rango command without a target.  }
+{ hints on {[}\{user.rango{-}hints{-}toggle{-}levels\}{]} }	{ Executes a Rango command without a target.  }
+{ hints off {[}\{user.rango{-}hints{-}toggle{-}levels\}{]} }	{ Executes a Rango command without a target.  }
+{ hints reset \{user.rango{-}hints{-}toggle{-}levels\} }	{ Executes a Rango command without a target.  }
+{ keyboard toggle }	{ Executes a Rango command without a target.  }
+{ address in title on }	{ Executes a Rango command without a target.  }
+{ address in title off }	{ Executes a Rango command without a target.  }
+{ rango explicit }	{ Disables rango direct mode.  }
+{ rango direct }	{ Enables rango direct mode so that the user doesn't have to say 'click' before the hint letters.  }

@@ -1,0 +1,2 @@
+Command	Result
+{ user.cpp\_raw\_type }	{ CaptureImpl("user.cpp{-}raw{-}type", Rule("$<$self.cpp{-}type{-}prefix$>$* $<$self.cpp{-}simple{-}type$>$          ( \{self.cpp{-}pointers\}           |  \{self.cpp{-}type{-}qualifiers\}           |  array           |  function           |  ((to | of)) $<$self.cpp{-}type{-}prefix$>$* $<$self.cpp{-}simple{-}type$>$          )*")) }

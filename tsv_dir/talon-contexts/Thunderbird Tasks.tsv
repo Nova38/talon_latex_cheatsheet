@@ -1,0 +1,5 @@
+Command	Result
+{ event new }	{ Press keys with modifier ctrl or cmd.  }
+{ task new }	{ Press keys with modifier ctrl or cmd.  }
+{ (task | event) delete }	{ Press delete.  }
+{ toggle today }	{ Press f11.  }

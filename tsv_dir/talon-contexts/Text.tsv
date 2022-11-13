@@ -1,0 +1,17 @@
+Command	Result
+{ phrase $<$user.text$>$ }	{ Inserts some text, remembering it in the phrase history..  }
+{ phrase $<$user.text$>$ over }	{ Inserts some text, remembering it in the phrase history..  }
+{ \{user.prose{-}formatter\} $<$user.prose$>$ }	{ Inserts a phrase formatted according to formatters. Formatters is a comma separated list of formatters (e.g. 'CAPITALIZE\_ALL\_WORDS,DOUBLE\_QUOTED\_STRING').  }
+{ \{user.prose{-}formatter\} $<$user.prose$>$ over }	{ Inserts a phrase formatted according to formatters. Formatters is a comma separated list of formatters (e.g. 'CAPITALIZE\_ALL\_WORDS,DOUBLE\_QUOTED\_STRING').  }
+{ $<$user.format{-}text$>$+ }	{ Insert a list of strings, sequentially..  }
+{ $<$user.format{-}text$>$+ over }	{ Insert a list of strings, sequentially..  }
+{ $<$user.formatters$>$ that }	{ Reformats the current selection..  }
+{ word $<$user.word$>$ }	{ Inserts some text, remembering it in the phrase history..  }
+{ recent list }	{ Toggles list of recent phrases.  }
+{ recent close }	{ Hides the recent phrases window.  }
+{ recent repeat $<$number{-}small$>$ }	{ Inserts some text, remembering it in the phrase history..  }
+{ recent copy $<$number{-}small$>$ }	{ Set clipboard text.  }
+{ select that }	{ Selects the last phrase.  }
+{ before that }	{ Moves left before the last phrase.  }
+{ nope that | scratch that }	{ Clears the last phrase.  }
+{ nope that was $<$user.formatters$>$ }	{ Clears and reformats last formatted phrase.  }

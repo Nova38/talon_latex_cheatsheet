@@ -1,0 +1,23 @@
+Command	Result
+{ start your engine }	{ Starts the "racing" mouse mode.  }
+{ park the car }	{ Stops the "racing" mouse mode.  }
+{ car reverse }	{ Turn the racer around 180 degrees.  }
+{ skip $<$number{-}small$>$ {[}point $<$digits$>${]} }	{ Let $<$number$>$ be $<$number\_small$>$ . $<$digits$>$ or $<$number\_small$>$. drive the mouse forward a certain number of inches.  }
+{ back $<$number{-}small$>$ {[}point $<$digits$>${]} }	{ Let $<$number$>$ be $<$number\_small$>$ . $<$digits$>$ or $<$number\_small$>$. drive the mouse forward a certain number of inches.  }
+{ left | counter clockwise | counter  | port }	{ Set turning direction to clockwise.  }
+{ right | clockwise | clock | starboard }	{ Set turning direction to counterclockwise.  }
+{ straight | ahead }	{ set racer to go straight ahead.  }
+{ turn $<$number$>$ {[}degrees{]} }	{ drive the mouse along a curve.  }
+{ drive $<$number{-}small$>$ {[}point $<$digits$>${]} }	{ Let $<$number$>$ be $<$number\_small$>$ . $<$digits$>$ or $<$number\_small$>$. drive the mouse forward a certain number of inches.  }
+{ radius up $<$number{-}small$>$ }	{ increase turning radius.  }
+{ radius down $<$number{-}small$>$ }	{ decrease turning radius.  }
+{ $<$number$>$ }	{ Set the direction to a value in compass degrees.  }
+{ plus $<$number$>$ }	{ Rotate right/lockwise x degrees.  }
+{ minus $<$number$>$ }	{ Rotate left/counterclockwise x degrees.  }
+{ left $<$number$>$ }	{ Rotate left/counterclockwise x degrees.  }
+{ right $<$number$>$ }	{ Rotate right/lockwise x degrees.  }
+{ \{user.point{-}of{-}compass\} }	{ Set the direction to a value in radians.  }
+{ speed $<$number{-}small$>$ }	{ sets the speed of the mouse as it drives forward..  }
+{ speed up $<$number{-}small$>$ }	{ increases the speed of the mouse as it drives forward..  }
+{ speed down $<$number{-}small$>$ }	{ decreases the speed of the mouse as it drives forward..  }
+{ drawing mode off }	{ Enable a mode. Disable a mode. Stops the "racing" mouse mode. Disable relative compass mouse guide.  }

@@ -1,0 +1,34 @@
+Command	Result
+{ head up (show|open) }	{ Enables the HUD.  }
+{ head up theme \{user.talon{-}hud{-}themes\} }	{ Switches the UI theme.  }
+{ head up (drop|stop|confirm) }	{ Starts a setup mode which can change position.  }
+{ head up cancel }	{ Starts a setup mode which can change position.  }
+{ head up (hide|close) }	{ Disables the HUD.  }
+{ head up (show|open) \{user.talon{-}hud{-}widget{-}names\} }	{ Enables a specific HUD element.  }
+{ head up (hide|close) \{user.talon{-}hud{-}widget{-}names\} }	{ Disables a specific HUD element.  }
+{ head up resize \{user.talon{-}hud{-}widget{-}names\} }	{ Starts a setup mode which can change position.  }
+{ head up expand \{user.talon{-}hud{-}widget{-}names\} }	{ Starts a setup mode which can change position.  }
+{ head up text scale \{user.talon{-}hud{-}widget{-}names\} }	{ Starts a setup mode which can change position.  }
+{ head up drag \{user.talon{-}hud{-}widget{-}names\}+ }	{ Starts a setup mode which can change position for multiple widgets at the same time.  }
+{ head up basic \{user.talon{-}hud{-}widget{-}names\} }	{ Set a specific widget preference.  }
+{ head up fancy \{user.talon{-}hud{-}widget{-}names\} }	{ Set a specific widget preference.  }
+{ head up hide \{user.talon{-}hud{-}widget{-}names\} on sleep }	{ Set a specific widget preference.  }
+{ head up show \{user.talon{-}hud{-}widget{-}names\} on sleep }	{ Set a specific widget preference.  }
+{ head up align \{user.talon{-}hud{-}widget{-}names\} right }	{ Set a specific widget preference.  }
+{ head up align \{user.talon{-}hud{-}widget{-}names\} left }	{ Set a specific widget preference.  }
+{ head up align \{user.talon{-}hud{-}widget{-}names\} center }	{ Set a specific widget preference.  }
+{ head up align \{user.talon{-}hud{-}widget{-}names\} top }	{ Set a specific widget preference.  }
+{ head up align \{user.talon{-}hud{-}widget{-}names\} bottom }	{ Set a specific widget preference.  }
+{ \{user.talon{-}hud{-}widget{-}names\} (show|open) }	{ Enables a specific HUD element.  }
+{ \{user.talon{-}hud{-}widget{-}names\} (hide|close) }	{ Disables a specific HUD element.  }
+{ \{user.talon{-}hud{-}widget{-}names\} minimize }	{ Set a specific widget preference.  }
+{ \{user.talon{-}hud{-}widget{-}names\} maximize }	{ Set a specific widget preference.  }
+{ \{user.talon{-}hud{-}widget{-}names\} next }	{ Increase the content page of the widget if it has pages available.  }
+{ \{user.talon{-}hud{-}widget{-}names\} (back|previous) }	{ Decrease the content page of the widget if it has pages available.  }
+{ \{user.talon{-}hud{-}widget{-}names\} options }	{ Connect the widget to the context menu to show the options.  }
+{ (head up focus | focus head up) }	{ Focus the HUD for keyboard interaction.  }
+{ head up blur }	{ Blur the keyboard focus from the HUD to the previously focused application.  }
+{ head up {[}enable{]} auto focus }	{ Set the widget focusing behavior to automatically focus on content publishing or not.  }
+{ head up disable auto focus }	{ Set the widget focusing behavior to automatically focus on content publishing or not.  }
+{ head up development start }	{ Watch the theme and preferences directories for changes {-} This gives a performance penalty and should only be used during development. Enable watching for changes in the walkthrough files for quicker development. Enable watching for changes in the documentation files for quicker development.  }
+{ head up development stop }	{ Stop watching for changes in the theme directories. Disable watching for changes in the walkthrough files for quicker development. Disable watching for changes in the documentation files for quicker development.  }

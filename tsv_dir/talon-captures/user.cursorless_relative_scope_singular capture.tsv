@@ -1,0 +1,2 @@
+Command	Result
+{ user.cursorless\_relative\_scope\_singular }	{ CaptureImpl("user.cursorless{-}relative{-}scope{-}singular", Rule("{[}$<$user.ordinals{-}small$>${]} $<$user.cursorless{-}relative{-}direction$>$ $<$user.cursorless{-}scope{-}type$>$")) }

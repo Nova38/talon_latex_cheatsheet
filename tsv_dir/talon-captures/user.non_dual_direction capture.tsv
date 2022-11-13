@@ -1,0 +1,2 @@
+Command	Result
+{ user.non\_dual\_direction }	{ CaptureImpl("user.non{-}dual{-}direction", Rule("horizontal  |  flat  |  vertical  |  sharp  |  diagonal  |  slant")) }

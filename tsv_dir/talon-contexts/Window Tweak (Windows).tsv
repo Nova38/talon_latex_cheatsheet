@@ -1,0 +1,30 @@
+Command	Result
+{ window traits show }	{ Shows information about current window position and size.  }
+{ window traits hide }	{ Hides the window information window.  }
+{ window move }	{ Move window in small increments in the given direction, until stopped.  }
+{ window move $<$user.compass{-}direction$>$ }	{ Move window in small increments in the given direction, until stopped.  }
+{ window move $<$number$>$ percent }	{ Move window some percentage of the current size.  }
+{ window move $<$user.compass{-}direction$>$ $<$number$>$ percent }	{ Move window some percentage of the current size.  }
+{ window move $<$number{-}signed$>$ pixels }	{ Move window some number of pixels.  }
+{ window move $<$user.compass{-}direction$>$ $<$number{-}signed$>$ pixels }	{ Move window some number of pixels.  }
+{ window move $<$number{-}signed$>$ at $<$number{-}signed$>$ }	{ Move window to given absolute position, centered on the point indicated by the given region.  }
+{ window move $<$user.compass{-}direction$>$ $<$number{-}signed$>$ at $<$number{-}signed$>$ }	{ Move window to given absolute position, centered on the point indicated by the given region.  }
+{ window move to pointer }	{ Move window to pointer position, centered on the point indicated by the given region.  }
+{ window move $<$user.compass{-}direction$>$ to pointer }	{ Move window to pointer position, centered on the point indicated by the given region.  }
+{ window stretch }	{ Stretch window in small increments until stopped, optionally in the given direction.  }
+{ window stretch $<$user.compass{-}direction$>$ }	{ Stretch window in small increments until stopped, optionally in the given direction.  }
+{ window stretch $<$number$>$ percent }	{ Change window size by a percentage of current size.  }
+{ window stretch $<$user.compass{-}direction$>$ $<$number$>$ percent }	{ Change window size by a percentage of current size.  }
+{ window stretch $<$number$>$ pixels }	{ Change window size by pixels.  }
+{ window stretch $<$user.compass{-}direction$>$ $<$number$>$ pixels }	{ Change window size by pixels.  }
+{ window shrink }	{ Shrink window in small increments until stopped, optionally in the given direction.  }
+{ window shrink $<$user.compass{-}direction$>$ }	{ Shrink window in small increments until stopped, optionally in the given direction.  }
+{ window shrink $<$number$>$ percent }	{ Change window size by a percentage of current size.  }
+{ window shrink $<$user.compass{-}direction$>$ $<$number$>$ percent }	{ Change window size by a percentage of current size.  }
+{ window shrink $<$number$>$ pixels }	{ Change window size by pixels.  }
+{ window shrink $<$user.compass{-}direction$>$ $<$number$>$ pixels }	{ Change window size by pixels.  }
+{ window snap $<$number$>$ percent {[}of screen{]} }	{ Center window and change size to given percentage of parent screen (in each direction).  }
+{ window size $<$number$>$ by $<$number$>$ }	{ Size window to given absolute dimensions, optionally by stretching/shrinking in the direction indicated by the given region.  }
+{ window size $<$user.compass{-}direction$>$ $<$number$>$ by $<$number$>$ }	{ Size window to given absolute dimensions, optionally by stretching/shrinking in the direction indicated by the given region.  }
+{ window size $<$user.non{-}dual{-}direction$>$ to pointer }	{ Stretch or shrink window to pointer position, centered on the point indicated by the given region.  }
+{ window revert }	{ Restore current window's last remembered size and position.  }

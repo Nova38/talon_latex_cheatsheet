@@ -1,0 +1,2 @@
+Command	Result
+{ user.cursorless\_relative\_scope\_plural }	{ CaptureImpl("user.cursorless{-}relative{-}scope{-}plural", Rule("$<$user.cursorless{-}relative{-}direction$>$ $<$user.private{-}cursorless{-}number{-}small$>$ $<$user.cursorless{-}scope{-}type{-}plural$>$")) }
