@@ -16,6 +16,7 @@
 }
 \usepackage{expl3} % load latex3 packages
 
+
 % \setlength{\parindent}{0pt}
 % --------------------------------------------------
 % ╔════════════════════════════════════════════════════════════╗ 
@@ -45,8 +46,7 @@
 }
 \SetColors{DodgerBlue1}
 
-
-\usepackage{texosquery}
+% \usepackage{texosquery}
 
 % --------------------------------------------------
 % --------------------------------------------------
@@ -70,8 +70,8 @@
             column{2} = {fg=SpeechColor},
             row{odd} = {oddBGColor},
             row{even} = {evenBGColor},
-            row{1} = {fg=black, bg = white, font=\bfseries},
-            },
+            row{1} = {fg=black, bg = white, font=\bfseries}
+        },
         table foot = {\hline[0.1em,base!50!black]},
         table head = {Command & Result \\},
         before first line = {\hline[base!50!black]},
@@ -89,7 +89,7 @@
                 column{2} = {fg=SpeechColor},
                 row{odd} = {oddBGColor},
                 row{even} = {evenBGColor},
-                row{1} = {fg=black, bg = white, font=\bfseries},
+                row{1} = {fg=black, bg = white, font=\bfseries}
             },
         table head = {\hline[0.1em,base!50!black]},
         table foot = {\hline[0.1em,base!50!black]},
@@ -105,10 +105,10 @@
             column{1} = {fg=CommandColor},
             row{odd} = {oddBGColor},
             row{even} = {evenBGColor},
-            row{1} = {fg=black, bg = white, font=\bfseries},
-            },
+            row{1} = {fg=black, bg = white, font=\bfseries}
+        } ,
             table foot = {\hline[0.1em,base!50!black]},
-            table head = {Command \\},
+            table head = {Command \\} ,
             before first line = {\hline[base!50!black]
         },
     }
@@ -149,18 +149,6 @@
 
 \begin{document}
 
-
-
-
-
-
-\begin{tcbraster}[raster columns=4]
-
-
-
-
-
-\end{tcbraster}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{tcbposter}[
         coverage = {spread},
@@ -239,7 +227,7 @@
             \Command
         }
     }
-    \posterbox[settablebox={Vscode cont..}]
+    \posterbox[settablebox={Vscode cont\dots}]
     {name=CompoundTargets, column=2,span=1}
     {
         \csvreader[
@@ -267,10 +255,10 @@
 
         }
     }
-    
+
     \SetColors{MediumPurple1}
 
-    \posterbox[settablebox={Vscode cont..}]
+    \posterbox[settablebox={Vscode cont\dots}]
     {name=vscode3, column=3,span=1, }
     {
         \csvreader[
@@ -282,7 +270,6 @@
             \Command
         }
     }
-
 
 \end{tcbposter}
 
